@@ -1,0 +1,20 @@
+
+# TR
+
+# Yüklerken
+
+1. java sürümünüzü kontrol edin java 8 olması gerek yoksa server crash verebilir
+2. start-server scriptini çalıştırın Windows için .bat linux/mac için .sh
+3. script bi süre sonra Eulayı kabul etmeniz için sorucak o aşama TRUE yazın
+4. 3-4 dakika içinde server başlamış olucak serverı STOP yazarak durdurun
+5. server hazır değiştimek istediğiniz ayarları değiştirin
+6. serverı tekrar çalıştırmak için start-server scriptini çalıştırın
+
+Not: Ram miktarını server-setup-config.yaml'da 'maxRam: 5G' parametresini değiştirerek ayarlayabilirsiniz
+
+# Güncellerken
+
+1. World, Whitelist,server.properties dosyalarınızı bir yere kaydedin/yedekleyin
+2. Eski dosyalarınızı silin
+3. Yukardaki server kurulum adımlarını tekrar uygulayın
+4. Serverı kapatın ve World, Whitelist,server.properties dosyalarını yedeklediğiniz dosyalar ile değiştirin
