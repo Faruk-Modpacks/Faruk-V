@@ -1,0 +1,1473 @@
+{
+	id: "281D296A01C78872"
+	group: "3BE589EC446A42DE"
+	order_index: 0
+	filename: "1"
+	title: "Stage One - Main"
+	icon: "immersiveengineering:workbench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{faruk.stageone.main32.title}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.5d
+			y: -4.0d
+			shape: "heart"
+			subtitle: "{faruk.stageone.main32.subtitle}"
+			description: ["{faruk.stageone.main32.desc1}"]
+			dependencies: ["63849A78C4743A1D"]
+			id: "3D93A650B1FD1869"
+			tasks: [{
+				id: "0382D2AF07C455C2"
+				type: "checkmark"
+				title: "sa"
+			}]
+			rewards: [
+				{
+					id: "2BE0550CE0B371AA"
+					type: "command"
+					icon: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					command: "/gamestage add @p two"
+					player_command: false
+				}
+				{
+					id: "7D05C1E58FFDDB1E"
+					type: "command"
+					auto: "no_toast"
+					command: "/summon minecraft:firework_rocket ~ ~1 ~ {Glowing:1b,LifeTime:15,FireworksItem:{id:firework_rocket,Count:5,tag:{Fireworks:{Explosions:[{Type:1,Flicker:50b,Trail:20b,Colors:[I;15435844, 2437522, 14602026]}]}}}}"
+					player_command: true
+				}
+			]
+		}
+		{
+			icon: "immersiveengineering:coke_oven"
+			x: -11.5d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main2.subtitle}"
+			description: ["{faruk.stageone.main2.desc1}"]
+			dependencies: ["61DE7FBB0663B944"]
+			id: "291487040DE87D89"
+			tasks: [
+				{
+					id: "45C46B52AF7F29C1"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "01026DD08A9A24C7"
+					type: "item"
+					title: "Coal Coke"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "emendatusenigmatica:coke_block"
+									Count: 1b
+								}
+								{
+									id: "emendatusenigmatica:coke_gem"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "047E540BC43A14D3"
+				type: "item"
+				item: "emendatusenigmatica:coke_gem"
+				count: 3
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -13.0d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main1.subtitle}"
+			description: [
+				"{faruk.stageone.main1.desc1}"
+				"{faruk.stageone.main1.desc2}"
+			]
+			dependencies: ["218CDCF47245F4C0"]
+			hide: true
+			id: "61DE7FBB0663B944"
+			tasks: [{
+				id: "19A0FF540C7D87BC"
+				type: "checkmark"
+				icon: "immersiveengineering:manual"
+			}]
+			rewards: [
+				{
+					id: "184B9A203FEA1DFB"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "2D6A8D877CAD12A0"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4A0A4798CE08FD5C"
+					type: "item"
+					item: {
+						id: "immersiveengineering:hammer"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -11.5d
+			y: -3.0d
+			subtitle: "{faruk.stageone.main3.subtitle}"
+			description: ["{faruk.stageone.main3.desc1}"]
+			dependencies: ["291487040DE87D89"]
+			id: "3D6B688DA0D09422"
+			tasks: [{
+				id: "2BCB638B734632C9"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+			}]
+			rewards: [{
+				id: "26B1710686E2A4E1"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 4
+				random_bonus: 16
+			}]
+		}
+		{
+			x: -11.5d
+			y: -1.5d
+			subtitle: "{faruk.stageone.main4.subtitle}"
+			description: ["{faruk.stageone.main4.desc1}"]
+			dependencies: ["3D6B688DA0D09422"]
+			id: "5F896AEDA947FBCE"
+			tasks: [{
+				id: "080ABF59CACB0244"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+			rewards: [{
+				id: "526B448A4B2725B2"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			x: -11.5d
+			y: 0.0d
+			subtitle: "{faruk.stageone.main5.subtitle}"
+			description: ["{faruk.stageone.main5.desc1}"]
+			dependencies: ["5F896AEDA947FBCE"]
+			hide: true
+			id: "306AA54FC86D3897"
+			tasks: [{
+				id: "2626F353314849D8"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [{
+				id: "5805A90076452604"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 8
+				random_bonus: 24
+			}]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			subtitle: "{faruk.stageone.main9.subtitle}"
+			description: ["{faruk.stageone.main9.desc1}"]
+			dependencies: ["6940DCAC1B19BB03"]
+			optional: true
+			id: "6AC37806DD7F9236"
+			tasks: [{
+				id: "26CE5CF9B7FCB37F"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [{
+				id: "50AB5278A8634AD9"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "{faruk.stageone.main28.subtitle}"
+			description: ["{faruk.stageone.main28.desc1}"]
+			dependencies: ["0FF4B712B5782F66"]
+			optional: true
+			id: "2307957F80FD3CD3"
+			tasks: [{
+				id: "44E30F8E6E005720"
+				type: "item"
+				item: "immersiveengineering:fluid_sorter"
+			}]
+			rewards: [{
+				id: "6C3F2F4AD09D4A36"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 16
+			}]
+		}
+		{
+			x: -10.5d
+			y: 1.5d
+			subtitle: "{faruk.stageone.main7.subtitle}"
+			description: ["{faruk.stageone.main7.desc1}"]
+			dependencies: ["52CA7D05D786C30F"]
+			id: "19C47FC95D052BA0"
+			tasks: [{
+				id: "65F3E010730B499F"
+				type: "item"
+				item: "immersiveengineering:mold_plate"
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.0d
+			subtitle: "{faruk.stageone.main6.subtitle}"
+			description: ["{faruk.stageone.main6.desc1}"]
+			dependencies: ["306AA54FC86D3897"]
+			id: "52CA7D05D786C30F"
+			tasks: [{
+				id: "4CEAAC8DE5F5F6A1"
+				type: "item"
+				item: {
+					id: "immersiveengineering:blueprint"
+					Count: 1b
+					tag: {
+						blueprint: "molds"
+					}
+				}
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main24.subtitle}"
+			description: ["{faruk.stageone.main24.desc1}"]
+			dependencies: ["4F4ECEBB53DCE6F3"]
+			hide: true
+			id: "1D21104F958A5147"
+			tasks: [{
+				id: "1BFA13A7620D4B76"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+			rewards: [{
+				id: "2D024A6E63F0B3C1"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			subtitle: "{faruk.stageone.main24.subtitle}"
+			description: ["{faruk.stageone.main24.desc1}"]
+			dependencies: ["4F4ECEBB53DCE6F3"]
+			hide: true
+			id: "45B540764C126EB9"
+			tasks: [{
+				id: "1FA8996E5FE6ADF7"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			rewards: [{
+				id: "1F004712FDD54335"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			subtitle: "{faruk.stageone.main10.subtitle}"
+			description: ["{faruk.stageone.main10.desc1}"]
+			dependencies: ["6940DCAC1B19BB03"]
+			optional: true
+			id: "4408CAB038BECE11"
+			tasks: [{
+				id: "6EC33E94206FCD33"
+				type: "item"
+				item: "engineersdecor:small_solar_panel"
+			}]
+		}
+		{
+			icon: "immersiveengineering:blast_furnace"
+			x: -10.5d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main14.subtitle}"
+			description: [
+				"{faruk.stageone.main14.desc1}"
+				"{faruk.stageone.main14.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["61DE7FBB0663B944"]
+			id: "15817759EE73237D"
+			tasks: [{
+				id: "1BB705171FC83B9C"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			subtitle: "{faruk.stageone.main15.subtitle}"
+			description: [
+				"{faruk.stageone.main15.desc1}"
+				"{faruk.stageone.main15.desc2}"
+			]
+			dependencies: ["15817759EE73237D"]
+			id: "421990E847075130"
+			tasks: [
+				{
+					id: "21F63CAA454AB19F"
+					type: "item"
+					item: "immersiveengineering:blastfurnace_preheater"
+					count: 2L
+				}
+				{
+					id: "59E6C613E36F0C8D"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+			]
+			rewards: [{
+				id: "396AB12147B242E5"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4363307854217366138L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			subtitle: "{faruk.stageone.main24.subtitle}"
+			description: ["{faruk.stageone.main24.desc1}"]
+			dependencies: ["4F4ECEBB53DCE6F3"]
+			hide: true
+			id: "2C7B4C6F2B637493"
+			tasks: [{
+				id: "354EC95489E7FA20"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			rewards: [{
+				id: "0B0180E5C1A5C952"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -11.5d
+			y: -6.5d
+			subtitle: "{faruk.stageone.main16.subtitle}"
+			description: ["{faruk.stageone.main16.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["61DE7FBB0663B944"]
+			id: "3E86FFD7705042BD"
+			tasks: [{
+				id: "25C9197AB833C778"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+		}
+		{
+			x: -9.0d
+			y: -1.0d
+			subtitle: "{faruk.stageone.main11.subtitle}"
+			description: ["{faruk.stageone.main11.desc1}"]
+			dependencies: ["6940DCAC1B19BB03"]
+			optional: true
+			id: "473F2EC6A2ABDCDC"
+			tasks: [{
+				id: "58A5649DA4F3A3DC"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -9.0d
+			subtitle: "{faruk.stageone.main20.subtitle}"
+			description: ["{faruk.stageone.main20.desc1}"]
+			dependencies: ["5C4F354745C03E78"]
+			hide: true
+			optional: true
+			id: "40B8D980C15D770C"
+			tasks: [{
+				id: "5E2859AF0CEA3D30"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [{
+				id: "6DFAC34218CC4E6A"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4363307854217366138L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -10.0d
+			subtitle: "{faruk.stageone.main21.subtitle}"
+			description: ["{faruk.stageone.main21.desc1}"]
+			dependencies: ["40B8D980C15D770C"]
+			optional: true
+			id: "1FAAD2F0831BA30D"
+			tasks: [{
+				id: "18FC58CB816AF431"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [{
+				id: "7DB13E203F61231F"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4363307854217366138L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -5.5d
+			subtitle: "{faruk.stageone.main27.subtitle}"
+			description: ["{faruk.stageone.main27.desc1}"]
+			dependencies: ["0BAF96BC337D6EC8"]
+			optional: true
+			id: "4592B91B4C04A53E"
+			tasks: [{
+				id: "309148F06B0EACF7"
+				type: "item"
+				item: "immersivepetroleum:projector"
+			}]
+		}
+		{
+			title: "&6Metal Press"
+			icon: "immersiveengineering:metal_press"
+			x: -5.0d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main26.subtitle}"
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: [
+				"1D21104F958A5147"
+				"45B540764C126EB9"
+				"2C7B4C6F2B637493"
+			]
+			id: "0BAF96BC337D6EC8"
+			tasks: [
+				{
+					id: "3861E54D922FDFAE"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "1248C86D89785D2F"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "1B80C7726B3F18C0"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1C1D1E36BCC2CB9C"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "3ED5D818321BF580"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "1368F782C313CE88"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Squeezer"
+			icon: "immersiveengineering:squeezer"
+			x: -3.5d
+			y: -6.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["0BAF96BC337D6EC8"]
+			id: "67EC4D6D8305DDB4"
+			tasks: [
+				{
+					id: "19BEC76DF7F0D5FD"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "65715BB62AB1A576"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "3AA49AC7A220BC43"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "6D0811A2DE22F6DE"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "27CD9117C64FBE7F"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "0DAC5006B94D14CA"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "769C888D5EF14ABA"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "32ED6940E40809EC"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Fermenter"
+			icon: "immersiveengineering:fermenter"
+			x: -3.5d
+			y: -5.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["0BAF96BC337D6EC8"]
+			id: "6B5D4143ABD2F2F5"
+			tasks: [
+				{
+					id: "58DF6E49C922B1A9"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "72602F3B40386F15"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "34DFC00FD2043748"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "4CDC59E93D2994D1"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "057E55EE5E47A3EA"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "42964EFA96FABB55"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "5AF5963FF786BCDE"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Pumpjack"
+			icon: "immersivepetroleum:pumpjack"
+			x: -3.5d
+			y: -2.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["0BAF96BC337D6EC8"]
+			id: "0FF4B712B5782F66"
+			tasks: [
+				{
+					id: "0195674371F7FDC1"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 11L
+				}
+				{
+					id: "0ECD3C2B7423C699"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "13EB7F13E5D26F17"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 6L
+				}
+				{
+					id: "50BB4D9AD57CC490"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "433D5F083787DBA5"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 2L
+				}
+				{
+					id: "0D0A9050D6D23E52"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 4L
+				}
+				{
+					id: "1F518E4F59C261D8"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 4L
+				}
+				{
+					id: "7D26891158E3A127"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+				{
+					id: "0506B86A36BCF9C0"
+					type: "item"
+					item: "immersivepetroleum:oil_bucket"
+				}
+			]
+			rewards: [{
+				id: "7E744391D582953B"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Diesel Generator"
+			icon: "immersiveengineering:diesel_generator"
+			x: 0.0d
+			y: -4.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: [
+				"183ABF0D9DDAF422"
+				"04B038DB7FADAF9E"
+			]
+			id: "5B1627680A9276DA"
+			tasks: [
+				{
+					id: "457A6305D543F905"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "1FA591A831C86305"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "531D7AE195953237"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "6262DBBFFBB63C22"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "124A69A9EB398809"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "3607A9CCB701F395"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "3D98078172AE3E6C"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Arc Furnace"
+			icon: "immersiveengineering:arc_furnace"
+			x: 2.0d
+			y: -4.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["5B1627680A9276DA"]
+			id: "63849A78C4743A1D"
+			tasks: [
+				{
+					id: "504EC641349EB893"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "14B2A4E58390F7B0"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "3166ECEF7B31A179"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "1EAE9239899A01B5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "3F4A127727DCCA9E"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "5B2A71A345C8A194"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "550090D70BF069C2"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4FE13AA0B3A11957"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "72B425D81869B107"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "0DA781E89FC0FC09"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+						}
+					}
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "71694ECDFBAFAA8C"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Refinery"
+			icon: "immersiveengineering:refinery"
+			x: -2.0d
+			y: -5.5d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: [
+				"67EC4D6D8305DDB4"
+				"6B5D4143ABD2F2F5"
+			]
+			id: "04B038DB7FADAF9E"
+			tasks: [
+				{
+					id: "74D3BE4F0A214976"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "71DC92AC456A8D09"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5233B9FCBF110A26"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "2F3D0482B6A40E9E"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "69BC070410402A83"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "1957DC015A8BE6DF"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+				{
+					id: "6411885A493BE562"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+			]
+			rewards: [{
+				id: "389B9464BDF321A2"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Coker"
+			icon: "immersivepetroleum:cokerunit"
+			x: -1.0d
+			y: -1.5d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["46E432CCB48A5C7A"]
+			id: "02615825A8044AD2"
+			tasks: [
+				{
+					id: "2057BD3789127A11"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 98L
+				}
+				{
+					id: "70EE24291A8E3925"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "6CC830D74DFDF1A8"
+					type: "item"
+					item: "immersiveengineering:concrete"
+					count: 12L
+				}
+				{
+					id: "65E8C56767B0CF87"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+				}
+				{
+					id: "3D99DF7C896A4D83"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 5L
+				}
+				{
+					id: "73D516EB05F6C78D"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "20C2BF81BA9A304A"
+					type: "item"
+					item: "immersiveengineering:concrete_tile"
+					count: 45L
+				}
+				{
+					id: "4B46CD4DC5E1F015"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 88L
+				}
+				{
+					id: "6874322C68DFA65A"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 162L
+				}
+				{
+					id: "0E7A7F7CDB0D3F85"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					count: 46L
+				}
+				{
+					id: "384404F53A1883DA"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 47L
+				}
+				{
+					id: "17F76C539B92DEB1"
+					type: "item"
+					item: "immersiveengineering:steel_slope"
+					count: 3L
+				}
+			]
+			rewards: [{
+				id: "6D699360B380114D"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Distillation Tower"
+			icon: "immersivepetroleum:distillationtower"
+			x: -2.0d
+			y: -2.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["0FF4B712B5782F66"]
+			id: "46E432CCB48A5C7A"
+			tasks: [
+				{
+					id: "6EC6D9D20A12C575"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 25L
+				}
+				{
+					id: "7518BD5B59A7FF14"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "3632DA85B345E02F"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "32D4EAF60C038F60"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 60L
+				}
+				{
+					id: "5F8A92F75FD0AC5B"
+					type: "item"
+					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					count: 30L
+				}
+				{
+					id: "3B93BDC5EB462105"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 17L
+				}
+				{
+					id: "49FD8AE7E97D785C"
+					type: "item"
+					item: "immersivepetroleum:diesel_sulfur_bucket"
+				}
+			]
+			rewards: [{
+				id: "7FA23D3697A5E988"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Crusher"
+			icon: "immersiveengineering:crusher"
+			x: -3.5d
+			y: -4.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["0BAF96BC337D6EC8"]
+			id: "2EE8B431CB040F74"
+			tasks: [
+				{
+					id: "5733A15D41DA1927"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "22F80A89C05908EC"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "5ADEDF3DBE24E0BB"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "118247CBC84121A8"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "1354C6FE9DDF8AD4"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [{
+				id: "1C32704AB8C5B6FF"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			icon: "immersiveengineering:excavator"
+			x: -5.5d
+			y: -2.0d
+			subtitle: "{faruk.stageone.main26v12.subtitle}"
+			description: ["{faruk.stageone.main26.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["0BAF96BC337D6EC8"]
+			hide: true
+			optional: true
+			id: "67E0B086E17B97C7"
+			tasks: [
+				{
+					id: "6193401CAA995A1B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "70B0DBA9EA11CE59"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "7E0F1D9DD98F684A"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "5C0274D128B81B3C"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "2A260DD50FE0E615"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "4D71F39E83B905FD"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "71CEF44D587BC9D3"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			title: "&6Sulfur Recovery Unit"
+			icon: "immersivepetroleum:hydrotreater"
+			x: -1.0d
+			y: -3.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			dependencies: ["46E432CCB48A5C7A"]
+			id: "183ABF0D9DDAF422"
+			tasks: [
+				{
+					id: "378EB503B1B575E7"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "155D74FDB8742395"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+				{
+					id: "3CE267EF79135F8D"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 15L
+				}
+				{
+					id: "3EAA0F2D85D8C097"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "638B87E6038ED88F"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "110DB1F971461955"
+					type: "item"
+					item: "immersivepetroleum:diesel_bucket"
+				}
+			]
+			rewards: [{
+				id: "3D2B323D7921EB02"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "{faruk.stageone.main31.subtitle}"
+			description: ["{faruk.stageone.main31.desc1}"]
+			dependencies: [
+				"67E0B086E17B97C7"
+				"07022B6151AE9EAD"
+			]
+			optional: true
+			id: "343A3DD3AFEFBDB5"
+			tasks: [{
+				id: "31225B5D3C3CC272"
+				type: "item"
+				item: {
+					id: "immersiveengineering:survey_tools"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.0d
+			y: -2.0d
+			subtitle: "{faruk.stageone.main12.subtitle}"
+			description: ["{faruk.stageone.main12.desc1}"]
+			dependencies: ["473F2EC6A2ABDCDC"]
+			optional: true
+			id: "73D3CC693048B8FE"
+			tasks: [{
+				id: "75B3A7E7167BD41A"
+				type: "item"
+				item: "wirelesschargers:basic_wireless_player_charger"
+			}]
+		}
+		{
+			x: -10.0d
+			y: -8.0d
+			subtitle: "{faruk.stageone.main19.subtitle}"
+			description: ["{faruk.stageone.main19.desc1}"]
+			dependencies: ["5C4F354745C03E78"]
+			optional: true
+			id: "1310130475F1A46D"
+			tasks: [{
+				id: "4E4622CCA27B75FB"
+				type: "item"
+				item: "wirelesschargers:advanced_wireless_player_charger"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -8.0d
+			shape: "gear"
+			subtitle: "{faruk.stageone.main25.subtitle}"
+			dependencies: ["45B540764C126EB9"]
+			optional: true
+			id: "5D700A55C5DECE7B"
+			tasks: [{
+				id: "13271B5858A3F6EC"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+		}
+		{
+			x: -11.5d
+			y: -5.0d
+			subtitle: "{faruk.stageone.main13.subtitle}"
+			description: ["{faruk.stageone.main13.desc1}"]
+			dependencies: ["291487040DE87D89"]
+			optional: true
+			id: "028B44BF87A78ECB"
+			tasks: [{
+				id: "5E03ED09F061FF1B"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			rewards: [{
+				id: "5E1038A5F82E7AD5"
+				type: "item"
+				item: "immersiveengineering:fluid_pipe"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			subtitle: "{faruk.stageone.main29.subtitle}"
+			description: ["{faruk.stageone.main29.desc1}"]
+			dependencies: ["0FF4B712B5782F66"]
+			optional: true
+			id: "3981BD096DFE1059"
+			tasks: [
+				{
+					id: "1C12021BB659C2CF"
+					type: "item"
+					item: "immersiveengineering:treated_fence"
+					count: 4L
+				}
+				{
+					id: "5996DA559C994133"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 34L
+				}
+			]
+			rewards: [{
+				id: "000718821A1CF5A8"
+				type: "item"
+				item: "immersiveengineering:sheetmetal_iron"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "{faruk.stageone.main30.subtitle}"
+			description: ["{faruk.stageone.main30.desc1}"]
+			dependencies: ["46E432CCB48A5C7A"]
+			optional: true
+			id: "0FA0EE83E5742CE9"
+			tasks: [
+				{
+					id: "74B1685D2B4CFDCE"
+					type: "item"
+					item: "immersivepetroleum:auto_lubricator"
+				}
+				{
+					id: "470A64613B5B15E3"
+					type: "item"
+					item: "immersivepetroleum:oil_can"
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			subtitle: "{faruk.stageone.main22.subtitle}"
+			description: ["{faruk.stageone.main22.desc1}"]
+			dependencies: ["15817759EE73237D"]
+			id: "4F4ECEBB53DCE6F3"
+			tasks: [{
+				id: "30075483E60CA62B"
+				type: "item"
+				item: "emendatusenigmatica:steel_ingot"
+			}]
+			rewards: [{
+				id: "6A472E04E68CE2A7"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4363307854217366138L
+			}]
+		}
+		{
+			x: -9.0d
+			y: 0.0d
+			subtitle: "{faruk.stageone.main8.subtitle}"
+			description: ["{faruk.stageone.main8.desc1}"]
+			dependencies: ["52CA7D05D786C30F"]
+			id: "6940DCAC1B19BB03"
+			tasks: [{
+				id: "0E48885477385B4E"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+			}]
+			rewards: [{
+				id: "3017F70F9096564B"
+				type: "item"
+				item: "immersiveengineering:component_iron"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			subtitle: "{faruk.stageone.main23.subtitle}"
+			description: ["{faruk.stageone.main23.desc1}"]
+			dependencies: ["4F4ECEBB53DCE6F3"]
+			hide: true
+			id: "110A426C742953F1"
+			tasks: [{
+				id: "710B88490F48196D"
+				type: "item"
+				item: "immersiveengineering:component_steel"
+			}]
+			rewards: [{
+				id: "2ACEEA5779BAF880"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4363307854217366138L
+			}]
+		}
+		{
+			x: -11.5d
+			y: -8.0d
+			subtitle: "{faruk.stageone.main18.subtitle}"
+			description: ["{faruk.stageone.main18.desc1}"]
+			dependencies: ["3E86FFD7705042BD"]
+			id: "5C4F354745C03E78"
+			tasks: [{
+				id: "6A9AFE88CE596763"
+				type: "item"
+				item: "emendatusenigmatica:electrum_ingot"
+			}]
+			rewards: [{
+				id: "7950EA04777193B0"
+				type: "item"
+				item: "emendatusenigmatica:electrum_ingot"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			subtitle: "{faruk.stageone.main17.subtitle}"
+			description: ["{faruk.stageone.main17.desc1}"]
+			dependencies: ["3E86FFD7705042BD"]
+			id: "01E99E12EC97892B"
+			tasks: [{
+				id: "4213ECFF7312ABD9"
+				type: "item"
+				item: "emendatusenigmatica:constantan_ingot"
+			}]
+			rewards: [{
+				id: "0EBA6348DB9B5A83"
+				type: "item"
+				item: "emendatusenigmatica:constantan_ingot"
+				count: 2
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "&6Excavator Head"
+			icon: "immersiveengineering:bucket_wheel"
+			x: -4.5d
+			y: -2.0d
+			description: ["{faruk.stageone.main26.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["0BAF96BC337D6EC8"]
+			hide: true
+			optional: true
+			id: "07022B6151AE9EAD"
+			tasks: [
+				{
+					id: "0747E21AB2407C80"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 9L
+				}
+				{
+					id: "17F57471E57B148D"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 20L
+				}
+			]
+			rewards: [{
+				id: "4BDDE77C37235946"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8793258906992979522L
+			}]
+		}
+	]
+}

@@ -1,0 +1,66 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Pilot's Supply"
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "minecraft:chests/shipwreck_map"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Pilot's Supply"
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "minecraft:chests/simple_dungeon"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Pilot's Supply"
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "minecraft:chests/jungle_temple"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chest",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": "Pilot's Supply"
+            },
+            {
+              "function": "minecraft:set_loot_table",
+              "name": "minecraft:chests/desert_pyramid"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+	id: "27DEB90567DF901E"
+	group: "4FCB291BF221B3CD"
+	order_index: 1
+	filename: "challenges"
+	title: "Challenges"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -4.5d
+			y: -1.5d
+			id: "68429B880D9DFC45"
+			tasks: [{
+				id: "734660DB6D669C5D"
+				type: "stat"
+				icon: "betterendforge:mossy_glowshroom_crafting_table"
+				stat: "minecraft:interact_with_crafting_table"
+				value: 512
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.5d
+			id: "03ACCC0208E3DAB0"
+			tasks: [{
+				id: "1DA509EA904D556F"
+				type: "stat"
+				icon: "minecraft:clock"
+				stat: "minecraft:play_one_minute"
+				value: 2048000
+			}]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			id: "40D4FAA441220EEB"
+			tasks: [{
+				id: "2026009B6C1ADD3C"
+				type: "stat"
+				icon: "cyclic:heart"
+				stat: "minecraft:animals_bred"
+				value: 64
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			id: "31B831C6DB291992"
+			tasks: [{
+				id: "783BB68BDE850E0E"
+				type: "stat"
+				icon: {
+					id: "alexsmobs:roadrunner_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:sprint_one_cm"
+				value: 1536000
+			}]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			id: "6E92F6F9559C7EA9"
+			tasks: [{
+				id: "6440407D98FFFC69"
+				type: "stat"
+				icon: {
+					id: "minecraft:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				stat: "minecraft:raid_win"
+				value: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			id: "17284CF34C33BF87"
+			tasks: [{
+				id: "21D94BD9172572FA"
+				type: "stat"
+				icon: "minecraft:tropical_fish_bucket"
+				stat: "minecraft:fish_caught"
+				value: 32
+			}]
+		}
+		{
+			icon: {
+				id: "tombstone:decorative_grave_cross"
+				Count: 1b
+				tag: {
+					model_texture: 1
+				}
+			}
+			x: 1.5d
+			y: -1.5d
+			id: "575870E4CAA41B06"
+			tasks: [{
+				id: "3999FB7AB47BCC35"
+				type: "stat"
+				icon: {
+					id: "tombstone:decorative_grave_cross"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+				stat: "minecraft:time_since_death"
+				value: 512000
+			}]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			id: "42DA902E674F40A8"
+			tasks: [{
+				id: "225D09BEE5369CD5"
+				type: "stat"
+				icon: "minecraft:cake"
+				stat: "minecraft:eat_cake_slice"
+				value: 64
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			id: "66E9D549B87AEA52"
+			tasks: [{
+				id: "10863567A271037E"
+				type: "stat"
+				icon: "draconicevolution:chaotic_jump_module"
+				stat: "minecraft:jump"
+				value: 4096
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			id: "7578FDB70D4674F8"
+			tasks: [{
+				id: "611FC81B455F645B"
+				type: "stat"
+				icon: "losttrinkets:golden_horseshoe"
+				stat: "minecraft:horse_one_cm"
+				value: 2048000
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			id: "003BD01F54CFD0F1"
+			tasks: [{
+				id: "536D5BD5FF502BCE"
+				type: "stat"
+				icon: "losttrinkets:starfish"
+				stat: "minecraft:swim_one_cm"
+				value: 1024000
+			}]
+		}
+		{
+			x: -4.5d
+			y: -0.5d
+			id: "1425077C526ECA8D"
+			tasks: [{
+				id: "13CC77CEB21A82FD"
+				type: "stat"
+				icon: "waystones:mossy_waystone"
+				stat: "waystones:waystone_activated"
+				value: 64
+			}]
+		}
+		{
+			x: -3.5d
+			y: -0.5d
+			id: "7817BF27E69B2306"
+			tasks: [{
+				id: "7153AEA52A8EC69A"
+				type: "stat"
+				icon: {
+					id: "immersiveengineering:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						Parent: {
+							Size: 2
+							Items: [ ]
+						}
+					}
+				}
+				stat: "minecraft:damage_blocked_by_shield"
+				value: 200
+			}]
+		}
+		{
+			icon: "engineersdecor:sign_exit"
+			x: 0.5d
+			y: -1.5d
+			id: "25AA22A1C72AA0B9"
+			tasks: [{
+				id: "111C53BDE9BDB79A"
+				type: "stat"
+				stat: "minecraft:leave_game"
+				value: 31
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			id: "5AC83D4318FBE8CB"
+			tasks: [{
+				id: "169B75F1B2B5524A"
+				type: "stat"
+				icon: {
+					id: "silentgear:elytra"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1305710625
+							1807961906
+							-1639656327
+							1709378701
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:elytra_wings"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:obsidian"
+													}
+													{
+														Item: {
+															id: "minecraft:emerald"
+															Count: 1b
+														}
+														ID: "silentgear:emerald"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_iron_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_iron"
+													}
+												]
+											}
+										}
+										ID: "silentgear:elytra_wings"
+									}
+									{
+										Item: {
+											id: "silentgear:binding"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:vine"
+															Count: 1b
+														}
+														ID: "silentgear:vine"
+													}
+													{
+														Item: {
+															id: "silentgear:fluffy_string"
+															Count: 1b
+														}
+														ID: "silentgear:fluffy_string"
+													}
+												]
+											}
+										}
+										ID: "silentgear:binding"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.35"
+								Stats: {
+									"silentgear:enchantability": 9.640601f
+									"silentgear:armor": 4.382726f
+									"silentgear:projectile_speed": 0.8905319f
+									"silentgear:armor_durability": 32.702442f
+									"silentgear:magic_armor": 1.8406109f
+									"silentgear:armor_toughness": 0.94531447f
+									"silentgear:durability": 2020.7063f
+									"silentgear:projectile_accuracy": 0.8054795f
+									"silentgear:rarity": 13.283238f
+									"silentgear:repair_efficiency": 1.03f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 2b
+										Name: "silentgear:jagged"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:crushing"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:synergistic"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "elytra:elytra_wings{obsidian,emerald,crimson_iron},binding{vine,fluffy_string},"
+							}
+						}
+					}
+				}
+				stat: "minecraft:aviate_one_cm"
+				value: 4096000
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			id: "4DEBEA6148C7B6F2"
+			tasks: [{
+				id: "35A55DCBF9138DDD"
+				type: "stat"
+				icon: "losttrinkets:piggy"
+				stat: "minecraft:pig_one_cm"
+				value: 102400
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.5d
+			id: "3513B4D3163003A4"
+			tasks: [{
+				id: "677CC7F0E085761A"
+				type: "advancement"
+				advancement: "minecraft:adventure/adventuring_time"
+				criterion: ""
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			id: "303C7D52066FD676"
+			tasks: [{
+				id: "07B3D0C6B982C3AD"
+				type: "advancement"
+				advancement: "minecraft:adventure/kill_all_mobs"
+				criterion: ""
+			}]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			id: "7435C9526C2E3C93"
+			tasks: [{
+				id: "15D187FD630B1151"
+				type: "advancement"
+				advancement: "silentgear:the_end"
+				criterion: ""
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			id: "54E6032462856C98"
+			tasks: [{
+				id: "19AA9DE116E011D4"
+				type: "advancement"
+				advancement: "minecraft:story/cure_zombie_villager"
+				criterion: ""
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.5d
+			id: "2F92D628F2D35213"
+			tasks: [{
+				id: "72E012818A62A3FC"
+				type: "advancement"
+				advancement: "apotheosis:enchanting/100ench"
+				criterion: ""
+			}]
+		}
+	]
+}

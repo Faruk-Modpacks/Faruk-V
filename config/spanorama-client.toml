@@ -1,0 +1,11 @@
+
+["Save locations"]
+	#Where to save the panoramas
+	panoramaSaveFolder = ".\\panoramas"
+
+["Main menu"]
+	#Whether to use custom panoramas on the main menu
+	useCustomPanoramas = true
+	#Whether to show the flash warning screen on launch. 
+	disableFlashWarning = false
+

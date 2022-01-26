@@ -1,0 +1,507 @@
+{
+	id: "1B76C92F05BC239B"
+	group: ""
+	order_index: 0
+	filename: "welcome_to_faruk"
+	title: "{faruk.welcome}"
+	icon: {
+		id: "world_of_faruk:faruk_land"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: -4.0d
+			y: -3.9d
+			width: 6.2d
+			height: 1.5d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/zero.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -3.9d
+			y: 0.05d
+			width: 6.5d
+			height: 1.4d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/two.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: -1.9d
+			width: 6.2d
+			height: 1.3d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/one.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 2.0d
+			width: 6.2d
+			height: 1.1d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/three.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			width: 6.2d
+			height: 1.65d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/four.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.0d
+			y: 6.0d
+			width: 6.3d
+			height: 1.8d
+			rotation: 0.0d
+			image: "faruk:textures/ftbquests/five.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: -3.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.82d
+			y: 0.98d
+			width: 0.1d
+			height: 14.0d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: -1.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: 1.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: 3.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: 5.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: 7.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 5.55d
+			y: 0.98d
+			width: 0.1d
+			height: 14.0d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.65d
+			y: -5.0d
+			width: 14.5d
+			height: 0.1d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.9d
+			y: 0.98d
+			width: 0.1d
+			height: 14.0d
+			rotation: 0.0d
+			image: "faruk:textures/snokta.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			title: "&eCreate"
+			icon: "create:large_cogwheel"
+			x: 0.0d
+			y: -4.0d
+			shape: "gear"
+			size: 1.5d
+			id: "7D11310110BEB7B6"
+			tasks: [{
+				id: "401AE695A5EC0DA3"
+				type: "checkmark"
+				title: "&eCreate"
+			}]
+		}
+		{
+			title: "&eCyclic"
+			icon: "cyclic:gem_amber"
+			x: 1.5d
+			y: -4.0d
+			shape: "gear"
+			size: 1.5d
+			id: "07B80F5F5371BB34"
+			tasks: [{
+				id: "2CF6B5122A485249"
+				type: "checkmark"
+				title: "&eCyclic"
+			}]
+		}
+		{
+			title: "&e/dank/null"
+			icon: "dankstorage:dank_7"
+			x: 3.0d
+			y: -4.0d
+			shape: "gear"
+			size: 1.5d
+			id: "6EF4DCF29E582CC8"
+			tasks: [{
+				id: "02BDAF21D01A8311"
+				type: "checkmark"
+				title: "&e/dank/null"
+			}]
+		}
+		{
+			title: "&eSophisticated Backpacks"
+			icon: {
+				id: "sophisticatedbackpacks:backpack"
+				Count: 1b
+				tag: {
+					borderColor: 15961002
+					clothColor: 15961002
+				}
+			}
+			x: 4.5d
+			y: -4.0d
+			shape: "gear"
+			size: 1.5d
+			id: "69BB79C0EE908DB5"
+			tasks: [{
+				id: "0582775B9AC15D3E"
+				type: "checkmark"
+				title: "&eSophisticated Backpacks"
+			}]
+		}
+		{
+			title: "&eImmersive Engineering"
+			icon: "immersiveengineering:arc_furnace"
+			x: 0.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "0BE84FDE16BB1C7B"
+			tasks: [{
+				id: "201AA81C32686425"
+				type: "checkmark"
+				title: "&eImmersive Engineering"
+			}]
+		}
+		{
+			title: "&eWireless Chargers"
+			icon: "wirelesschargers:advanced_wireless_player_charger"
+			x: 1.5d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "4923C996E7675AEC"
+			tasks: [{
+				id: "6CBD4C1973664AB4"
+				type: "checkmark"
+				title: "&eWireless Chargers"
+			}]
+		}
+		{
+			title: "&eSimple Storage Networks"
+			icon: "storagenetwork:request"
+			x: 3.0d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "64B02450FF78BC5C"
+			tasks: [{
+				id: "178BF12B6A4BDF5E"
+				type: "checkmark"
+				title: "&eSimple Storage Networks"
+			}]
+		}
+		{
+			title: "&eEngineer's Decor"
+			icon: "engineersdecor:sign_factoryarea"
+			x: 4.5d
+			y: -2.0d
+			shape: "rsquare"
+			size: 1.5d
+			id: "680CEA842033F199"
+			tasks: [{
+				id: "1E364CD4E350F5D4"
+				type: "checkmark"
+				title: "&eEngineer's Decor"
+			}]
+		}
+		{
+			title: "&eThermal Expansion"
+			icon: "thermal:wrench"
+			x: 0.75d
+			y: 0.0d
+			shape: "pentagon"
+			size: 1.5d
+			id: "18BEDBB0EDEB7E28"
+			tasks: [{
+				id: "591E65992A64894B"
+				type: "checkmark"
+				title: "&eThermal Expansion"
+			}]
+		}
+		{
+			title: "&eEidolon"
+			icon: "eidolon:unholy_symbol"
+			x: 4.5d
+			y: 2.0d
+			shape: "circle"
+			size: 1.5d
+			id: "5B4269D3BB408391"
+			tasks: [{
+				id: "6DDC5B40C0F65EAB"
+				type: "checkmark"
+				title: "&eEidolon"
+			}]
+		}
+		{
+			title: "&eOccultism"
+			icon: {
+				id: "occultism:miner_djinni_ores"
+				Count: 1b
+				tag: {
+					spiritName: "Azaktimed"
+					Damage: 0
+				}
+			}
+			x: 3.75d
+			y: 0.0d
+			shape: "pentagon"
+			size: 1.5d
+			id: "7F1AA177FA769023"
+			tasks: [{
+				id: "178A4A4F07724563"
+				type: "checkmark"
+				title: "&eOccultism"
+			}]
+		}
+		{
+			title: "&eXNet"
+			icon: "xnet:advanced_connector_blue"
+			x: 2.25d
+			y: 0.0d
+			shape: "pentagon"
+			size: 1.5d
+			id: "74B9C9AE12C9DAD1"
+			tasks: [{
+				id: "517F40096A97BFC1"
+				type: "checkmark"
+				title: "&eXnet"
+			}]
+		}
+		{
+			title: "&eIndustrial Foregoing"
+			icon: "industrialforegoing:pink_slime"
+			x: 0.0d
+			y: 2.0d
+			shape: "circle"
+			size: 1.5d
+			id: "1CB8A6CC91171381"
+			tasks: [{
+				id: "6EEA652F925DE1DE"
+				type: "checkmark"
+				title: "&eIndustrial Foregoing"
+			}]
+		}
+		{
+			title: "&eRefined Storage(#1)"
+			icon: "refinedstorage:pink_controller"
+			x: 1.5d
+			y: 2.0d
+			shape: "circle"
+			size: 1.5d
+			id: "0762EB721D55FCE3"
+			tasks: [{
+				id: "54BBA138320BE447"
+				type: "checkmark"
+				title: "&eRefined Storage"
+			}]
+		}
+		{
+			title: "&eTwilight Forest"
+			x: 3.0d
+			y: 2.0d
+			shape: "circle"
+			size: 1.5d
+			id: "13A2358C2CD53333"
+			tasks: [{
+				id: "4371001F6D7EB2A9"
+				type: "checkmark"
+				title: "&eTwilight Forest"
+				icon: "twilightforest:twilight_portal_miniature_structure"
+			}]
+		}
+		{
+			title: "&eMekanism"
+			icon: {
+				id: "mekanism:robit"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "100000"
+						}]
+					}
+				}
+			}
+			x: 1.5d
+			y: 4.0d
+			shape: "heart"
+			size: 1.5d
+			id: "1E27C7FCD3EB32AC"
+			tasks: [{
+				id: "466D5E24FBB16A0E"
+				type: "checkmark"
+				title: "&eMekanism"
+			}]
+		}
+		{
+			title: "&eIce \\& Fire"
+			icon: "iceandfire:dragon_skull_fire"
+			x: 3.25d
+			y: 6.0d
+			size: 2.0d
+			id: "7F95A4C7652C70F8"
+			tasks: [{
+				id: "2E0151A457F06C84"
+				type: "checkmark"
+				title: "&eIce&Fire"
+			}]
+		}
+		{
+			title: "&eWorld of Faruk"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.0d
+			y: 4.0d
+			shape: "heart"
+			size: 1.5d
+			id: "0DC5D689C64DFC62"
+			tasks: [{
+				id: "1D8304DB28C11885"
+				type: "checkmark"
+				title: "&eWorld of Faruk"
+			}]
+		}
+		{
+			title: "&5Draconic Evolution"
+			icon: "draconicevolution:reactor_core"
+			x: 1.25d
+			y: 6.0d
+			size: 2.0d
+			id: "54E8AE0FB54D20C9"
+			tasks: [{
+				id: "5DB7A16F511E6DEF"
+				type: "checkmark"
+				title: "&5Draconic Evolution"
+			}]
+		}
+	]
+}

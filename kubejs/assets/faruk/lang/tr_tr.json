@@ -1,0 +1,1692 @@
+{
+  "faruk.welcome": "Faruk V'e Hoş Geldiniz!",
+  "faruk.stagezero.main1.title": "Bu bir çiçek mi?",
+  "faruk.stagezero.main1.subtitle": "&6Faruk V'e Hoş Geldiniz!",
+  "faruk.stagezero.main1.desc1": "&e Faruk V'e Hoş Geldiniz! Faruk dengeli bir sihir, teknoloji ve keşif paketidir. Faruk'ta görevler yaparak Stage atlayabilirsin. ",
+  "faruk.stagezero.main1.desc2": "&e Yeni modlara ve dimensionlara erişebilmek için görev kitabında ilerlemek zorundasın. Bir görevi tamamladığında, sıradaki görev görünür olacak ve bölümü tamamladığındaysa diğer aşamaya terfi edeceksin!",
+  "faruk.stagezero.main1.desc3": "&c İlk İpucu: Normal kazma, balta, zırh vb. kullanamazsın onun yerine Silent Gear araçlarını kullanmalısın. İlk olarak bu görevin ödüllerini al ve bunları çalışma masasında birleştir.",
+  
+  "faruk.stagezero.main0.subtitle": "&6Fazla Gürültülü!",
+  "faruk.stagezero.main0.desc1": "&e Bu mod paketinde, Dynamic Surroundings adı verilen bir modumuz var. Bu mod, araç çubuğu sesleri, şelale efektleri vb. ekler. Bu efekt seslerini kısmak için CTRL + V tuşlarına bas.",
+  
+  "faruk.stagezero.main2.title": "Bebek adımlarıyla başla",
+  "faruk.stagezero.main2.subtitle": "&6Seyahatine başla!",
+  "faruk.stagezero.main2.desc1": "&e Create ve Faruk V'in Temel Adımları!",
+ 
+  "faruk.stagezero.main3.subtitle": "&6SU için İlk Adımlar",
+  "faruk.stagezero.main3.desc1": "&e Yel Değirmeni, Create'te temel bir güç kaynağıdır. 8192SU için 128 sail.",
+
+  "faruk.stagezero.main4.subtitle": "&6Daha Az Etkili Yol",
+  "faruk.stagezero.main4.desc1": "&e Su Değirmeni, SU üretmek için bir alternatiftir. Daha fazla SU üretmek için su değirmenlerini yan yana yerleştirebilirsiniz.",
+ 
+  "faruk.stagezero.main5.subtitle": "&6Öğüt!",
+  "faruk.stagezero.main5.desc1": "&e Millstone kullanarak cevher, çiçek ve diğer öğeleri öğütebilirsin. Nasıl kullanıldığını öğrenmek istediğin öğenin üstüne fare imlecini götür ve W tuşuna basılı tut. Bu şekilde herhangi bir Create makinesini görselleştirebilirsin.",
+ 
+  "faruk.stagezero.main6.subtitle": "&6Cevherlerden daha çok külçe!",
+  "faruk.stagezero.main6.desc1": "&e Cevherleri Millstone (veya Wheels) ile ezdiğinizde, öğütülmüş cevher elde edersin. Bunu fırında eritirseniz, 1 öğütülmüş cevher size 1 külçe verir.",
+  "faruk.stagezero.main6.desc2": "&e Ama öğütülmüş cevheri suyla yıkarsan, yarı şansla +5 külçeye ek olarak 10 külçe elde edersin.",
+
+  "faruk.stagezero.main7.subtitle": "&6DİŞLİLER!",
+  "faruk.stagezero.main7.desc1": "&e Shaft veya Cogları kullanırken köşeleri dönebilirsin.",
+ 
+  "faruk.stagezero.main8.subtitle": "&6EZ!",
+  "faruk.stagezero.main8.desc1": "&e Press'ten 2 blok aşağıya Depot'u yerleştir ve ezmek istediğin öğeyle Depot'a sağ tıkla.",
+ 
+  "faruk.stagezero.main9.subtitle": "&6Çok havalı görünüyorsun!",
+  "faruk.stagezero.main9.desc1": "&e Makinelerin SU üretimini gösterir.",
+ 
+  "faruk.stagezero.main10.subtitle": "&62+1 85m²",
+  "faruk.stagezero.main10.desc1": "&e Blaze Burner'ı al ve bir blaze bul! Onu bulduğunuda, Blaze'e sağ tıkla.",
+ 
+  "faruk.stagezero.main11.subtitle": "&6Daha derine inmemiz gerek!",
+  "faruk.stagezero.main11.desc1": "&e Nether'a git ve bir blaze yakala!",
+
+  "faruk.stagezero.main12.subtitle": "&6Onu çubuklarla besle!",
+  "faruk.stagezero.main12.desc1": "&e Isıtmaya ihtiyaç duyduğun makinelerde buna ihtiyacın olacak. Blaze Burner'ı yakmak için blaze çubuğuyla sağ tıkla.",
+
+  "faruk.stagezero.main13.subtitle": "&6İlk Alaşım!",
+  "faruk.stagezero.main13.desc1": "&e Mikseri hatırlıyor musun? Malzemeleri Basin'e at, ardından mikseri çalıştır ve Brass haline getir!. Blaze Burner'ı yakmayı unutma. ",
+  
+  "faruk.stagezero.main14.subtitle": "&6Tükürüyor!",
+  "faruk.stagezero.main14.desc1": "&e Spout, altındaki sıvıları tutan öğeleri doldurabilir. (Depoyu musluğun altına koyabilirsiniz) Unutmayın! Bu şeylerle kova kullanamazsın. Bunları çalıştırmak için akışkan boruları kullanmanız gerekir.",
+  
+  "faruk.stagezero.main15.subtitle": "&68 Kova",
+  "faruk.stagezero.main15.desc1": "&e Tanklarla sıvı depolayabilir ve istifleyebilirsiniz.",
+ 
+  "faruk.stagezero.main16.subtitle": "&6PIPEZZZ",
+  "faruk.stagezero.main16.desc1": "&e Akışkanları aktarabilirsiniz ancak tanklardan sıvıları çekmek için pompaya ihtiyacın var.",
+ 
+  "faruk.stagezero.main17.subtitle": "&6Pump, ama sadece tanklar için...",
+  "faruk.stagezero.main17.desc1": "&e Bu boruyu bir tanka tak ve sadece bir Cog iliştir, tadaaa sıvıları çekebiliyorsun!",
+
+  "faruk.stagezero.main18.subtitle": "&6Boru, ancak filtrelenmiş",
+  "faruk.stagezero.main18.desc1": "&e Hangi sıvının aktarılacağını seçebilirsin. Sadece filtrelemek istediğin sıvıyla sağ tıkla.",
+
+  "faruk.stagezero.main19.subtitle": "&6Dumanı üstüne kek!",
+  "faruk.stagezero.main19.desc1": "&e Blaze Cake Base'i Depot'a yerleştir ve Spout aracılığıyla lavla doldur. Blaze'ini Blaze Cake ile beslediğinde, kısa süreliğine süper şarj olur. Bu pastayı akıllıca kullan!",
+
+  "faruk.stagezero.main20.subtitle": "&6Etiketlerden nefret ederim!",
+  "faruk.stagezero.main20.desc1": "&e Toz obsidyen elde etmek için Crushing Wheel kullanabilirsin.",
+
+  "faruk.stagezero.main21.subtitle": "&b&lIŞIMA!",
+  "faruk.stagezero.main21.desc1": "&e Bu eşyayı yapmak için yere Işık Taşı yerleştirmeli ve ışık taşlarının yanına chromatic compound atmalısın. Yere atmış olduğun Chromatic Compound etrafındaki yaklaşık 10 ışık taşını emip ve Refined Radiance'a dönüşür. (Ya da sadece Compound'u Fener(Beacon)'e fırlat, chromatic compound anında refined radiance'a dönecektir.)",
+  
+  "faruk.stagezero.main22.subtitle": "&6KARIŞTIR KARIŞTIR",
+  "faruk.stagezero.main22.desc1": "&e Mikseri yerleştir ve 2 blok aşağıya bir Basin koy ve ardından Basin'e malzemeleri fırlat",
+  
+  "faruk.stagezero.main22v2.subtitle": "&6Blood Magic",
+  "faruk.stagezero.main22v2.desc1": "&e Blood Magic'i, Rose Quartz ve Blood Magic'ten başka harika şeyler yapmak için kullanabilirsin!",
+  
+  "faruk.stagezero.main23.subtitle": "&4Kanlı Kuvars",
+  "faruk.stagezero.main23.desc1": "&e Rose Quartz'ı elde ettiğinde, Rose Quartz veya Sand Paper'ı kalkan slotuna al, diğeriniyse ana eline al ardından sağ tıka basılı tut. Tada! İlk cilalı malzemeni aldın!",
+ 
+  "faruk.stagezero.main24.subtitle": "&6Vakum Tüpü",
+  "faruk.stagezero.main24.desc1": "&e Sadece yap.",
+ 
+  "faruk.stagezero.main25.subtitle": "&6Gerçek bir meydan okuma",
+  "faruk.stagezero.main25.desc1": "&e Modda ilerlemek için bu mekaniğe ihtiyacın var. Bunu nasıl kullanacağını bilmiyorsan anlatması biraz uzun... Ama bununla ilgili birkaç video izleyebilirsin, o kadar da zor değil.",
+ 
+  "faruk.stagezero.main26.subtitle": "&6Gelişmiş SU Jeneratörü",
+  "faruk.stagezero.main26.desc1": "&e Create'te SU üretmenin en iyi yolu. Furnace Engine'i bir fırın (ya da crude burner, furnace burner) üzerine yerleştir, Flywheel'ı ise bir blok uzağa yerleştir,birbirine bağlanacak ve SU üretecektir.",
+ 
+  "faruk.stagezero.main27.subtitle": "&6 Yakıt lazım!",
+  "faruk.stagezero.main27.desc1": "&e Fırın, ama eritmeyen cinsten. Yakıtla sağ tıklaman, Furnace Engine'i çalıştıracaktır.",
+ 
+  "faruk.stagezero.main28.subtitle": "&6Bana Sızma Yağ Gerek",
+  "faruk.stagezero.main28.desc1": "&e Bu makineyi Seed Oil ile besle ve Furnace Engine'i çalıştır!",
+ 
+  "faruk.stagezero.main29.subtitle": "&6Markette zamlı ",
+  "faruk.stagezero.main29.desc1": "&e Herhangi bir tohumu ez. Çıkan yağı Furnace Engine'i çalıştırmak için kullanabilirsin.",
+ 
+  "faruk.stagezero.main30.subtitle": "&6Gerçek bir Macerator!",
+  "faruk.stagezero.main30.desc1": "&e Crushing Wheels'ın yönünü Gearshift ile değiştirebilirsin. İki tekerleğin ortasına bir nesneyi yukarıdan at, onu ezecek ve aşağıdan tükürecektir.",
+ 
+  "faruk.stagezero.main31.subtitle": "&6 Parmağım nerede?!",
+  "faruk.stagezero.main31.desc1": "&e Bu öğeyi otoçiftlikler için veya sadece hassas bir mekanizma oluşturmak için kullanabilirsiniz.",
+ 
+  "faruk.stagezero.main32.subtitle": "&6Neden?",
+  "faruk.stagezero.main32.desc1": "&e Bu öğe Sequenced Assembly ile yapılır. Sadece bir Conveyor Belt oluştur ve üzerine 3 Deployer yerleştir. Deployer'ların ellerine sağ tıklayarak, gerekli sırayla malzemeleri ver. Ve ana malzemeyi Convoyer Belt2in başlangıç noktasına at.",
+  "faruk.stagezero.main32.desc2": "&e İlk turu tamamladığında tamamlanmamış bir Precision Mechanism elde edeceksin. Tekrar Belt'e bırak ve 5 kez tekrarla.",
+
+  "faruk.stagezero.main33.subtitle": "&8&l&oBizde maden bir gelenektir.",
+  "faruk.stagezero.main33.desc1": "&e Sonunda ultimine'a sahipsin! Sadece öğeye sağ tıkla ve R(Lost Trinkets Tuşu) bas ve ardından Ultimine Trinket'i giy. Damar madenciliği için varsayılan olarak GRAVE(konsol) tuşunu kullanabilirsin.",
+  "faruk.stagezero.main33.desc2": "&9 Bu görevin başlığına adını veren klibi Redowar'ın youtube kanalında izleyebilirsin. &b https://bit.ly/RedowarMaden",
+
+  "faruk.stagezero.main34.subtitle": "&6 Ucuza Tel Ve Çubuk",
+  "faruk.stagezero.main34.desc1": "&e Rolling Mill, Wire ve Rod yapmak için kullanılır.",
+ 
+  "faruk.stagezero.main35.desc1": "&e Kabloları bir yere bağlamak için kullanılır",
+ 
+  "faruk.stagezero.main36.subtitle": "&6BatBox!",
+  "faruk.stagezero.main36.desc1": "&e Elektrik yükünü depolar. Sadece birkaç Spool tak.",
+ 
+  "faruk.stagezero.main37.subtitle": "&6Piller",
+  "faruk.stagezero.main37.desc1": "&e Üretimde kullanmak için.",
+ 
+  "faruk.stagezero.main38.subtitle": "&6SU'den FE'ye",
+  "faruk.stagezero.main38.desc1": "&e Bu motora biraz FE ver ve Kinetik güç üret.",
+ 
+  "faruk.stagezero.main39.subtitle": "&6Kinetik Enerji İle Enerji Üretimi mi?",
+  "faruk.stagezero.main39.desc1": "&e Alternator, Kinetik Enerjiden Forge Enerjisi üretir.",
+ 
+  "faruk.stagezero.main40.subtitle": "&6Hadi Bir Şeyleri Şarj edelim",
+  "faruk.stagezero.main40.desc1": "&e Eşyaları şarj etmek için tesla bobinlerini kullanabilirsiniz. Sadece bu bobini bir Depot'un üzerine koy ve eşyanı Depot'a yerleştir.",
+ 
+  "faruk.stagezero.main41.subtitle": "&6Fırınızı Elektrikli Fırına dönüştürün!",
+  "faruk.stagezero.main41.desc1": "&e Bu makineyi fırınına yerleştir artık FE ile fırınını yakabilirsin.",
+ 
+  "faruk.stagezero.main42.subtitle": "&3&lFazla şarj!",
+  "faruk.stagezero.main42.desc1": "&e Bir bileşiği şarj etmek için Tesla Coil ve Depot kullanabilirsin. FE üretmek için bir Alternator yapman gerekir, FE depolamak içinse bir Accumulator yapman gerek. İşlemi hızlandırmak için birden fazla yap. 1024fe/t ile yaklaşık 2 dakika sürüyor.",
+ 
+  "faruk.stagezero.main43.desc1": "&e Bu, jetpack'in erken bir prototipidir. Jetpack'i kalkan slotuna al ve bir miktar yakıt malzemesini (Kömür, Blaze Çubuğu vb.) yere fırlat.",
+ 
+  "faruk.stagezero.main44.subtitle": "&6&lDAHA YÜKSEĞE, DAHA HIZLI UÇ!",
+  "faruk.stagezero.main44.desc1": "&e Uçmak için daha iyi bir yol.",
+ 
+  "faruk.stagezero.main45.title": "&8&l&oStage One'a Terfi Et!",
+  "faruk.stagezero.main45.subtitle": "&1&l&oBUNU HAK ETTİN!",
+  "faruk.stagezero.main45.desc1": "&e Stage Zero için son görev! Bu onay işaretine tıkla.",
+
+
+
+  "faruk.stagezero.storage46.subtitle": "&6Geliştirilmiş Huni",
+  "faruk.stagezero.storage46.desc1": "&e Öğelerin bir depolama bloğundan itilmesine/çekilmesine izin verir. Tıpkı bir huni gibi.",
+ 
+  "faruk.stagezero.storage47.subtitle": "&6Vakum Yükseltmesi",
+  "faruk.stagezero.storage47.desc1": "&e Krate, belli bir alan içerisindeki öğeleri içine çeker, adeta vakumlar.",
+
+  "faruk.stagezero.storage48.subtitle": "&6Güçlendirilmiş Krate",
+  "faruk.stagezero.storage48.desc1": "&e Krate, kırıldığında içindeki öğelerini tutar.",
+ 
+  "faruk.stagezero.storage49.subtitle": "&6Kompakt Krate",
+  "faruk.stagezero.storage49.desc1": "&e Krate öğeleri otomatik olarak blok hallerine dönüştürür, 2X2 veya 3X3 olarak üretebilirsin.",
+ 
+  "faruk.stagezero.storage50.subtitle": "&6Küçükten Temele",
+  "faruk.stagezero.storage50.desc1": "&e Small Krate'i Basic Krate'e yükseltmek için kullanılır, uygulamak için Krate'e sağ tıkla.",
+ 
+  "faruk.stagezero.storage51.subtitle": "&6Temelden Büyüğe",
+  "faruk.stagezero.storage51.desc1": "&e Basic Krate'i Big Krate'e yükseltmek için kullanılır, uygulamak için Krate'e sağ tıkla.",
+
+  "faruk.stagezero.storage52.subtitle": "&6Büyükten Genişe",
+  "faruk.stagezero.storage52.desc1": "&e Big Krate'i Large Krate'e yükseltmek için kullanılır, uygulamak için Krate'e sağ tıkla.",
+ 
+  "faruk.stagezero.storage53.subtitle": "&6Sandıklardan Daha İyi!",
+  "faruk.stagezero.storage53.desc1": "&e Sandık gibi bir depolama bloğu, Small kademede 9 slota sahip ancak yükseltilebilir.",
+ 
+  "faruk.stagezero.storage54.subtitle": "&6Sandıklardan Çok Daha İyi!",
+  "faruk.stagezero.storage54.desc1": "&e Basic seviyede 36 slota sahiptir ve ayrıca yükseltilebilir.",
+ 
+  "faruk.stagezero.storage55.subtitle": "&6Sandıklardan Çok Çok Daha İyi!",
+  "faruk.stagezero.storage55.desc1": "&e Big kademede 72 slota sahiptir ve yükseltilebilir.",
+ 
+  "faruk.stagezero.storage56.subtitle": "&6Depolama Cenneti!",
+  "faruk.stagezero.storage56.desc1": "&e Large kademede 144 slota sahiptir ve ayrıca yükseltilebilir.",
+ 
+  "faruk.stagezero.storage57.subtitle": "&6Drawerların Beyni!",
+  "faruk.stagezero.storage57.desc1": "&e Drawer Controller'ın, Drawerları görebilmesi için onlarla temas halinde olmalıdır. Bağlı Drawer sisteminin, istediğin herhangi bi yerine bitişik koyabilirsin.",
+  "faruk.stagezero.storage57.desc2": "&e Trim Block'ları, boşlukları birleştirmek için de kullanılabilir ve Drawer Controller'ın köşeleri görmesini sağlar.",
+ 
+  "faruk.stagezero.storage58.subtitle": "&6Drawers",
+  "faruk.stagezero.storage58.desc1": "&e Tüm depolama ihtiyaçlarınız için özelleştirilebilir Drawerlar.",
+  "faruk.stagezero.storage58.desc2": "&e Drawerlar bağımsız olarak kullanılabilir veya hepsini birbirine bağlamak için bir Controller'ın yanına yerleştirilebilir. Her Drawer, kapasitesini ve özelliklerini genişletmek için birden fazla yükseltmeyi kabul edebilir.",
+ 
+  "faruk.stagezero.storage59.subtitle": "&6Bir Malzeme = Üç Malzeme",
+  "faruk.stagezero.storage59.desc1": "&e Bu drawer, malzemeleri sıkıştırma ve ayrıştırma yaparak başka hallerine çevirebilir. Örnek: Bu çekmeceye Demir külçe yerleştirirseniz Demir Blok ve Demir Parçaları elde edebilirsiniz.",
+  "faruk.stagezero.storage59.desc2": "&e Bazen Compacting Drawerlar buglanabilir ve diğer formlar görünmeyebilir. Bu durumda drawer'ı boşaltın ve yerleştirdiğiniz eşyanın başka türlerini yerleştirmeyi deneyin. Ör. Demir külçe ile yerleştirdiyseniz ve buglandıysa , Demir Bloğu veya Demir Parçası yerleştirmeyi deneyin. ",
+
+  "faruk.stagezero.storage60.subtitle": "&6Drawer Gelişimi İçin İlk Adım",
+  "faruk.stagezero.storage60.desc1": "&e Drawer'ı geliştirmek istiyorsan, önce bu öğeyi hazırlaman gerek.",
+ 
+  "faruk.stagezero.storage61.subtitle": "&6Boyut Yükseltmesi Çok Heyecanlı",
+  "faruk.stagezero.storage61.desc1": "&e Drawer alanını artırmak istiyorsan, size increase yükseltmesini hazırlaman gerek.",
+ 
+  "faruk.stagezero.storage62.subtitle": "&6Utiliy Yükseltmeleri",
+  "faruk.stagezero.storage62.desc1": "&e İhtiyaçlarınıza göre Utility Upgrade oluşturabilirsin.",
+ 
+  "faruk.stagezero.storage63.subtitle": "&6Drawer Anahtarı",
+  "faruk.stagezero.storage63.desc1": "&e Drawer'ı kilitler ve kilidini açar Yeni yerleştirdiğin Drawerları kilitlemek için kalkan slotunda tut.",
+ 
+  "faruk.stagezero.storage64.subtitle": "&6Quantify anahtarı",
+  "faruk.stagezero.storage64.desc1": "&e Depolanan miktar etiketlerini gösterin veya gizleyin.",
+ 
+  "faruk.stagezero.storage65.subtitle": "&6Binlerce Blok Bir Üründe",
+  "faruk.stagezero.storage65.desc1": "&e Dank 7, neredeyse sonsuz sayıda eşya depolayabilir ve 81 slota sahiptir.",
+ 
+  "faruk.stagezero.storage66.subtitle": "&6Dock :)",
+  "faruk.stagezero.storage66.desc1": "&e Dünyaya yerleştirip, etkileşime girmek istediğin Dank'ı eline al ve Dock'a sağ tıkla. Artık Dank'a erişebilirsin.  .",
+ 
+  "faruk.stagezero.storage67.subtitle": "&6 Sofistike Sırt Çantası",
+  "faruk.stagezero.storage67.desc1": "&e Sırt çantaları, karakterinin sol üstündeki tuştan ulaşabileceğin ek giysi slotlarına giyilebilir, kısayol tuşu atanabilir, dünyaya yerleştirilebilir ve borular ya da hazneler aracılığıyla etkileşime girilebilir.",
+  "faruk.stagezero.storage67.desc2": "&e Halihazırda mükemmel olan bu özelliklerin ötesinde, çok sayıda faydalı yükseltmeye de açıklar.",
+  
+  "faruk.stagezero.storage68.subtitle": "&6Gelişmiş Çantaya İlk Adım",
+  "faruk.stagezero.storage68.desc1": "&e Gelişmiş bir çanta mı istiyorsun? İlk adım olarak bunu oluşturman gerekir.",
+ 
+  "faruk.stagezero.storage69.subtitle": "&6Bu mıknatıs harika dostum",
+  "faruk.stagezero.storage69.desc1": "&e Uzaktaki öğeleri doğrudan sırt çantanıza çeken filtrelenebilir bir yükseltme.",
+ 
+  "faruk.stagezero.storage70.subtitle": "&6Açken Sen Sen Değilsin",
+  "faruk.stagezero.storage70.desc1": "&e Bir atıştırmalığa mı ihtiyacın var? Sırt çantanın seni beslemesine izin ver",
+ 
+  "faruk.stagezero.storage71.subtitle": "&6128 öğe için Tek Slot",
+  "faruk.stagezero.storage71.desc1": "&e Bir slota sığabilecek stack sayısını 2 ile çarpar.",
+ 
+  "faruk.stagezero.storage72.subtitle": "&6265 öğe için Tek Slot",
+  "faruk.stagezero.storage72.desc1": "&e Bir slota sığabilecek stack sayısını 4 ile çarpar.",
+ 
+  "faruk.stagezero.storage73.subtitle": "&6512 öğe için Tek Slot",
+  "faruk.stagezero.storage73.desc1": "&e Bir slota sığabilecek stack sayısını 8 ile çarpar.",
+  
+  "faruk.stagezero.storage74.subtitle": "&61024 öğe için Tek Slot",
+  "faruk.stagezero.storage74.desc1": "&e Bir slota sığabilecek stack sayısını 16 ile çarpar.",
+  
+  "faruk.stagezero.tools75.subtitle": "&6Şablon Kitabı",
+  "faruk.stagezero.tools75.desc1": "&e Bu kitapta, Silent Gear Blueprintlerini tek bir yerde saklayabilirsin. İşleme sırasında şablonlar arasında geçiş yapmak için Z'ye basabilirsin. Unutma, Blueprint yerine Template de kullanabilirsin fakat Template'ler tek kullanımlıktır.",
+  
+  "faruk.stagezero.tools76.subtitle": "&6Base",
+  "faruk.stagezero.tools76.desc1": "&e Base'i yükseltin.",
+  
+  "faruk.stagezero.tools77.subtitle": "&6Paxel ama nerflenmiş.",
+  "faruk.stagezero.tools77.desc1": "&e Kazman, kürek gibi çalışacak.",
+ 
+  "faruk.stagezero.tools78.subtitle": "&6Excavator Eklentisi",
+  "faruk.stagezero.tools78.desc1": "&e Excavator 3x3 çim yolları oluşturabilir.",
+ 
+  "faruk.stagezero.tools79.subtitle": "&6Menzil Eklentisi",
+  "faruk.stagezero.tools79.desc1": "&e Excavatorler ve Hammer 5x5 madencilik yapabilir (istiflenemez).",
+  
+  "faruk.stagezero.tools80.subtitle": "&6Kazma, her zamanki gibi.",
+  "faruk.stagezero.tools80.desc1": "&e Madencilik işleriniz için standart bir kazma.",
+  
+  "faruk.stagezero.tools81.subtitle": "&6Kazma ama daha havalı",
+  "faruk.stagezero.tools81.desc1": "&e Bir bloğa sağ tıklamak, ilgilenilen blokları (çoğunlukla cevherler) o yönde, küçük bir alanda arayacaktır. Ayrıca madencilik için kazma gibi çalışır ve Hammer gibi bazı tariflerde kullanılır.",
+  
+  "faruk.stagezero.tools82.subtitle": "&6Maden yapmayı sever misin?",
+  "faruk.stagezero.tools82.desc1": "&e &r&d3x3 &r&elük alanda taş ve cevherleri kazar. Cevherler, yalnızca üstüne gelindiğinde kazılır.",
+  
+  "faruk.stagezero.tools83.subtitle": "&6Düz Balta",
+  "faruk.stagezero.tools83.desc1": "&e Standart bir balta.",
+  
+  "faruk.stagezero.tools84.subtitle": "&5(K)&r&6üre&r&5(K)&r&6azma&r&5(!)",
+  "faruk.stagezero.tools84.desc1": "&e &dkazma, balta, &r&eve &r&dkürek olarak işlev gören hepsi bir arada bir araç.",
+  
+  "faruk.stagezero.tools85.subtitle": "&6Ağacı düşürmenin yolu",
+  "faruk.stagezero.tools85.desc1": "&e Faruk V'de FTB Ultimine bütün ağacı kesemez. Tek bir bloğu kırarak tüm ağacı kesmek istiyorsan, bu küçük aracı kullan.",
+  
+  "faruk.stagezero.tools86.subtitle": "&6Güvenilir Kürek",
+  "faruk.stagezero.tools86.desc1": "&e Standart bir kürek.",
+  
+  "faruk.stagezero.tools87.subtitle": "&6Bir çekiç gibi",
+  "faruk.stagezero.tools87.desc1": "&e 3x3 toprak/kum tipi blokları kazar.",
+  
+  "faruk.stagezero.tools88.subtitle": "&6Çöp Temizleyici 2000",
+  "faruk.stagezero.tools88.desc1": "&e Faruk V'de otları Ultimine'layamazsın. Tüm çim sahayı ultiminelamak istiyorsan, sadece bu aracı kullan.",
+  
+  "faruk.stagezero.tools89.subtitle": "&6Balta + Kürek + Çapa = ¿",
+  "faruk.stagezero.tools89.desc1": "&e Toprağı işleyebilen, kazabilen ve odun kesebilen nihai tarım aleti. Kürek veya baltadan biraz daha yavaş ama daha dayanıklı.",
+ 
+  "faruk.stagezero.tools90.subtitle": "&6Taş, Kağıt ve ...",
+  "faruk.stagezero.tools90.desc1": "&e Standart makaslar",
+ 
+  "faruk.stagezero.tools91.subtitle": "&6Hamsi tut Uşağum!",
+  "faruk.stagezero.tools91.desc1": "&e Bu bir olta.",
+ 
+  "faruk.stagezero.tools92.subtitle": "&610 parmağın var ama 10 yüzük takamazsın.",
+  "faruk.stagezero.tools92.desc1": "&e İşleme için doğru malzemeleri kullanırsan, yüzükler sana güzel bonuslar verir (Örnek; Diamond Adornment size +1 zırh, Emerald +1 erişim vb.).",
+ 
+  "faruk.stagezero.tools93.subtitle": "&6 Kelepçe",
+  "faruk.stagezero.tools93.desc1": "&e Üretirken doğru malzemeleri kullanırsan, bilezikler size güzel bonuslar verir (Örnek. Diamond Adornment size +1 zırh, Emerald +1 erişim vb).",
+ 
+  "faruk.stagezero.tools94.subtitle": "&6Tereyağı Bıçağı",
+  "faruk.stagezero.tools94.desc1": "&e Bu bıçağı bazı tarifler için kullanabilirsin, aynı zamanda küçük bir savaş aracıdır.",
+ 
+  "faruk.stagezero.tools95.subtitle": "&6Suikastçilerin Favorisi",
+  "faruk.stagezero.tools95.desc1": "&e Çok hafif bir kılıç. Düşük hasar ve daha kısa silah erimine karşı, çok yüksek saldırı hızı vardır.",
+ 
+  "faruk.stagezero.tools96.subtitle": "&6Klasik En İyisidir!",
+  "faruk.stagezero.tools96.desc1": "&e Dengeli hasar ve hıza sahip klasik kılıç. Tutma kısmı, craft sırasında kullanılan ikinci malzemenin görünümünü alır.",
+ 
+  "faruk.stagezero.tools97.subtitle": "&6Shadows Die Twice",
+  "faruk.stagezero.tools97.desc1": "&e Klasik kılıçlardan biraz daha hızlı ama daha düşük hasarı olan bir kılıç. Katana ayrıca standart kılıçlardan biraz daha uzağa erişebilir.",
+ 
+  "faruk.stagezero.tools98.subtitle": "&6Edge, Sen Misin?",
+  "faruk.stagezero.tools98.desc1": "&e Normal bir kılıca göre biraz daha yavaş saldırı hızı ve biraz daha yüksek hasar. Erişim mesafesi her silahtan daha uzundur.",
+ 
+  "faruk.stagezero.tools99.subtitle": "&6En İlkel Silah",
+  "faruk.stagezero.tools99.desc1": "&e Çakıl taşları fırlatabilirsin..",
+ 
+  "faruk.stagezero.tools100.subtitle": "&6Klasik Yay",
+  "faruk.stagezero.tools100.desc1": "&e Klasik yay.",
+ 
+  "faruk.stagezero.tools101.subtitle": "&6Pillager Teknolojisi",
+  "faruk.stagezero.tools101.desc1": "&e Yaydan daha yavaş atış hızı ama daha yüksek hasar.",
+ 
+  "faruk.stagezero.tools102.subtitle": "&6Taşınabilir Duvar",
+  "faruk.stagezero.tools102.desc1": "&e Daha güçlü kalkanlar.",
+ 
+  "faruk.stagezero.tools103.subtitle": "&6Sapan İçin Mermi!",
+  "faruk.stagezero.tools103.desc1": "&e Mermiler!",
+ 
+  "faruk.stagezero.tools104.subtitle": "&6Mühimmat!",
+  "faruk.stagezero.tools104.desc1": "&e Yaylar ve crossbow için cephane.",
+ 
+  "faruk.stagezero.tools105.subtitle": "&6Malzemelerinizi doldurun!",
+  "faruk.stagezero.tools105.desc1": "&e Bu kutuyu tamir malzemelerinizle doldurun(Örn. Cobblestone pickaxe tamir etmek için kutuyu ve cobblestone'u crafting penceresine koyun) ve bu kutuyu yanınıza alın, aletleriniz düşük dayanıklılıktayken kutuyu ve aletinizi crafting penceresine koyun bu sayede her yerde aletlerinizi tamir edebilirsiniz.",
+ 
+  "faruk.stagezero.tools106.subtitle": "&6Seviye 2",
+  "faruk.stagezero.tools106.desc1": "&e x2 (toplam 16) malzeme.",
+ 
+  "faruk.stagezero.tools107.subtitle": "&6Seviye 3",
+  "faruk.stagezero.tools107.desc1": "&e x4 (Toplam 32) malzeme.",
+ 
+  "faruk.stagezero.tools108.subtitle": "&6Seviye 4",
+  "faruk.stagezero.tools108.desc1": "&e x6 (Toplam 48) malzeme.",
+ 
+  "faruk.stagezero.tools109.subtitle": "&6Seviye 5",
+  "faruk.stagezero.tools109.desc1": "&e x8 (Toplam 64) malzeme.",
+ 
+  "faruk.stagezero.tools110.subtitle": "&6Nether'de Yeni Cevher!",
+  "faruk.stagezero.tools110.desc1": "&e Bu cevheri Nether'da bulabilirsin.",
+ 
+  "faruk.stagezero.tools111.subtitle": "&6Sonunda Yeni Cevher!",
+  "faruk.stagezero.tools111.desc1": "&e Bu cevheri  The End'de bulabilirsin.",
+ 
+  "faruk.stagezero.tools112.subtitle": "&6Seviye Yükseltme",
+  "faruk.stagezero.tools112.desc1": "&e Dereceler, malzeme istatistiklerine ek bir çarpan uygular. Mevcut dereceler E, D, C, B, A, S, SS, SSS'dir. Tüm istatistikler derecelerden etkilenmez, ama çoğu etkilenir. Material Grader'ın çalışması için katalizör gerekir.",
+ 
+  "faruk.stagezero.tools113.subtitle": "&6Katalizörler",
+  "faruk.stagezero.tools113.desc1": "&e Grader'ın ikinci giriş yuvası, Grader için yakıt olan Katalizörler içindir. Katalizörler derecelendirme sırasında tüketilir ve katalizör seviyesine bağlı olarak  derecesi artırırlar. Başka bir deyişle, daha iyi özellikler alma şansınız daha yüksektir. Beş seviye var, ancak yalnızca üç katalizör var.",
+ 
+  "faruk.stagezero.tools114.subtitle": "&6Geri Dönüşüm Kutusu",
+  "faruk.stagezero.tools114.desc1": "&e Bu makinede eşyalarını geri dönüştürebilirsin. Öğe tam dayanıklıktaysa yüzde 50 oranda hammadeleri geri alabilirsin, ancak daha düşük dayanıklılıklar için yüzde 10'a kadar düşürülebilir.",
+ 
+  "faruk.stagezero.tools115.subtitle": "&f&l&oPower of Stars",
+  "faruk.stagezero.tools115.desc1": "&e Starlight Charger, Star Charged büyüsünü uygulayarak malzemeleri önemli ölçüde iyileştirebilir. Ayrıca dört sütunlu bir yapı gerektirir. Sadece en üstteki blok önemlidir, diğer bloklar (Siyah Beyaz olanlar) istediğiniz herhangi bir blok olabilir.",
+  "faruk.stagezero.tools115.desc2":"&4 Tier 1: Crimson Steel Block",
+  "faruk.stagezero.tools115.desc3":"&1 Tier 2: Azure Electrum Block ",
+  "faruk.stagezero.tools115.desc4":"&5 Tier 3: Tyrian Steel Block",
+ 
+  "faruk.stagezero.tools116.subtitle": "&6Catalyst for Starlight Charger",
+ 
+  "faruk.stagezero.tools117.subtitle": "&6Metaller ancak düzleştirilmiş.",
+  "faruk.stagezero.tools117.desc1": "&e Zırh ve kalkan yapmak için metallerinizi bastırman gerekir.",
+  
+  "faruk.stagezero.tools118.subtitle": "&6Pres Makinesi",
+  "faruk.stagezero.tools118.desc1": "&e Bil bakalım bu makine ne yapıyor?",
+  
+  "faruk.stagezero.tools119.subtitle": "&6Dinamik Işıklandırma",
+  "faruk.stagezero.tools119.desc1": "&e Bu kask sayesinde madende meşale koymanıza gerek yok!",
+
+  "faruk.stagezero.tools120.subtitle": "&6Kazma Seviyesi Geliştirme",
+  "faruk.stagezero.tools120.desc1": "&e Tip Upgrade Template veya Blueprint ile güçlü bir materiali birleştirin(Örneğin Elmas). Elde ettiğiniz Tip Upgrade'i istediğiniz alet(Kazma,Balta vs) ile crafting penceresinde birleştirin bu sayede aletiniz eklediğiniz Tip Upgrade'in seviyesine kadar kazabilir. Örneğin taş kazma sadece Iron'a kadar olan madenleri kazabilirken Elmas Tip Upgrade basılmış Taş Kazma Obsidyeni kazabilir. Ve aletinizin ucunda tatlı bir renk verir.",
+
+  
+  "faruk.stagezero.utilities118.subtitle": "&6Örümcek Adam!",
+  "faruk.stagezero.utilities118.desc1": "&e Bir duvara atladığında, shift tuşuna basılı tutup duvara asılırsın ve boşluk tuşuna bastığınızda tekrar kez zıplayabilirsin.",
+  
+  "faruk.stagezero.utilities119.subtitle": "&6Kaktüs bulamıyor musunuz?",
+  "faruk.stagezero.utilities119.desc1": "&e Nature's Compass ile istediğiniz biyomları bulabilirsin.",
+  
+  "faruk.stagezero.utilities120.subtitle": "&6Zzz zzz zz z",
+  "faruk.stagezero.utilities120.desc1": "&e Artık her yerde uyuyabilirsiniz. Uyku matı, spawn noktanı değiştirmez.",
+  
+  "faruk.stagezero.utilities121.subtitle": "&6Her yerde zanaat",
+  "faruk.stagezero.utilities121.desc1": "&e Taşınabilir çalışma masası. Gelişmiş seviye, kapatıldığında çalışma ekranındaki bileşenleri saklayabilir.",
+
+  "faruk.stagezero.utilities122.subtitle": "&6Işınlayıcılar",
+  "faruk.stagezero.utilities122.desc1": "&e Çok pahalıysa, onları köylerden &mçalabilirsin&r&e.",
+
+  "faruk.stagezero.utilities123.subtitle": "&6Öğeleri toplamak için çok mu tembelsiniz?",
+  "faruk.stagezero.utilities123.desc1": "&e Magnet, 5 blok içindeki öğeleri sana çeker.",
+
+  "faruk.stagezero.utilities124.subtitle": "&6Koordinatları kontrol edemeyecek kadar tembel misiniz?",
+  "faruk.stagezero.utilities124.desc1": "&e İlk bloğa sağ tıkla ve imlecinizi ikinci bloğun üzerinde tut, abaküs bu 2 blok arasında kaç blok olduğunu söyleyecektir.",
+
+  "faruk.stagezero.utilities125.subtitle": "&6Gerçekçi yollar oluşturmak için çok mu tembelsiniz?",
+  "faruk.stagezero.utilities125.desc1": "&e Trowel, hotbar'ındaki blokları rastgele sırayla yerleştirir.",
+
+  "faruk.stagezero.utilities126.subtitle": "&6Meşale yerleştirmek için çok mu tembelsiniz?",
+  "faruk.stagezero.utilities126.desc1": "&e Mega meşale, yaratıkların 32 blok aralığında ortaya çıkmasını önleyecektir(Daha hassas bir kullanım için bu öğenin menzilini 64'ten 32'ye düşürdük).",
+
+  "faruk.stagezero.utilities127.subtitle": "&6Zaman kazan!",
+  "faruk.stagezero.utilities127.desc1": "&e Zamanınızı hızlandırmak istediğin makineye sağ tıkla.(Maksimum hızlanma limitini 256x'ten 32x'e düşürdük)",
+
+  "faruk.stagezero.utilities128.subtitle": "&6Yemek kitabı",
+  "faruk.stagezero.utilities128.desc1": "&e Sadece bir yemek kitabı. Henüz yemediğin yiyecekleri kontrol edebilirsiniz. Yediğin her 5 farklı yemek sana yarım kalp can kazandırır(En fazla 10 kalp).",
+
+  "faruk.stagezero.utilities129.subtitle": "&6Blokları yerleştirmek için çok mu tembelsiniz?",
+  "faruk.stagezero.utilities129.desc1": "&e Wand menüsü için varsayılan tuş ataması < 'dır. Tek ihtiyacın olan yaratıcılık!",
+
+  "faruk.stagezero.utilities130.subtitle": "&6Çöp Kutusu",
+  "faruk.stagezero.utilities130.desc1": "&e Envanterini temizlemenin hızlı bir yolu.",
+
+  "faruk.stagezero.utilities131.subtitle": "&6Kömürlerinizi boşa harcamayın",
+  "faruk.stagezero.utilities131.desc1": "&e 1 kömür fırına koyulduğunda, 1 eşyayı pişirebilir.",
+
+  "faruk.stagezero.utilities132.subtitle": "&6Artık Beklemek Yok!",
+  "faruk.stagezero.utilities132.desc1": "&e Bu alet, 3x3 alandaki ekinlerin büyümesini hızlandırır.",
+
+  "faruk.stagezero.utilities133.subtitle": "&6Otomatik sulama kabı",
+  "faruk.stagezero.utilities133.desc1": "&e Bitkilerin büyümesini hızlandırmak için bu cihazı sınırsız su kaynağına bağlayıp sulama işlemini otomatik yapabilirsin.",
+
+  "faruk.stagezero.utilities134.subtitle": "&5Dostum bana güven. Bu öğe çok havalı!",
+
+  "faruk.stagezero.extras1.desc1":"&b   Faruk V'de ultimine(veinminer) mevcut fakat kullanmak için önce FTB Ultiminer eşyasını craft etmelisin. Unutma bu özelliği ağaçlar ve çimenler için kullanamazsın, o blokları hızlıca toplamak için Saw ve Sickle eşyalarını kullan. Detaylı bilgi 'Tools' görev sekmesinde mevcut.",
+
+  "faruk.stagezero.extras2.subtitle1":"&6Işık Seviyesi Kontrolü",
+  "faruk.stagezero.extras2.desc1":"&e   Faruk V'de, F7 tuşu ile ışık seviyelerini göremezsin. Yaratıkların ne zaman doğacağını kontrol etmek için bu çanı çalmalısın. Craft etmek için ilk olarak  Peculiar Bell craft et ve Soul Fire'ın üzerine koy.'",
+  
+  "faruk.stagezero.extras3.subtitle1":"&6Dimension Seviyeleri",
+  "faruk.stagezero.extras3.desc1":"&e   Faruk V'de , Stage Zero'da her dimension'a gidemezsin. Mesela Stage Three'den önce The End'e gitmeye çalışırsan portaldan geçemez ve portalın altına lava düşüp ölürsün. Dimensionlara erişimlerin açıldığı stage'leri aşağıda belirttim.",
+  "faruk.stagezero.extras3.desc2":"   &cThe Nether&r&e : Stage Zero",
+  "faruk.stagezero.extras3.desc3":"   &dThe End&r&e : Stage Two",
+  "faruk.stagezero.extras3.desc4":"   &2Twilight Forest&r&e : Stage Three",
+  "faruk.stagezero.extras3.desc5":"   &8Faruk Land&r&e : Stage Five",
+
+  "faruk.stagezero.extras4.subtitle1":"&6Kazma, Balta gibi aletler neden hemen kırılıyor?",
+  "faruk.stagezero.extras4.desc1":"&e   Kazma, balta gibi aletler ve zırhların dayanıklılığı ve hızı %90 azaltılmıştır. Onlar yerine Silent Gear modunun aletlerini kullanmanız gerekmektedir. Aşağıdaki resimde bir aletin nasıl yapılacağına dair bir örnek bulunmakta. Detaylı bilgi görev kitabının 'Tools' kısmında mevcut.",
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  "faruk.stageone.main1.subtitle": "&6Soruların Mı Var?!",
+  "faruk.stageone.main1.desc1": "&e Takıldığında, Engineer's Manual'a göz atabilirsin.",
+  "faruk.stageone.main1.desc2": "&e İpucu#1: 'Create' sistemlerini bozma, Onlara bu aşamada da ihtiyacın var.",
+  
+  "faruk.stageone.main2.subtitle": "&6Kömürden Daha İyi",
+  "faruk.stageone.main2.desc1": "&e Tuğlaları 3x3 yerleştir ve Engineer's Hammer ile sağ tıkla. Ardından GUI'yi aç ve biraz kömür koy, Coal Coke ve Creosote Oil elde edeceksin.",
+  
+  "faruk.stageone.main3.subtitle": "&6Plank'leri İşle!",
+  "faruk.stageone.main3.desc1": "&e İpucu: Craft için Jerrycan kullanabilirsin.",
+  
+  "faruk.stageone.main4.subtitle": "&6Normalinden Daha İyi",
+  "faruk.stageone.main4.desc1": "&e Saklama alanı olan bir Crafting Table. GUI'ı kapattığında her şey bıraktığın yerde kalır",
+  
+  "faruk.stageone.main5.subtitle": "&6Mühendis Olacağım!",
+  "faruk.stageone.main5.desc1": "&e Bu masada Immersive için gereken bazı itemları üretebilirsin.",
+  
+  "faruk.stageone.main6.subtitle": "&6Schematic mi lazım?",
+  "faruk.stageone.main6.desc1": "&e Craft için bu Blueprint'leri kullan",
+  
+  "faruk.stageone.main7.subtitle": "&6Schematic ama metal olan.",
+  "faruk.stageone.main7.desc1": "&e Bu kalıpları metal preste kullan.",
+  
+  "faruk.stageone.main8.subtitle": "&6Mekanik Sanat",
+  "faruk.stageone.main8.desc1": "&e Üretim için bu bileşenleri kullanın.",
+  
+  "faruk.stageone.main9.subtitle": "&6Bitki Serası Yap! ",
+  "faruk.stageone.main9.desc1": "&e Herhangi bir bitkiyi yetiştirmek için, bu makineye sınırsız su ve RF sağla, toprak ve fertilizerı yerleştirdikten sonra tohum ya da yetişen herhangi bir bitkiyi ekebilirsin!",
+  
+  "faruk.stageone.main10.subtitle": "&6 #GezegeniKurtar!",
+  "faruk.stageone.main10.desc1": "&e Klasik güneş paneli.",
+  
+  "faruk.stageone.main11.subtitle": "&6Batbox!",
+  "faruk.stageone.main11.desc1": "&e Bu bir enerji depolama bloğu. Engineer's Hammer kullanarak giriş ve çıkışı ayarlayabilirsin. (Aynı anda eğilme tuşuna basılı tutmak karşı yüzü ayarlar)",
+  
+  "faruk.stageone.main12.subtitle": "&6Geliştirilmiş Tesla Bobini!",
+  "faruk.stageone.main12.desc1": "&e Envanterindeki itemların şarjını doldurur",
+  
+  "faruk.stageone.main13.subtitle": "&6Coke Fırınını otomatikleştirmek mi istiyorsunuz?",
+  "faruk.stageone.main13.desc1": "&e Coke fırının üzerine bir Pump yerleştir ve tanka bağla. Creosote Oil'ı Coke fırınından boşaltacaktır.",
+  
+  "faruk.stageone.main14.subtitle": "&6Steel'",
+  "faruk.stageone.main14.desc1": "&e Blast Furnace'ı oluşturmak için, bu 27 bloktan 3x3x3'lük bir küp oluştur ve Engineer's Hammer ile bir yüzeye sağ tıkla.",
+  "faruk.stageone.main14.desc2": "&e Demiri Steel'a bu fırınla dönüştürebilirsin. Coke kullanmayı unutma!",
+  
+  "faruk.stageone.main15.subtitle": "&6Daha çok Steel!",
+  "faruk.stageone.main15.desc1": "&e Normal tuğlalar yerine Reinforced Brick kullan ve üstüne Hopper ekle. Steel, fırının önünden, Slag ise arkadan çıkar. Fırına, Demir ve Coke'u üst girişten sağlayabilirsin.Fırın, bağlı olduğu bütün envanter ve Conveyor Belt'lere otomatik çıktı verir.",
+  "faruk.stageone.main15.desc2": "&e Çelik üretimini hızlandırmak için havayı ısıt ardından fırına yönlendir. Her fırına, iki adede kadar Preheater bağlanabilir.Her bir Preheater'ın çalışması için 32 FE/t gerekir",
+  
+  "faruk.stageone.main16.subtitle": "&6Alloy (Alaşım) Fırını",
+  "faruk.stageone.main16.desc1": "&e Kiln yapmak için, 8 Fırın Tuğlasından 2x2x2'lik bir küp yap ve Engineer's Hammer ile yüzeylerden birine sağ tıkla.",
+  
+  "faruk.stageone.main17.subtitle": "&6Bakırdan Daha İyi",
+  "faruk.stageone.main17.desc1": "&e Bu alaşımı üretmek için Alloy Kiln kullan.",
+  
+  "faruk.stageone.main18.subtitle": "&6Altından Daha İyi",
+  "faruk.stageone.main18.desc1": "&e Bu alaşımı üretmek için Alloy Kiln kullan.",
+  
+  "faruk.stageone.main19.subtitle": "&6İyileştirilmiş Tesla Bobini!",
+  "faruk.stageone.main19.desc1": "&e Envanter öğelerini daha hızlı şarj eder.",
+  
+  "faruk.stageone.main20.subtitle": "&6Daha İyi Batbox!",
+  "faruk.stageone.main20.desc1": "&e LV Capacitor ile aynı fakat daha fazla enerji kapasiteye ve aktarım hızına sahip.",
+  
+  "faruk.stageone.main21.subtitle": "&6En iyi Batbox!(Şimdilik)",
+  "faruk.stageone.main21.desc1": "&e LV ve MV Capacitor ile aynı fakat daha fazla enerji kapasitesine ve aktarım hızına sahip.",
+  
+  "faruk.stageone.main22.subtitle": "&6Demirden Daha Sert",
+  "faruk.stageone.main22.desc1": "&e Blast Furnace'ı doğru kullandıysan, bunu elde edeceksin.",
+  
+  "faruk.stageone.main23.subtitle": "&6Bileşen",
+  "faruk.stageone.main23.desc1": "&e Yapabilmek için Engineer's Workbench kullanmalısın çünkü normal craftingi devre dışı bıraktık.",
+  
+  "faruk.stageone.main24.subtitle": "&6Makinenin Kalbi",
+  "faruk.stageone.main24.desc1": "&e Çok Multiblok makineleri oluşturmak için bu bloğu kullan.",
+  
+  "faruk.stageone.main25.subtitle": "&6Depolama görev dizisiyle bağlantılı",
+  
+  "faruk.stageone.main26.subtitle": "&6Sonunda biraz otomasyon!",
+  "faruk.stageone.main26v2.subtitle":"&6Crusher",
+  "faruk.stageone.main26v3.subtitle":"&6Fermenter",
+  "faruk.stageone.main26v4.subtitle":"&6Squeezer",
+  "faruk.stageone.main26v5.subtitle":"&6Refinery",
+  "faruk.stageone.main26v6.subtitle":"&6Pumpjack",
+  "faruk.stageone.main26v7.subtitle":"&6Distillation Tower",
+  "faruk.stageone.main26v8.subtitle":"&6Coker",
+  "faruk.stageone.main26v9.subtitle":"&6Sulfur Recovery Unit",
+  "faruk.stageone.main26v10.subtitle":"&6Diesel Generator",
+  "faruk.stageone.main26v11.subtitle":"&6Arc Furnace",
+  "faruk.stageone.main26v12.subtitle":"&6Excavator",
+  "faruk.stageone.main26v13.subtitle":"&6Excavator Head",
+  "faruk.stageone.main26v14.subtitle": "&6Sonunda biraz otomasyon!",
+  "faruk.stageone.main26.desc1": "&e İnşaat talimatları ve daha fazla bilgi için Engineer's Manual'a bakabilirsin.",
+  
+  "faruk.stageone.main27.subtitle": "&6Artırılmış Gerçeklik?",
+  "faruk.stageone.main27.desc1": "&e Projector elindeyken havaya sağ tıkla ve istediğin Multiblok yapısını seç ardından onayla. Yapıyı koymak istediğin yere karar ver ve sağ tıkla yerleştir. Sıfırlamak için Eğilme Tuşu + Sağ Tık.",
+  
+  "faruk.stageone.main28.subtitle": "&6Daha İyi Otomasyon",
+  "faruk.stageone.main28.desc1": "&e Sıvılar, belirlediğin herhangi bir yüzeyden girip çıkabilir. İçinde sıvı olan kovayla tıklayarak filtreleri seçebilirsin.  .",
+  
+  "faruk.stageone.main29.subtitle": "&6Tank",
+  "faruk.stageone.main29.desc1": "&e 512 kova depolama. Yapı talimatları için Engineer's Manual'a göz at. Projektör kullanman yararına.",
+  
+  "faruk.stageone.main30.subtitle": "&6Tam Gaz!",
+  "faruk.stageone.main30.desc1": "&e Lubricant ile makinenin hızını 1,25x artırabilirsin. Pumpjack, Excavator ve Crusher'ı yağlanabilir makinelerdir. Bunları manuel ya da otomatik olarak yağlayabilirsin.",
+  
+  "faruk.stageone.main31.subtitle": "&6Ucuz Örnek Matkap",
+  "faruk.stageone.main31.desc1": "&e Maden yatakları hakkında bilgi verir.",
+  
+  "faruk.stageone.main32.title": "&8&l&oStage Two'ya Terfi Et!",
+  "faruk.stageone.main32.subtitle": "&1&l&oSEN BUNU HAK ETTİN!",
+  "faruk.stageone.main32.desc1": "&e Stage One için son görev! Onay işaretine tıkla.",
+  
+
+  "faruk.stageone.main33.subtitle": "&6Petcoke",
+  
+  "faruk.stageone.storage1.subtitle": "&6Önce, Ana görev dizisinde bu görevi tamamla!",
+  "faruk.stageone.storage1.desc1": "&e Depolama sisteminin ana bileşeni. Birden fazla kullanmak sorunlara yol açar, hersistemde sadece bir adet kullan.",
+  
+  "faruk.stageone.storage2.subtitle": "&6Grid",
+  "faruk.stageone.storage2.desc1": "&e Uzaktan envanter erişimi.",
+  
+  "faruk.stageone.storage3.subtitle": "&6Crafting Grid",
+  "faruk.stageone.storage3.desc1": "&e Uzaktan craft yapabileceğin envanter erişimi.",
+  
+  "faruk.stageone.storage4.subtitle": "&6Daha hızlı",
+  "faruk.stageone.storage4.desc1": "&e Import ve Export Kablolarının hızını artırır.",
+  
+  "faruk.stageone.storage5.subtitle": "&6Daha büyük",
+  "faruk.stageone.storage5.desc1": "&e İşlemlerin yığın boyutunu artırır.",
+  
+  "faruk.stageone.storage6.subtitle": "&6Depolama Bağlantı Kablosu",
+  "faruk.stageone.storage6.desc1": "&e Sandık, Krate, Drawer gibi depolama envanterlerini ağa bağlar.",
+  
+  "faruk.stageone.storage7.subtitle": "&6Filtrelenmiş Depolama Bağlantısı",
+  "faruk.stageone.storage7.desc1": "&e Öğeleri filtreleyebilir ve depolama bloklarına öncelik verebilirsiniz.",
+  
+  "faruk.stageone.storage8.subtitle": "&6Importer",
+  "faruk.stageone.storage8.desc1": "&e Ağın dışındaki öğeleri ağa aktarır.",
+  
+  "faruk.stageone.storage9.subtitle": "&6Daha İyi Importer",
+  "faruk.stageone.storage9.desc1": "&e Öncelik verme ve filtreleme seçenekleri vardır.",
+  
+  "faruk.stageone.storage10.subtitle": "&6Exporter",
+  "faruk.stageone.storage10.desc1": "&e Öğeleri ağdan alır ve ağın dışına aktarır.",
+  
+  "faruk.stageone.storage11.subtitle": "&6Kablosuz Depolama",
+  "faruk.stageone.storage11.desc1": "&e Network Root'a sağ tıklayın ve tadaa! 64 blok için uzaktan kumandanız var.",
+  
+  "faruk.stageone.storage12.subtitle": "&6Kablosuz Crafting ve Depolama",
+  "faruk.stageone.storage12.desc1": "&e Normal uzaktan kumandayla aynı, fakat Crafting Table'a sahip.",
+
+
+
+
+
+
+
+
+
+
+
+
+  "faruk.stagetwo.main1.subtitle": "&6Temperli Cam",
+  "faruk.stagetwo.main1.desc1": "&e Üretim öğesi. İleride bu öğeyi Induction Smelter kullanarak daha kolay üretebileceksiniz.",
+  
+  "faruk.stagetwo.main2.subtitle": "&6Güçlendirici",
+  "faruk.stagetwo.main2.desc1": "&e Makinenin performansını iyileştirir.",
+  
+  "faruk.stagetwo.main3.subtitle": "&6Çerçeve",
+  "faruk.stagetwo.main3.desc1": "&e Üretim öğesi.",
+  
+  "faruk.stagetwo.main4.subtitle": "&6Sawmill",
+  "faruk.stagetwo.main4.desc1": "&e Kütüklerden daha fazla ürün ve Sawdust elde edersiniz.",
+  
+  "faruk.stagetwo.main5.subtitle": "&6Daha iyi Pulverizer!",
+  "faruk.stagetwo.main5.desc1": "&e Eşyaları toz haline getirir.",
+  
+  "faruk.stagetwo.main6.subtitle": "&6Uncrafter",
+  "faruk.stagetwo.main6.desc1": "&e Bu makinenin nasıl çalıştığını öğrenmek için JEI'yi kontrol edebilirsiniz.",
+  
+  "faruk.stagetwo.main7.subtitle": "&6Powered Furnace",
+  "faruk.stagetwo.main7.desc1": "&e Fırın, ama RF kullanıyor.",
+  
+  "faruk.stagetwo.main8.subtitle": "&6Fluid Extractor",
+  "faruk.stagetwo.main8.desc1": "&e Bu makine, ağaçlardan sıvı çeker. Bu gerçek bir ağaç(saplingden büyütülmüş) olmalı, odunları koyup çalıştırırsanız çalışmaz. Her ağacın farklı bir sıvı üretimi vardır.  Daha fazla bilgi için JEI'ı kullanabilirsiniz.",
+  
+  "faruk.stagetwo.main9.subtitle": "&6Chiller",
+  "faruk.stagetwo.main9.desc1": "&e Bu makineyi lateksten kauçuk yapmak için kullanabilirsiniz.",
+  
+  "faruk.stagetwo.main10.subtitle": "&6Crystallize",
+  "faruk.stagetwo.main10.desc1": "&e Bu eşyayı faydalı şeyler yapmak için kullanabilirsiniz.",
+  
+  "faruk.stagetwo.main11.subtitle": "&6Melter",
+  "faruk.stagetwo.main11.desc1": "&e Katı maddeleri sıvıya dönüştürür.",
+  
+  "faruk.stagetwo.main12.subtitle": "&6Solidify",
+  "faruk.stagetwo.main12.desc1": "&e Yeni öğeler oluşturmak için sıvıları ve katı öğeleri kullanır.",
+  
+  "faruk.stagetwo.main13.subtitle": "&6Kauçuk",
+  "faruk.stagetwo.main13.desc1": "&e Crafting bileşeni.",
+  
+  "faruk.stagetwo.main14.subtitle": "&6İşlenmiş Kauçuk",
+  "faruk.stagetwo.main14.desc1": "&e Crafting bileşeni.",
+  
+  "faruk.stagetwo.main15.subtitle": "&6Kayalar Kadar Sert",
+  "faruk.stagetwo.main15.desc1": "&e Bir üretim bloğu.",
+  
+  "faruk.stagetwo.main16.subtitle": "&6Daha İyi Melter",
+  "faruk.stagetwo.main16.desc1": "&e Öğeleri eritir.",
+  
+  "faruk.stagetwo.main17.subtitle": "&6Distillation",
+  "faruk.stagetwo.main17.desc1": "&e Sıvıları başka sıvılara dönüştürür.",
+  
+  "faruk.stagetwo.main18.subtitle": "&6Coke Oven?",
+  "faruk.stagetwo.main18.desc1": "&e Daha hızlı Coal COke üretimi.",
+  
+  "faruk.stagetwo.main19.subtitle": "&6Daha Hızlı, Daha Kolay",
+  "faruk.stagetwo.main19.desc1": "&e Bir şeyleri basmanın hızlı ve kolay yolu.",
+  
+  "faruk.stagetwo.main20.subtitle": "&6Bu Aşama için Ana Makine",
+  "faruk.stagetwo.main20.desc1": "&e Yeni alaşımlar ve öğeler oluşturur.",
+  
+  "faruk.stagetwo.main21.subtitle": "&6Signalum",
+  "faruk.stagetwo.main21.desc1": "&e Üretim için yeni alaşım.",
+  
+  "faruk.stagetwo.main22.subtitle": "&eLumium",
+  "faruk.stagetwo.main22.desc1": "&e Üretim için yeni alaşım.",
+  
+  "faruk.stagetwo.main23.subtitle": "&3Enderium",
+  "faruk.stagetwo.main23.desc1": "&e Üretim için yeni alaşım.",
+  
+  "faruk.stagetwo.main24.subtitle": "&6Mega Güçlendirici",
+  
+  "faruk.stagetwo.main25.subtitle": "&6Ultra Mega Güçlendirici",
+  
+  "faruk.stagetwo.main26.subtitle": "&6Spirits(Ruhlar)?",
+  "faruk.stagetwo.main26.desc1": "&e Kendinizi geliştirmek için ruhsal kaynaklara ihtiyacınız var. Daha fazla bilgi için Occultism görevlerini kontrol edin.",
+  
+  "faruk.stagetwo.main27.subtitle": "&6Cloche'dan daha iyi",
+  "faruk.stagetwo.main27.desc1": "&e Çiftçilik yapmak için hızlı ve kolay bir yol.",
+  
+  "faruk.stagetwo.main28.subtitle": "&6Yeni batbox",
+  "faruk.stagetwo.main28.desc1": "&e Enerji depolama bloğu. Bu makineyi yükseltmek için Integram Component kullanabilirsin ve daha fazla depolama alanı için bu bloğu Holding büyüsüyle büyüleyebilirsin.",
+  
+  "faruk.stagetwo.main29.subtitle": "&6Yeni Tank",
+  "faruk.stagetwo.main29.desc1": "&e Sıvı depolama bloğu. Bu makineyi yükseltmek için Integram Component kullanabilir ve daha fazla depolama alanı için bu bloğu Holding büyüsüyle büyüleyebilirsin.",
+  
+  "faruk.stagetwo.main30.subtitle": "&6Talaş",
+  "faruk.stagetwo.main30.desc1": "&e Aşağıdaki öğeleri üretebilirsin.",
+  
+  "faruk.stagetwo.main31.subtitle": "&8Furnace Jeneratörü",
+  "faruk.stagetwo.main31.desc1": "&e RF üretmek için kömür, blaze çubuğu vb. malzemeler kullanır.",
+  
+  "faruk.stagetwo.main32.subtitle": "&bOven Generator",
+  "faruk.stagetwo.main32.desc1": "&e RF üretmek için yiyecekleri kullanır.",
+  
+  "faruk.stagetwo.main33.subtitle": "&6Fuel Generator",
+  "faruk.stagetwo.main33.desc1": "&e RF üretmek için yakıt kullanır.",
+  
+  "faruk.stagetwo.main34.subtitle": "&7Lava Generator",
+  "faruk.stagetwo.main34.desc1": "&e RF üretmek için lav kullanır.",
+  
+  "faruk.stagetwo.main35.subtitle": "&1Gem Generator",
+  "faruk.stagetwo.main35.desc1": "&e RF üretmek için değerli taşlar kullanır.",
+  
+  "faruk.stagetwo.main36.subtitle": "&5Magic Generator",
+  "faruk.stagetwo.main36.desc1": "&e RF üretmek için büyülü kitaplar kullanır.",
+  
+  "faruk.stagetwo.main37.subtitle": "&eMoney Generator",
+  "faruk.stagetwo.main37.desc1": "&e RF üretmek için madeni para kullanır.",
+  
+  "faruk.stagetwo.main38.subtitle": "&8&l&oStage Three'ye Terfi Et!",
+  "faruk.stagetwo.main38.desc1": "&e Stage Two için son görev! Bu onay işaretine tıklayın!",
+  
+  
+  
+  
+  "faruk.stagetwo.magic1.subtitle": "&6Lanetli Tohumlar",
+  "faruk.stagetwo.magic1.desc1": "&e Çimleri kırarak biraz tohum elde edin.",
+  
+  "faruk.stagetwo.magic2.subtitle": "&6Ruhlar Kitabı",
+  "faruk.stagetwo.magic2.desc1": "&e Occultism için rehberiniz.",
+  
+  "faruk.stagetwo.magic3.subtitle": "&6Lanetli Meyveler",
+  "faruk.stagetwo.magic3.desc1": "&e Şeytan tohumlarını tarım arazilerinde büyüt ve ye. Tüketmek geçici olarak Üçüncü Göz efekti verir..",
+  
+  "faruk.stagetwo.magic4.subtitle": "&6Üçüncü Göz Etkisi",
+  "faruk.stagetwo.magic4.desc1": "&e Bir Şeytan tohumundan elde ettiğiniz Rüya Meyvesini yemek, size Üçüncü Göz efekti verebilir. Bu etkiyi elde ettiğinizde, diğer dünya materyallerini görmenizi ve bunlarla etkileşim kurmanızı sağlar.",
+  
+  "faruk.stagetwo.magic5.subtitle": "&6Ruh Ateşi",
+  "faruk.stagetwo.magic5.desc1": "&e Demon's Dream Fruit'i yere atın ve üzerine ateş yakın.",
+  
+  "faruk.stagetwo.magic6.subtitle": "&6Mücevher Ruhu",
+  "faruk.stagetwo.magic6.desc1": "&e Spirit Fire'a biraz elmas atın.",
+  
+  "faruk.stagetwo.magic7.subtitle": "&6Casusları Bulma",
+  "faruk.stagetwo.magic7.desc1": "&e Çubuğu kullanmak için, Otherwood için Oak Log'a, Otherstone için Andezit'e shift ile sağ tıklayın. Ardından bir süre sağ tıklamayı basılı tutun ve çubuk yakındaki gizlenmiş blokları vurgulayacaktır.",
+  "faruk.stagetwo.magic7.desc2": "&e Not: Otherworld materyallerini kazmak için Üçüncü Göz efektine sahip olmalısınız.",
+  
+  "faruk.stagetwo.magic8.subtitle": "&6Yeraltı Koruları",
+  "faruk.stagetwo.magic8.desc1": "&e Yeraltında Occultism'den kalma yemyeşil mağaralar bulabilirsiniz. Bu mağaralarda birçok Otherworld bloğu bulabilirsiniz.",
+  
+  "faruk.stagetwo.magic9.subtitle": "&6Gözlük",
+  "faruk.stagetwo.magic9.desc1": "&e Otherworld gözlükleri için Bileşen.",
+  
+  "faruk.stagetwo.magic10.subtitle": "&6Gizli Günlükler",
+  "faruk.stagetwo.magic10.desc1": "&e Onları bulmak için Divination Rod'u kullanın.",
+  
+  "faruk.stagetwo.magic11.subtitle": "&6Gizli Taşlar",
+  "faruk.stagetwo.magic11.desc1": "&e Onları bulmak için Divination Rod kullanın veya Andezitleri Spirit Fire'a atın.",
+  
+  "faruk.stagetwo.magic12.subtitle": "&6Ritüeller",
+  "faruk.stagetwo.magic12.desc1": "&e Ritüel yapmaya başlamak için kaselere ihtiyacınız var.",
+  
+  "faruk.stagetwo.magic13.subtitle": "&6Otherstone Külleri",
+  "faruk.stagetwo.magic13.desc1": "&e Fırında bir şey mi unuttun?",
+  
+  "faruk.stagetwo.magic14.subtitle": "&6Otherwood Külleri",
+  "faruk.stagetwo.magic14.desc1": "&e Fırında bir şey mi unuttun?",
+  
+  "faruk.stagetwo.magic15.subtitle": "&6Daha fazla saflığa ihtiyaç var",
+  "faruk.stagetwo.magic15.desc1": "&e Spirit Fire'ın içine atın.",
+  
+  "faruk.stagetwo.magic16.subtitle": "&6Biz Ona Sanat Diyoruz!",
+  "faruk.stagetwo.magic16.desc1": "&e Bu tebeşirle semboller çizebilirsiniz.",
+  
+  "faruk.stagetwo.magic17.subtitle": "&6Aynı Sanat ama Altın!",
+  "faruk.stagetwo.magic17.desc1": "&e Daha fazla ritüel gerçekleştirmek için altın tebeşire ihtiyacınız var.",
+  
+  "faruk.stagetwo.magic18.subtitle": "&6Lenslerinizi infüze edin!",
+  "faruk.stagetwo.magic18.desc1": "&e Ritüelinizi hazırlamak için Spirits of Dictionary'nizi açın, Pentacles'e tıklayın ve ardından hangi ritüeli yapacağınızı seçin(JEI'de hangi ritüele ihtiyacınız olduğunu görebilirsiniz). Ardından görselleştir'e tıklayın (sol alt köşedeki göz simgesi). Ritüel yapmak istediğiniz yere sağ tıklayın.",
+  "faruk.stagetwo.magic18.desc2": "&f Tebeşirlerinizi alın ve sembollerinizi yere çizin. Çanaklarınızı sahadaki boş blokların ve üzerindeki eşyaların üzerine yerleştirin.",
+  
+  "faruk.stagetwo.magic19.subtitle": "&6Overworld'de Endstone!",
+  "faruk.stagetwo.magic19.desc1": "&e Ritüelinizi hazırlamak için Spirits of Dictionary'nizi açın, Pentacles'e tıklayın ve ardından hangi ritüeli yapacağınızı seçin(JEI'de hangi ritüele ihtiyacınız olduğunu görebilirsiniz). Ardından görselleştir'e tıklayın (sol alt köşedeki göz simgesi). Ritüel yapmak istediğiniz yere sağ tıklayın.",
+  "faruk.stagetwo.magic19.desc2": "&f Tebeşirlerinizi alın ve sembollerinizi yere çizin. Çanaklarınızı sahadaki boş blokların ve üzerindeki eşyaların üzerine yerleştirin.",
+  "faruk.stagetwo.magic19.desc3": "&e Bu ritüel bir endermite doğurur ve onu öldürürseniz, End'e gitmeden End Taşı elde edebilirsin.",
+  
+  "faruk.stagetwo.magic20.subtitle": "&6Macerator ama Yaşıyor!",
+  "faruk.stagetwo.magic20.desc1": "&e Ritüelinizi hazırlamak için Spirits of Dictionary'nizi açın, Pentacles'e tıklayın ve ardından hangi ritüeli yapacağınızı seçin(JEI'de hangi ritüele ihtiyacınız olduğunu görebilirsiniz). Ardından görselleştir'e tıklayın (sol alt köşedeki göz simgesi). Ritüel yapmak istediğiniz yere sağ tıklayın.",
+  "faruk.stagetwo.magic20.desc2": "&f Tebeşirlerinizi alın ve sembollerinizi yere çizin. Bowl'ları sahadaki boş blokların ve üzerindeki eşyaların üzerine yerleştirin.",
+  "faruk.stagetwo.magic20.desc3": "&e Bu ritüel bir foliot oluşturur. Yere attığınız her şeyi parçalar.. Bu foliot'un seviyeleri vardır, ayrıntıları JEI'de görebilirsiniz. UYARI: Foliot konusunda dikkatli olunuz. Menzilinde yere düşenher öğeyi alır. Onu bir çit'e bağlamak için halat kullanabilirsiniz.",
+  
+  "faruk.stagetwo.magic21.subtitle": "&6Pudge'ın Hatırası",
+  "faruk.stagetwo.magic21.desc1": "&e Bu bıçakla öldürdüğün hayvanların iç yağını elde etmelisin.",
+  
+  "faruk.stagetwo.magic22.subtitle": "&6Bunlarla evinizi aydınlatabilirsiniz!",
+  "faruk.stagetwo.magic22.desc1": "&e Bu bir ışık kaynağıdır, aynı zamanda bir ritüel bir malzemesidir.",
+  
+  "faruk.stagetwo.magic23.subtitle": "&6Otherstone'a mı ihtiyacınız var?",
+  "faruk.stagetwo.magic23.desc1": "&e Daha fazla bilgi için JEI'yi kontrol edebilirsiniz.",
+  
+  "faruk.stagetwo.magic24.subtitle": "&6Otherwood'a mı ihtiyacınız var?",
+  
+  "faruk.stagetwo.magic25.subtitle": "&6Bir Papağan Evcilleştir!",
+  "faruk.stagetwo.magic25.desc1": "&e Papağanı sevebilirsin ancak onu büyük bir amaç için feda etmelisin!",
+  
+  "faruk.stagetwo.magic26.subtitle": "&6Can Yoldaşlar!",
+  "faruk.stagetwo.magic26.desc1": "&e Can yoldaşarınız size birçok özellik verir. Multijump V, Slow Falling vb. Bunu kesinlikle denemelisin!",
+  
+  "faruk.stagetwo.magic27.subtitle": "&6Sonsuzluğun Tozu!",
+  "faruk.stagetwo.magic27.desc1": "&e Bu tozu yapmak için foliot kullanmalısın.",
+  
+  "faruk.stagetwo.magic28.subtitle": "&6Aynı Sanat ama Mor!",
+  "faruk.stagetwo.magic28.desc1": "&e Bazı ritüeller mor semboller kullanır.",
+  
+  "faruk.stagetwo.magic29.subtitle": "&6Daha Havalı Görünüyorsun!",
+  "faruk.stagetwo.magic29.desc1": "&e Bu gözlük size Otherworld'ten gelen tüm öğeleri her zaman görme yeteneği verir.",
+  
+  "faruk.stagetwo.magic30.subtitle": "&6Yepyeni Kazma",
+  "faruk.stagetwo.magic30.desc1": "&e Iesnium Pickaxe yapmak için Infused Pickaxe'e ihtiyacınız var. Bu kazma olmadan iesnium cevheri çıkarırsan, yalnızca normal netherrack alırsın.",
+  
+  "faruk.stagetwo.magic31.subtitle": "&6Nether'a!",
+  "faruk.stagetwo.magic31.desc1": "&e Biraz Demon's Fruit ye veya gizlenmiş Iesnium Cevherlerini görmek için gözlüklerinizi tak. Bu cevherleri Infused Pickaxe ile kazmalısın.",
+  
+  "faruk.stagetwo.magic32.subtitle": "&6Madencilik boyutu",
+  "faruk.stagetwo.magic32.desc1": "&e Bu eşyayı üret ve bir Ruh Lambası ile birleştir. Tada! Maden Ocağın hazır.",
+  
+  "faruk.stagetwo.magic33.subtitle": "&6Neredesin Alaaddin?",
+  "faruk.stagetwo.magic33.desc1": "&e Bu lambayı yap ve Aladdin'in en iyi arkadaşını bul.",
+  
+  "faruk.stagetwo.magic34.subtitle": "&6Ucuz İşçi",
+  "faruk.stagetwo.magic34.desc1": "&e Ore Miner'ın ucuz versiyonu.",
+  
+  "faruk.stagetwo.magic35.subtitle": "&6Daha İyi İşçiler",
+  "faruk.stagetwo.magic35.desc1": "&e Balkanlar ve Ortadoğu'nun en iyi Cin'i!",
+
+
+
+
+
+  "faruk.stagethree.main1.subtitle": "&6Yeni Alaşımlar!",
+  "faruk.stagethree.main1.desc1": "&e Pewter, yolculuğunuz için yeni bir kilometre taşı! Bu aşamada, bu karışımı yapmak için Blood Magic'i kullanmalısınız, ancak gelecekte onu yapmanın yeni yollarını bulacaksınız.",
+  
+  "faruk.stagethree.main2.subtitle": "&6İletkenlikte İyi!",
+  "faruk.stagethree.main2.desc1": "&e Bu büyülü külçe aynı anda hem ritüellerde hem de makinelerde iyidir!",
+  
+  "faruk.stagethree.main3.subtitle": "&6Idustry Yeniden Yüklendi!",
+  "faruk.stagethree.main3.desc1": "&e IF için ana bileşen.",
+  
+  "faruk.stagethree.main4.subtitle": "&6Latex ama Diğeri.",
+  "faruk.stagethree.main4.desc1": "&e Bu makinenin önüne bir kütük yerleştirin (Acacia Logs en iyisidir). Bu makineye FE ile güç verdiğinizde Latex üretimini artıracaktır. Processing upgrade de işe yarayacaktır.",
+  
+  "faruk.stagethree.main5.subtitle": "&6Rubber ama Diğeri",
+  "faruk.stagethree.main5.desc1": "&e Bu makineye latex ve su verin, Tiny Dry Rubber elde edeceksiniz.",
+  
+  "faruk.stagethree.main6.subtitle": "&6Endüstri Devrimi!",
+  "faruk.stagethree.main6.desc1": "&e IF için bir başka ana üretim bileşeni.",
+  
+  "faruk.stagethree.main7.subtitle": "&6Elektronik Üretim",
+  "faruk.stagethree.main7.desc1": "&e IF için üretim makinesi.",
+  
+  "faruk.stagethree.main8.subtitle": "&6Basit Çözümler",
+  "faruk.stagethree.main8.desc1": "&e Basit makineler için basit blok.",
+  
+  "faruk.stagethree.main9.subtitle": "&6Şu Anda Gereksiz...",
+  "faruk.stagethree.main9.desc1": "&e Bu bloğu Simple Machine Frame ile oluşturabilirsiniz ancak bu makineyi çalıştırmak için Laser Base'e ihtiyacınız var.",
+  
+  "faruk.stagethree.main10.subtitle": "&6Zombi Eti!",
+  "faruk.stagethree.main10.desc1": "&e Bu makine, IF için başka bir kilometre taşıdır. Bu makine ile mobları öldürün ve Pink Slime ve Liquid Meat elde edin. &6Açlık barını doldurmak için Liquid meat tüketilebilir. &dPink slime IF için bir üretim sıvısıdır.",
+  
+  "faruk.stagethree.main11.subtitle": "&6Otomatik Besleyici",
+  "faruk.stagethree.main11.desc1": "&e Bu öğeyi Liquid Meat ile doldurun, sizi otomatik olarak besleyecektir.",
+  
+  "faruk.stagethree.main12.subtitle": "&6Gelişmiş Çözümler",
+  "faruk.stagethree.main12.desc1": "&e Gelişmiş makineler için gelişmiş blok.",
+  
+  "faruk.stagethree.main13.subtitle": "&6Ether Gas!",
+  "faruk.stagethree.main13.desc1": "&e Ether Gas'ın zorlu bir sürece ihtiyacı var. Öncelikle Fluid Laser Base'inizi yerleştirin ve laser drill'leri bir blok boşluk bırakarak 4 yanına yerleştirin. Ardından stasis chamber'ı laser drill'in en az 5 blok altına yerleştirin. Ve tüm makinelere güç sağlayın ve stasis chamber üzerinde bir Wither üretin. Fluid drill Ether Gas'ı witherdan toplayacaktır.",
+  
+  "faruk.stagethree.main14.subtitle": "&5Üstün Çözümler",
+  "faruk.stagethree.main14.desc1": "&d Üstün makineler için Üstün blok.",
+  
+  "faruk.stagethree.main15.subtitle": "&6Dolly üretici",
+  "faruk.stagethree.main15.desc1": "&e Imprisonment Tool ile bir mob'u yakalayın ve Mob Crusher'dan biraz Essence alın. Her şey doğruysa, biraz RF ve Essence kullanarak mob'ları yaratacaksınız.",
+  
+  "faruk.stagethree.main16.subtitle": "&6Spawner Otomasyon Makinesi",
+  "faruk.stagethree.main16.desc1": "&e Bölgedeki mob'ları öldürür ve mob droplarını toplar ancak bu makineden EXP alamazsınız çünkü bu makine EXP'yi Essence'e dönüştürür.",
+  
+  "faruk.stagethree.main17.subtitle": "&6Bir Taş Ocağı",
+  "faruk.stagethree.main17.desc1": "&e Bu bloğu yerleştirin, ardından laser drill'leri bir blok boşluk bırakarak 4 yanına yerleştirin.",
+  
+  "faruk.stagethree.main18.subtitle": "&6Otomatik Wither Farmı",
+  "faruk.stagethree.main18.desc1": "&e Bu makineye Wither Skeleton Skulls ve Soul Sand sağlayın, ardından otomatik olarak wither yaratabilirsiniz.",
+  
+  "faruk.stagethree.main19.subtitle": "&6Yükseltilmiş Menzil",
+  "faruk.stagethree.main19.desc1": "&e Bu yükseltme, makinenin çalışma aralığını artırır.",
+  
+  "faruk.stagethree.main20.subtitle": "&6Verimlilik Yükseltmesi",
+  "faruk.stagethree.main20.desc1": "&e Bu yükseltme, malzemelerin üretim miktarını artırır.",
+  
+  "faruk.stagethree.main21.subtitle": "&6Işıktan Daha Hızlı!",
+  "faruk.stagethree.main21.desc1": "&e Bu yükseltme, makinenin çalışma hızını artırır.",
+  
+  "faruk.stagethree.main22.subtitle": "&6A+ Enerji Yükseltmesi",
+  "faruk.stagethree.main22.desc1": "&e Bu yükseltme, makinenin enerji kullanımını azaltır.",
+  
+  "faruk.stagethree.main23.subtitle": "&6Üretim Kazanı",
+  "faruk.stagethree.main23.desc1": "&e Sadece eşyaları doğru sırayla kazana atın. Daha fazla bilgi için JEI'yi kontrol edin.",
+  
+  "faruk.stagethree.main24.subtitle": "&6Cadının Altını!",
+  "faruk.stagethree.main24.desc1": "&e Bu külçeyi Crucible'da veya Blood Magic'in Alchemy Table'ında üretebilirsiniz.",
+  
+  "faruk.stagethree.main25.subtitle": "&6Şekilli Altın",
+  "faruk.stagethree.main25.desc1": "&e Üretim bileşeni.",
+  
+  "faruk.stagethree.main26.subtitle": "&6Moddaki En İyi Blok",
+  "faruk.stagethree.main26.desc1": "&e Soul enchanter, nesneleri büyülemek için EXP ve Soul Shard kullanır. Ve evet, aynı eşyayı birden fazla kez büyüleyebilirsiniz!",
+  
+  "faruk.stagethree.main27.subtitle": "&6Yeni Mekanik!",
+  "faruk.stagethree.main27.desc1": "&e Yeni üretim mekaniği, feda etmeyi gerektirir.",
+  
+  "faruk.stagethree.main28.subtitle": "&6Offering Hand",
+  "faruk.stagethree.main28.desc1": "&e Brazier ile yapılan ritueller  için gereklidir.",
+  
+  "faruk.stagethree.main29.subtitle": "&5Ruh Parçacıkları!",
+  "faruk.stagethree.main29.desc1": "&e Braizer ve 2 Stone Hand'i yerleştir. Bir ölümsüz canavarı (Wraith, Skeleton veya Wither Skeleton) yakalayın.",
+  "faruk.stagethree.main29.desc2": "&e Her bir stone hand'in üzerine Kızıltaş ve Braizer'ın içine kemik tozu yerleştirin. Daha sonra çakmakla Braizer'ı yak!",
+  "faruk.stagethree.main29.desc3": "&e NOT: Enchanted ash'i bir dikdörtgen veya kare çizmek için kullanabilirsiniz, ölümsüz moblar bu çizginin üzerinden geçemez ve hapsolur.",
+  
+  "faruk.stagethree.main30.subtitle": "&0Karanlıkların Kristali",
+  "faruk.stagethree.main30.desc1": "&e Üretim bileşeni.",
+  
+  "faruk.stagethree.main31.subtitle": "&6Büyülü İpek",
+  "faruk.stagethree.main31.desc1": "&e Üretim Bileşeni.",
+  
+  "faruk.stagethree.main32.subtitle": "&6Ölümün Parmağı",
+  "faruk.stagethree.main32.desc1": "&e Çok güçlü bir eşya, Faruk'un özel tavsiyesi!",
+  
+  "faruk.stagethree.main33.subtitle": "&6Birinci Altar",
+  "faruk.stagethree.main33.desc1": "&e 6 Ahşap Altar bloğunu 3x2 olarak yerleştir. Ve Straw Effigy'i, Işık kaynaklarını, Kafataslarını, Bitkilerini ve Goblet'i yerleştir. Her öğe kapasite ve gücü artırır.",
+  "faruk.stagethree.main33.desc2": "&e Karanlık Lord'a dua etmek için Ars Ecclesica'nı bir Cadı'ya yaklaşıp kitabı ona doğru atman gerekir. Cadı bu kitabı yerden alıp okuyacak ve sen de ilk işaretini öğrenmiş olacaksın.",
+  
+  "faruk.stagethree.main34.subtitle": "&6Kapasite ve Güç",
+  "faruk.stagethree.main34.desc1": "&e Altar için bazı süslemeler yerleştirebilirsin. Her öğe daha fazla Kapasite ve Güç verir.",
+  
+  "faruk.stagethree.main35.subtitle": "&6Karanlık Dua",
+  "faruk.stagethree.main35.desc1": "&e İlk duanızı yapmak için Altar'a git ve Dark Prayer duasını yap, başarılı olursan yeni bir işaret alırsın. Eğer yapamadıysan yarına kadar beklemek zorundasın çünkü günde sadece bir kez dua edebilirsin.(Yaratıcı modda dua konusunda sınır yoktur.)",
+  
+  "faruk.stagethree.main36.subtitle": "&6Bir Hayvanı Kurban Et",
+  "faruk.stagethree.main36.desc1": "&e İkinci duanızı yapmak için bir Goblet yapıp Altar'a yerleştirmelisin. Sonra bir domuz yakala ve onu sunağın önünde öldür. Goblet kanla dolacak, bu sayede yeni bir sembol öğreneceksin.",
+  
+  "faruk.stagethree.main37.subtitle": "&6Ruh İşareti",
+  "faruk.stagethree.main37.desc1": "&e Yere bir Pewter Inlay at ardından Touch of Darkness duasını yap, bu sayede bir Unholy Symbol elde edeceksin.",
+  
+  "faruk.stagethree.main38.subtitle": "&6Ruh Biçici",
+  "faruk.stagethree.main38.desc1": "&e Bu güçlü araçla undead ruhlarını hasat edebilirsiniz. Bu silahla bir Undead öldürdüğünüzde, Soul Shard düşecektir.. Silahtaki yağma büyüsünün seviyesi, düşen Soul Shard miktarını etkiler.",
+  
+  "faruk.stagethree.main39.subtitle": "&6Biraz Sanat ve Nostalji",
+  "faruk.stagethree.main39.desc1": "&e Bu Minyatür Twilight Trophy 'sini yapın ve kendinizle gurur duyun.",
+
+
+
+
+
+  "faruk.stagethree.storage1.subtitle": "&6En Önemli Şey",
+  "faruk.stagethree.storage1.desc1": "&e Silikon üretmek için Material Stonework Factory kullanmalısın ama merak etme gelecekte çok daha kolay üreteceksiniz.",
+  
+  "faruk.stagethree.storage2.subtitle": "&6Ham Mavi Şey",
+  "faruk.stagethree.storage2.desc1": "&e Crafting bileşeni.",
+  
+  "faruk.stagethree.storage3.subtitle": "&6Ham Gri Şey",
+  
+  "faruk.stagethree.storage4.subtitle": "&6Ham Sarı Şey",
+  
+  "faruk.stagethree.storage5.subtitle": "&6Gri Şey",
+  
+  "faruk.stagethree.storage6.subtitle": "&6Mavi Şey",
+  
+  "faruk.stagethree.storage7.subtitle": "&6Gökyüzü Mavisi Şey",
+  
+  "faruk.stagethree.storage8.subtitle": "&6Kırmızı Şey",
+  
+  "faruk.stagethree.storage9.subtitle": "&6Sarı Şey",
+  
+  "faruk.stagethree.storage10.subtitle": "&6ME Sistemin Kalbi",
+  "faruk.stagethree.storage10.desc1": "&e Controller, ME sisteminin ana parçasıdır. Sistemde sadece bir Controllera ihtiyacın var ve bu Controllera da FE sağlamalısın.",
+  
+  "faruk.stagethree.storage11.subtitle": "&6Depolama Alanı",
+  "faruk.stagethree.storage11.desc1": "&e Sistemin için dijital depolama alanı.",
+  
+  "faruk.stagethree.storage12.subtitle": "&6Uzun Mesafe İlişkisi",
+  "faruk.stagethree.storage12.desc1": "&e Uzak bir alana bir Network Reciever yerleştir, ardından Network Card ile Sağ Tıkla. Ana sistemine bir Network Transmitter yerleştirdikten sonra içine Network Card'ı at. Newtork Reciever'a chunkload atmayı unutma!",
+  
+  "faruk.stagethree.storage13.subtitle": "&6Importer",
+  "faruk.stagethree.storage13.desc1": "&e Importerlar, bağlı depodan öğeleri çeker.",
+  
+  "faruk.stagethree.storage14.subtitle": "&6İyi Importer",
+  "faruk.stagethree.storage14.desc1": "&e Normal Importer ile aynı hızda ama 2 kat daha fazla filtre slotuna sahip",
+  
+  "faruk.stagethree.storage15.subtitle": "&6Daha İyi Importer",
+  "faruk.stagethree.storage15.desc1": "&e Advanced ile aynı sayıda filtre slotuna sahip fakat 2 kat daha hızlı.",
+  
+  "faruk.stagethree.storage16.subtitle": "En İyi Importer",
+  "faruk.stagethree.storage16.desc1": "&e Normal'den 4 kat daha fazla filtre slotuna sahip, 6 kat daha hızlı üstelik kendinden Stack Upgradeli.",
+  
+  "faruk.stagethree.storage17.subtitle": "&6Exporter",
+  "faruk.stagethree.storage17.desc1": "&e Exporterlar, öğeleri bağlı depoya yollar.",
+  
+  "faruk.stagethree.storage18.subtitle": "&6İyi Exporter",
+  "faruk.stagethree.storage18.desc1": "&e Normal Exporter ile aynı hız, 2 kat daha fazla filtre slotu.",
+  
+  "faruk.stagethree.storage19.subtitle": "&6Daha İyi Exporter",
+  "faruk.stagethree.storage19.desc1": "&e Advanced ile aynı filtre slotuna sahip ama 2 kat daha hızlı.",
+  
+  "faruk.stagethree.storage20.subtitle": "&6En İyi Exporter",
+  "faruk.stagethree.storage20.desc1": "&e Normal'den 4 kat daha fazla filtre slotu, 6 kat daha hızlı üstelik kendinden Stack Upgradeli .",
+  
+  "faruk.stagethree.storage21.subtitle": "&6Sandıklar Sisteme!",
+  "faruk.stagethree.storage21.desc1": "&e Harici Depolamayı bir depolama bloğuna (sandıklar, çekmeceler vb.) bağlarsanız, bu depolama bloğunu sistemde kullanabilir ve içeriğine ızgaralar üzerinden erişilebilir.",
+  
+  "faruk.stagethree.storage22.subtitle": "&6Constructor",
+  "faruk.stagethree.storage22.desc1": "&e Sistemden, dünyaya bloklar inşa eder. Bunu otomasyonlar için kullanabilirsin.",
+  
+  "faruk.stagethree.storage23.subtitle": "&6Daha İyi Constructor",
+  "faruk.stagethree.storage23.desc1": "&e 2 slota sahip ve 2 kat daha hızlı.",
+  
+  "faruk.stagethree.storage24.subtitle": "&6En İyi Constructor",
+  "faruk.stagethree.storage24.desc1": "&e 4 Slot, 6 Kat Daha Hızlı.",
+  
+  "faruk.stagethree.storage25.subtitle": "&6Destructor",
+  "faruk.stagethree.storage25.desc1": "&e Destructor önündeki blokları kırar.",
+  
+  "faruk.stagethree.storage26.subtitle": "&6Daha İyi Destructor",
+  "faruk.stagethree.storage26.desc1": "&e 2 Slot, 2 Kat Daha Hızlı.",
+  
+  "faruk.stagethree.storage27.subtitle": "&6En İyi Destructor",
+  "faruk.stagethree.storage27.desc1": "&e 4 Yuva, 6 Kat Daha Hızlı.",
+  
+  "faruk.stagethree.storage28.subtitle": "&6Interface",
+  "faruk.stagethree.storage28.desc1": "&e Importer ile karşılaştırıldığında Interface, öğeleri almak ve bunları içe aktarmak için (Pipelar, Hopperlar vb. yoluyla) dahili bir envantere sahiptir. Interface, öğeleri, envanterden otomatik olarak çıkarmaz, bunları kablolama yöntemiyle Interface'e göndermeniz gerekir.",
+  "faruk.stagethree.storage28.desc2": "&7 Öğeleri, sistemden dışa aktarma seçeneği de mevcut. Bu öğeler, başka bir moda ait bir kablolama sistemi aracılığıyla dışarı aktarılabilir.",
+  
+  "faruk.stagethree.storage29.subtitle": "&6Requester",
+  "faruk.stagethree.storage29.desc1": "&e Requester, ürünlerin stoğunu tutabilir. Sisteminde her zaman 300 taşın hazır olmasını istiyorsan, Requester bunu yapabilir.",
+  
+  "faruk.stagethree.storage30.subtitle": "&6Daha İyi Requester",
+  "faruk.stagethree.storage30.desc1": "&e 18 slot ve 2 kat daha hızlı.",
+  
+  "faruk.stagethree.storage31.subtitle": "&6En İyi Requester",
+  "faruk.stagethree.storage31.desc1": "&e 36 slo ve 6 kat daha hızlı.",
+  
+  "faruk.stagethree.storage32.subtitle": "&6Monitör",
+  "faruk.stagethree.storage32.desc1": "&e Disk sürücüne ve bağlı harici depolarındaki öğelere erişmek için Grid'i kullanabilirsin.",
+  
+  "faruk.stagethree.storage33.subtitle": "&6Sıvı Monitörü",
+  "faruk.stagethree.storage33.desc1": "&e Normal Grid ile aynı, ancak sıvılar için.",
+  
+  "faruk.stagethree.storage34.subtitle": "&6Tankları unutun!",
+  "faruk.stagethree.storage34.desc1": "&e Sıvılar için depolama çözümü. Normal depolama diskleriyle aynı.",
+  
+  "faruk.stagethree.storage35.subtitle": "&6Otomatik Üretim Zamanı!",
+  "faruk.stagethree.storage35.desc1": "&e Desen ızgarasında, otomatik üretim için desen oluşturma veya işleme desenleri oluşturabilirsiniz.",
+  
+  "faruk.stagethree.storage36.subtitle": "&6Craft Tarif Belleği",
+  "faruk.stagethree.storage36.desc1": "&e Pattern'lere herhangi bir öğenin yapılışını öğretebilir ve üretimi otomatikleştirebilirsin.",
+  
+  "faruk.stagethree.storage37.subtitle": "&6Sonunda Otocrafter!",
+  "faruk.stagethree.storage37.desc1": "&e Çalışma masasında yapılabilen bir item yapmak istiyorsan Crafter'ı herhangi bir yere koy ama yapılması için makine gerektiriyorsa o makinenin bitişiğine koymalısın.",
+  
+  "faruk.stagethree.storage38.subtitle": "&6İyi Crafter",
+  "faruk.stagethree.storage38.desc1": "&e Aynı hız, 27 Slot.",
+  
+  "faruk.stagethree.storage39.subtitle": "&6Daha İyi Crafter",
+  "faruk.stagethree.storage39.desc1": "&e 5x Hız, 45 Slot.",
+  
+  "faruk.stagethree.storage40.subtitle": "&6En İyi Crafter",
+  "faruk.stagethree.storage40.desc1": "&e 25x Hız, 63 Slot.",
+  
+  "faruk.stagethree.storage41.subtitle": "&6Bunu Önermiyoruz.",
+  "faruk.stagethree.storage41.desc1": "&e 125x Hız, 81 Yuva. Ancak sunucularda gecikmeye neden olur.",
+  
+  "faruk.stagethree.storage42.subtitle": "&6Durumunu İzley",
+  "faruk.stagethree.storage42.desc1": "&e Bu makine ile devam etmekte olan işlemlerin durumunu kontrol edebilirsin.",
+  
+  "faruk.stagethree.storage43.subtitle": "&6Tüm ağ, tek bir makinede...",
+  "faruk.stagethree.storage43.desc1": "&e Bu makine ile sistemdeki tüm Crafter'lara erişebilirsin. Eğer Örs ile Crafter'ının adını değiştirirsen, Crafter Manager, bu Crafter'a o ismi atayacaktır.",
+  
+  "faruk.stagethree.storage44.subtitle": "&6En Harika Şey...",
+  "faruk.stagethree.storage44.desc1": "&e Grid ile aynı, ancak çalışma masası var!",
+  
+  "faruk.stagethree.storage45.subtitle": "&6Uzaktan Erişim",
+  "faruk.stagethree.storage45.desc1": "&e Bu vericiyi sisteminin herhangi bir yerine yerleştir ve ardından Wireless Grid oluştur, artık sistemine kablosuz olarak erişebilirsin!",
+  
+  "faruk.stagethree.storage46.subtitle": "&16 Blok Yeterli Değil!",
+  "faruk.stagethree.storage46.desc1": "&e Bunu Wireless Transmitter'a yerleştir, böylelikle sistemin menzilini artırabilirsin.",
+  
+  "faruk.stagethree.storage47.subtitle": "&6Envantere Kablosuz Erişim",
+  "faruk.stagethree.storage47.desc1": "&e Wireless Grid'ini şarj et ve Controller'a bakarken Eğilme Tuşu +Sağ Tık yap!",
+  
+  "faruk.stagethree.storage48.subtitle": "&6Envantere ve Masaya Kablosuz Erişim",
+  "faruk.stagethree.storage48.desc1": "&e Wireless Crafting Grid'ini şarj et ve Controller'a Eğilme Tuşu +Sağ tık yap.",
+  
+  "faruk.stagethree.storage49.subtitle": "&6Sıvılara Kablosuz Erişim",
+  "faruk.stagethree.storage49.desc1": "&e Wireless Grid'le aynı ama sıvılar için olanı!",
+  
+  "faruk.stagethree.storage50.subtitle": "&6Her şeye Hükmeden Tek Bir Kumanda",
+  "faruk.stagethree.storage50.desc1": "&e Sol üst köşeden farklı arayüzler arasında geçiş yapabilirsin.",
+  
+  "faruk.stagethree.storage51.subtitle": "&6Sınırsız Menzil",
+  "faruk.stagethree.storage51.desc1": "&e Sistemine dünyanın her yerinden erişebilirsin. (4.000 p/t).",
+  
+  "faruk.stagethree.storage52.subtitle": "&6Tüm Evren!",
+  "faruk.stagethree.storage52.desc1": "&e Sisteminie her boyuttan erişebilirsin. (8.000 p/t)",
+  
+  "faruk.stagethree.twilight1.subtitle": "&6Penguenler nereye gitti?",
+  "faruk.stagethree.twilight1.desc1": "&e Alacakaranlık Ormanı, mistik ormanlarla dolu sonsuz bir dünyadır.",
+  "faruk.stagethree.twilight1.desc2": "&e Bazen gölgelik seviyesinin çok üzerinde yükselen Tepeler ile karşılaşacaksınız. Değerli cevherler, hazineler ve tehlikeli canavarlarla dolu Mağaralar içeren bu tepeler de oyuktur.",
+  "faruk.stagethree.twilight1.desc3": "&e Ayrıca Alacakaranlık Ormanı diyarındaki seyahatleriniz boyunca birçok farklı zindan, patron, yapı, ağaç ve sayısız benzersiz eşyayla karşılaşabilirsin. Keşfedilecek çok şey var.",
+  "faruk.stagethree.twilight1.desc4": "&c Ayrıca penguenler de var!",
+  
+  "faruk.stagethree.twilight2.subtitle": "&2Dev Yılan!",
+  "faruk.stagethree.twilight2.desc1": "&e Alacakaranlık Ormanı modunda kuleler ve zindanlar bir sıraya göre ayarlanmıştır ve bir adımı bitirmek bir sonraki adımın kilidini açacaktır.",
+  "faruk.stagethree.twilight2.desc2": "&e &2Naga&r&e, yosunlu taşlarla bezenmiş taş bir avluda bulunabilir. &2Naga&r&e avlu duvarlarını kolayca yıkabilir. Unutma! Bir sonraki zindana girebilmek için &aNaga&r&e'dan düşen &aNaga Scales&r&e'a ihtiyacın olacak.",
+  
+  "faruk.stagethree.twilight3.subtitle": "&6Devrilmiş Kral",
+  "faruk.stagethree.twilight3.desc1": "&e &6Alacakaranlık Lich&r&e'i kendi kulesinde bulabilirsin. Unutma! Naga'yı öldürmeden bu kuleye giremezsin.",
+  "faruk.stagethree.twilight3.desc2": "&e &6Lich'r&e'yi öldürmek ve onun sihirli asalarından birini elde etmek, keşfedilecek bir sonraki alanı, &6The Swamp&r&e'ı açacak!",
+  
+  "faruk.stagethree.twilight4.subtitle": "&6Ana Kayadan Daha Sert!",
+  "faruk.stagethree.twilight4.desc1": "&e Labirentte bulunan Mazebreaker, yalnızca hazine sandıklarında bulunur. Mazestone'u herhangi bir kazma ile kırmak kazmanın dayanıklılığını 16 kat daha hızlı düşürürken, Mazebraker sadece 1 dayanıklılık puanı kaybeder.",
+  
+  "faruk.stagethree.twilight5.subtitle": "&6Viking Baltası!",
+  "faruk.stagethree.twilight5.desc1": "&e Elmas Minotaur Baltası, Minoshroom patronu öldürüldüğünde düşen benzersiz bir baltadır. Diamond Minotaur Axe, ekstra hasara sahip olması bakımından benzersizdir, yani oyuncu koşarken kullanıldığında, saldırdığı canavar ne olursa olsun ekstra hasar verecektir.",
+  
+  "faruk.stagethree.twilight6.subtitle": "&cLabirent",
+  "faruk.stagethree.twilight6.desc1": "&e Bataklığın altında gömülü birkaç Labirent var. Bir mağaradan ya da höyükten giriş bulabilirsin. Amacın &cMinoshroom's&e'u bulup öldürmek.",
+  "faruk.stagethree.twilight6.desc2": "&e &cMinoshroom&r&e'u öldürmek ve biraz Meef Stroganoff yemek, Ateş Bataklığı'na yanmadan girmenizi sağlar.",
+  
+  "faruk.stagethree.twilight7.subtitle": "&4Hydra",
+  "faruk.stagethree.twilight7.desc1": "&e Korkunç &4Hydra&r&e, Ateş Bataklığı'nın ortasında oyuk bir tepede bulunur. &4Hydra&r&e'ı öldürdüğünde, &4Hydra'nın&r&e &cFiery Blood&r&e'nı envantere al böylelikle bir sonraki seviyeye geçebileceksin.",
+  
+  "faruk.stagethree.twilight8.subtitle": "&6A Büyük Yoyo",
+  "faruk.stagethree.twilight8.desc1": "&e 'Block and Chain' fırlatılabilir bir silahtır. Fırlatıldığı blokları kırar ve yaratıklara önemli miktarda hasar verir.",
+  
+  "faruk.stagethree.twilight9.subtitle": "&aKnight Phantom Sığınağı",
+  "faruk.stagethree.twilight9.desc1": "&e Kara Orman'ın derinlikleri, Alacakaranlık Savaşçıları'nin sığınaklarını barındırır. Sığınağın alt seviyeleri tamamen mühürlü, girebilmenin tek yoluysa özel bir oda bulmak. Bu oda, bir Ödül Kaidesi içerir, bu kaideye önceki patronlardan düşürdüğün bir ödülü yerleştirmek, kuyunun önündeki kalkanı kaldıracak ve alt seviyelere inebilmene izin verecektir.",
+  "faruk.stagethree.twilight9.desc2": "&e &aKnight Phantom's&e'ı öldürdüğünde Kara Orman Kulesi'ne gidebileceksin.",
+  
+  "faruk.stagethree.twilight10.subtitle": "&cKara Orman Kulesi",
+  "faruk.stagethree.twilight10.desc1": "&e Kara Kule, karanlık ormanın ortasındaki küçük bir açıklıkta bulunur. Kulenin tepesindeki &cUr-Ghast&e'ı öldür ve maceranın Kara Orman aşamasını tamamla.",
+  "faruk.stagethree.twilight10.desc2": "&e Bazı kapılar kilitlidir, onları açmak için sandıklardan dört kule anahtarı bulman gerekir.",
+  "faruk.stagethree.twilight10.desc3": "&e Kulenin tepesinde hayalet tuzakları görebilirsin. Ghast tuzaklarından oluşan redstone sistemini tamamla ve &cUr-Ghast's size yukarıdan gelene kadar bekle. Geldiğinde tuzağa basman &cUr-Ghast's'ı sana çekecek böylelikle hasar verebilirsin.",
+  
+  "faruk.stagethree.twilight11.subtitle": "&6Pasta Bir Yalan!",
+  "faruk.stagethree.twilight11.desc1": "&e Deney 115, Kara Kule'nin sandıklarında bulunur.",
+  "faruk.stagethree.twilight11.desc2": "&e Deney 115 pasta dilimlerinin sekiz tanesini tek bir bloğa yerleştirebilir, üstüne redstone serpebilir ardından da yiyebilirsin. Ancak, Deney 115 bir kez yere konulduğunda kaldırılamaz, o yüzden nereye koyduğuna dikkat et. Üstüne redstone ektiysen, bir pasta bloğu Redstone sinyali yayabilir, daha küçük blok daha küçük sinyal yayar.",
+  
+  "faruk.stagethree.twilight12.subtitle": "&9Yeti İni",
+  "faruk.stagethree.twilight12.desc1": "&e Kar Ormanı bölgelerine yerleştirilmiş tepelerde, devasa &9Alpha Yeti&r&e tarafından yönetilen yeti sürüleri bulabilirsin. &9Alpha Yeti&r&e'yi savaşta yenmek ve onun tüylü kürkünün bir kısmını elde etmek, Buzulları ulaşılabilir hale getirecektir.",
+  
+  "faruk.stagethree.twilight13.subtitle": "&bKuzey Işıkları Sarayı ",
+  "faruk.stagethree.twilight13.desc1": "&e Bu gökkuşağı kulesi kabaca &3Glacier&r&e'in merkezinde yer alır. &bKar Kraliçesi&r&e, seni, tepeye yakın, buzla kaplı bir odada bekliyor. Kraliçe, buz kalkanı tarafından korunuyor ve dondurucu darbelerle sana hücum edecek. &bKar Kraliçesi&r&e'ni savaşta yenerek Kar Ormanı aşamasını tamamlayacaksın.",
+  
+  "faruk.stagethree.twilight14.subtitle": "&8Trol Mağaraları",
+  "faruk.stagethree.twilight14.desc1": "&e &8Troll Mağaraları&r&e tepedeki yaylaların altında yatar. Hem tünel mağaraları hem de geniş yeraltı odalarından oluşurlar. Mağaralarda, küçük bir obsidiyen kasasının içinde, trolün hazinesini, yani &dSihirli Fasulyeler&r&e'i bulunduran sandığı bulacaksın. Sihirli Fasulyeyi Uberous Soil'a ektiğinde, bulutlara ulaşan dev bir fasulye sırığıyla karşılaşacaksın. Bulutların üstünde seni bekleyen bir sürpriz var.",
+  
+  "faruk.stagethree.twilight15.subtitle": "&7Bulut Kulübesi",
+  "faruk.stagethree.twilight15.desc1": "&e Bulutların üzerinde, Birkaç &0Devin&r&e devriye gezdiği bir kulübe bulacaksın. Devam etebilmek için &0Devin Kazması&r&e'na ihtiyacın olacak.",
+  
+  "faruk.stagethree.twilight16.subtitle": "&6Aladdin'in Lambası v2",
+  "faruk.stagethree.twilight16.desc1": "&e Devin Kazması ile Trol Mağaralarının ortasındaki devasa obsidyen kasasına girebilirsin. Kasanın içinde, Aladdin'in Lambası'nı bulacaksın. Lambanın gücü Thornlands'deki dikenleri yakabilir.",
+  
+  "faruk.stagethree.twilight17.subtitle": "&8FİNAL PATRONU¿",
+  "faruk.stagethree.twilight17.desc1": "&e Yaylanın tepesinde büyük, beyaz, heybetli bir kale var: &8Nihai Şato&r&e. İçinde neredeyse hiçbir şey yok ツ.",
+  "faruk.stagethree.twilight17.desc2": "&e Ama ilerlemen için bazı materyaller toplaman gerek.",
+  "faruk.stagethree.twilight17.desc4": "&c :¨·.·¨:",
+  "faruk.stagethree.twilight17.desc5": "&c `·. C O N G R A T Z ★°*ﾟ",
+  
+  "faruk.stagethree.twilight18.subtitle": "&6Küçük Tepeler",
+  "faruk.stagethree.twilight18.desc1": "&e Küçük tepeler yaklaşık 30 metre çapındadır ve genellikle Kömür, Demir gibi temel mineralleri içeririr, Redstone ve Glowstone ile de karşılaşabilirsin. Şanslıysan Hazine sandıkları dabulabilirsin.",
+  "faruk.stagethree.twilight18.desc2": "&e Unutma, Swarm Spiders, Redcap Goblins ve Kobolds gibi birçok çeteyle savaşmak zorundasın.",
+  
+  "faruk.stagethree.twilight19.subtitle": "&6Orta Tepeler",
+  "faruk.stagethree.twilight19.desc1": "&e Orta tepelerin çapı yaklaşık 60 metredir. Altın, Lapis, Elmas ve Zümrütle karşılaşabilirsin. Bulduğun sandıklar, Ironwood Ingot, Transformation Powder ve Moonworm Queen içerebilir",
+  "faruk.stagethree.twilight19.desc2": "&e Dikkatli ol! Fire Beetle ve Redcap Sapperlar orta tepelerde yaşar.",
+  
+  "faruk.stagethree.twilight20.subtitle": "&6Büyük Tepeler",
+  "faruk.stagethree.twilight20.desc1": "&e En büyük oyuk tepelerin çapı 112 metredir. Bu mağaralarda her türlü cevheri bulabilirsin. Naga Scales ve Steeleaf gibi en değerli hazineleri içeren 12 adede kadar hazine sandığı vardır.",
+  "faruk.stagethree.twilight20.desc2": "&e Doğal olarak burada Wraith, Witch, Slime Beetle ve Pinch Beetle dahil en tehlikeli canavarları bulacaksın.",
+  
+  "faruk.stagethree.twilight21.subtitle": "&6 Çalı Labirenti",
+  "faruk.stagethree.twilight21.desc1": "&e Alacakaranlık Ormanı boyunca küçük açıklıklarda yer alan çalı çitlerden oluşan bir labirent.",
+  
+  "faruk.stagethree.twilight22.subtitle": "&dKoç'un Korusu",
+  "faruk.stagethree.twilight22.desc1": "&e Büyülü Orman'ı nökkuşağı ağaçları arasında yer alan bu koruluk, Koçun evi olarak hizmet veren yıpranmış kemerleri olan eski bir taş yapıdır.",
+  "faruk.stagethree.twilight22.desc2": "&e Arkadaş Canlısı Koç, kendisine 16 farklı renk yünün hepsi verildiği takdirde değerli maden bloklarıyla ve benzersiz Crumble Horn ile ödüllendirilebilir.",
+  
+  "faruk.stagethree.twilight23.subtitle": "&6Labirent Haritası",
+  "faruk.stagethree.twilight23.desc1": "&e Labirent Haritası, çoğunlukla Alacakaranlık Ormanı'ndaki çeşitli labirentlerde yolunuzu bulmak için kullanışlıdır. Normal harita gibi duvarların arkasını görebilir, ancak normal haritanın aksine, Labirent Haritası size mevcut derinlik veya irtifanızda dünyanın bir dilimini gösterir. Ayrıca en ince duvarları bile gösterecek kadar yakınlaştırılmıştır.",
+  
+  "faruk.stagethree.twilight24.subtitle": "&6Sihirli Harita",
+  "faruk.stagethree.twilight24.desc1": "&e Sihirli Haritalar, Alacakaranlık Ormanı'ndaki tüm ciddi kaşifler için vazgeçilmez bir araçtır. Çevrendeki biyomları görebilirsin.",
+  
+  "faruk.stagethree.twilight25.desc1": "&3Arkadaşlarım: İyi misin?",
+  "faruk.stagethree.twilight25.desc2": "&3Ben: Evet, iyiyim.",
+  "faruk.stagethree.twilight25.desc3": "&3Kulaklıklarım:",
+  "faruk.stagethree.twilight25.desc4": "&eVahit Guetta-Donence Mix",
+  "faruk.stagethree.twilight25.desc5": "&e0:31 ━❍──────── -5:12",
+  "faruk.stagethree.twilight25.desc6": "&e↻     ⊲  Ⅱ  ⊳     ↺",
+  "faruk.stagethree.twilight25.desc7": "&eVOLUME: ▂▃▄▅▆▇ %500",
+
+  "faruk.stagethree.main40.subtitle": "&8&l&o Stage Four'a Terfi Et!",
+  "faruk.stagethree.main40.desc1": "&e Stage Three için son görev! Bu onay işaretine tıklayın!",
+
+
+
+    
+    "faruk.stagefour.main1.subtitle": "&6Geleceğin Teknolojisi",
+    "faruk.stagefour.main1.desc1": "&e Metallurgic Infuser, Mekanism'in ilk adımıdır. Bu makinede Çelik ve Bronz'u daha kolay ve daha hızlı üretmenin yanında yeni Mekanism alaşımları da üreteceksiniz.",
+    "faruk.stagefour.main1.desc2": "",
+
+    "faruk.stagefour.main2.desc1": "&e Mekanism Üretim Bileşeni.",
+    
+    "faruk.stagefour.main3.subtitle": "&6Refined Obsidyen Dust",
+    "faruk.stagefour.main3.desc1": "&e Refined Obsidyen ingot ve diğer Mekanism ile ilgili eşyaların yapımında kullanılacaktır.",
+    
+    "faruk.stagefour.main4.subtitle": "&6Basitliğe hayır",
+    "faruk.stagefour.main4.desc1": "&e Installer'lar, çeşitli makineleri Fabrika eşdeğerlerine yükseltmek için kullanılır. &2Basic Tier Installer&r&e'ın bulunduğu makineye sağ tıklayın ve o makineyi bir &2Basic Factory&r&e'ye yükseltecektir.",
+    
+    "faruk.stagefour.main5.subtitle": "&6Sırlar Odası",
+    "faruk.stagefour.main5.desc1": "&e Bu makine, bloklardan ve cevherlerden tozları çekerek farklı türde aletlerin üretilmesini zorunlu kılar. Bu makine, diğer modlardaki pulverizer eşdeğeridir. Redstone, Diamond ve Rafine Obsidian Dust'ın Sıkıştırılmış çeşitlerini oluşturmak için de kullanılabilir.",
+    
+    "faruk.stagefour.main6.desc1": "&e Sıkıştırılmış öğeler, Metallurgic Infuser'da normal varyantlardan 8 kat daha verimlidir yani 80 birim verir.",
+    
+    "faruk.stagefour.main7.subtitle": "&7HDPE Üretimi",
+    "faruk.stagefour.main7.desc1": "&e Bu makine sudan oksijen ve hidrojeni ayırmak için kullanılır. HDPE üretmek için iki gaza ihtiyacımız var, bu yüzden onları kimyasal tanklarda saklayın.",
+    
+    "faruk.stagefour.main8.desc1": "&e Bir Crusher oluşturun ve Bio Fuel üretmek için otomatize edin.(Garden Cloche ve Phytogenic Insulator, Crusher için çok fazla malzeme üretecektir.)",
+    
+    "faruk.stagefour.main9.desc1": "&e Otomatik Bio Fuelden sonra, bu makineye (PRC olarak adlandırdık) Bio Fuel, su ve Hidrojen Gazı sağlayın. Sonra BioFuel'i Substrat ve  Ethylene gazına çevireceksiniz.",
+    
+    "faruk.stagefour.main10.desc1": "&e Substratı ürettikten sonra, Ethylene'den Liquid Ethylene üretmek için bir Rotary Condensentrator yapın.",
+    
+    "faruk.stagefour.main11.desc1": "&e Artık bu dalın(Electric Separator görevi) ilk görevinden Liquid Ethylene ve Oksijene sahipsiniz. Yeni bir PRC yapın ve makineye Liquid Ethylene, Oksijen ve Substrat yerleştirin edin. Tada! İlk HDPE peletinizi aldınız!",
+    
+    "faruk.stagefour.main12.desc1": "&e Nihai ürün.",
+    
+    "faruk.stagefour.main13.subtitle": "&6Yeni Alaşımlar!",
+    "faruk.stagefour.main13.desc1": "&e Bu makineye Osmiyum külçeler/bloklar verin, böylece iki yeni alaşım üretebilirsiniz.",
+    
+    "faruk.stagefour.main14.desc1": "&e Yolculuğunuz için yeni alaşım!",
+    
+    "faruk.stagefour.main15.subtitle": "&6Dünyanın En Şirin Robotu!",
+    "faruk.stagefour.main15.desc1": "&e Robit sizin için bir yol arkadaşıdır! Sizi takip edebilir, düşen eşyaları toplayabilir, 3x3 çalışma masası, depolama için 27 slot yer, elektrikli fırın ve onarım için örs vardır.",
+    "faruk.stagefour.main15.desc2": "&e Robit'inizi dünyaya yerleştirmek için önce şarj pedini yerleştirmelisiniz.",
+    
+    "faruk.stagefour.main16.subtitle": "&6Sera Etkisini Önleyebiliriz!",
+    "faruk.stagefour.main16.desc1": "&e Güneş'den FE üretebilir, ayrıca gelişmiş makinelerin yapımında da kullanılabilir.",
+    
+    "faruk.stagefour.main17.subtitle": "&6Press Gibi",
+    "faruk.stagefour.main17.desc1": "&e Bu makineye Control Circuit yapmak gibi bazı fonksiyonlar ekledik.",
+    
+    "faruk.stagefour.main18.subtitle": "&cBasic'den Advanced'e",
+    "faruk.stagefour.main18.desc1": "&e Installer'lar, çeşitli makineleri Fabrika eşdeğerlerine yükseltmek için kullanılır. &cAdvanced Tier Installer&r&e ile  makineye sağ tıklayın, makine bir &cAdvanced Factory&r&e'e yükseltecektir.",
+    
+    "faruk.stagefour.main19.subtitle": "&Gelişmişten Elite'e",
+    "faruk.stagefour.main19.desc1": "&e Installer'lar, çeşitli makineleri Fabrika eşdeğerlerine yükseltmek için kullanılır. &9Elite Tier Installer&r&e ile  makineye sağ tıklayın, makine  bir &9Elite Factory&r&e'ye yükseltecektir.",
+    
+    "faruk.stagefour.main20.subtitle": "&dElite'den Ultimate'a",
+    "faruk.stagefour.main20.desc1": "&e Installer'lar, çeşitli makineleri Fabrika eşdeğerlerine yükseltmek için kullanılır. &9Ultimate Tier Installer&r&e ile makineye sağ tıklayın, makine  bir &9Ultimate Factory&r&e'e yükseltecektir.",
+    
+    "faruk.stagefour.main21.desc1": "&e  Induction Matrix, çok bloklu bir enerji depolama yapısıdır. Muhafaza için Induction Casing,Induction Port ve Induction Cell ile Induction Provider herhangi bir kombinasyonu kullanılarak inşa edilebilir.",
+    
+    "faruk.stagefour.main22.subtitle": "&6Core of Hypothetical Transfer",
+    "faruk.stagefour.main22.desc1": "&e Gelişmiş makineler için üretim bileşeni.",
+    
+    "faruk.stagefour.main23.subtitle": "&6Daha İyi Quarry",
+    "faruk.stagefour.main23.desc1": "&e  Mekanism'den Quarry. Yerleştirdiğinizde, istediğiniz şekilde ayarlayan. Maksimum verimlilik için, Config sekmesine tıklayın, Radi'yi 32, Min'i 1'e, Maks'ı zemin seviyesine (64 vb.) değiştirin. Ardından New Filter'a tıklayın, Tag'e tıklayın ve forge:ores yazın. Bu şekilde tüm cevherleri çıkarabilirsin.",
+    
+    "faruk.stagefour.main24.subtitle": "&6Öğeler ve Gazlar için Varsayımsal Transfer",
+    "faruk.stagefour.main24.desc1": "&e Quantum Entangloporter, sıvıları/nesneleri/enerjiyi/gazı bir Quantum Entangloporter'dan diğerine aktaran bir makinedir.",
+    
+    "faruk.stagefour.main25.subtitle": "&6Fissile Fuel Üretimi",
+    "faruk.stagefour.main25.desc1": "&e Sulfur Trioxide için Oksijen üretmelisiniz.",
+    
+    "faruk.stagefour.main26.desc1": "&e Bu makineye biraz Kükürt verin, Kükürt Dioksit elde edeceksiniz.",
+    
+    "faruk.stagefour.main27.desc1": "&e Bu makine iki gazı kullanıp başka bir gaz üretiyor. Bu makineye Oxygen ve Sulfur Dioxide verin, Sulfur Trioxide üretecektir.",
+    
+    "faruk.stagefour.main28.desc1": "&e Makine modunu Decondensentrating'e getirin ve Su sağlayın, Water Vapor üretecektir.",
+    
+    "faruk.stagefour.main29.desc1": "&e Bu makineyi Water Vapor ve Sulfur Trioxide ile beslerseniz H²SO4 elde edersiniz.",
+    
+    "faruk.stagefour.main30.desc1": "&e Bu makineye Sulfuric Acid ve Fluorite verin, Hydrofluoric Asid üretecektir.",
+    
+    "faruk.stagefour.main31.desc1": "&e Bu makine Uranium'dan Yellow Cake Uranium üretir.",
+    
+    "faruk.stagefour.main32.desc1": "&e Yellow Cake Uranium'dan Uranium Oxide'a!",
+    
+    "faruk.stagefour.main33.desc1": "&e Hydrofluoric Acid + Uranium Oxide = Uranium Hexafluorid",
+    
+    "faruk.stagefour.main34.desc1": "&e Fissile Fuel üretmeye hazır mısınız?",
+    
+    "faruk.stagefour.main35.desc1": "&e Fission Reaktörü, büyük miktarlarda ısı üreten ancak kendi başına güç üretmeyen çok bloklu bir yapıdır. Ne kadar ısı üretildiği, Fissile Fuel yakma hızına bağlıdır.",
+    "faruk.stagefour.main35.desc2": "&e Güç üretmek için, reaktörün soğutma sıvısından gelen buharı Industrial Turbine'a aktarmanız gerekir.",
+    "faruk.stagefour.main35.desc3": "&e Bizim sadece Nükleer Atık üretmek için bu reaktöre ihtiyacımız var. İstersen Industrial Turbine İşlemini atlayabilirsin, görev defterindeki ilerlemen için buna ihtiyacın yok.",
+    
+    "faruk.stagefour.main36.subtitle": "&6Nükleer Atıkların Plütonyuma İşlenmesi",
+    "faruk.stagefour.main36.desc1": "&e Nükleer atıkları Isotopic Centrifuge'da işleyin ve bir Plutoinum üretin.",
+    
+    "faruk.stagefour.main37.subtitle": "&6Nükleer Atıkların Polonyum İçin İşlenmesi",
+    "faruk.stagefour.main37.desc1": "&e Nükleer atığı Solar Neutron Activator'da işleyin ve bir Polonyum üretin.",
+    
+    "faruk.stagefour.main38.subtitle": "&6Endüstriyel Türbin",
+    "faruk.stagefour.main38.desc1": "&e Bu türbin kullanılmış reaktör soğutucusundan (Steam) RF üretebilir.",
+    "faruk.stagefour.main38.desc2": "&e Ayrıntılı yapım bilgileri için modun WIKI'sini kontrol edebilirsiniz.",
+
+    "faruk.stagefour.main39.subtitle": "&6Sadece Baharatlı Hava",
+    "faruk.stagefour.main39.desc1": "&e Nükleer Atıkları bu varillerde saklayabilirsiniz. Ama bu varilleri sakın kırma. Tüm radyoaktif atıklar yayılır ve çocukların kanser olabilir, sen hasta olabilirsin ve maalesef senin elinden de birşey gelmez sakın böyle bir hata yapma.",
+    "faruk.stagefour.main39.desc2": "&e Ne kadar radyoaktif atık yayıldığına bağlı olarak, zaman içinde ölüceksin ve ve yapamadığın şeyler için pişman olucaksın bir şeye karar vermeden önce 2 kez düşün.",
+    
+    "faruk.stagefour.main40.subtitle": "&dSupercritical Phase Shifter",
+    "faruk.stagefour.main40.desc1": "&e Supercritical Phase Shifter, Antimatter Gas üretmek için büyük miktarda enerji ve polonyum gazı tüketen çok bloklu bir yapıdır. Antimatter Pellet, bir nevi oyun sonu eşyasıdır.",
+    "faruk.stagefour.main40.desc2": "&e Her SPS Casing'in üretimi için 50.000 mB işlenmiş nükleer atık (4 polonyum peleti, 1 plütonyum peleti) gerekir. SPS oluşturmak için gereken malzemelerin miktarı görevde belirtilmiştir.",
+    
+    "faruk.stagefour.main41.subtitle": "&6Tebrikler!",
+    "faruk.stagefour.main41.desc1": "&e Orta Doğu ve Balkanların en havalı ürünü AntiMatterı yaptın! Onu farklı craftlarda kullanacaksın.",
+    
+    "faruk.stagefour.main42.subtitle": "&6Çok Tanıdık Görünüyor",
+    
+    "faruk.stagefour.main42.desc1": "&e Mass fabricator Universal Mass üretmek için aşırı miktarda RF kullanır. RF tüketimini azaltmak için bu makineye Scrap veya Scrapbox sağlayın.",
+    
+    "faruk.stagefour.main43.subtitle": "&6Antimatter'dan Universal Mass'e",
+    
+    "faruk.stagefour.main43.desc1": "&e Bu makine Antimatter Peletini 1000 Universal Mass olarak değiştirebilir.",
+    
+    "faruk.stagefour.main44.subtitle": "&6Universal Mass'i israf eden bizden değildir",
+    "faruk.stagefour.main44.desc1": "&e Universal Mass'i bir miktar kayıpla enerjiye dönüştürür.",
+    
+    "faruk.stagefour.main45.subtitle": "&6Scraps!",
+    "faruk.stagefour.main45.desc1": "&e Recycler her şeyden Scrap üretecek!",
+    
+    "faruk.stagefour.main46.subtitle": "&6Desen Oluşturma",
+    "faruk.stagefour.main46.desc1": "&e Öğeleri çoğaltma için tarayın. Sadece bir öğe yerleştirin ve onu Pattern Storage'a ekleyin.",
+    
+    "faruk.stagefour.main47.subtitle": "&6Universal Mass ile item üretme!",
+    "faruk.stagefour.main47.desc1": "&e Bu makine Universal Mass'i tercih ettiğiniz başka bir iteme dönüştürür.",
+    
+    "faruk.stagefour.main48.subtitle": "&6Başka Bir Arc Furnace",
+    "faruk.stagefour.main48.desc1": "&e Normal bir eritme makinesi gibi çalışır ama aynı zamanda bazu öğeleri birleştirir. Trinium üretmek için gereklidir.",
+    
+    "faruk.stagefour.main49.subtitle": "&6Düşük Kaliteli Çubuk",
+    "faruk.stagefour.main49.desc1": "&e Arc Furnace, eritme için Karbon veya Trinium çubukları gerektirir.",
+    
+    "faruk.stagefour.main50.subtitle": "&6Daha Kaliteli Çubuk",
+    "faruk.stagefour.main50.desc1": "&e Arc Furnace için daha iyi bir çubuk.",
+    
+    "faruk.stagefour.main51.subtitle": "&6Yeni Malzeme!",
+    "faruk.stagefour.main51.desc1": "&e Bu eşyayı elde etmek için Arc Furnace'da Çakıl taşı eritin .",
+    
+    "faruk.stagefour.main52.subtitle": "&6Son Derece İletken Metal",
+    "faruk.stagefour.main52.desc1": "&e Bu metali elde etmek için Arc Furnace'da Trinium Dust eritin.",
+    
+    "faruk.stagefour.main53.subtitle": "&6Yapımcıdan Bir Öğe",
+    "faruk.stagefour.main53.desc1": "&e Crafting için gerekli olan bir plaka.",
+    
+    "faruk.stagefour.main54.subtitle": "&6Biraz Obsidiyen Sıkıştır",
+    "faruk.stagefour.main54.desc1": "&e Crafting için gerekli bir bileşen.",
+    
+    "faruk.stagefour.main55.subtitle": "&6Diğer Boyutlara!",
+    "faruk.stagefour.main55.desc1": "&e  Dimensional Core, modpack yapımcısı tarafından eklenen başka bir crafting item .",
+    
+    "faruk.stagefour.main56.subtitle": "&61x Sıkıştırılmış",
+    "faruk.stagefour.main56.desc1": "&e Bu sıkıştırılmış blok diğerlerinden farklıdır. Bu bloğu oluşturmak için Enriched Obsidian kullanmalısınız. Bunu yapmak için 5120 normal obsidyene ve 640 Enriched Obsidyene ihtiyacınız var.",
+    
+    "faruk.stagefour.main57.subtitle": "&62x Sıkıştırılmış",
+    "faruk.stagefour.main57.desc1": "&e Başka bir sıkıştırılmış blok.",
+    
+    "faruk.stagefour.main58.subtitle": "&63x Sıkıştırılmış",
+    "faruk.stagefour.main58.desc1": "&e Tebrikler! Bu 10 bloğu köşeleri olmayan nether portalı gibi yerleştirin (Köşeleri de yerleştirebilirsiniz ama çok pahalı).",
+    
+    "faruk.stagefour.main58.desc2": "&f Bu boyut ve mod, bu mod paketi için benim tarafımdan oluşturuldu. Aşama Beş'de ilerlemek için Ice and Fire Ejderhalarına ihtiyacınız var ve Ejderhalar sadece FarukLand boyutunda yaşıyorlar.",
+    "faruk.stagefour.main58.desc3": "&f Bu boyutta net göremediğiniz için bir gece görüş iksiri veya eşyası öneriyoruz. Bu boyutta gece ve gündüz döngüsü yoktur.",
+    "faruk.stagefour.main58.desc4": "&e Gitmeden önce Aşama Beş'e geçmeyi unutmayın.",
+    
+    "faruk.stagefour.main59.subtitle": "&6Biraz daha RF",
+    "faruk.stagefour.main59.desc1": "&e Fusion Reactor, çılgın miktarda RF oluşturmak için güçlü bir reaktördür. Ancak bu reaktörün çalışması çok karmaşık, ayrıntılı bilgi için modun wiki'sini kontrol edebilirsiniz.",
+    
+    "faruk.stagefour.main60.subtitle": "&63x Cevher Çoğaltması",
+    "faruk.stagefour.main60.desc1": "&e Oksijeni sudan ayırın ve kimyasal tankta saklayın.",
+    
+    "faruk.stagefour.main61.desc1": "&e Cevherlerinizi clump halindeyken saflaştırmak için bu makineye oksijen verin.",
+    
+    "faruk.stagefour.main62.desc1": "&e Clump'ları Dirty dust'a çevirin.",
+    
+    "faruk.stagefour.main63.desc1": "&e Bu makine Dirty Dust'ları normal Dust'a çevirir.",
+    
+    "faruk.stagefour.main64.subtitle": "&94x Cevher Çoğaltması",
+    "faruk.stagefour.main64.desc1": "&e Bu, Sudan, Brine üretmek için çok bloklu bir yapıdır. Multiblock hakkında detaylı bilgi için Mekanism Wiki'yi ziyaret edebilirsiniz.",
+    
+    "faruk.stagefour.main65.desc1": "&e Bu görevde Hydrogen ve Chlorine'e ihtiyacın var. Hydrogen separatorde sudan, Chlorine da separatorde Brine'dan elde edilir. Bu gazları aldığınızda, chemical infuster cihazına bu iki gazı sağlayın. Hydrogen Chloride elde edeceksiniz.",
+    
+    "faruk.stagefour.main66.desc1": "&e Cevherlerinizi parçalara dönüştürmek için bu makineye Hydrogen Chloride sağlayın.",
+    
+    "faruk.stagefour.main67.desc1": "&e Bu makine madenleri shard halinden clumps haline dönüştürür. Clumps halinde aldığınızda, kalan işlemler 3x çoğaltma ile aynıdır.",
+    
+    "faruk.stagefour.main68.subtitle": "&d5x Cevher Çoğaltması",
+    "faruk.stagefour.main68.desc1": "&e Cevherleri x5'e kadar işlemek için Sulfur Dioxide'a ihtiyacınız var. Sulfur Dioxide üretmek için Oxidizer'a biraz Sulfur ile verin.",
+    "faruk.stagefour.main68.desc2": "&e Bir Chemical Infuser Cihazı yapın ve Sulfur Trioxide üretmek için Oxygen ve Sulfur Dioxide tedarik edin.",
+    
+    "faruk.stagefour.main68.desc3": "&e Başka bir Infuser Cihazı yapın ve Sulfuric Acid üretmek için Water Vapor ve Sulfur Trioxide kullanın.",
+      
+    "faruk.stagefour.main69.desc1": "&e Makine modunu Decondensentrating'e getirin ve Su sağlayın, Water Vapor üretecektir.",
+    
+    "faruk.stagefour.main70.desc1": "&e Bu makineler cevherleri Ore Slurry haline çevirir.",
+    
+    "faruk.stagefour.main71.desc1": "&e Slurry'i suyla yıkayın.",
+    
+    "faruk.stagefour.main72.desc1": "&e Bu makine,Clean Ore Slurry'i Crystal'e dönüştürür. Kristalleri aldıktan sonraki işlemler 4x ile aynıdır.",
+    
+    "faruk.stagefour.main73.title": "&8&l&oStage Five'a Terfi Et!",
+    "faruk.stagefour.main73.subtitle": "&1&l&oBUNU HAK ETTİN!",
+    
+    "faruk.stagefour.main73.desc1": "&e Stage Four için son görev! Onay kutusuna tıklayın.",
+
+
+
+
+
+
+    
+
+    "faruk.stagefive.main1.subtitle": "&6FarukLand'e Hoş Geldin!",
+    "faruk.stagefive.main1.desc1": "&e Sonunda &6Faruk Land&e'a vardın. &4Ejderhaların&r&e ve &cEfsanevi Yaratıkların&r&e boyutu!",
+    
+    "faruk.stagefive.main2.subtitle": "&6Kadim Bilgi",
+    "faruk.stagefive.main2.desc1": "&e Manuscript Ejderha inlerinde bulunabilir.",
+    
+    "faruk.stagefive.main3.subtitle": "&6Kadim Yaratıklar Rehberi",
+    "faruk.stagefive.main3.desc1": "&e Bestiary, Ice and Fire için oyun içi bir rehberdir.",
+    "faruk.stagefive.main3.desc2": "&e Bestiary yalnızca bir bölümle başlar: Giriş. Bölümlerin geri kalanı, Bestiary ve Manuscript Bestiary Lectern'e yerleştirilerek açılabilir. Her bölüm 3 Manuscript kullanır. Bestiary'nin her bölümünün kilidini açabilmek için toplamda 78Manuscript'e ihtiyacınız var.",
+    
+    "faruk.stagefive.main4.subtitle": "&6Ejder Kemikleri",
+    "faruk.stagefive.main4.desc1": "&e Bu eşya ejderhaların iskeletlerinden elde edilebilir. Onlara çok fazla ihtiyacın var.",
+    
+    "faruk.stagefive.main5.subtitle": "&6Ejderha Pusulası",
+    "faruk.stagefive.main5.desc1": "&e Dragonseekers, ejderhaların izini sürmeye yardımcı olabilir. Dragonseeker'ın ilk seviyesi, sağ tıklandığında 150 blok içinde bir ejderha tespit ettiğinde bir ses çıkarır. ",
+    "faruk.stagefive.main5.desc2": "&e Yine de dikkatli olun- hatasız değildir ve hata yapabilir! Ayrıca ölü ve evcilleştirilmiş ejderhaları da bulacaktır.",
+    
+    "faruk.stagefive.main6.subtitle": "&6Daha İyi Ejderha Pusulası",
+    "faruk.stagefive.main6.desc1": "&e Bu asa daha fazla dayanıklılığa, daha geniş menzile ve daha az hata şansına sahiptir. Ayrıca bir ejderhaya yaklaştıkça biraz daha fazla ses çıkarırlar, konumu daha çok daraltmanıza izin verir ve ölü ejderhaları algılamazsınız.",
+    
+    "faruk.stagefive.main7.subtitle": "&6En İyi Ejderha Pusulası",
+    "faruk.stagefive.main7.desc1": "&e Bu asa daha az hata şansıyla Epic Dragonseeker'dan daha fazla dayanıklılığa ve menzile sahiptir. Bir ejderhaya yakın olduklarında daha fazla ses çıkarırlar ve bunu Epic Dragonseeker'dan daha net bir şekilde yaparak aramanızı daha da kolaylaştırırlar.",
+    
+    "faruk.stagefive.main8.subtitle": "&6Usta İşi Ejderha Pusulası",
+    "faruk.stagefive.main8.desc1": "&e 300 blok aralığı ve 0 hata olasılığı. Sohbette en yakın ejderhanın tam konumunu ve koordinatlarını yazacaktır..",
+    
+    "faruk.stagefive.main9.subtitle": "&6 Kadim Yaratıkların Pulları",
+    "faruk.stagefive.main9.desc1": "&e Ejderha Pulları, ejderha cesetlerinden elde edilen bir eşyadır. Seviye 2 ve üzeri ejderhalar, Ejderha Pullarını düşürme potansiyeline sahiptir. Elde etmek için boş elinizle Dragon Corpse'a sağ tıklamanız yeterli.",
+    
+    "faruk.stagefive.main10.subtitle": "&6Buz ve Ateşin Kalbi",
+    "faruk.stagefive.main10.desc1": "&e Ejderha Pulları ile aynıdır. Boş elinizle Dragon Corpse'a sağ tıklamanız yeterli.",
+    
+    "faruk.stagefive.main11.subtitle": "&6Yavru Ejderhalar",
+    "faruk.stagefive.main11.desc1": "&e Ejderha Yumurtaları, bebek ejderhalara dönüşen dünyaya yerleştirilebilir varlıklardır; bir ejderhayı evcilleştirmek için seviye 4 ve üzeri dişi ejderhaları öldürüp kanını şişelememiş olmak şartıyla boş el ile sağ tıklayarak düşük bir şans ile Ejderha Yumurtası elde etmelisin. Seviye 4+ ejderhalar yalnızca Yeraltı Mağaralarında bulunabilir.",
+    "faruk.stagefive.main11.desc2": "&cAteş ejderhası yumurtaları (Red, Gray, Emerald ve Bronze) kuluçka sürecini başlatmak için ateşin içine yerleştirilmelidir. Yumurta hareket etmeye başladığında, ejderhanızın yumurtadan çıkması birkaç dakika sürecektir.",
+    "faruk.stagefive.main11.desc3": "&BBuz ejderhası yumurtaları (Blue, Sapphire, White ve Silver) buzla çevrili bir suyun içerisine yerleştirilmelidir. Yumurtanın içinde olduğu su donarsa, birkaç dakika içinde yumurtadan çıkacaktır.",
+    "faruk.stagefive.main11.desc4": "&dYıldırım ejderhasu yumurtaları (Copper, Electric Blue, Amethyst ve Black) kuluçka sürecini başlatmak için yağmura maruz bırakılmalıdır. Yumurta hareket etmeye başladığında, yumurtadan çıkması birkaç dakika sürecektir. (Yağmur durursa kuluçka süreci de duracaktır.). Yıldırım Ejderhası yumurtası yumurtadan çıktığında bir ışık çarpması olacak. Oluşan ateşi söndürmelisin, yoksa ejderha ateş tarafından öldürülebilir.",
+    "faruk.stagefive.main11.desc5": "&eDragon Yumurtaları, yumurtadan çıkar çıkmaz evcilleştirilen bebek ejderhalara dönüşür (Yumurtaya en yakın oyuncuyu sahip olarak seçerler.),  düşük seviyelerde üzerine binemezsiniz, ancak onu omzunuza koyabilirsiniz.",
+    
+    "faruk.stagefive.main12.subtitle": "&6Kadim Yaratığın Kanı",
+    "faruk.stagefive.main12.desc1": "&e Dragon Blood, ölü ejderha cesedine &aşişe&e ile sağ tıklayınca elde edilebilir. Bu işlem yapılırsa ejderhadan pul ve yumurta çıkamaz.(İskeletlerden kan elde edilemez).",
+    
+    "faruk.stagefive.main13.subtitle": "&4Dragonforge",
+    "faruk.stagefive.main13.desc1": "&e Dragonforge, Dragonsteel üretmek için kullanılır. Seviye 3+ ejderhalar, bir Dragonforge'un yakınındayken, nefesini otomatik olarak üzerine üfleyecek ve Dragonsteels yapma sürecini başlatacaktır. Dragon Blood, Dragonforge ve ejderha aynı türden olmalıdır.",
+    "faruk.stagefive.main13.desc2": "&e Multiblock rehberi için yukarıdaki görevi inceleyin.",
+    "faruk.stagefive.main13.desc3": "&e Not: Dragonforge'unuzu üssünüzden uzakta kurmanız önerilir, çünkü dragonforge türüne bağlı olarak etrafındaki her şey ateşe verilecek veya donacaktır.",
+    
+    "faruk.stagefive.main14.subtitle": "&6Kanlı Çelik",
+    "faruk.stagefive.main14.desc1": "&e Dragonsteel Ingot, Dragonforge'da ejderha nefesi kullanılarak hazırlanmış güçlü bir metaldir.",
+    
+    "faruk.stagefive.main15.subtitle": "&6Draconic",
+    "faruk.stagefive.main15.desc1": "&e End'de cevher olarak bulunabilir.",
+    
+    "faruk.stagefive.main16.subtitle": "",
+    "faruk.stagefive.main16.desc1": "&e Sadece dust ve ore'ları pişirin.",
+    
+    "faruk.stagefive.main17.subtitle": "&6Birinci Kademe Core",
+    "faruk.stagefive.main17.desc1": "&e Draconic Evolution için ana üretim bileşeni.",
+    
+    "faruk.stagefive.main18.subtitle": "&6İkinci Kademe Core",
+    "faruk.stagefive.main18.desc1": "&e Draconic Evolution için ana üretim bileşeni.",
+    
+    "faruk.stagefive.main19.subtitle": "&6Birinci Kademe Energy Controller",
+    "faruk.stagefive.main19.desc1": "&e Draconic Evolution için üretim bileşeni.",
+    
+    "faruk.stagefive.main20.subtitle": "&6Relays",
+    "faruk.stagefive.main20.desc1": "&e Energy Relay Redstone Flux enerjisini aktaramaz, diğer Enerji Kristallerine bağlanabilen bir merkezdir. Kristal Bağlayıcı, bağlantıları görüntülemek ve onu diğer Enerji Kristallerine bağlamak için kullanılabilir.",
+    
+    "faruk.stagefive.main21.subtitle": "&6Kablosuz Enerji Transferi",
+    "faruk.stagefive.main21.desc1": "&e I/O kristalleri arasındaki enerjiyi almak ve vermek için kullanılır.",
+    
+    "faruk.stagefive.main22.subtitle": "&6Makineler için Giriş ve Çıkış",
+    "faruk.stagefive.main22.desc1": "&e Giriş ve çıkış modları shift + sağ tık ile  değiştirilebilir. Bu kristali makineyi kullanarak bir RF'ye yerleştirin ve giriş veya çıkış için seçin. Bunları bağlamak için Kristal bağlayıcı kullanın.",
+    
+    "faruk.stagefive.main23.subtitle": "&6Ruh Biçici",
+    "faruk.stagefive.main23.desc1": "&e Mob soul hasat etmek için kılıcınızda Reaper büyüsüne ihtiyacınız var. Daha yüksek büyü seviyesi, ruh toplamak için daha yüksek şans verir. Bir mob öldürdüğünde onun ruhunu toplayabilirsin.",
+    
+    "faruk.stagefive.main24.subtitle": "&6Öldürme Makinesi 3000",
+    "faruk.stagefive.main24.desc1": "&e Mobları öldürmenin en harika yolu.",
+    
+    "faruk.stagefive.main25.subtitle": "&6Öldürme Makinesi 4000",
+    "faruk.stagefive.main25.desc1": "&e Ekstra özelliklere sahip geliştirilmiş mob öldürücü.",
+    
+    "faruk.stagefive.main26.subtitle": "&6Biyometrik Filtre",
+    "faruk.stagefive.main26.desc1": "&e Grinder'larda mobları ve oyuncuları filtreleyebilirsiniz.",
+    
+    "faruk.stagefive.main27.subtitle": "&6Füzyon Üretimi",
+    "faruk.stagefive.main27.desc1": "&e Fusion Crafting, crafting için yeni bir yöntemdir. Bir &cFusion Crafting Core&e yerleştirin ve &cFusion Crafting Injectors&e yerleştirin. Öğeleri yapmak için, zanaat malzemelerini sağ tıklama ile enjektörlere yerleştirin.",
+    "faruk.stagefive.main27.desc2": "&e Ardından ana öğeyi Fusion Core'a yerleştirin. Tüm enjektörleri RF ile besleyin. Bittiğinde, çıktı öğenizi Core'dan alın.",
+    
+    "faruk.stagefive.main28.subtitle": "Item Router for Fusion Crafting",
+    "faruk.stagefive.main28.desc1": "&e Crafting Injector Item Router'ı istediğiniz yere yerleştirin, ardından Crafting Injector Location Card ile Fusion Crafting Injector'a sağ tıklayın. Ardından bu kartı Router'a yerleştirin. Öğeyi router'a yerleştirdiğinizde, bağlantılı Fusion Crafting Injector'a ışınlanır.",
+    
+    "faruk.stagefive.main29.subtitle": "&6Kristalleri Bağlama",
+    "faruk.stagefive.main29.desc1": "&e Kristalleri bağlamak için kullanılır.",
+    
+    "faruk.stagefive.main30.subtitle": "&6Gelişmiş Füzyon Üretimi",
+    "faruk.stagefive.main30.desc1": "&e Önceki ile aynı, ancak daha yüksek seviyeli recipeler üretebilir.",
+    
+    "faruk.stagefive.main31.subtitle": "&6Telerport ve Blink!",
+    "faruk.stagefive.main31.desc1": "&e Ender Pearl'ü yakıt olarak kullanır, ışınlanma ve blink işlevlerine sahiptir. Chaos Guardian Boss Fight için şiddetle tavsiye edilir.",
+    
+    "faruk.stagefive.main32.subtitle": "&6Mega BatBox",
+    "faruk.stagefive.main32.desc1": "&e Taşınabilir RF deposu. Envanterdeki eşyaları ve ekipmanları şarj edebilir. Upgrade ile yükseltilebilir.",
+    
+    "faruk.stagefive.main33.subtitle": "&6Yeni Teknoloji Zırhı",
+    "faruk.stagefive.main33.desc1": "&e Çok güçlü bir zırh. Draconic Evolution Yükseltmeleri ile yükseltilebilir.",
+    
+    "faruk.stagefive.main34.subtitle": "&6Gerçek Ejderha Kalbi",
+    "faruk.stagefive.main34.desc1": "&e Ender Dragon öldürüldüğünde elde edilir.",
+    
+    "faruk.stagefive.main35.subtitle": "&6En Pahalı Blok",
+    "faruk.stagefive.main35.desc1": "&e Draconic Evolution için yeni blok.",
+    
+    "faruk.stagefive.main36.subtitle": "&6Havalı Bir Külçe",
+    "faruk.stagefive.main36.desc1": "&e Draconic Evolution için yeni külçe.",
+    
+    "faruk.stagefive.main37.subtitle": "&6Ejderha Enerjisi",
+    "faruk.stagefive.main37.desc1": "&e Draconic Evolution tarifleri için bileşen.",
+    
+    "faruk.stagefive.main38.subtitle": "&6Ultra BatBox",
+    "faruk.stagefive.main38.desc1": "&e Taşınabilir RF deposu. Envanterdeki eşyaları ve ekipmanları şarj edebilir. Upgrade ile yükseltilebilir.",
+    
+    "faruk.stagefive.main39.subtitle": "&6Üçüncü Kademe Core",
+    "faruk.stagefive.main39.desc1": "&e Draconic Evolution'ın üçüncü bölümü.",
+    
+    "faruk.stagefive.main40.subtitle": "&6Elit Füzyon Üretimi",
+    "faruk.stagefive.main40.desc1": "&e Önceki seviyelerle aynı, ancak daha yüksek seviyeli tarifler üretebilir.",
+    
+    "faruk.stagefive.main41.subtitle": "&6Elit Zırh",
+    "faruk.stagefive.main41.desc1": "&e Çok güçlü bir zırh. Draconic Evolution yükseltmeleri ile yükseltilebilir.",
+    
+    "faruk.stagefive.main42.subtitle": "&6Draconic Relay",
+    "faruk.stagefive.main42.desc1": "&e Diğerleriyle aynı, ancak daha kaliteli.",
+    
+    "faruk.stagefive.main43.subtitle": "&6Draconic I/O",
+    "faruk.stagefive.main43.desc1": "&e Diğerleriyle aynı, ancak daha kaliteli.",
+    
+    "faruk.stagefive.main44.subtitle": "&6Draconic Kablosuz Enerji Transferi",
+    "faruk.stagefive.main44.desc1": "&e Diğerleriyle aynı, ancak daha kaliteli.",
+    
+    "faruk.stagefive.main45.subtitle": "&6 TÜM PATRONLARIN PATRONU!",
+    "faruk.stagefive.main45.desc1": "&e Tebrikler! Sonunda oyunun sonuna geldiniz. Son bir rakibiniz ile karşılaşmaya hazırlanın! Bu patron The End'de her 10.000 blokta bir (X:10.000 Y:~ Z:0 vb.) ortaya çıkabilir.",
+    "faruk.stagefive.main45.desc2": "&eChaos Guardian, Ender Dragon'dan yaklaşık 1000 kat daha güçlüdür. Hayatta kalmak için tam yükseltilmiş ve büyülenmiş bir Draconic zırhı kuşanmalısın.",
+    "faruk.stagefive.main45.desc3": "&eChaos Guardian'ı ok veya kılıç ile öldüremezsiniz. Akıllı oynamalı ve taktikler kullanmalısınız. Bunu burada açıklayamayız yazamayız. Daha fazla bilgi için Draconic Evolution'ın veya paketimizin Discord kanalını kontrol edin.",
+    
+    "faruk.stagefive.main46.subtitle": "&6Kaotik Enerji Seviyesi",
+    "faruk.stagefive.main46.desc1": "&e Enerji Kontrolörlerinin son katmanı.",
+    
+    "faruk.stagefive.main47.subtitle": "&6Kaotik Füzyon Üretimi",
+    "faruk.stagefive.main47.desc1": "&e Tüm Fusion Crafting ile aynı, ancak oyunun sonundayız. Artık her şey OP!",
+    
+    "faruk.stagefive.main48.subtitle": "&6En Güçlü Batbox",
+    "faruk.stagefive.main48.desc1": "&e Son seviye taşınabilir RF depolama. Envanterdeki eşyaları ve ekipmanları çok hızlı şarj edebilir. Kardashev Ölçeğinde Kademe 3 Medeniyet Seviyesine ulaşırken işinizi kolaylaştırabilir.",
+    
+    "faruk.stagefive.main49.subtitle": "&6Efsanevi Kaos Zırhı",
+    "faruk.stagefive.main49.desc1": "&e Göğüs zırhının son seviyesi.",
+    
+    "faruk.stagefive.main50.subtitle": "&6Son Katman Çekirdek",
+    "faruk.stagefive.main50.desc1": "&e Çekirdeklerin son seviyesi.",
+    
+    "faruk.stagefive.main51.subtitle": "&6Kaos Parçası Üretimi",
+    "faruk.stagefive.main51.desc1": "&e Chaos Dragon'u öldürdüğünüzde, bu makineyi chaos parçası üretmek için yapmanızı öneririz.",
+    
+    "faruk.stagefive.main52.subtitle": "&4&l&oBÜYÜK PATLAMA!",
+    "faruk.stagefive.main52.desc1": "&e Faruk V'deki destansı yolculuğun için son görev. Mod paketimize olan ilgin için sonsuz teşekkür ediyoruz. Bu senin son görevin. Bu göreve başlamadan önce dünyan için bir yedek oluştur.",
+    "faruk.stagefive.main52.desc2": "&c Yedeğinizi aldığınızda, yukarıdaki öğeleri yapın ve Draconic Reactor'ü inşa et. Bu reaktör, inanılmaz tehlikeli bir şekilde, inanılmaz miktarda RF üretebilir. Bir hata yaparsan, reaktör çekirdeğinin erimesinden dolayı öngörülemeyen sonuçları olacaktır.",
+    "faruk.stagefive.main52.desc3": "&e Ama yedeğiniz var değil mi? Belki biraz eğlenebiliriz ;)",
+
+    "misc.silentgear.poorlyMade": "Bu eşya çok çok kalitesiz ve fazla dayanmaz. Eşyaların Silent Gear varyasyonlarını kullan.",
+    "tooltip.itemstages.hidden_name": "Bilinmeyen Eşya",
+    "tooltip.itemstages.item.description": "Bu eşyayı [%s] 'e ulaşmadan kullanamzsınız.",
+    "message.itemstages.drop": "%s Eşyasını yere düşürdün..",
+    "message.itemstages.mine": "%s Bilinmeyen bir eşya ile bir şey kazamazsın.",
+    "message.itemstages.attack": "%s Bilinmeyen bir eşya ile saldırıda bulunamazsın.",
+    "message.itemstages.use": "%s Bilinmeyen bir eşyayı kullanamazsın.",
+    "message.itemstages.pickup": "%s Bilinmeyen bir eşyayı alamazsın.",
+    "tooltip.itemstages.debug.drop": "- Bilinmeyen eşyalar envanterinden otomatik olarak bırakılır.",
+    "tooltip.itemstages.debug.pickup": "- Bilinmeyen eşyaları toplayamazsın.",
+    "tooltip.itemstages.debug.use": "- Bilinmeyen eşyalar bloklar ve entity'ler üzerinde kullanılamaz.",
+    "tooltip.itemstages.debug.attack": "- Bilinmeyen eşyalar saldırı için kullanılamaz.",
+    "tooltip.itemstages.debug.jei": "- Bu eşya JEI'da gizli.",
+
+
+
+
+
+
+
+
+
+
+"faruk.faq.main":"Sıkça Sorulan Sorular",
+
+"faruk.faqtr.title":"&6Görevleri nasıl Türkçe yapacağım?",
+"faruk.faqtr.subtitle":"&cThis quest concerns Turkish players only.",
+"faruk.faqtr.desc1":"&e   Görevleri Türkçe yapmak için oyunu dilini Türkçe yapmanız yeterlidir. Eğer oyun dili İngilizce iken sadece görevleri TÜrkçe yapmak isterseniz Faruk V mod paketinin kurulu olduğu dizine girin. sırasıyla Kubejs/assets/faruk/lang klasörüne girin ve en_us.json dosyasının adını en_us.json1 yapın daha sonra tr_tr.json dosyasının adını en_us.json olarak değiştirin bu sayede oyun İngilizce iken sadece görevler Türkçe olacaktır.",
+
+"faruk.faq1.title":"&6Mod paketine Optifine kurunca oyun açılmıyor.",
+"faruk.faq1.desc1":"&e   Pakette Magnesium(Sodium modunun forge versionu) olduğu için Optifine paketimize yüklenemez ki çoğu durumda Magnesium Optifine'dan çok daha iyi bir performans vermektedir. Eğer oyunda sorunlar yaşarsanız Magnesium, Magnesium Extras ve Magnesium Dynamic Lightning modlarını kaldırarak da paketi oynayabilir, isterseniz o modları kaldırdıktan sonra Optifine ve Shader yükleyebilirsiniz.",
+
+"faruk.faq2.title":"&6FTB Ultiminer(Veinmine) kullanamıyorum sebebi nedir?",
+"faruk.faq2.desc1":"&e   Mod paketimizde Ultimine'ı kullanmak için öncellikle ana görevde ilerleyip FTB Ultiminer adlı Trinket eşyasını craft etmeniz gerekmektedir. O zamana kadar ultimine kullanamazsınız.",
+
+"faruk.faq3.title":"&6Oyunum mağaralarda ve geceleri çok karanlık.",
+"faruk.faq3.desc1":"&e   ESC ile oyunu durdurup Video Ayarlarına giriş yapın. Yukarıdaki Extras kısmından True Darkness seçeneğini kapatın.",
+
+"faruk.faq4.title":"&6Mağaralarda devasa bir kırkayak var ve kırkayaklardan çok korkuyorum.",
+"faruk.faq4.desc1":"&e   Discord sunucumuzun Sıkça sorulan sorular kanalında bir config mevcut. Ekteki config dosyasını paketin kurulu olduğu yerdeki config klasörünün içine atın.",
+
+"faruk.faq5.title":"&6Kazma, Balta gibi aletler hemen kırılıyor.",
+"faruk.faq5.desc1":"&e   Kazma, balta gibi aletler ve zırhların dayanıklılığı ve hızı  yüzde 90 azaltılmıştır. Onlar yerine Silent Gear modunun aletlerini kullanmanız gerekmektedir. Detaylı bilgi görev kitabının 'Tools' kısmında mevcut.",
+
+"faruk.faq6.title":"&6Neden ağaçlar ve çimenlerde Ultimine(Veinmine) kullanamıyorum?",
+"faruk.faq6.desc1":"&e   Ultimine ağaçlar ve çimenler için kapalıdır. Onları toplu şekilde kazmak isterseniz Silent Gear modundan Saw ve Sickle kullanabilirsiniz.",
+
+"faruk.faq7.title":"&6",
+"faruk.faq7.desc1":"&e   ",
+
+"faruk.faq8.title":"&6",
+"faruk.faq8.desc1":"&e   ",
+
+"faruk.faq9.title":"&6",
+"faruk.faq9.desc1":"&e   ",
+
+"faruk.faq10.title":"&6",
+"faruk.faq10.desc1":"&e   ",
+
+"faruk.faq11.title":"&6",
+"faruk.faq11.desc1":"&e   ",
+
+"faruk.faq12.title":"&6",
+"faruk.faq12.desc1":"&e   ",
+
+"faruk.faq13.title":"&6",
+"faruk.faq13.desc1":"&e   "
+  }

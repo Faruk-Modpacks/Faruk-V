@@ -1,0 +1,20 @@
+{
+	id: "68EF0435DCDAA00D"
+	order_index: 2
+	title: "Seeds"
+	icon: {
+		id: "quark:seed_pouch"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	loot_size: 1
+	rewards: [
+		{ item: "minecraft:wheat_seeds" }
+		{ item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ item: "minecraft:beetroot_seeds" }
+		{ item: "silentgear:flax_seeds" }
+	]
+}

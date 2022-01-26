@@ -1,0 +1,1198 @@
+{
+	id: "66D0C30D5CE194A2"
+	group: "396F2CFEC1EBB14D"
+	order_index: 0
+	filename: "main"
+	title: "Main"
+	icon: "create:cogwheel"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{faruk.stagezero.main45.title}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 17.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.main45.subtitle}"
+			description: ["{faruk.stagezero.main45.desc1}"]
+			dependencies: [
+				"17568690CD664B84"
+				"15F0F494207A0F92"
+				"3DBD75E17EB187CB"
+			]
+			id: "218CDCF47245F4C0"
+			tasks: [{
+				id: "0621B3DBEB82CD84"
+				type: "checkmark"
+				title: "Promote!"
+			}]
+			rewards: [
+				{
+					id: "16F607C9C7F587CC"
+					type: "command"
+					title: "&ePromote to Stage One!"
+					icon: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					command: "/gamestage add @p one"
+					player_command: false
+				}
+				{
+					id: "19E87F91CD2C66CF"
+					type: "command"
+					auto: "invisible"
+					command: "/summon minecraft:firework_rocket ~ ~1 ~ {Glowing:1b,LifeTime:15,FireworksItem:{id:firework_rocket,Count:5,tag:{Fireworks:{Explosions:[{Type:1,Flicker:50b,Trail:20b,Colors:[I;15435844, 2437522, 14602026]}]}}}}"
+					player_command: true
+				}
+				{
+					id: "4A1FC01A966F0E21"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1291962492
+									303252062
+									-1620279853
+									-1744018520
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzODM3MTM1OTg1NiwKICAicHJvZmlsZUlkIiA6ICJiMmZlMzc4NDEyMTM0MjVlOWY2YzdkZDM5ODBjNjNhOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbHBTZXZzZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJkYzIzOGVkNzk5ZjVjY2NjOTY0MjExMzgwN2JiYzIwMjNmMDIxMDRkNzFmMjIyOGQxN2I2M2I4N2UwZDc0YiIKICAgIH0sCiAgICAiQ0FQRSIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjM0MGMwZTAzZGQyNGExMWIxNWE4YjMzYzJhN2U5ZTMyYWJiMjA1MWIyNDgxZDBiYTdkZWZkNjM1Y2E3YTkzMyIKICAgIH0KICB9Cn0="
+										Signature: "XFtBznoGLEVg4j8GCAVp4heVICFpiBO/VSbS0t6V8XLqaI/if3CZZ4uvF9nlD+SPMNVRgHXYhNecsLamXHqvnxtNdzX61qD4ThOvyu7LNi/XRTnNhV9oDk/UpafKrWjUCX/zFrKPTMb918zpZb2CXs1cZznLSSw7WfiQ51xOnAexXD4/3ZeyAw3P0L+KcydGElmyjpDVPM4XNNoRLBlzvBxo9AtfXuk5AuHLLj8HvnAtgfI9BVA6J9+L9xBPxTKySKISoa7QEu3PCuZ6e2+JMeBYmXGWWmBiSbUOZV9x84hvcQwZ8Ts5juOK0LfpKwAF66IIAZoeU9kxcx8TGaZXaFrhtViZbAj6p34IgjQ7nduoaDJjsuE0248OytbcAQ/rEYZrHaBNa0zI/tawef07SabyF8EYKbaD+jkQ7vBwOayzHM3O8npJr97VxMkHo4+oEAYgifAXVfYpr2OC/cN/AWzIp/L887qDkAuQX+qmxYsrpoZowtAshVY3RNJbrot7WFjDwaA+zHmOhC2DAsrgVP/Zin6DoI/tRgQWzW5h5vorkwLaGPfKYmZqs/9WJXy58TSCe0JxJjpwSjaVymMFPKKbklHESKNVjbeSCnmDB2YEQTrS748t7aUcNbBFbRm1kgWkG0kH+j3lHmTf3DoNSExAekWBC1q/23bw+UqkSNY="
+									}]
+								}
+								Name: "Azelza"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "{faruk.stagezero.main2.title}"
+			x: 1.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.main2.subtitle}"
+			description: ["{faruk.stagezero.main2.desc1}"]
+			dependencies: ["2D10C1F5A22AFC94"]
+			hide: true
+			id: "060487D35BDD24FF"
+			tasks: [
+				{
+					id: "09FEECCD843CCBF2"
+					type: "item"
+					item: "create:andesite_alloy"
+				}
+				{
+					id: "4AC7AEFEDF4478C9"
+					type: "item"
+					item: "create:andesite_casing"
+				}
+			]
+			rewards: [{
+				id: "042F6B7762556342"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.main4.subtitle}"
+			description: ["{faruk.stagezero.main4.desc1}"]
+			dependencies: ["060487D35BDD24FF"]
+			optional: true
+			id: "2A4A17D3B53AE338"
+			tasks: [{
+				id: "519D1542225F0648"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [{
+				id: "566EDCE7208C80A0"
+				type: "item"
+				item: "minecraft:water_bucket"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.main3.subtitle}"
+			description: [
+				"{faruk.stagezero.main3.desc1}"
+				"{image:faruk:textures/ftbquests/windmill.png width:100 height:140 align:1}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["060487D35BDD24FF"]
+			optional: true
+			id: "4F162BF8D9070B5B"
+			tasks: [
+				{
+					id: "61DFB7CC790C7AFD"
+					type: "item"
+					item: "create:windmill_bearing"
+				}
+				{
+					id: "0F1A3A830E490583"
+					type: "item"
+					item: "create:white_sail"
+				}
+			]
+			rewards: [{
+				id: "4BA3C0FB43C4D792"
+				type: "item"
+				item: "create:white_sail"
+				count: 8
+			}]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.main13.subtitle}"
+			description: ["{faruk.stagezero.main13.desc1}"]
+			dependencies: ["49E821A6B5F123F7"]
+			id: "4AC9514380F250B3"
+			tasks: [{
+				id: "52B6E3544A81CDF1"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+			}]
+			rewards: [{
+				id: "6C6504D291A15692"
+				type: "item"
+				item: "emendatusenigmatica:brass_ingot"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 3.5d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.main8.subtitle}"
+			description: ["{faruk.stagezero.main8.desc1}"]
+			dependencies: ["060487D35BDD24FF"]
+			id: "5F289878984F03DA"
+			tasks: [{
+				id: "7BB8A20F688EF312"
+				type: "item"
+				item: "create:mechanical_press"
+			}]
+			rewards: [{
+				id: "16D2B50801405C70"
+				type: "item"
+				item: "create:depot"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.0d
+			subtitle: "{faruk.stagezero.main22.subtitle}"
+			description: ["{faruk.stagezero.main22.desc1}"]
+			dependencies: ["060487D35BDD24FF"]
+			id: "6EB0A4A1F6CC4CE0"
+			tasks: [{
+				id: "51251BB8BD92F56A"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [{
+				id: "201BD109BECEB50A"
+				type: "item"
+				item: "create:basin"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "{faruk.stagezero.main9.subtitle}"
+			description: ["{faruk.stagezero.main9.desc1}"]
+			dependencies: ["5F289878984F03DA"]
+			id: "6D70B9464181B6D2"
+			tasks: [{
+				id: "436998F37E886747"
+				type: "item"
+				item: "create:goggles"
+			}]
+			rewards: [{
+				id: "2E0FF6CF248A5426"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "{faruk.stagezero.main5.subtitle}"
+			description: ["{faruk.stagezero.main5.desc1}"]
+			dependencies: ["060487D35BDD24FF"]
+			optional: true
+			id: "6BEE754D79A8580F"
+			tasks: [{
+				id: "3EC870824C4A8BCC"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "4EEF577FAF0A4B2B"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.0d
+			subtitle: "{faruk.stagezero.main7.subtitle}"
+			description: ["{faruk.stagezero.main7.desc1}"]
+			dependencies: ["060487D35BDD24FF"]
+			optional: true
+			id: "30B7C8656D56EF2F"
+			tasks: [{
+				id: "5D1C779A785CC6DE"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "260ACE364843A6A8"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.main31.subtitle}"
+			description: ["{faruk.stagezero.main31.desc1}"]
+			dependencies: ["0721EDF0BE9DC004"]
+			hide: false
+			id: "276AA7CA9F8AC257"
+			tasks: [{
+				id: "4353CED3992D90A5"
+				type: "item"
+				item: "create:deployer"
+			}]
+			rewards: [{
+				id: "6ECCA665ABF3C313"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 12.5d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.main32.subtitle}"
+			description: [
+				"{faruk.stagezero.main32.desc1}"
+				"{faruk.stagezero.main32.desc2}"
+			]
+			dependencies: ["276AA7CA9F8AC257"]
+			id: "173458197C29A37C"
+			tasks: [{
+				id: "3F461A159F1C3C0F"
+				type: "item"
+				item: "create:precision_mechanism"
+			}]
+			rewards: [{
+				id: "54E44BDB7882D60B"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 1497318484779025127L
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.0d
+			subtitle: "{faruk.stagezero.main23.subtitle}"
+			description: ["{faruk.stagezero.main23.desc1}"]
+			dependencies: ["6EB0A4A1F6CC4CE0"]
+			id: "1B4912B8DFE60E65"
+			tasks: [{
+				id: "50968145BCDADDCC"
+				type: "item"
+				item: "create:rose_quartz"
+			}]
+			rewards: [{
+				id: "4B0D1E73F35F423F"
+				type: "item"
+				item: {
+					id: "create:sand_paper"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.main26.subtitle}"
+			description: ["{faruk.stagezero.main26.desc1}"]
+			dependencies: ["00FDD329F0B5E321"]
+			hide: true
+			id: "06E258F6C5730CF9"
+			tasks: [
+				{
+					id: "7B525F50D2492895"
+					type: "item"
+					item: "create:furnace_engine"
+				}
+				{
+					id: "17C68133B0ED22BF"
+					type: "item"
+					item: "create:flywheel"
+				}
+			]
+			rewards: [{
+				id: "4AF744CA6C764D15"
+				type: "random"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 14.0d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.main30.subtitle}"
+			description: ["{faruk.stagezero.main30.desc1}"]
+			dependencies: ["00FDD329F0B5E321"]
+			id: "17568690CD664B84"
+			tasks: [{
+				id: "13FAAA377BE24C2B"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [{
+				id: "7F9EF17854A09771"
+				type: "item"
+				item: "create:gearshift"
+			}]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.main24.subtitle}"
+			description: ["{faruk.stagezero.main24.desc1}"]
+			dependencies: ["1B4912B8DFE60E65"]
+			id: "0721EDF0BE9DC004"
+			tasks: [{
+				id: "706849A46FFC61A1"
+				type: "item"
+				item: "create:electron_tube"
+			}]
+			rewards: [{
+				id: "33B3231E1044734D"
+				type: "item"
+				item: "create:polished_rose_quartz"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.main25.subtitle}"
+			description: ["{faruk.stagezero.main25.desc1}"]
+			dependencies: ["0721EDF0BE9DC004"]
+			hide: false
+			id: "00FDD329F0B5E321"
+			tasks: [{
+				id: "74B10AAE82719D63"
+				type: "item"
+				item: "create:mechanical_crafter"
+			}]
+			rewards: [{
+				id: "5229784F14BF1320"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 1497318484779025127L
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.main19.subtitle}"
+			description: ["{faruk.stagezero.main19.desc1}"]
+			dependencies: ["134297044489DEC3"]
+			id: "220362A5D5200811"
+			tasks: [{
+				id: "1757F8C752D501B9"
+				type: "item"
+				item: "create:blaze_cake"
+			}]
+			rewards: [
+				{
+					id: "2B0B5BEFFA1E154C"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+				{
+					id: "5A6A8CF64C47D50A"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.main10.subtitle}"
+			description: ["{faruk.stagezero.main10.desc1}"]
+			dependencies: ["5F289878984F03DA"]
+			id: "1765C25F4D4F3880"
+			tasks: [{
+				id: "0A21FB2175281622"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "10A23218DF322658"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.main12.subtitle}"
+			description: ["{faruk.stagezero.main12.desc1}"]
+			dependencies: ["1765C25F4D4F3880"]
+			id: "49E821A6B5F123F7"
+			tasks: [{
+				id: "7BCF400C98168D00"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "58559250BCDB2B11"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.main14.subtitle}"
+			description: ["{faruk.stagezero.main14.desc1}"]
+			dependencies: ["49E821A6B5F123F7"]
+			id: "134297044489DEC3"
+			tasks: [{
+				id: "131554DA71DCFB68"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [{
+				id: "4441360EF38F4CC4"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.0d
+			subtitle: "{faruk.stagezero.main20.subtitle}"
+			description: ["{faruk.stagezero.main20.desc1}"]
+			dependencies: ["220362A5D5200811"]
+			id: "0A4FA251A4F19C21"
+			tasks: [{
+				id: "1E6E358F1CDC29E8"
+				type: "item"
+				item: {
+					id: "create:chromatic_compound"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "09E9D3A1D6F13017"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 1497318484779025127L
+			}]
+		}
+		{
+			x: 15.5d
+			y: 2.0d
+			subtitle: "{faruk.stagezero.main21.subtitle}"
+			description: ["{faruk.stagezero.main21.desc1}"]
+			dependencies: ["0A4FA251A4F19C21"]
+			id: "3DBD75E17EB187CB"
+			tasks: [{
+				id: "07345AAC063CDEC6"
+				type: "item"
+				item: "create:refined_radiance"
+			}]
+			rewards: [{
+				id: "567D97E64B31ED42"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 1497318484779025127L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -7.5d
+			subtitle: "{faruk.stagezero.main38.subtitle}"
+			description: ["{faruk.stagezero.main38.desc1}"]
+			dependencies: ["31880BC94DADEF9A"]
+			id: "207880D88338EBE1"
+			tasks: [{
+				id: "2EB14CE77D20A15F"
+				type: "item"
+				item: "createaddition:electric_motor"
+			}]
+			rewards: [{
+				id: "07A328AAA78B5A23"
+				type: "random"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 9.0d
+			y: -8.5d
+			subtitle: "{faruk.stagezero.main39.subtitle}"
+			description: ["{faruk.stagezero.main39.desc1}"]
+			dependencies: ["31880BC94DADEF9A"]
+			id: "50A0D89A1CC6CC4F"
+			tasks: [{
+				id: "68E30534BE6F337D"
+				type: "item"
+				item: "createaddition:alternator"
+			}]
+			rewards: [{
+				id: "31A701AC29CA0EA6"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 4.5d
+			y: -7.0d
+			subtitle: "{faruk.stagezero.main34.subtitle}"
+			description: ["{faruk.stagezero.main34.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["060487D35BDD24FF"]
+			id: "0F43A5CE6FE39DF5"
+			tasks: [{
+				id: "15473598E095F3E0"
+				type: "item"
+				item: "createaddition:rolling_mill"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -5.5d
+			subtitle: "&6Connector"
+			description: ["{faruk.stagezero.main35.desc1}"]
+			dependencies: ["0F43A5CE6FE39DF5"]
+			hide: false
+			id: "56F2B42A7D2D9D86"
+			tasks: [{
+				id: "50D73480B24C5A2C"
+				type: "item"
+				item: "createaddition:connector"
+			}]
+			rewards: [{
+				id: "0462FDA0CEFC77F6"
+				type: "item"
+				item: "createaddition:connector"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 9.0d
+			y: -5.5d
+			subtitle: "{faruk.stagezero.main36.subtitle}"
+			description: ["{faruk.stagezero.main36.desc1}"]
+			dependencies: ["56F2B42A7D2D9D86"]
+			id: "448C505ED011DE87"
+			tasks: [{
+				id: "7471E59DAD4B9581"
+				type: "item"
+				item: "createaddition:accumulator"
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.0d
+			subtitle: "{faruk.stagezero.main27.subtitle}"
+			description: ["{faruk.stagezero.main27.desc1}"]
+			dependencies: ["06E258F6C5730CF9"]
+			id: "709879F55484B7D5"
+			tasks: [{
+				id: "1C8D6D10B2E78D48"
+				type: "item"
+				item: "createaddition:furnace_burner"
+			}]
+			rewards: [{
+				id: "3EAC7FDB37616B51"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -9.0d
+			subtitle: "{faruk.stagezero.main41.subtitle}"
+			description: ["{faruk.stagezero.main41.desc1}"]
+			dependencies: ["50A0D89A1CC6CC4F"]
+			optional: true
+			id: "126CC3D556595380"
+			tasks: [{
+				id: "0326473329037871"
+				type: "item"
+				item: "createaddition:heater"
+			}]
+		}
+		{
+			x: 12.5d
+			y: -1.0d
+			subtitle: "{faruk.stagezero.main28.subtitle}"
+			description: ["{faruk.stagezero.main28.desc1}"]
+			dependencies: ["06E258F6C5730CF9"]
+			id: "1A4D41ABCD93958A"
+			tasks: [{
+				id: "548846FA17E0B9E8"
+				type: "item"
+				item: "createaddition:crude_burner"
+			}]
+			rewards: [{
+				id: "7B460A2DD11987FB"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 4105667497229337938L
+			}]
+		}
+		{
+			x: 10.5d
+			y: -8.0d
+			subtitle: "{faruk.stagezero.main40.subtitle}"
+			description: ["{faruk.stagezero.main40.desc1}"]
+			dependencies: ["50A0D89A1CC6CC4F"]
+			id: "5E5C7D6EE5128781"
+			tasks: [{
+				id: "58FCE5E92B0BFB92"
+				type: "item"
+				item: "createaddition:tesla_coil"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -8.0d
+			subtitle: "{faruk.stagezero.main42.subtitle}"
+			description: [
+				"{faruk.stagezero.main42.desc1}"
+				"{image:faruk:textures/ftbquests/compound.png width:150 height:125 align:1}"
+			]
+			dependencies: ["5E5C7D6EE5128781"]
+			id: "769B40A7A7CCFA8D"
+			tasks: [{
+				id: "486338A5A6AEC338"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+			}]
+			rewards: [{
+				id: "6FD0A99F2E55DDE5"
+				type: "item"
+				item: "createaddition:overcharged_alloy"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -8.0d
+			dependencies: ["0F43A5CE6FE39DF5"]
+			id: "36CF42DADB79DF17"
+			tasks: [{
+				id: "6217839E857C991F"
+				type: "item"
+				item: "createaddition:spool"
+			}]
+			rewards: [{
+				id: "6CA05251F3852088"
+				type: "item"
+				item: "createaddition:spool"
+				count: 8
+			}]
+		}
+		{
+			x: 4.0d
+			y: -6.0d
+			dependencies: ["0F43A5CE6FE39DF5"]
+			id: "1501AE0329D64682"
+			tasks: [{
+				id: "2E152527DAD7FCAE"
+				type: "item"
+				item: "createaddition:copper_wire"
+			}]
+			rewards: [{
+				id: "7752D02CC1DE87D0"
+				type: "item"
+				item: "createaddition:copper_wire"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 5.0d
+			y: -6.0d
+			dependencies: ["0F43A5CE6FE39DF5"]
+			id: "29211B1FBAFC0520"
+			tasks: [{
+				id: "5BE05ED563C6077B"
+				type: "item"
+				item: "createaddition:gold_wire"
+			}]
+			rewards: [{
+				id: "00142979483167AB"
+				type: "item"
+				item: "createaddition:gold_wire"
+				random_bonus: 7
+			}]
+		}
+		{
+			x: 4.0d
+			y: -9.0d
+			dependencies: ["36CF42DADB79DF17"]
+			id: "1B68E91F7673610B"
+			tasks: [{
+				id: "6D3E577C1EE873BD"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+			rewards: [{
+				id: "10ACEB6131411EC9"
+				type: "item"
+				item: "createaddition:copper_spool"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -9.0d
+			dependencies: ["36CF42DADB79DF17"]
+			id: "06094CAE4C667AA4"
+			tasks: [{
+				id: "52F5713E8683D0EB"
+				type: "item"
+				item: "createaddition:gold_spool"
+			}]
+			rewards: [{
+				id: "155C542A1E71622D"
+				type: "item"
+				item: "createaddition:gold_spool"
+			}]
+		}
+		{
+			x: 14.0d
+			y: -1.0d
+			subtitle: "{faruk.stagezero.main29.subtitle}"
+			description: ["{faruk.stagezero.main29.desc1}"]
+			dependencies: ["1A4D41ABCD93958A"]
+			id: "1DE55BC523761289"
+			tasks: [{
+				id: "0D42B2CA5B8666AC"
+				type: "item"
+				item: "createaddition:seed_oil_bucket"
+			}]
+			rewards: [{
+				id: "2891CE19BA1AD000"
+				type: "choice"
+				icon: {
+					id: "quark:seed_pouch"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				table_id: 7561266928763445261L
+			}]
+		}
+		{
+			x: 15.5d
+			y: -8.0d
+			subtitle: "&8&l rocketman"
+			description: ["{faruk.stagezero.main43.desc1}"]
+			dependencies: ["769B40A7A7CCFA8D"]
+			id: "0CF9E96AE5C32281"
+			tasks: [{
+				id: "64A398D69152CCDD"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:andesite_encased_jet_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "19254DC35251B263"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 16.5d
+			y: -5.5d
+			subtitle: "{faruk.stagezero.main44.subtitle}"
+			description: ["{faruk.stagezero.main44.desc1}"]
+			dependencies: ["0CF9E96AE5C32281"]
+			id: "15F0F494207A0F92"
+			tasks: [{
+				id: "37F313365FFB3B31"
+				type: "item"
+				item: {
+					id: "create_stuff_additions:encased_jet_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "30B4EF49A1869A71"
+				type: "item"
+				item: "minecraft:blaze_rod"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.main33.subtitle}"
+			description: [
+				"{faruk.stagezero.main33.desc1}"
+				"{faruk.stagezero.main33.desc2}"
+			]
+			dependencies: ["173458197C29A37C"]
+			id: "4B6455CF264FD835"
+			tasks: [{
+				id: "66A7FE66B1FA2361"
+				type: "item"
+				item: "ftbultimine:ultiminer"
+			}]
+			rewards: [{
+				id: "1A41218EDB98357C"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-1120551105
+								-895922602
+								-1177437473
+								-602335624
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNzc2OTY4NDU3MCwKICAicHJvZmlsZUlkIiA6ICJiZDM1YmYzZmNhOTk0ZTU2YjlkMWJhZGZkYzE5MTY3OCIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWRvd2FyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q4YjllMTI2N2QwZWU5ZTFiNmIyYTY4ZTIwNWFlMDVmYjc0YTQxNjVmNmEyODliNGQxN2M4MjcyZGViMmExMzAiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									Signature: "Aa10PFfHOiCKZdoXt8RtQ2ZT0tju9qByZFPgvtSsIL0GjoUmwRViHLEHApBL9P268BEbAlzgsYneyEitFTgCUJttTsmfaS3YIKTC/rZNdauPhA9SEvUcUGsuOjnD6SFWe1ZFzlhcLA7BNZRgvmyoikh+RM8dxBvqR7WKee4vohCMYm5vnIHW8AIiPsBU1Pb+Y3/5PsNLce9MuzNYo66Rf+8So2aKHQ+fYHYxQSYIeGfR7OaLjX+D/TJoo9UT/YQfvq47Dkbm4Z/DgFbAlhYpOI0wTBUXYp94kBplNPq/TmgqipMm+01bEJAICMq8yRPlSdNF1uae2iE71MHucR/ov1gtixMbI0Uj4AhKq+7abUSf8IRwHZBl90SYYzJ6bOTFiwqj9Wn0HILmT+WGYkD6VnFVz7i4iVP/riHvh7fKGhzsbKGXhUWue/B59oKp/8X67ogak9idfx2uKmxr0b9WLlkMgp36xJWPJydkTrvbVNEpckiEQijSN7mx8/YTjdDln6t10fH1NJZuRsZ/nLMb93c0tFpoZj6FemztQYhB0cWmqMlqlE8io8O0pppYBZPKnqQkbUSOnu7ve6RVKmsZkhdd8NXLecc1L9l68dY6DsU7IH5uiJfcP3YGlJWJRhhrCOc0BO/NUnFlg86z+hGjkgTLVERy37ERLQDUKao/vi4="
+								}]
+							}
+							Name: "Redowar"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -8.0d
+			subtitle: "{faruk.stagezero.main37.subtitle}"
+			description: ["{faruk.stagezero.main37.desc1}"]
+			dependencies: ["0F43A5CE6FE39DF5"]
+			hide: false
+			id: "31880BC94DADEF9A"
+			tasks: [{
+				id: "34DA0C295ECB62C7"
+				type: "item"
+				item: "createaddition:capacitor"
+			}]
+			rewards: [{
+				id: "338A95DB2D936A9B"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 5928584491876281619L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.main16.subtitle}"
+			description: ["{faruk.stagezero.main16.desc1}"]
+			dependencies: ["134297044489DEC3"]
+			id: "37B342EB8D7023D3"
+			tasks: [{
+				id: "1C37A950F3A47C69"
+				type: "item"
+				item: "create:fluid_pipe"
+			}]
+			rewards: [{
+				id: "6B3F0206C2C0F3B5"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 8
+			}]
+		}
+		{
+			x: 9.5d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.main17.subtitle}"
+			description: ["{faruk.stagezero.main17.desc1}"]
+			dependencies: ["37B342EB8D7023D3"]
+			hide: true
+			id: "29E5C6078891DE7F"
+			tasks: [{
+				id: "1C0FF21475EEE993"
+				type: "item"
+				item: "create:mechanical_pump"
+			}]
+			rewards: [{
+				id: "16F2B9772CC5E43F"
+				type: "item"
+				item: "create:mechanical_pump"
+				count: 2
+			}]
+		}
+		{
+			x: 8.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.main18.subtitle}"
+			description: ["{faruk.stagezero.main18.desc1}"]
+			dependencies: ["37B342EB8D7023D3"]
+			hide: true
+			id: "6823C41877932F23"
+			tasks: [{
+				id: "4D7DB3D056A47ACD"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+			}]
+			rewards: [{
+				id: "304E100C93B802D2"
+				type: "item"
+				item: "create:smart_fluid_pipe"
+				count: 2
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.main15.subtitle}"
+			description: ["{faruk.stagezero.main15.desc1}"]
+			dependencies: ["134297044489DEC3"]
+			id: "32AEB9C2C4F0F1D7"
+			tasks: [{
+				id: "2416C86FF0DCEA83"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "673163EEDE739A0F"
+				type: "item"
+				item: "create:fluid_tank"
+				count: 2
+			}]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.main6.subtitle}"
+			description: [
+				"{faruk.stagezero.main6.desc1}"
+				"{faruk.stagezero.main6.desc2}"
+			]
+			dependencies: ["6BEE754D79A8580F"]
+			optional: true
+			id: "38289F949938DF24"
+			tasks: [{
+				id: "7231C0D9DE728BF3"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "0C0D52B1DB047318"
+				type: "xp"
+				xp: 50
+			}]
+		}
+		{
+			title: "{faruk.stagezero.main1.title}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -0.75d
+			y: -2.5d
+			shape: "gear"
+			subtitle: "{faruk.stagezero.main1.subtitle}"
+			description: [
+				"{faruk.stagezero.main1.desc1}"
+				"{faruk.stagezero.main1.desc2}"
+				"{faruk.stagezero.main1.desc3}"
+				"{faruk.stagezero.extras1.desc1}"
+			]
+			size: 1.5d
+			id: "2D10C1F5A22AFC94"
+			tasks: [{
+				id: "01CCC2ECCF0EE670"
+				type: "checkmark"
+				title: "&6Welcome to Faruk V!"
+			}]
+			rewards: [
+				{
+					id: "444511E1E0AC07E4"
+					type: "item"
+					item: {
+						id: "silentgear:axe_head"
+						Count: 1b
+						tag: {
+							CraftedCount: 1
+							Materials: [{
+								Item: {
+									id: "minecraft:cobblestone"
+									Count: 1b
+								}
+								ID: "silentgear:stone"
+								Count: 3b
+							}]
+						}
+					}
+				}
+				{
+					id: "6F9B0EC205529D77"
+					type: "item"
+					item: "minecraft:stick"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.main22v2.subtitle}"
+			description: ["{faruk.stagezero.main22v2.desc1}"]
+			dependencies: ["1B4912B8DFE60E65"]
+			id: "5676DDC6B3B06E8D"
+			tasks: [{
+				id: "51D2813FBF2A8668"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [{
+				id: "3AB8405EA49934E9"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagezero.main0.subtitle}"
+			x: -1.25d
+			y: -4.0d
+			description: ["{faruk.stagezero.main0.desc1}"]
+			dependencies: ["2D10C1F5A22AFC94"]
+			id: "688F30569965C48A"
+			tasks: [{
+				id: "50A6D9AACF7F9284"
+				type: "checkmark"
+				title: "ctrl v to adjust sound effects"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.extras2.subtitle1}"
+			description: ["{faruk.stagezero.extras2.desc1}"]
+			dependencies: ["4AC9514380F250B3"]
+			id: "2895394DE2B848DF"
+			tasks: [{
+				id: "367A43E2BEFFAB56"
+				type: "item"
+				item: "create:haunted_bell"
+			}]
+		}
+		{
+			title: "{faruk.stagezero.extras3.subtitle1}"
+			x: -0.25d
+			y: -4.0d
+			description: [
+				"{faruk.stagezero.extras3.desc1}"
+				"{faruk.stagezero.extras3.desc2}"
+				"{faruk.stagezero.extras3.desc3}"
+				"{faruk.stagezero.extras3.desc4}"
+				"{faruk.stagezero.extras3.desc5}"
+			]
+			dependencies: ["2D10C1F5A22AFC94"]
+			id: "3AE4E1C800190958"
+			tasks: [{
+				id: "74E50AC941D4BC29"
+				type: "checkmark"
+				title: "Dimensions"
+			}]
+		}
+		{
+			title: "{faruk.stagezero.extras4.subtitle1}"
+			x: -0.75d
+			y: -1.0d
+			description: [
+				"{faruk.stagezero.extras4.desc1}"
+				"{image:faruk:textures/ftbquests/pickaxerecipe.png width:165 height:100 align:1}"
+			]
+			dependencies: ["2D10C1F5A22AFC94"]
+			id: "261244AC1DAB9416"
+			tasks: [{
+				id: "65F6CF2508B4CFB9"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "61B0E7132F3A9910"
+					type: "item"
+					item: "minecraft:apple"
+					random_bonus: 1
+				}
+				{
+					id: "767B85823A9DE384"
+					type: "item"
+					item: "silentgear:template_board"
+					count: 8
+					random_bonus: 4
+				}
+			]
+		}
+	]
+}

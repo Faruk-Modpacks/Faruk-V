@@ -1,0 +1,610 @@
+{
+	id: "1213D76C5A353AD0"
+	group: "10D2C316AC27131A"
+	order_index: 2
+	filename: "adventure"
+	title: "Twilight Forest"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.5d
+			y: 0.5d
+			subtitle: "{faruk.stagethree.twilight2.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight2.desc1}"
+				"{faruk.stagethree.twilight2.desc2}"
+			]
+			dependencies: ["5532953E89637B5B"]
+			id: "072AA95C35B4953B"
+			tasks: [{
+				id: "213CA89929781795"
+				type: "item"
+				item: "twilightforest:naga_trophy"
+			}]
+			rewards: [{
+				id: "2239A19A1CE266F5"
+				type: "item"
+				item: "twilightforest:naga_courtyard_miniature_structure"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight3.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight3.desc1}"
+				"{faruk.stagethree.twilight3.desc2}"
+			]
+			dependencies: ["072AA95C35B4953B"]
+			id: "5D02AB968B610C85"
+			tasks: [{
+				id: "61FF5549E05CFFEC"
+				type: "item"
+				item: "twilightforest:lich_trophy"
+			}]
+			rewards: [{
+				id: "37E5315170B9EF90"
+				type: "item"
+				item: "twilightforest:lich_tower_miniature_structure"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			subtitle: "{faruk.stagethree.twilight6.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight6.desc1}"
+				"{faruk.stagethree.twilight6.desc2}"
+			]
+			dependencies: ["5D02AB968B610C85"]
+			hide: true
+			id: "479B3C34DACFC27C"
+			tasks: [
+				{
+					id: "706433BADAC9B411"
+					type: "item"
+					item: "twilightforest:minoshroom_trophy"
+				}
+				{
+					id: "2FA5B997C22C5264"
+					type: "item"
+					item: "twilightforest:meef_stroganoff"
+				}
+				{
+					id: "168258C87DC0F279"
+					type: "advancement"
+					advancement: "twilightforest:progress_labyrinth"
+					criterion: ""
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight7.subtitle}"
+			description: ["{faruk.stagethree.twilight7.desc1}"]
+			dependencies: ["479B3C34DACFC27C"]
+			id: "004732E269242796"
+			tasks: [{
+				id: "2177654325402A78"
+				type: "item"
+				item: "twilightforest:hydra_trophy"
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			subtitle: "{faruk.stagethree.twilight9.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight9.desc1}"
+				"{faruk.stagethree.twilight9.desc2}"
+			]
+			dependencies: ["004732E269242796"]
+			hide: true
+			id: "03A30ABCFC12C043"
+			tasks: [{
+				id: "7C281785EE9A2D19"
+				type: "item"
+				item: "twilightforest:knight_phantom_trophy"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight10.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight10.desc1}"
+				"{faruk.stagethree.twilight10.desc2}"
+				"{faruk.stagethree.twilight10.desc3}"
+			]
+			hide_dependency_lines: false
+			dependencies: ["03A30ABCFC12C043"]
+			id: "1D850AAC3D737701"
+			tasks: [{
+				id: "14B44C8788BFA01B"
+				type: "item"
+				item: "twilightforest:ur_ghast_trophy"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			subtitle: "{faruk.stagethree.twilight12.subtitle}"
+			description: ["{faruk.stagethree.twilight12.desc1}"]
+			dependencies: ["1D850AAC3D737701"]
+			hide: true
+			id: "56F6688B04240B69"
+			tasks: [{
+				id: "6C6356C20DA94DC4"
+				type: "item"
+				item: "twilightforest:yeti_trophy"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight13.subtitle}"
+			description: ["{faruk.stagethree.twilight13.desc1}"]
+			dependencies: ["56F6688B04240B69"]
+			id: "056E64E6D187F75C"
+			tasks: [{
+				id: "19A7B9FE3B01E469"
+				type: "item"
+				item: "twilightforest:snow_queen_trophy"
+			}]
+		}
+		{
+			title: "{faruk.stagethree.twilight21.subtitle}"
+			x: -10.5d
+			y: -2.0d
+			description: ["{faruk.stagethree.twilight21.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "150DF61E0847F0A6"
+			tasks: [
+				{
+					id: "1B949BD1AF834562"
+					type: "kill"
+					icon: "exlinefurniture:spider_doll"
+					entity: "twilightforest:swarm_spider"
+					value: 1L
+				}
+				{
+					id: "1E6F6AEE7743A6B0"
+					type: "kill"
+					icon: "exlinefurniture:cave_spider_doll"
+					entity: "twilightforest:hedge_spider"
+					value: 1L
+				}
+				{
+					id: "7EA20571B1F6DE7B"
+					type: "kill"
+					icon: "twilightforest:hostile_wolf_spawn_egg"
+					entity: "twilightforest:hostile_wolf"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.twilight18.subtitle}"
+			x: -9.5d
+			y: -2.0d
+			description: [
+				"{faruk.stagethree.twilight18.desc1}"
+				"{faruk.stagethree.twilight18.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "4237F25414B868F2"
+			tasks: [
+				{
+					id: "1874002FC2D20900"
+					type: "kill"
+					icon: "twilightforest:redcap_spawn_egg"
+					entity: "twilightforest:redcap"
+					value: 1L
+				}
+				{
+					id: "207C3585895A1A44"
+					type: "kill"
+					entity: "twilightforest:kobold"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.twilight19.subtitle}"
+			x: -9.5d
+			y: -3.0d
+			description: [
+				"{faruk.stagethree.twilight19.desc1}"
+				"{faruk.stagethree.twilight19.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "15856DB1B2CB0EDF"
+			tasks: [
+				{
+					id: "52F59F866BC1960E"
+					type: "kill"
+					entity: "twilightforest:redcap_sapper"
+					value: 1L
+				}
+				{
+					id: "6C33662983968BB2"
+					type: "kill"
+					entity: "twilightforest:fire_beetle"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.twilight20.subtitle}"
+			x: -9.5d
+			y: -4.0d
+			description: [
+				"{faruk.stagethree.twilight20.desc1}"
+				"{faruk.stagethree.twilight20.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "1A2BB8E140B57E88"
+			tasks: [
+				{
+					id: "31E058FAB4478268"
+					type: "kill"
+					entity: "twilightforest:wraith"
+					value: 1L
+				}
+				{
+					id: "4739AF545103484C"
+					type: "kill"
+					entity: "twilightforest:slime_beetle"
+					value: 1L
+				}
+				{
+					id: "37BD74B3C7E17CB1"
+					type: "kill"
+					entity: "twilightforest:pinch_beetle"
+					value: 1L
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.twilight22.subtitle}"
+			x: -8.5d
+			y: -2.0d
+			description: [
+				"{faruk.stagethree.twilight22.desc1}"
+				"{faruk.stagethree.twilight22.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "279FCB0E8B220B77"
+			tasks: [
+				{
+					id: "6D33B8097B67AB47"
+					type: "item"
+					item: {
+						id: "twilightforest:crumble_horn"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "24434B65820BAD9A"
+					type: "item"
+					item: "twilightforest:quest_ram_trophy"
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			subtitle: "{faruk.stagethree.twilight24.subtitle}"
+			description: ["{faruk.stagethree.twilight24.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "748781363531099B"
+			tasks: [{
+				id: "79AC2B4FA531EFA4"
+				type: "item"
+				item: "twilightforest:magic_map_empty"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 0.5d
+			subtitle: "{faruk.stagethree.twilight14.subtitle}"
+			description: ["{faruk.stagethree.twilight14.desc1}"]
+			dependencies: ["056E64E6D187F75C"]
+			hide: true
+			id: "7452F596FF2836CB"
+			tasks: [{
+				id: "6CE74D4B8802B7B0"
+				type: "item"
+				item: "twilightforest:magic_beans"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight15.subtitle}"
+			description: ["{faruk.stagethree.twilight15.desc1}"]
+			dependencies: ["7452F596FF2836CB"]
+			hide: true
+			id: "0D72F67A436074A3"
+			tasks: [{
+				id: "1C4CF9E85635454F"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "{faruk.stagethree.twilight16.subtitle}"
+			description: ["{faruk.stagethree.twilight16.desc1}"]
+			dependencies: ["0D72F67A436074A3"]
+			id: "4B39D40DE0DB987B"
+			tasks: [{
+				id: "41A214D5D8132BDB"
+				type: "item"
+				item: {
+					id: "twilightforest:lamp_of_cinders"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.twilight17.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight17.desc1}"
+				"{faruk.stagethree.twilight17.desc2}"
+				"{faruk.stagethree.twilight17.desc4}"
+				"{faruk.stagethree.twilight17.desc5}"
+			]
+			dependencies: ["4B39D40DE0DB987B"]
+			hide: true
+			id: "218DE20E1947C956"
+			tasks: [
+				{
+					id: "5F733F78A30C0062"
+					type: "item"
+					item: "twilightforest:castle_rune_brick_pink"
+				}
+				{
+					id: "404909AFA744B913"
+					type: "item"
+					item: "twilightforest:castle_rune_brick_yellow"
+				}
+				{
+					id: "3AB97E2B5BF3CD79"
+					type: "item"
+					item: "twilightforest:castle_rune_brick_blue"
+				}
+				{
+					id: "08A0065C0A3A742B"
+					type: "item"
+					item: "twilightforest:castle_rune_brick_purple"
+				}
+				{
+					id: "2635BBD4C62FE735"
+					type: "item"
+					item: "twilightforest:castle_pillar_bold"
+				}
+				{
+					id: "7ECEE0C7B4803BD7"
+					type: "item"
+					item: "twilightforest:castle_pillar_encased"
+				}
+				{
+					id: "5B1E8B2EA1C9D485"
+					type: "item"
+					item: "twilightforest:castle_door_pink"
+				}
+				{
+					id: "752067581AEF7AA6"
+					type: "item"
+					item: "twilightforest:castle_door_yellow"
+				}
+				{
+					id: "0437B8E7F4FDC13D"
+					type: "item"
+					item: "twilightforest:castle_door_blue"
+				}
+				{
+					id: "0A8338EF792162E6"
+					type: "item"
+					item: "twilightforest:castle_door_purple"
+				}
+			]
+			rewards: [
+				{
+					id: "5421FA3044540913"
+					type: "item"
+					item: "twilightforest:shader_bag_ie_masterwork"
+				}
+				{
+					id: "1834BD062AACF376"
+					type: "item"
+					item: "twilightforest:cube_talisman"
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.5d
+			subtitle: "{faruk.stagethree.twilight4.subtitle}"
+			description: ["{faruk.stagethree.twilight4.desc1}"]
+			dependencies: ["5D02AB968B610C85"]
+			hide: true
+			optional: true
+			id: "6B83CE8FBCAF5E1B"
+			tasks: [{
+				id: "5B84D116545CB993"
+				type: "item"
+				item: {
+					id: "twilightforest:mazebreaker_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								lvl: 4s
+								id: "minecraft:efficiency"
+							}
+							{
+								lvl: 3s
+								id: "minecraft:unbreaking"
+							}
+							{
+								lvl: 2s
+								id: "minecraft:fortune"
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "{faruk.stagethree.twilight8.subtitle}"
+			description: ["{faruk.stagethree.twilight8.desc1}"]
+			dependencies: ["004732E269242796"]
+			hide: true
+			optional: true
+			id: "40CA73E430F6C031"
+			tasks: [{
+				id: "17F81251CC1E40FB"
+				type: "item"
+				item: {
+					id: "twilightforest:block_and_chain"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.5d
+			subtitle: "{faruk.stagethree.twilight5.subtitle}"
+			description: ["{faruk.stagethree.twilight5.desc1}"]
+			dependencies: ["5D02AB968B610C85"]
+			hide: true
+			optional: true
+			id: "43C0D0738736F695"
+			tasks: [{
+				id: "66F049475C0EAC1A"
+				type: "item"
+				item: {
+					id: "twilightforest:minotaur_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: -1.0d
+			subtitle: "{faruk.stagethree.twilight11.subtitle}"
+			description: [
+				"{faruk.stagethree.twilight11.desc1}"
+				"{faruk.stagethree.twilight11.desc2}"
+			]
+			dependencies: ["03A30ABCFC12C043"]
+			hide: true
+			id: "4BB173FDEDFAFE49"
+			tasks: [{
+				id: "4C13EF02F5E2B968"
+				type: "item"
+				item: "twilightforest:experiment_115"
+			}]
+			rewards: [{
+				id: "5F84FA7EB0EB2123"
+				type: "item"
+				item: "twilightforest:experiment_115"
+				count: 3
+				random_bonus: 5
+			}]
+		}
+		{
+			x: -10.5d
+			y: 0.5d
+			subtitle: "{faruk.stagethree.twilight23.subtitle}"
+			description: ["{faruk.stagethree.twilight23.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["5532953E89637B5B"]
+			hide: true
+			optional: true
+			id: "445E217FCE07FC95"
+			tasks: [{
+				id: "4448465CF77D6529"
+				type: "item"
+				item: "twilightforest:maze_map_empty"
+			}]
+		}
+		{
+			title: "{faruk.stagethree.twilight1.subtitle}"
+			x: -9.5d
+			y: 0.0d
+			description: [
+				"{faruk.stagethree.twilight1.desc1}"
+				"{faruk.stagethree.twilight1.desc2}"
+				"{faruk.stagethree.twilight1.desc3}"
+				"{faruk.stagethree.twilight1.desc4}"
+			]
+			dependencies: ["109DE7EAEEE2D2F9"]
+			hide: true
+			id: "5532953E89637B5B"
+			tasks: [{
+				id: "71C5E560B9FECEF8"
+				type: "dimension"
+				dimension: "twilightforest:twilightforest"
+			}]
+			rewards: [{
+				id: "1E5BA0F95940AB0A"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "twilightforest:guide"
+					}
+				}
+			}]
+		}
+	]
+}

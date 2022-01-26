@@ -1,0 +1,710 @@
+{
+	id: "57FFAE87DE7051B5"
+	group: "363EA8652E804B30"
+	order_index: 1
+	filename: "occultism"
+	title: "Occultism"
+	icon: "occultism:pentacle"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic1.subtitle}"
+			description: ["{faruk.stagetwo.magic1.desc1}"]
+			dependencies: ["3D93A650B1FD1869"]
+			hide: true
+			id: "31866ABFB4A612A0"
+			tasks: [{
+				id: "091CB7AD3512E9BE"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [{
+				id: "0D2E495CBC38ABC3"
+				type: "item"
+				item: "minecraft:bone_meal"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic2.subtitle}"
+			description: ["{faruk.stagetwo.magic2.desc1}"]
+			dependencies: ["31866ABFB4A612A0"]
+			id: "1ED875C5F7E2177E"
+			tasks: [{
+				id: "2A3F73E281E43AC5"
+				type: "item"
+				item: "occultism:dictionary_of_spirits"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic3.subtitle}"
+			description: ["{faruk.stagetwo.magic3.desc1}"]
+			dependencies: ["1ED875C5F7E2177E"]
+			id: "18F67E40BB92BDBE"
+			tasks: [{
+				id: "5E37234970745FBC"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [{
+				id: "47FB5AD4CE7A7D04"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.magic5.subtitle}"
+			icon: "occultism:spirit_fire"
+			x: 4.5d
+			y: 0.0d
+			description: ["{faruk.stagetwo.magic5.desc1}"]
+			dependencies: ["18F67E40BB92BDBE"]
+			hide: true
+			id: "7EECEDDE8333B4E2"
+			tasks: [{
+				id: "1316A4E825FF5F08"
+				type: "checkmark"
+				title: "&6Spirit Fire"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic7.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic7.desc1}"
+				"{faruk.stagetwo.magic7.desc2}"
+			]
+			dependencies: ["42F57ED5812A487D"]
+			id: "3BB29AE30F9D237C"
+			tasks: [{
+				id: "17761D090CFA9151"
+				type: "item"
+				item: {
+					id: "occultism:divination_rod"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.magic4.subtitle}"
+			icon: {
+				id: "iceandfire:cyclops_eye"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 2.5d
+			y: 1.5d
+			description: ["{faruk.stagetwo.magic4.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["1ED875C5F7E2177E"]
+			hide: true
+			optional: true
+			id: "7875826148B63346"
+			tasks: [{
+				id: "067F65C90C02E32A"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic6.subtitle}"
+			description: ["{faruk.stagetwo.magic6.desc1}"]
+			dependencies: ["7EECEDDE8333B4E2"]
+			id: "42F57ED5812A487D"
+			tasks: [{
+				id: "79F0097254480B53"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "725A78DE6BE5405B"
+				type: "item"
+				item: "minecraft:diamond"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 9.0d
+			y: -0.5d
+			subtitle: "{faruk.stagetwo.magic11.subtitle}"
+			description: ["{faruk.stagetwo.magic11.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["7EECEDDE8333B4E2"]
+			hide: true
+			id: "0B99C2F485C96364"
+			tasks: [{
+				id: "5C397867CFA1E298"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
+			rewards: [{
+				id: "64E68BDB8D909209"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 32
+				random_bonus: 32
+			}]
+		}
+		{
+			x: 9.0d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.magic10.subtitle}"
+			description: ["{faruk.stagetwo.magic10.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["7EECEDDE8333B4E2"]
+			hide: true
+			id: "1ADC254B53801C62"
+			tasks: [{
+				id: "3E8BD6E86DFC9F90"
+				type: "item"
+				item: "occultism:otherworld_log"
+			}]
+			rewards: [{
+				id: "4329AB6C5828FAAF"
+				type: "item"
+				item: "occultism:otherworld_log"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.magic8.subtitle}"
+			x: 4.0d
+			y: 1.5d
+			description: [
+				"{faruk.stagetwo.magic8.desc1}"
+				"{image:faruk:textures/ftbquests/groves.png width:120 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["1ED875C5F7E2177E"]
+			hide: true
+			optional: true
+			id: "211DEBB9D5F8A2C3"
+			tasks: [{
+				id: "560397A83CA263B5"
+				type: "checkmark"
+				icon: "occultism:otherworld_sapling"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			subtitle: "{faruk.stagetwo.magic13.subtitle}"
+			description: ["{faruk.stagetwo.magic13.desc1}"]
+			dependencies: ["0B99C2F485C96364"]
+			id: "3A63E3CBC642D269"
+			tasks: [{
+				id: "39B0D557980C9D4F"
+				type: "item"
+				item: "occultism:burnt_otherstone"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.magic14.subtitle}"
+			description: ["{faruk.stagetwo.magic14.desc1}"]
+			dependencies: ["1ADC254B53801C62"]
+			id: "2B9807E4C0F33105"
+			tasks: [{
+				id: "41D37736AA5BC70E"
+				type: "item"
+				item: "occultism:otherworld_ashes"
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic15.subtitle}"
+			description: ["{faruk.stagetwo.magic15.desc1}"]
+			dependencies: [
+				"2B9807E4C0F33105"
+				"3A63E3CBC642D269"
+			]
+			id: "34498F5852FFCA53"
+			tasks: [{
+				id: "437BC287330A3B77"
+				type: "item"
+				item: "occultism:chalk_white_impure"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -0.5d
+			subtitle: "{faruk.stagetwo.magic16.subtitle}"
+			description: ["{faruk.stagetwo.magic16.desc1}"]
+			dependencies: ["34498F5852FFCA53"]
+			id: "13240E1FCE7DAD98"
+			tasks: [{
+				id: "0E7E9C799DD8D5C9"
+				type: "item"
+				item: {
+					id: "occultism:chalk_white"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 12.0d
+			y: 1.5d
+			subtitle: "{faruk.stagetwo.magic21.subtitle}"
+			description: ["{faruk.stagetwo.magic21.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["34498F5852FFCA53"]
+			hide: true
+			id: "6737C897DCFDABE0"
+			tasks: [
+				{
+					id: "60E59240D48958C1"
+					type: "item"
+					item: {
+						id: "occultism:butcher_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DC135D2DC6DEC5C"
+					type: "item"
+					item: "occultism:tallow"
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.magic22.subtitle}"
+			description: ["{faruk.stagetwo.magic22.desc1}"]
+			dependencies: ["6737C897DCFDABE0"]
+			hide: true
+			id: "24E82252C1614E99"
+			tasks: [{
+				id: "2C80D3A03BB37979"
+				type: "item"
+				item: "occultism:candle_white"
+			}]
+			rewards: [{
+				id: "58BABDD1B2A702E1"
+				type: "item"
+				item: "occultism:candle_white"
+				count: 2
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.0d
+			subtitle: "{faruk.stagetwo.magic17.subtitle}"
+			description: ["{faruk.stagetwo.magic17.desc1}"]
+			dependencies: ["34498F5852FFCA53"]
+			id: "7F1CFBFCB4B8A314"
+			tasks: [{
+				id: "2FF34A3D6990070B"
+				type: "item"
+				item: {
+					id: "occultism:chalk_gold"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ritual: Summon Foliot Crusher"
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 15.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic20.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic20.desc1}"
+				"{faruk.stagetwo.magic20.desc2}"
+				"{faruk.stagetwo.magic20.desc3}"
+			]
+			dependencies: [
+				"13240E1FCE7DAD98"
+				"24E82252C1614E99"
+			]
+			hide: true
+			id: "5AAAE8E1B7D07551"
+			tasks: [{
+				id: "48716C644193E942"
+				type: "checkmark"
+				title: "Ritual: Summon Foliot Crusher"
+			}]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 14.0d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.magic24.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic20.desc1}"
+				"{faruk.stagetwo.magic20.desc2}"
+				"{faruk.stagetwo.magic23.desc1}"
+			]
+			dependencies: ["24E82252C1614E99"]
+			optional: true
+			id: "06C9E4D31FEC7FE8"
+			tasks: [{
+				id: "35AA6A1EEC3E2E80"
+				type: "checkmark"
+				title: "Ritual: Summon Otherworld Sapling Trader"
+			}]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 13.0d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.magic23.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic20.desc1}"
+				"{faruk.stagetwo.magic20.desc2}"
+				"{faruk.stagetwo.magic23.desc1}"
+			]
+			dependencies: ["24E82252C1614E99"]
+			optional: true
+			id: "276D581086BBCD97"
+			tasks: [{
+				id: "199DEC3B0201D1AF"
+				type: "checkmark"
+				title: "Ritual: Summon Otherstone Trader"
+			}]
+		}
+		{
+			x: 16.5d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic27.subtitle}"
+			description: ["{faruk.stagetwo.magic27.desc1}"]
+			dependencies: ["5AAAE8E1B7D07551"]
+			id: "791BB3CD16549AF4"
+			tasks: [{
+				id: "6C994935F853A1F6"
+				type: "item"
+				item: "occultism:crushed_end_stone"
+			}]
+			rewards: [{
+				id: "12BB3C8A294DD9B3"
+				type: "item"
+				item: "occultism:crushed_end_stone"
+				count: 4
+			}]
+		}
+		{
+			x: 18.0d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.magic28.subtitle}"
+			description: ["{faruk.stagetwo.magic28.desc1}"]
+			dependencies: ["791BB3CD16549AF4"]
+			hide: true
+			id: "7822B71C0CE84635"
+			tasks: [{
+				id: "64C6DAFA56DD8BC5"
+				type: "item"
+				item: {
+					id: "occultism:chalk_purple"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ritual: Summon Possessed Endermite"
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 15.0d
+			y: -2.5d
+			subtitle: "{faruk.stagetwo.magic19.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic19.desc1}"
+				"{faruk.stagetwo.magic19.desc3}"
+			]
+			dependencies: ["7F1CFBFCB4B8A314"]
+			optional: true
+			id: "2494CE2D7D24FA22"
+			tasks: [{
+				id: "057878D16CEDB0E8"
+				type: "kill"
+				entity: "occultism:possessed_endermite"
+				value: 1L
+			}]
+			rewards: [{
+				id: "0C2D0E6829810677"
+				type: "item"
+				item: "minecraft:end_stone"
+				count: 4
+			}]
+		}
+		{
+			x: 12.0d
+			y: -3.5d
+			subtitle: "{faruk.stagetwo.magic18.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic18.desc1}"
+				"{faruk.stagetwo.magic18.desc2}"
+			]
+			dependencies: [
+				"13456A031536FAF7"
+				"7F1CFBFCB4B8A314"
+			]
+			id: "26A90CA71968A354"
+			tasks: [{
+				id: "3A3F59B054D4908F"
+				type: "item"
+				item: "occultism:infused_lenses"
+			}]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			subtitle: "{faruk.stagetwo.magic9.subtitle}"
+			description: ["{faruk.stagetwo.magic9.desc1}"]
+			dependencies: ["42F57ED5812A487D"]
+			hide: true
+			id: "13456A031536FAF7"
+			tasks: [{
+				id: "17EFC888BA54D922"
+				type: "item"
+				item: "occultism:lenses"
+			}]
+		}
+		{
+			x: 18.0d
+			y: -3.5d
+			subtitle: "{faruk.stagetwo.magic29.subtitle}"
+			description: ["{faruk.stagetwo.magic29.desc1}"]
+			dependencies: ["26A90CA71968A354"]
+			id: "4FB105AAB573D75B"
+			tasks: [{
+				id: "277D42D45B38B164"
+				type: "item"
+				item: {
+					id: "occultism:otherworld_goggles"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: -2.5d
+			subtitle: "{faruk.stagetwo.magic30.subtitle}"
+			description: ["{faruk.stagetwo.magic30.desc1}"]
+			dependencies: ["7822B71C0CE84635"]
+			id: "329F6E02B9A25CF6"
+			tasks: [{
+				id: "5C8427D4C61F350C"
+				type: "item"
+				item: {
+					id: "occultism:infused_pickaxe"
+					Count: 1b
+					tag: {
+						spiritName: "Azurairark"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 20.5d
+			y: -3.0d
+			subtitle: "{faruk.stagetwo.magic31.subtitle}"
+			description: ["{faruk.stagetwo.magic31.desc1}"]
+			dependencies: [
+				"4FB105AAB573D75B"
+				"329F6E02B9A25CF6"
+			]
+			hide: true
+			id: "0C9A803E96DF3537"
+			tasks: [{
+				id: "22A4D71E59B162BB"
+				type: "item"
+				item: "occultism:iesnium_ore"
+			}]
+			rewards: [{
+				id: "12027F50EB59A39B"
+				type: "item"
+				item: "occultism:iesnium_ore"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 22.0d
+			y: -2.5d
+			subtitle: "{faruk.stagetwo.magic32.subtitle}"
+			description: ["{faruk.stagetwo.magic32.desc1}"]
+			dependencies: ["0C9A803E96DF3537"]
+			id: "69DDB4C9B2EEEE4A"
+			tasks: [{
+				id: "56B9A24C2D96BF20"
+				type: "item"
+				item: "occultism:dimensional_mineshaft"
+			}]
+		}
+		{
+			x: 22.0d
+			y: -3.5d
+			subtitle: "{faruk.stagetwo.magic33.subtitle}"
+			description: ["{faruk.stagetwo.magic33.desc1}"]
+			dependencies: ["0C9A803E96DF3537"]
+			optional: true
+			id: "75E516E93C6BFB98"
+			tasks: [{
+				id: "519BD8D7708ACD73"
+				type: "item"
+				item: "occultism:magic_lamp_empty"
+			}]
+		}
+		{
+			x: 23.0d
+			y: -4.0d
+			subtitle: "{faruk.stagetwo.magic34.subtitle}"
+			description: ["{faruk.stagetwo.magic34.desc1}"]
+			dependencies: ["75E516E93C6BFB98"]
+			optional: true
+			id: "1C6AEB0B332226F6"
+			tasks: [{
+				id: "30B238EC6ED0F7B8"
+				type: "item"
+				item: {
+					id: "occultism:miner_foliot_unspecialized"
+					Count: 1b
+					tag: {
+						spiritName: "Madmaractron"
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 23.0d
+			y: -3.0d
+			subtitle: "{faruk.stagetwo.magic35.subtitle}"
+			description: ["{faruk.stagetwo.magic35.desc1}"]
+			dependencies: ["75E516E93C6BFB98"]
+			optional: true
+			id: "561AA1065527DF14"
+			tasks: [{
+				id: "5FCE35636BC18884"
+				type: "item"
+				item: {
+					id: "occultism:miner_djinni_ores"
+					Count: 1b
+					tag: {
+						spiritName: "Azakarczur"
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "7F9F7E66815E2165"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 3s
+							id: "minecraft:unbreaking"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 18.0d
+			y: 2.0d
+			subtitle: "{faruk.stagetwo.magic29.subtitle}"
+			description: ["{faruk.stagetwo.magic29.desc1}"]
+			dependencies: ["7822B71C0CE84635"]
+			optional: true
+			id: "50D92799242B0504"
+			tasks: [{
+				id: "774584FF720C085C"
+				type: "item"
+				item: {
+					id: "occultism:soul_gem"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 9.0d
+			y: -1.5d
+			subtitle: "{faruk.stagetwo.magic12.subtitle}"
+			description: ["{faruk.stagetwo.magic12.desc1}"]
+			dependencies: ["0B99C2F485C96364"]
+			id: "2DF81D365791B586"
+			tasks: [
+				{
+					id: "798B3A56E46D5968"
+					type: "item"
+					item: "occultism:sacrificial_bowl"
+				}
+				{
+					id: "485C09019B9564EE"
+					type: "item"
+					item: "occultism:golden_sacrificial_bowl"
+				}
+			]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 17.0d
+			y: -1.5d
+			subtitle: "{faruk.stagetwo.magic26.subtitle}"
+			description: ["{faruk.stagetwo.magic26.desc1}"]
+			dependencies: [
+				"7822B71C0CE84635"
+				"2FF6503AE9D1C8D4"
+			]
+			optional: true
+			id: "2C1CADBC38A05491"
+			tasks: [{
+				id: "7C4EEBA94D7F88FD"
+				type: "checkmark"
+				title: "Ritual: Summon Drikwing Familiar"
+			}]
+		}
+		{
+			icon: "occultism:ritual_dummy/custom_ritual"
+			x: 15.0d
+			y: -1.5d
+			subtitle: "{faruk.stagetwo.magic25.subtitle}"
+			description: [
+				"{faruk.stagetwo.magic19.desc1}"
+				"{faruk.stagetwo.magic19.desc2}"
+				"{faruk.stagetwo.magic25.desc1}"
+			]
+			dependencies: ["7F1CFBFCB4B8A314"]
+			optional: true
+			id: "2FF6503AE9D1C8D4"
+			tasks: [{
+				id: "272D586D4A8220FE"
+				type: "checkmark"
+				title: "Ritual: Summon Parrot Familiar"
+			}]
+		}
+	]
+}

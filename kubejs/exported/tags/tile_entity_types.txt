@@ -1,0 +1,145 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 15, 2021 8:51:48 PM
+
+#forge:relocation_not_supported
+- immersiveengineering:balloon
+- immersiveengineering:cokeoven
+- immersiveengineering:blastfurnace
+- immersiveengineering:blastfurnaceadvanced
+- immersiveengineering:alloysmelter
+- immersiveengineering:modworkbench
+- immersiveengineering:watermill
+- immersiveengineering:razorwire
+- immersiveengineering:connectorstructural
+- immersiveengineering:transformer
+- immersiveengineering:posttransformer
+- immersiveengineering:transformerhv
+- immersiveengineering:breakerswitch
+- immersiveengineering:redstonebreaker
+- immersiveengineering:energymeter
+- immersiveengineering:connectorredstone
+- immersiveengineering:connectorprobe
+- immersiveengineering:connectorbundled
+- immersiveengineering:feedthrough
+- immersiveengineering:fluidpump
+- immersiveengineering:blastfurnacepreheater
+- immersiveengineering:electriclantern
+- immersiveengineering:sampledrill
+- immersiveengineering:teslacoil
+- immersiveengineering:floodlight
+- immersiveengineering:turretchem
+- immersiveengineering:turretgun
+- immersiveengineering:cloche
+- immersiveengineering:metalpress
+- immersiveengineering:crusher
+- immersiveengineering:sawmill
+- immersiveengineering:sheetmetaltank
+- immersiveengineering:silo
+- immersiveengineering:assembler
+- immersiveengineering:autoworkbench
+- immersiveengineering:bottlingmachine
+- immersiveengineering:squeezer
+- immersiveengineering:fermenter
+- immersiveengineering:refinery
+- immersiveengineering:dieselgenerator
+- immersiveengineering:bucketwheel
+- immersiveengineering:excavator
+- immersiveengineering:arcfurnace
+- immersiveengineering:lightningrod
+- immersiveengineering:mixer
+- immersiveengineering:lv_conn
+- immersiveengineering:lv_relay
+- immersiveengineering:mv_conn
+- immersiveengineering:mv_relay
+- immersiveengineering:hv_conn
+- immersiveengineering:hv_relay
+
+#packingtape:blacklist/problematic
+- minecraft:skull
+- minecraft:conduit
+- minecraft:banner
+- minecraft:piston
+
+#packingtape:blacklist/cheaty
+- minecraft:end_portal
+- minecraft:end_gateway
+
+#packingtape:blacklist/unsafe
+- minecraft:command_block
+- minecraft:structure_block
+- minecraft:jigsaw
+- minecraft:sign
+
+#packingtape:te_blacklist
+- #forge:immovable?
+- #forge:relocation_not_supported?
+- #packingtape:blacklist/multiblocks
+- #packingtape:blacklist/unsafe
+- #packingtape:blacklist/problematic
+- #packingtape:blacklist/cheaty
+- #packingtape:blacklist/pointless
+
+#packingtape:te_whitelist
+- #forge:movable?
+- #forge:relocation_supported?
+
+#packingtape:blacklist/multiblocks
+- minecraft:bed
+
+#forge:immovable
+- immersiveengineering:balloon
+- immersiveengineering:cokeoven
+- immersiveengineering:blastfurnace
+- immersiveengineering:blastfurnaceadvanced
+- immersiveengineering:alloysmelter
+- immersiveengineering:modworkbench
+- immersiveengineering:watermill
+- immersiveengineering:razorwire
+- immersiveengineering:connectorstructural
+- immersiveengineering:transformer
+- immersiveengineering:posttransformer
+- immersiveengineering:transformerhv
+- immersiveengineering:breakerswitch
+- immersiveengineering:redstonebreaker
+- immersiveengineering:energymeter
+- immersiveengineering:connectorredstone
+- immersiveengineering:connectorprobe
+- immersiveengineering:connectorbundled
+- immersiveengineering:feedthrough
+- immersiveengineering:fluidpump
+- immersiveengineering:blastfurnacepreheater
+- immersiveengineering:electriclantern
+- immersiveengineering:sampledrill
+- immersiveengineering:teslacoil
+- immersiveengineering:floodlight
+- immersiveengineering:turretchem
+- immersiveengineering:turretgun
+- immersiveengineering:cloche
+- immersiveengineering:metalpress
+- immersiveengineering:crusher
+- immersiveengineering:sawmill
+- immersiveengineering:sheetmetaltank
+- immersiveengineering:silo
+- immersiveengineering:assembler
+- immersiveengineering:autoworkbench
+- immersiveengineering:bottlingmachine
+- immersiveengineering:squeezer
+- immersiveengineering:fermenter
+- immersiveengineering:refinery
+- immersiveengineering:dieselgenerator
+- immersiveengineering:bucketwheel
+- immersiveengineering:excavator
+- immersiveengineering:arcfurnace
+- immersiveengineering:lightningrod
+- immersiveengineering:mixer
+- immersiveengineering:lv_conn
+- immersiveengineering:lv_relay
+- immersiveengineering:mv_conn
+- immersiveengineering:mv_relay
+- immersiveengineering:hv_conn
+- immersiveengineering:hv_relay
+
+#packingtape:blacklist/pointless
+- minecraft:enchanting_table
+- minecraft:bell
+- minecraft:comparator
+- minecraft:daylight_detector

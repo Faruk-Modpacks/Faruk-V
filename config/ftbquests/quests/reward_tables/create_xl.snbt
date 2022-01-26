@@ -1,0 +1,31 @@
+{
+	id: "14C78B3A90E142E7"
+	order_index: 1
+	title: "Create XL"
+	icon: "kubejs:chest_gold"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "create:gearbox", count: 2 }
+		{ item: "create:gearshift", count: 2 }
+		{ item: "create:encased_chain_drive", count: 2 }
+		{ item: "create:depot", count: 2 }
+		{ item: "create:encased_fan" }
+		{ item: "create:fluid_tank", count: 2 }
+		{ item: "create:portable_storage_interface" }
+		{ item: "create:brass_casing", count: 2 }
+		{ item: "create:electron_tube" }
+		{ item: "create:cogwheel", count: 16 }
+		{ item: "create:large_cogwheel", count: 8 }
+		{ item: "minecraft:andesite", count: 64 }
+		{ item: "create:andesite_casing", count: 4 }
+		{ item: "create:andesite_alloy", count: 32 }
+		{
+			xp: 150
+			type: "xp"
+		}
+		{ item: "emendatusenigmatica:iron_chunk", count: 8 }
+		{ item: "emendatusenigmatica:copper_chunk", count: 8 }
+		{ item: "emendatusenigmatica:zinc_chunk", count: 8 }
+	]
+}

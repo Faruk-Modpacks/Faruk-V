@@ -1,0 +1,34 @@
+{
+	id: "2861C0EC6E2EF43A"
+	order_index: 7
+	title: "Stage2"
+	icon: "kubejs:chest_gold"
+	loot_size: 1
+	rewards: [
+		{ item: "thermal:obsidian_glass" }
+		{ item: "thermal:machine_frame" }
+		{
+			item: {
+				id: "thermal:energy_cell"
+				Count: 1b
+				tag: {
+					BlockEntityTag: {
+						EnergyMax: 1000000
+						EnergySend: 1000
+						Energy: 0
+						EnergyRecv: 1000
+					}
+				}
+			}
+		}
+		{ item: "thermal:fluid_cell_frame" }
+		{ item: "thermal:upgrade_augment_1" }
+		{ item: "thermal:dynamo_output_augment" }
+		{ item: "thermal:machine_speed_augment" }
+		{ item: "thermal:rf_coil_storage_augment" }
+		{ item: "thermal:fluid_tank_augment" }
+		{ item: "thermal:rubber", count: 4 }
+		{ item: "thermal:cured_rubber", count: 4 }
+		{ item: "emendatusenigmatica:coke_gem", count: 8 }
+	]
+}

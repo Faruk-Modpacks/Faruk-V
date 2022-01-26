@@ -1,0 +1,42 @@
+{
+	id: "782AB1B1E652992B"
+	order_index: 9
+	title: "Stage4"
+	icon: "kubejs:chest_gold"
+	loot_size: 1
+	rewards: [
+		{ item: "mekanism:basic_control_circuit", count: 4 }
+		{ item: "mekanism:alloy_infused", count: 8 }
+		{ item: "mekanism:alloy_reinforced", count: 4 }
+		{ item: "mekanism:alloy_atomic", count: 2 }
+		{ item: "mekanism:enriched_carbon", count: 8 }
+		{ item: "mekanism:enriched_redstone", count: 8 }
+		{ item: "mekanism:enriched_diamond", count: 4 }
+		{ item: "mekanism:enriched_refined_obsidian", count: 2 }
+		{ item: "mekanism:ingot_refined_obsidian", count: 4 }
+		{ item: "mekanism:ingot_refined_glowstone", count: 4 }
+		{ item: "mekanism:basic_tier_installer" }
+		{ item: "mekanism:enriched_iron", count: 8 }
+		{ item: "mekanism:advanced_control_circuit", count: 2 }
+		{ item: "mekanism:elite_control_circuit", random_bonus: 1 }
+		{ item: "mekanism:ultimate_control_circuit" }
+		{
+			item: {
+				id: "mekanism:energy_tablet"
+				Count: 1b
+				tag: {
+					mekData: {
+						EnergyContainers: [{
+							Container: 0b
+							stored: "1000000"
+						}]
+					}
+				}
+			}
+		}
+		{ item: "mekanism:basic_universal_cable", count: 8 }
+		{ item: "mekanism:basic_mechanical_pipe", count: 8 }
+		{ item: "mekanism:basic_pressurized_tube", count: 8 }
+		{ item: "mekanism:basic_logistical_transporter", count: 8 }
+	]
+}

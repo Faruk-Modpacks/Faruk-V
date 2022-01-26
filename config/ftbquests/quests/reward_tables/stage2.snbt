@@ -1,0 +1,16 @@
+{
+	id: "3C8D9560284C4A7A"
+	order_index: 5
+	title: "Stage1"
+	loot_size: 1
+	rewards: [
+		{ item: "engineersdecor:sign_factoryarea", weight: 2 }
+		{ item: "immersiveengineering:shader_bag_common", weight: 2 }
+		{ item: "immersiveengineering:component_iron", count: 2, weight: 2 }
+		{ item: "immersiveengineering:component_steel" }
+		{ item: "emendatusenigmatica:steel_ingot", count: 4 }
+		{ item: "immersiveengineering:treated_wood_horizontal", count: 16, weight: 2 }
+		{ item: "immersiveengineering:treated_post", weight: 2 }
+		{ item: "immersiveengineering:hemp_fabric", count: 4, weight: 2 }
+	]
+}

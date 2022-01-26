@@ -1,0 +1,17 @@
+{
+	id: "7A07EE63215B2E42"
+	order_index: 6
+	title: "Stage1gold"
+	loot_size: 1
+	rewards: [
+		{ item: "immersiveengineering:sheetmetal_iron", count: 8 }
+		{ item: "immersiveengineering:insulating_glass", count: 2 }
+		{ item: "immersiveengineering:fluid_sorter" }
+		{ item: "emendatusenigmatica:steel_ingot", count: 8 }
+		{ item: "immersiveengineering:coil_lv", count: 2 }
+		{ item: "immersiveengineering:rs_engineering" }
+		{ item: "immersiveengineering:heavy_engineering" }
+		{ item: "immersiveengineering:light_engineering" }
+		{ item: "immersiveengineering:fluid_pump" }
+	]
+}

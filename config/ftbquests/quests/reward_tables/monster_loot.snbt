@@ -1,0 +1,20 @@
+{
+	id: "5827018632A1675A"
+	order_index: 3
+	title: "Monster Loot"
+	icon: "kubejs:loot"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "minecraft:rotten_flesh", count: 8, weight: 8 }
+		{ item: "minecraft:gunpowder", count: 16, weight: 8 }
+		{ item: "minecraft:spider_eye", count: 16, weight: 8 }
+		{ item: "minecraft:string", count: 16, weight: 8 }
+		{ item: "minecraft:arrow", count: 16, weight: 8 }
+		{ item: "minecraft:bone", count: 16, weight: 8 }
+		{ item: "minecraft:ender_pearl", count: 4, weight: 4 }
+		{ item: "minecraft:snowball", count: 16, weight: 8 }
+		{ item: "minecraft:slime_ball", count: 4, weight: 4 }
+		{ item: "minecraft:feather", count: 8, weight: 8 }
+	]
+}

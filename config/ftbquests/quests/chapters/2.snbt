@@ -1,0 +1,871 @@
+{
+	id: "1788B51039A477A6"
+	group: "363EA8652E804B30"
+	order_index: 0
+	filename: "2"
+	title: "Stage Two - Main"
+	icon: "thermal:wrench"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{faruk.stagetwo.main38.subtitle}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 3.75d
+			y: 0.625d
+			shape: "heart"
+			subtitle: "{faruk.stagezero.main45.subtitle}"
+			description: ["{faruk.stagetwo.main38.desc1}"]
+			dependencies: [
+				"2828931CD13FA3A3"
+				"4B0B85BE2A9C7D25"
+				"431BB4D19CBA82F4"
+			]
+			hide: true
+			size: 1.25d
+			id: "109DE7EAEEE2D2F9"
+			tasks: [{
+				id: "1CDC8DB4D469DF7D"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "74E5C8317E030F72"
+					type: "command"
+					icon: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					command: "/gamestage add @p three"
+					player_command: false
+				}
+				{
+					id: "62D54230A3F92991"
+					type: "command"
+					auto: "invisible"
+					command: "/summon minecraft:firework_rocket ~ ~1 ~ {Glowing:1b,LifeTime:15,FireworksItem:{id:firework_rocket,Count:5,tag:{Fireworks:{Explosions:[{Type:1,Flicker:50b,Trail:20b,Colors:[I;15435844, 2437522, 14602026]}]}}}}"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 2.0d
+			subtitle: "{faruk.stagetwo.main3.subtitle}"
+			description: ["{faruk.stagetwo.main3.desc1}"]
+			dependencies: ["449383C31CCB9CB5"]
+			id: "63B00AC120099F14"
+			tasks: [{
+				id: "348F64DB1F0A85FF"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [{
+				id: "198323112E693F12"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			subtitle: "{faruk.stagetwo.main1.subtitle}"
+			description: ["{faruk.stagetwo.main1.desc1}"]
+			dependencies: ["3D93A650B1FD1869"]
+			hide: true
+			id: "449383C31CCB9CB5"
+			tasks: [{
+				id: "603E70F78A34643C"
+				type: "item"
+				item: "thermal:obsidian_glass"
+			}]
+			rewards: [{
+				id: "2D87353CC4396330"
+				type: "item"
+				item: "thermal:obsidian_glass"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -5.5d
+			y: 2.0d
+			subtitle: "{faruk.stagetwo.main8.subtitle}"
+			description: ["{faruk.stagetwo.main8.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			id: "4A90EECCA6CE1DF2"
+			tasks: [{
+				id: "6537640D18545DB1"
+				type: "item"
+				item: "thermal:device_tree_extractor"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 4.0d
+			subtitle: "{faruk.stagetwo.main28.subtitle}"
+			description: ["{faruk.stagetwo.main28.desc1}"]
+			dependencies: ["6BDDC0A175EB00F0"]
+			optional: true
+			id: "21493137BEFC3E18"
+			tasks: [{
+				id: "6058C4B64F8EE393"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "50D7EA405AB23B66"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "cofh_core:holding"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			subtitle: "{faruk.stagetwo.main29.subtitle}"
+			description: ["{faruk.stagetwo.main29.desc1}"]
+			dependencies: ["6BDDC0A175EB00F0"]
+			optional: true
+			id: "56DD4BB9C73074D6"
+			tasks: [{
+				id: "33877A46404BB696"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							TankInv: [{
+								FluidName: "minecraft:empty"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 0
+							}]
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "121D7716CE9C10A4"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "cofh_core:holding"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			subtitle: "{faruk.stagetwo.main30.subtitle}"
+			description: ["{faruk.stagetwo.main30.desc1}"]
+			dependencies: ["069FA52C3AA95A18"]
+			hide: true
+			optional: true
+			id: "0F5AAD45B41C7487"
+			tasks: [{
+				id: "5AE89DD54144EAEA"
+				type: "item"
+				item: "emendatusenigmatica:wood_dust"
+			}]
+			rewards: [{
+				id: "557F0E4182DFA557"
+				type: "item"
+				item: "emendatusenigmatica:wood_dust"
+				count: 16
+			}]
+		}
+		{
+			x: -4.5d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main13.subtitle}"
+			description: ["{faruk.stagetwo.main13.desc1}"]
+			dependencies: ["222F90D4FE1EE45E"]
+			id: "586E95000D6A904D"
+			tasks: [{
+				id: "5B38744877482E55"
+				type: "item"
+				item: "thermal:rubber"
+			}]
+			rewards: [{
+				id: "0147E4B6C5FF31CA"
+				type: "item"
+				item: "thermal:rubber"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.0d
+			subtitle: "{faruk.stagetwo.main2.subtitle}"
+			description: ["{faruk.stagetwo.main2.desc1}"]
+			dependencies: ["6BDDC0A175EB00F0"]
+			optional: true
+			id: "689E0DEB734B6DB9"
+			tasks: [{
+				id: "35E35510B417871A"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+			rewards: [{
+				id: "6E3779D5C8E9FC2E"
+				type: "item"
+				item: "thermal:upgrade_augment_1"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "{faruk.stagetwo.main24.subtitle}"
+			description: ["{faruk.stagetwo.main2.desc1}"]
+			hide_dependency_lines: false
+			dependencies: ["2828931CD13FA3A3"]
+			optional: true
+			id: "3C5B9631B6BA33A6"
+			tasks: [{
+				id: "5308A51E611A9D29"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			rewards: [{
+				id: "094DE6EE633618FF"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			subtitle: "{faruk.stagetwo.main25.subtitle}"
+			description: ["{faruk.stagetwo.main2.desc1}"]
+			dependencies: ["431BB4D19CBA82F4"]
+			optional: true
+			id: "55888DACC11EA896"
+			tasks: [{
+				id: "5210E30B6052A700"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+			rewards: [{
+				id: "5504E6BD1A7BDF70"
+				type: "item"
+				item: "thermal:upgrade_augment_3"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 5.0d
+			dependencies: ["0F5AAD45B41C7487"]
+			optional: true
+			id: "1090E28D4FF4459F"
+			tasks: [{
+				id: "10E3D27E89C66627"
+				type: "item"
+				item: "thermal:phytogro"
+			}]
+			rewards: [{
+				id: "3EC84C7E1586483D"
+				type: "item"
+				item: "thermal:phytogro"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.0d
+			subtitle: "{faruk.stagetwo.main7.subtitle}"
+			description: ["{faruk.stagetwo.main7.desc1}"]
+			dependencies: [
+				"63B00AC120099F14"
+				"791B88171E71BCB6"
+			]
+			id: "49C6693CB85274C3"
+			tasks: [{
+				id: "7887414245E3919C"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [{
+				id: "217857AF549284A4"
+				type: "item"
+				item: "alexsmobs:kangaroo_meat"
+				count: 4
+			}]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main4.subtitle}"
+			description: ["{faruk.stagetwo.main4.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "069FA52C3AA95A18"
+			tasks: [{
+				id: "094AE1C184ABA985"
+				type: "item"
+				item: "thermal:machine_sawmill"
+			}]
+			rewards: [{
+				id: "1FEBDCE6F42C4BC1"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 64
+			}]
+		}
+		{
+			x: -8.5d
+			y: 1.0d
+			subtitle: "{faruk.stagetwo.main5.subtitle}"
+			description: ["{faruk.stagetwo.main5.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "0F2F53F965DF4BEE"
+			tasks: [{
+				id: "4D453540DB53B295"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [{
+				id: "0CAB55F42D739117"
+				type: "item"
+				item: "emendatusenigmatica:gold_chunk"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.main20.subtitle}"
+			description: ["{faruk.stagetwo.main20.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			id: "2F1F8C4062D2B245"
+			tasks: [{
+				id: "6D7DEE3D60372583"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [{
+				id: "2D0D1C22E345C7DB"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main27.subtitle}"
+			description: ["{faruk.stagetwo.main27.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			optional: true
+			id: "2AB1B992160CB91B"
+			tasks: [{
+				id: "1658D46902729119"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [{
+				id: "3B45A0480926E29B"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.main6.subtitle}"
+			description: ["{faruk.stagetwo.main6.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "7590DC37A5D95B76"
+			tasks: [{
+				id: "4EA5DD8D92FD885D"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+		}
+		{
+			x: 0.5d
+			y: 5.5d
+			subtitle: "{faruk.stagetwo.main19.subtitle}"
+			description: ["{faruk.stagetwo.main19.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			optional: true
+			id: "4B41775837F66CD0"
+			tasks: [{
+				id: "747A32A3175F46FD"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [{
+				id: "3E06515AF33761F5"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 5.5d
+			subtitle: "{faruk.stagetwo.main16.subtitle}"
+			description: ["{faruk.stagetwo.main16.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			optional: true
+			id: "20911D3BF95AC67A"
+			tasks: [{
+				id: "035A1E35AFEF4621"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [{
+				id: "75C731814ED392F1"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			x: -5.5d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main7.subtitle}"
+			description: ["{faruk.stagetwo.main9.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			id: "222F90D4FE1EE45E"
+			tasks: [{
+				id: "69507CCB11870FBE"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [{
+				id: "20E8BE074F8F1452"
+				type: "item"
+				item: "minecraft:magma_cream"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "{faruk.stagetwo.main17.subtitle}"
+			description: ["{faruk.stagetwo.main17.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			optional: true
+			id: "4FF9624A1AF4CC5B"
+			tasks: [{
+				id: "0BEB0BC2A6981155"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [{
+				id: "17E6868E962D91DF"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "{faruk.stagetwo.main18.subtitle}"
+			description: ["{faruk.stagetwo.main18.desc1}"]
+			dependencies: ["767F78C9112E1D9E"]
+			optional: true
+			id: "0273D9CFFB31785D"
+			tasks: [{
+				id: "35D7284142144493"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [{
+				id: "2DB78E5E81885A80"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 2909818955951436858L
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main31.subtitle}"
+			x: -8.5d
+			y: 6.0d
+			description: ["{faruk.stagetwo.main31.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "74114B339AE809B9"
+			tasks: [{
+				id: "7E94324650BAE0C9"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [{
+				id: "1252DA361D34D5B9"
+				type: "item"
+				item: "minecraft:coal"
+				count: 16
+				random_bonus: 48
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main33.subtitle}"
+			x: -6.5d
+			y: 6.0d
+			description: ["{faruk.stagetwo.main33.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "070D3297C9850D33"
+			tasks: [{
+				id: "505A555E19279652"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [{
+				id: "7ECC9A782130DA00"
+				type: "item"
+				item: "immersiveengineering:biodiesel_bucket"
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main34.subtitle}"
+			x: -5.5d
+			y: 6.0d
+			description: ["{faruk.stagetwo.main34.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "76B944378E794560"
+			tasks: [{
+				id: "097B4F9BB17A4068"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [{
+				id: "1C5304B166B57FD1"
+				type: "item"
+				item: "minecraft:lava_bucket"
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main37.subtitle}"
+			x: -6.0d
+			y: 7.0d
+			description: ["{faruk.stagetwo.main37.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["767F78C9112E1D9E"]
+			hide: true
+			optional: true
+			id: "5D2FC8A2C085A740"
+			tasks: [{
+				id: "2AF49F5F622BED6A"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [{
+				id: "1A4B639655704ADA"
+				type: "item"
+				item: "thermal:netherite_coin"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main35.subtitle}"
+			x: -8.0d
+			y: 7.0d
+			description: ["{faruk.stagetwo.main35.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["767F78C9112E1D9E"]
+			hide: true
+			optional: true
+			id: "4B06EAFD82025350"
+			tasks: [{
+				id: "20E1D405B17798DF"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [{
+				id: "289008B10956FDA3"
+				type: "item"
+				item: "minecraft:emerald"
+				random_bonus: 7
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main36.subtitle}"
+			x: -7.0d
+			y: 7.0d
+			description: ["{faruk.stagetwo.main36.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["767F78C9112E1D9E"]
+			hide: false
+			optional: true
+			id: "35E18417A6A86F28"
+			tasks: [{
+				id: "1BEF324136F777F5"
+				type: "item"
+				item: "thermal:dynamo_disenchantment"
+			}]
+			rewards: [{
+				id: "5865E655C4070AF7"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "minecraft:thorns"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagetwo.main32.subtitle}"
+			x: -7.5d
+			y: 6.0d
+			description: ["{faruk.stagetwo.main32.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "7077CDDA236FDABC"
+			tasks: [{
+				id: "5B533FF1F9443A51"
+				type: "item"
+				item: "thermal:dynamo_gourmand"
+			}]
+			rewards: [{
+				id: "3184DF2C52294AC8"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main14.subtitle}"
+			description: ["{faruk.stagetwo.main14.desc1}"]
+			dependencies: ["586E95000D6A904D"]
+			id: "6BDDC0A175EB00F0"
+			tasks: [{
+				id: "02CB91F1808336CF"
+				type: "item"
+				item: "thermal:cured_rubber"
+			}]
+			rewards: [{
+				id: "6FB94F050CD04139"
+				type: "item"
+				item: "thermal:cured_rubber"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.main15.subtitle}"
+			description: ["{faruk.stagetwo.main15.desc1}"]
+			dependencies: ["6BDDC0A175EB00F0"]
+			hide: true
+			id: "767F78C9112E1D9E"
+			tasks: [{
+				id: "2970860F540814AD"
+				type: "item"
+				item: "kubejs:machine_frame_2"
+			}]
+			rewards: [{
+				id: "7423158DE3F9EE75"
+				type: "item"
+				item: "kubejs:machine_frame_2"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "{faruk.stagetwo.main21.subtitle}"
+			description: ["{faruk.stagetwo.main21.desc1}"]
+			dependencies: [
+				"2F1F8C4062D2B245"
+				"175DE493D585D6F8"
+			]
+			id: "2828931CD13FA3A3"
+			tasks: [{
+				id: "201D18AEE8C76350"
+				type: "item"
+				item: "emendatusenigmatica:signalum_ingot"
+			}]
+			rewards: [{
+				id: "0E473E6E0B1520CD"
+				type: "item"
+				item: "emendatusenigmatica:signalum_ingot"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "{faruk.stagetwo.main22.subtitle}"
+			description: ["{faruk.stagetwo.main22.desc1}"]
+			dependencies: ["2F1F8C4062D2B245"]
+			id: "4B0B85BE2A9C7D25"
+			tasks: [{
+				id: "59B3A31564D72584"
+				type: "item"
+				item: "emendatusenigmatica:lumium_ingot"
+			}]
+			rewards: [{
+				id: "5DB2E828C2C59E4B"
+				type: "item"
+				item: "emendatusenigmatica:lumium_ingot"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{faruk.stagetwo.main23.subtitle}"
+			description: ["{faruk.stagetwo.main23.desc1}"]
+			dependencies: ["2F1F8C4062D2B245"]
+			id: "431BB4D19CBA82F4"
+			tasks: [{
+				id: "08EC98077A0C0CE1"
+				type: "item"
+				item: "emendatusenigmatica:enderium_ingot"
+			}]
+			rewards: [{
+				id: "31F8F5054D09BF72"
+				type: "item"
+				item: "emendatusenigmatica:enderium_ingot"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			subtitle: "{faruk.stagetwo.main26.subtitle}"
+			description: ["{faruk.stagetwo.main26.desc1}"]
+			dependencies: ["5AAAE8E1B7D07551"]
+			hide: true
+			id: "175DE493D585D6F8"
+			tasks: [{
+				id: "6E1BD4BF81558A20"
+				type: "item"
+				item: "kubejs:spirit_dust"
+			}]
+			rewards: [{
+				id: "3DD48B25D6ED282E"
+				type: "item"
+				item: "kubejs:spirit_dust"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.0d
+			dependencies: ["0F5AAD45B41C7487"]
+			optional: true
+			id: "779C458FA4D74345"
+			tasks: [{
+				id: "4FA78263776C855B"
+				type: "item"
+				item: "minecraft:paper"
+			}]
+			rewards: [{
+				id: "1A13B3B3A91F2BC8"
+				type: "item"
+				item: "minecraft:book"
+				count: 4
+				random_bonus: 12
+			}]
+		}
+		{
+			x: -5.5d
+			y: 0.0d
+			subtitle: "{faruk.stagetwo.main10.subtitle}"
+			description: ["{faruk.stagetwo.main10.desc1}"]
+			dependencies: [
+				"1BD8B6B3E8DF16D3"
+				"7350F2B958B9FCCE"
+			]
+			optional: true
+			id: "791B88171E71BCB6"
+			tasks: [{
+				id: "258F79AC5569EA29"
+				type: "item"
+				item: "cyclic:gem_amber"
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "{faruk.stagetwo.main12.subtitle}"
+			description: ["{faruk.stagetwo.main12.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["449383C31CCB9CB5"]
+			hide: true
+			optional: true
+			id: "7350F2B958B9FCCE"
+			tasks: [{
+				id: "0EDBF78A0C2D02F5"
+				type: "item"
+				item: "cyclic:solidifier"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "{faruk.stagetwo.main11.subtitle}"
+			description: ["{faruk.stagetwo.main11.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["449383C31CCB9CB5"]
+			hide: true
+			optional: true
+			id: "1BD8B6B3E8DF16D3"
+			tasks: [{
+				id: "49F6E3BFFDEAFEE3"
+				type: "item"
+				item: "cyclic:melter"
+			}]
+		}
+	]
+}

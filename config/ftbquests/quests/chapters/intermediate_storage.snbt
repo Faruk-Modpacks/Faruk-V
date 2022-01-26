@@ -1,0 +1,231 @@
+{
+	id: "1241B8348236E4DE"
+	group: "3BE589EC446A42DE"
+	order_index: 1
+	filename: "intermediate_storage"
+	title: "Intermediate Storage"
+	icon: "storagenetwork:master"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 3.0d
+			y: 2.5d
+			subtitle: "{faruk.stageone.storage1.subtitle}"
+			description: ["{faruk.stageone.storage1.desc1}"]
+			dependencies: ["5D700A55C5DECE7B"]
+			hide: true
+			id: "0BFF660B3D008CC6"
+			tasks: [{
+				id: "20E7D2ACE5262005"
+				type: "item"
+				item: "storagenetwork:master"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "{faruk.stageone.storage3.subtitle}"
+			description: ["{faruk.stageone.storage3.desc1}"]
+			dependencies: ["26843C7901BC3723"]
+			id: "0197A87276E571FD"
+			tasks: [{
+				id: "128E18DF9C499E50"
+				type: "item"
+				item: "storagenetwork:request"
+			}]
+			rewards: [{
+				id: "59B35DAD5BB4B8D4"
+				type: "item"
+				item: "storagenetwork:kabel"
+				count: 2
+				random_bonus: 10
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			subtitle: "{faruk.stageone.storage6.subtitle}"
+			description: ["{faruk.stageone.storage6.desc1}"]
+			dependencies: ["0197A87276E571FD"]
+			id: "4CEDD0BD5F61BBF8"
+			tasks: [{
+				id: "2CF7DB1067F69013"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+			}]
+			rewards: [{
+				id: "1F45687029C32ED4"
+				type: "item"
+				item: "storagenetwork:storage_kabel"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 2.0d
+			subtitle: "{faruk.stageone.storage8.subtitle}"
+			description: ["{faruk.stageone.storage8.desc1}"]
+			dependencies: ["0197A87276E571FD"]
+			id: "6029D0AD442998A5"
+			tasks: [{
+				id: "177A27B3AD22F82A"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+			}]
+			rewards: [{
+				id: "5903C94C22F52D50"
+				type: "item"
+				item: "storagenetwork:import_kabel"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 9.0d
+			y: 2.0d
+			subtitle: "{faruk.stageone.storage9.subtitle}"
+			description: ["{faruk.stageone.storage9.desc1}"]
+			dependencies: ["6029D0AD442998A5"]
+			id: "41D756BF4EAAC642"
+			tasks: [{
+				id: "61ECC75F533DC956"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+			}]
+			rewards: [{
+				id: "54D057CD00E5D36E"
+				type: "item"
+				item: "storagenetwork:import_filter_kabel"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "{faruk.stageone.storage7.subtitle}"
+			description: ["{faruk.stageone.storage7.desc1}"]
+			dependencies: ["4CEDD0BD5F61BBF8"]
+			id: "203909CB58C44721"
+			tasks: [{
+				id: "6C1E33D97903E6D5"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+			}]
+			rewards: [{
+				id: "5ED1EFF52CF3365B"
+				type: "item"
+				item: "storagenetwork:filter_kabel"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.0d
+			subtitle: "{faruk.stageone.storage10.subtitle}"
+			description: ["{faruk.stageone.storage10.desc1}"]
+			dependencies: ["0197A87276E571FD"]
+			id: "07C8C73BFA93B80B"
+			tasks: [{
+				id: "1EAE4AE57253CA18"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+			}]
+			rewards: [{
+				id: "66D21EA372343506"
+				type: "item"
+				item: "storagenetwork:export_kabel"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 5.5d
+			y: 4.0d
+			subtitle: "{faruk.stageone.storage5.subtitle}"
+			description: ["{faruk.stageone.storage5.desc1}"]
+			dependencies: ["0197A87276E571FD"]
+			id: "27EC04ABCDFAD851"
+			tasks: [{
+				id: "3C52C2734954100B"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+			rewards: [{
+				id: "28A4F5272A80E45E"
+				type: "item"
+				item: "storagenetwork:stack_upgrade"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 4.0d
+			subtitle: "{faruk.stageone.storage4.subtitle}"
+			description: ["{faruk.stageone.storage4.desc1}"]
+			dependencies: ["0197A87276E571FD"]
+			id: "138C66A3D1160DAF"
+			tasks: [{
+				id: "14DB0AB2D9BA50A1"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+			rewards: [{
+				id: "1B59951B7D9A4C2A"
+				type: "item"
+				item: "storagenetwork:speed_upgrade"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 2.5d
+			subtitle: "{faruk.stageone.storage2.subtitle}"
+			description: ["{faruk.stageone.storage2.desc1}"]
+			dependencies: ["0BFF660B3D008CC6"]
+			hide: true
+			id: "26843C7901BC3723"
+			tasks: [{
+				id: "1E364FD1AB9C5CDB"
+				type: "item"
+				item: "storagenetwork:inventory"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			subtitle: "{faruk.stageone.storage2.subtitle}"
+			description: ["{faruk.stageone.storage2.desc1}"]
+			dependencies: ["0BFF660B3D008CC6"]
+			hide: true
+			id: "18F6DB088A9D4912"
+			tasks: [{
+				id: "52ED0F9EE16DBF53"
+				type: "item"
+				item: "storagenetwork:inventory_remote"
+			}]
+			rewards: [{
+				id: "708BEAD66C361878"
+				type: "item"
+				item: "minecraft:slime_ball"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			subtitle: "{faruk.stageone.storage3.subtitle}"
+			description: ["{faruk.stageone.storage3.desc1}"]
+			dependencies: ["18F6DB088A9D4912"]
+			id: "4B90FC6E659BDE92"
+			tasks: [{
+				id: "4450991019B29356"
+				type: "item"
+				item: "storagenetwork:crafting_remote"
+			}]
+			rewards: [{
+				id: "4C32D1A41A411ABC"
+				type: "item"
+				item: "minecraft:prismarine_shard"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+	]
+}

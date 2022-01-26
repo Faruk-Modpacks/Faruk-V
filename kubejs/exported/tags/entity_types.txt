@@ -1,0 +1,54 @@
+To refresh this file, delete it and run /reload command again! Last updated: Apr 15, 2021 8:51:48 PM
+
+#carryon:entity_blacklist
+
+#endergetic:not_balloon_attachable
+- upgrade_aquatic:flare
+
+#forge:slimes
+- tconstruct:sky_slime
+
+#carryon:stacking_whitelist
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+
+#carryon:stacking_blacklist
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#tconstruct:melting/hide_in_default
+- minecraft:giant
+
+#tconstruct:melting/show_in_default
+- minecraft:iron_golem
+- minecraft:snow_golem
+- minecraft:villager
+- minecraft:player
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#carryon:entity_whitelist

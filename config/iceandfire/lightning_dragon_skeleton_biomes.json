@@ -1,0 +1,28 @@
+{
+  "biomes": [
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "world_of_faruk:faruk_land"
+      },
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "savanna"
+      }
+    ],
+    [
+      {
+        "type": "BIOME_DICT",
+        "negate": false,
+        "value": "world_of_faruk:faruk_land"
+      },
+      {
+        "type": "BIOME_CATEGORY",
+        "negate": false,
+        "value": "plains"
+      }
+    ]
+  ]
+}

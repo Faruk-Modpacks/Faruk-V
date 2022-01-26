@@ -1,0 +1,11 @@
+{
+	chapter_groups: [
+		{ id: "396F2CFEC1EBB14D", title: "Stage 0" }
+		{ id: "3BE589EC446A42DE", title: "Stage 1" }
+		{ id: "363EA8652E804B30", title: "Stage 2" }
+		{ id: "10D2C316AC27131A", title: "Stage 3" }
+		{ id: "4B663A51538A1AE2", title: "Stage 4" }
+		{ id: "48BF0AA7D3FE4DD0", title: "Stage 5" }
+		{ id: "4FCB291BF221B3CD", title: "General" }
+	]
+}

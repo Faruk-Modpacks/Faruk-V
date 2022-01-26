@@ -1,0 +1,114 @@
+{
+	id: "35D7FD709E02142C"
+	group: "4FCB291BF221B3CD"
+	order_index: 0
+	filename: "faq"
+	title: "FAQ"
+	icon: "ftbquests:missing_item"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [{
+		x: -3.0d
+		y: -4.0d
+		width: 1.25d
+		height: 1.25d
+		rotation: 0.0d
+		image: "faruk:textures/ftbquests/discord.png"
+		hover: ["Discord Server"]
+		click: "https://discord.gg/FPWWvZ7P8r"
+		dev: false
+		corner: false
+	}]
+	quests: [
+		{
+			title: "{faruk.faq2.title}"
+			icon: "ftbquests:missing_item"
+			x: -4.5d
+			y: -2.5d
+			description: ["{faruk.faq2.desc1}"]
+			id: "7FF89F984D4B3AD3"
+			tasks: [{
+				id: "66EB71BE5939D880"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{faruk.faq4.title}"
+			icon: "ftbquests:missing_item"
+			x: -1.5d
+			y: -2.5d
+			description: ["{faruk.faq4.desc1}"]
+			id: "3489F35DF3D15751"
+			tasks: [{
+				id: "6D60630D46357934"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{faruk.faq5.title}"
+			icon: "ftbquests:missing_item"
+			x: 0.0d
+			y: -2.5d
+			description: ["{faruk.faq5.desc1}"]
+			id: "5F83F96EEC6734CE"
+			tasks: [{
+				id: "7B4366B26E57B101"
+				type: "checkmark"
+				title: "I have Silent gear saw but i still can't ultimine trees?"
+			}]
+		}
+		{
+			title: "{faruk.faq1.title}"
+			icon: "ftbquests:missing_item"
+			x: -6.0d
+			y: -2.5d
+			description: ["{faruk.faq1.desc1}"]
+			id: "05739D746D3DBB3E"
+			tasks: [{
+				id: "06BA1F29A70EB704"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{faruk.faq3.title}"
+			icon: "ftbquests:missing_item"
+			x: -3.0d
+			y: -2.5d
+			description: ["{faruk.faq3.desc1}"]
+			id: "0A8ECFFD40F621AE"
+			tasks: [{
+				id: "03E479ADFEB3324A"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{faruk.faq6.title}"
+			icon: "ftbquests:missing_item"
+			x: 1.5d
+			y: -2.5d
+			description: ["{faruk.faq6.desc1}"]
+			id: "3FE5E3DA42D000BD"
+			tasks: [{
+				id: "1B44BAA75D5C1708"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "{faruk.faqtr.title}"
+			icon: "ftbquests:missing_item"
+			x: -7.5d
+			y: -2.5d
+			subtitle: "{faruk.faqtr.subtitle}"
+			description: [
+				"{faruk.faqtr.desc1}"
+				"&e   Eğer işlemlerde sorun yaşarsanız Discord üzerinden yardım alabilirsiniz."
+			]
+			id: "42B08239FEFB20A9"
+			tasks: [{
+				id: "7B266D34D13CBEC4"
+				type: "checkmark"
+				title: "{faruk.faqtr.subtitle}"
+			}]
+		}
+	]
+}

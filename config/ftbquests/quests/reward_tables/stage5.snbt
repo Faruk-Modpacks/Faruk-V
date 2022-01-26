@@ -1,0 +1,17 @@
+{
+	id: "3A9D7F1685168F6C"
+	order_index: 10
+	title: "Stage5"
+	icon: "kubejs:chest_gold"
+	loot_size: 1
+	rewards: [
+		{ item: "draconicevolution:draconium_dust", count: 8 }
+		{ item: "draconicevolution:draconium_ingot", count: 8 }
+		{ item: "draconicevolution:draconium_core", count: 4 }
+		{ item: "draconicevolution:wyvern_io_crystal", count: 2 }
+		{ item: "draconicevolution:wyvern_relay_crystal", count: 2 }
+		{ item: "draconicevolution:wyvern_wireless_crystal", count: 2 }
+		{ item: "draconicevolution:dragon_heart" }
+		{ item: "draconicevolution:wyvern_energy_core", count: 2 }
+	]
+}

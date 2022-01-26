@@ -1,0 +1,19 @@
+{
+  "type": "immersivepetroleum:reservoirs",
+  "fluid": "minecraft:water",
+  "fluidminimum": 10000000,
+  "fluidcapacity": 20000000,
+  "fluidtrace": 6,
+  "weight": 30,
+  "dimension": {
+    "whitelist": [
+      "minecraft:overworld"
+    ],
+    "blacklist": []
+  },
+  "biome": {
+    "whitelist": [],
+    "blacklist": []
+  },
+  "name": "aquifer"
+}

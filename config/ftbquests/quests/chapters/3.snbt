@@ -1,0 +1,1109 @@
+{
+	id: "103048E4CF0FA72D"
+	group: "10D2C316AC27131A"
+	order_index: 0
+	filename: "3"
+	title: "Stage Three - Main"
+	icon: "industrialforegoing:meat_feeder"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{faruk.stagethree.main40.subtitle}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 5.15d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "{faruk.stagezero.main45.subtitle}"
+			description: [
+				"&3My friends: &eYou okay?"
+				"&3Me: &eYeah, Im fine.  "
+				"&3My headphones:      "
+				"&eVahit Guetta-Donence Mix"
+				"&e0:31 ━❍──────── -5:12"
+				"&e        ↻     ⊲  Ⅱ  ⊳     ↺"
+				"&eVOLUME: ▁▂▃▄▅▆▇ 500%\""
+			]
+			dependencies: ["4DBC5117FFFB593D"]
+			size: 1.25d
+			id: "5F528206B5D98E65"
+			tasks: [{
+				id: "733F9DB8BA213F75"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "2E5FC9ED5807B87B"
+					type: "command"
+					icon: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					command: "/gamestage add @p four"
+					player_command: false
+				}
+				{
+					id: "64DD14E9771D5DAD"
+					type: "command"
+					auto: "invisible"
+					command: "/summon minecraft:firework_rocket ~ ~1 ~ {Glowing:1b,LifeTime:15,FireworksItem:{id:firework_rocket,Count:5,tag:{Fireworks:{Explosions:[{Type:1,Flicker:50b,Trail:20b,Colors:[I;15435844, 2437522, 14602026]}]}}}}"
+					player_command: true
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -7.5d
+			subtitle: "{faruk.stagethree.main3.subtitle}"
+			description: ["{faruk.stagethree.main3.desc1}"]
+			dependencies: ["316FF56816C0AF8E"]
+			id: "5CCB0130B73F1797"
+			tasks: [{
+				id: "5E6A313A08483680"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "7BB9C87C866298EF"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -7.5d
+			subtitle: "{faruk.stagethree.main5.subtitle}"
+			description: ["{faruk.stagethree.main5.desc1}"]
+			dependencies: ["5A5D0CBA90937BAC"]
+			id: "6BDEDF5D1F4DAC05"
+			tasks: [{
+				id: "48E2D784A875924F"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [{
+				id: "31B84D456B1ED8FE"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -7.5d
+			subtitle: "{faruk.stagethree.main4.subtitle}"
+			description: ["{faruk.stagethree.main4.desc1}"]
+			dependencies: ["5CCB0130B73F1797"]
+			id: "5A5D0CBA90937BAC"
+			tasks: [{
+				id: "72398305988AA9FE"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [{
+				id: "4900AAC49F3A9DE3"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -7.5d
+			subtitle: "{faruk.stagethree.main6.subtitle}"
+			description: ["{faruk.stagethree.main6.desc1}"]
+			dependencies: ["6BDEDF5D1F4DAC05"]
+			id: "7E0D5A329D869E02"
+			tasks: [{
+				id: "49B275ED8EF1FC79"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "78075C0F51A76996"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -7.5d
+			subtitle: "{faruk.stagethree.main7.subtitle}"
+			description: ["{faruk.stagethree.main7.desc1}"]
+			dependencies: ["7E0D5A329D869E02"]
+			id: "57C30C0D11A24A38"
+			tasks: [{
+				id: "1E8A1332A34F5EBA"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+			rewards: [{
+				id: "1E80A15CFBE59DFC"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 5503260864649520513L
+			}]
+		}
+		{
+			x: 0.5d
+			y: -7.0d
+			subtitle: "{faruk.stagethree.main10.subtitle}"
+			description: ["{faruk.stagethree.main10.desc1}"]
+			dependencies: ["40A67B6FFF2EF569"]
+			id: "78600E54EE2CBAAB"
+			tasks: [{
+				id: "097CFEA7E329ECC1"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "1324C5F4BF5AB045"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 5503260864649520513L
+			}]
+		}
+		{
+			x: -0.5d
+			y: -7.0d
+			subtitle: "{faruk.stagethree.main8.subtitle}"
+			description: ["{faruk.stagethree.main8.desc1}"]
+			dependencies: ["57C30C0D11A24A38"]
+			id: "40A67B6FFF2EF569"
+			tasks: [{
+				id: "5EB95F0F29BC9C6F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "4DD7A1D5AAB3140B"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -9.0d
+			subtitle: "{faruk.stagethree.main16.subtitle}"
+			description: ["{faruk.stagethree.main16.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["4D417294E3DEE93A"]
+			hide: true
+			optional: true
+			id: "494A73D2C80267E2"
+			tasks: [{
+				id: "735CBB06A098355B"
+				type: "item"
+				item: "industrialforegoing:mob_crusher"
+			}]
+			rewards: [{
+				id: "53CEA5905DE8323C"
+				type: "item"
+				item: {
+					id: "twilightforest:giant_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.main15.subtitle}"
+			description: ["{faruk.stagethree.main15.desc1}"]
+			dependencies: ["35ACB74D968EB475"]
+			hide: true
+			optional: true
+			id: "26C964E5F6810D7B"
+			tasks: [
+				{
+					id: "4221635D02BBF0FA"
+					type: "item"
+					item: "industrialforegoing:mob_duplicator"
+				}
+				{
+					id: "1B3E241C8B9905A5"
+					type: "item"
+					item: "industrialforegoing:mob_imprisonment_tool"
+				}
+				{
+					id: "7E888B84FF316C0E"
+					type: "item"
+					item: "industrialforegoing:essence_bucket"
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.main19.subtitle}"
+			x: -3.0d
+			y: -10.0d
+			description: ["{faruk.stagethree.main19.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["57C30C0D11A24A38"]
+			hide: true
+			optional: true
+			id: "32021491BDB8D01E"
+			tasks: [{
+				id: "36FDB07068ADDA93"
+				type: "item"
+				title: "Range Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:range_addon0"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 0.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 1.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 2.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon3"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 3.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon4"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 4.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon5"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 5.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon6"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 6.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon7"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 7.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon8"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 8.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon9"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 9.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon10"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 10.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:range_addon11"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Range: 11.0f
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "7572E92D4CCA783E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon3"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagethree.main22.subtitle}"
+			x: 0.0d
+			y: -10.0d
+			description: ["{faruk.stagethree.main22.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["57C30C0D11A24A38"]
+			hide: true
+			optional: true
+			id: "1B2B1D067EFB56E3"
+			tasks: [{
+				id: "7DD87160E9FA7E57"
+				type: "item"
+				title: "Efficiency Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:efficiency_addon_1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Efficiency: 0.9f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:efficiency_addon_2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Efficiency: 0.8f
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D7448BD1D4549F7"
+				type: "item"
+				item: {
+					id: "industrialforegoing:efficiency_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Efficiency: 0.8f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagethree.main20.subtitle}"
+			x: -2.0d
+			y: -10.0d
+			description: ["{faruk.stagethree.main20.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["57C30C0D11A24A38"]
+			hide: true
+			optional: true
+			id: "3439DB4732A16EA5"
+			tasks: [{
+				id: "5380A70A508AB6F1"
+				type: "item"
+				title: "Productivity Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:processing_addon_1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Processing: 2.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:processing_addon_2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Processing: 3.0f
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "724295161EA21628"
+				type: "item"
+				item: {
+					id: "industrialforegoing:processing_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Processing: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "{faruk.stagethree.main21.subtitle}"
+			x: -1.0d
+			y: -10.0d
+			description: ["{faruk.stagethree.main21.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["57C30C0D11A24A38"]
+			hide: true
+			optional: true
+			id: "0901123E61E699CA"
+			tasks: [{
+				id: "4A5CE99BDC6680A1"
+				type: "item"
+				title: "Speed Upgrades"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "industrialforegoing:speed_addon_1"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Speed: 2.0f
+									}
+								}
+							}
+							{
+								id: "industrialforegoing:speed_addon_2"
+								Count: 1b
+								tag: {
+									TitaniumAugment: {
+										Speed: 3.0f
+									}
+								}
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "3370159543338CCD"
+				type: "item"
+				item: {
+					id: "industrialforegoing:speed_addon_2"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Speed: 3.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.5d
+			subtitle: "{faruk.stagethree.main9.subtitle}"
+			description: ["{faruk.stagethree.main9.desc1}"]
+			dependencies: ["40A67B6FFF2EF569"]
+			id: "5FC61F0EBB65C862"
+			tasks: [{
+				id: "590FEF114305A7A9"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+			rewards: [{
+				id: "5B563E2475BAB403"
+				type: "loot"
+				icon: "kubejs:chest_silver"
+				table_id: 5503260864649520513L
+			}]
+		}
+		{
+			x: 1.5d
+			y: -7.0d
+			subtitle: "{faruk.stagethree.main12.subtitle}"
+			description: ["{faruk.stagethree.main12.desc1}"]
+			dependencies: ["78600E54EE2CBAAB"]
+			id: "4D417294E3DEE93A"
+			tasks: [{
+				id: "291A8CCA3E9F0BD9"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "7A480A61A97017A2"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -6.5d
+			subtitle: "{faruk.stagethree.main13.subtitle}"
+			description: ["{faruk.stagethree.main13.desc1}"]
+			dependencies: ["4D417294E3DEE93A"]
+			id: "0B57EFADDE7AD23D"
+			tasks: [
+				{
+					id: "512D3C6CE71BB609"
+					type: "item"
+					item: "industrialforegoing:fluid_laser_base"
+				}
+				{
+					id: "6A168E964B5DC584"
+					type: "item"
+					item: "industrialforegoing:stasis_chamber"
+				}
+			]
+			rewards: [{
+				id: "1E03BF36EEB55966"
+				type: "item"
+				item: "enderstorage:ender_tank"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -9.0d
+			subtitle: "{faruk.stagethree.main17.subtitle}"
+			description: ["{faruk.stagethree.main17.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["4D417294E3DEE93A"]
+			hide: true
+			optional: true
+			id: "4C268B02EB9A8ABD"
+			tasks: [{
+				id: "5C7166CAD526E627"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+			rewards: [{
+				id: "6ECB0D2A3243354C"
+				type: "item"
+				item: "eidolon:lesser_soul_gem"
+			}]
+		}
+		{
+			title: "{faruk.stagethree.main14.subtitle}"
+			x: 3.0d
+			y: -5.0d
+			description: ["{faruk.stagethree.main14.desc1}"]
+			dependencies: ["0B57EFADDE7AD23D"]
+			id: "76182D74E1F7CB07"
+			tasks: [{
+				id: "4869D5D9F9084FD8"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+			rewards: [{
+				id: "6A8A880BBD989CA6"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.5d
+			subtitle: "{faruk.stagethree.main1.subtitle}"
+			description: ["{faruk.stagethree.main1.desc1}"]
+			dependencies: ["109DE7EAEEE2D2F9"]
+			hide: true
+			id: "7703F16B42D6E6D9"
+			tasks: [{
+				id: "60372320D1A880BA"
+				type: "item"
+				item: "eidolon:pewter_blend"
+			}]
+			rewards: [{
+				id: "134890AA00CB1C25"
+				type: "item"
+				item: "eidolon:pewter_blend"
+				count: 2
+				random_bonus: 6
+			}]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			subtitle: "{faruk.stagethree.main2.subtitle}"
+			description: ["{faruk.stagethree.main2.desc1}"]
+			dependencies: ["7703F16B42D6E6D9"]
+			id: "316FF56816C0AF8E"
+			tasks: [{
+				id: "7AE43A0AED78E04F"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+			}]
+			rewards: [{
+				id: "399F2020868F9E0A"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -3.0d
+			y: -4.5d
+			subtitle: "{faruk.stagethree.main24.subtitle}"
+			description: ["{faruk.stagethree.main24.desc1}"]
+			dependencies: ["6538335494788D5D"]
+			id: "7B51080F08EB0C81"
+			tasks: [{
+				id: "1C99C097FEFE8D48"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+			}]
+			rewards: [{
+				id: "5173363ABB8733FC"
+				type: "item"
+				item: "eidolon:arcane_gold_ingot"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -1.5d
+			y: -3.5d
+			subtitle: "{faruk.stagethree.main25.subtitle}"
+			description: ["{faruk.stagethree.main25.desc1}"]
+			dependencies: ["7B51080F08EB0C81"]
+			id: "5AE13A50C7348EE4"
+			tasks: [{
+				id: "1DC2C437FB827EC4"
+				type: "item"
+				item: "eidolon:gold_inlay"
+			}]
+			rewards: [{
+				id: "0E139D2DE15C1C43"
+				type: "item"
+				item: "eidolon:gold_inlay"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -2.5d
+			subtitle: "{faruk.stagethree.main29.subtitle}"
+			description: [
+				"{faruk.stagethree.main29.desc1}"
+				"{faruk.stagethree.main29.desc2}"
+				"{faruk.stagethree.main29.desc3}"
+			]
+			dependencies: [
+				"13F03713E61BB157"
+				"4952614CC5E2504C"
+			]
+			id: "28CBB85789DBF196"
+			tasks: [{
+				id: "4DBF8C95C15C398E"
+				type: "item"
+				item: "eidolon:soul_shard"
+			}]
+			rewards: [{
+				id: "390DC71F40A65A95"
+				type: "item"
+				item: "eidolon:soul_shard"
+				random_bonus: 3
+			}]
+		}
+		{
+			title: "&6Unholy Symbol"
+			x: 0.5d
+			y: 0.0d
+			description: ["{faruk.stagethree.main37.desc1}"]
+			dependencies: ["0C265CDFD715F4EA"]
+			id: "47409D9F26D52F03"
+			tasks: [{
+				id: "3520C13EBCCA4FFA"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+			rewards: [{
+				id: "252F6DFBB0BCF6B6"
+				type: "item"
+				item: "eidolon:unholy_symbol"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 1.0d
+			subtitle: "{faruk.stagethree.main38.subtitle}"
+			description: ["{faruk.stagethree.main38.desc1}"]
+			dependencies: ["47409D9F26D52F03"]
+			optional: true
+			id: "329B198E6D57B7A8"
+			tasks: [{
+				id: "05B1F506C1B3A219"
+				type: "item"
+				item: {
+					id: "eidolon:reaper_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "30F5CB8CD986ED1B"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:looting"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.5d
+			y: -1.0d
+			subtitle: "{faruk.stagethree.main30.subtitle}"
+			description: ["{faruk.stagethree.main30.desc1}"]
+			dependencies: ["28CBB85789DBF196"]
+			id: "35ACB74D968EB475"
+			tasks: [{
+				id: "1CDC7BEB68AD3E5F"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+			rewards: [{
+				id: "109378DF0B5F6FDA"
+				type: "item"
+				item: "eidolon:shadow_gem"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "{faruk.stagethree.main31.subtitle}"
+			description: ["{faruk.stagethree.main31.desc1}"]
+			dependencies: [
+				"35ACB74D968EB475"
+				"47409D9F26D52F03"
+			]
+			id: "783FF3127D1472F9"
+			tasks: [{
+				id: "63A65A6311791336"
+				type: "item"
+				item: "eidolon:wicked_weave"
+			}]
+			rewards: [{
+				id: "465B991F51E3988B"
+				type: "item"
+				item: "eidolon:wicked_weave"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -7.0d
+			y: -4.0d
+			subtitle: "{faruk.stagethree.main33.subtitle}"
+			description: [
+				"{faruk.stagethree.main33.desc1}"
+				"{faruk.stagethree.main33.desc2}"
+			]
+			hide_dependency_lines: true
+			dependencies: ["109DE7EAEEE2D2F9"]
+			hide: true
+			id: "2019C7403D3711F5"
+			tasks: [
+				{
+					id: "62EDE62496FA9D16"
+					type: "item"
+					item: "eidolon:wooden_altar"
+					count: 6L
+				}
+				{
+					id: "47126551B4FFB7EB"
+					type: "item"
+					item: "eidolon:codex"
+				}
+			]
+			rewards: [{
+				id: "571B72554EB48240"
+				type: "item"
+				item: "eidolon:pewter_ingot"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -7.0d
+			y: -2.5d
+			subtitle: "{faruk.stagethree.main34.subtitle}"
+			description: ["{faruk.stagethree.main34.desc1}"]
+			dependencies: ["2019C7403D3711F5"]
+			id: "63FC348226EBF28C"
+			tasks: [{
+				id: "11FB37261973185D"
+				type: "item"
+				title: "Decorations"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "eidolon:straw_effigy"
+								Count: 1b
+							}
+							{
+								id: "eidolon:candle"
+								Count: 1b
+							}
+							{
+								id: "eidolon:candlestick"
+								Count: 1b
+							}
+							{
+								id: "minecraft:flower_pot"
+								Count: 1b
+							}
+							{
+								id: "minecraft:wither_skeleton_skull"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0D2533561B40553A"
+				type: "item"
+				item: "minecraft:wither_skeleton_skull"
+			}]
+		}
+		{
+			x: -5.5d
+			y: -4.0d
+			subtitle: "{faruk.stagethree.main27.subtitle}"
+			description: [
+				"{faruk.stagethree.main27.desc1}"
+				"{faruk.stagethree.main29.desc2}"
+				"{faruk.stagethree.main29.desc3}"
+			]
+			dependencies: ["316FF56816C0AF8E"]
+			id: "13F03713E61BB157"
+			tasks: [{
+				id: "2DD75578CB33673C"
+				type: "item"
+				item: "eidolon:brazier"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -5.5d
+			subtitle: "{faruk.stagethree.main23.subtitle}"
+			description: ["{faruk.stagethree.main23.desc1}"]
+			dependencies: ["316FF56816C0AF8E"]
+			id: "6538335494788D5D"
+			tasks: [{
+				id: "538E52F5F196FFF4"
+				type: "item"
+				item: "eidolon:crucible"
+			}]
+		}
+		{
+			x: -4.5d
+			y: -4.0d
+			subtitle: "{faruk.stagethree.main28.subtitle}"
+			description: ["{faruk.stagethree.main28.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["13F03713E61BB157"]
+			id: "4952614CC5E2504C"
+			tasks: [{
+				id: "7B386098B4842CC4"
+				type: "item"
+				item: "eidolon:stone_hand"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "{faruk.stagethree.main26.subtitle}"
+			description: ["{faruk.stagethree.main26.desc1}"]
+			dependencies: ["5AE13A50C7348EE4"]
+			optional: true
+			id: "7BBC6D44F8DBA900"
+			tasks: [{
+				id: "0F62EB831DE26E6D"
+				type: "item"
+				item: "eidolon:soul_enchanter"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -9.0d
+			subtitle: "{faruk.stagethree.main18.subtitle}"
+			description: ["{faruk.stagethree.main18.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["76182D74E1F7CB07"]
+			hide: true
+			optional: true
+			id: "248847EFFF3D3C9A"
+			tasks: [{
+				id: "014AB1CB4758F7D6"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+			rewards: [{
+				id: "17CE40C0C6DBFB2D"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -8.0d
+			subtitle: "{faruk.stagethree.main11.subtitle}"
+			description: ["{faruk.stagethree.main11.desc1}"]
+			dependencies: ["78600E54EE2CBAAB"]
+			id: "71F59F7BBEB5334C"
+			tasks: [{
+				id: "360735922B978B95"
+				type: "item"
+				item: "industrialforegoing:meat_feeder"
+			}]
+			rewards: [{
+				id: "7C363E0DE6062B0D"
+				type: "item"
+				item: "industrialforegoing:meat_bucket"
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			subtitle: "{faruk.stagethree.main32.subtitle}"
+			description: ["{faruk.stagethree.main32.desc1}"]
+			dependencies: ["783FF3127D1472F9"]
+			optional: true
+			id: "47C45D34C6BB72F6"
+			tasks: [{
+				id: "6FB0EEF233505553"
+				type: "item"
+				item: "eidolon:prestigious_palm"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "{faruk.stagethree.main39.subtitle}"
+			description: ["{faruk.stagethree.main39.desc1}"]
+			dependencies: [
+				"783FF3127D1472F9"
+				"76182D74E1F7CB07"
+			]
+			id: "4DBC5117FFFB593D"
+			tasks: [{
+				id: "789AB89CBEB29038"
+				type: "item"
+				item: "twilightforest:twilight_portal_miniature_structure"
+			}]
+			rewards: [
+				{
+					id: "7802AD92193C14B6"
+					type: "item"
+					item: "industrialforegoing:machine_frame_supreme"
+				}
+				{
+					id: "4A2E4B96F17ADD6C"
+					type: "item"
+					item: "eidolon:wicked_weave"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "{faruk.stagethree.main35.subtitle}"
+			x: -7.0d
+			y: 1.5d
+			description: ["{faruk.stagethree.main35.desc1}"]
+			dependencies: ["63FC348226EBF28C"]
+			id: "0BB41065EBB2E708"
+			tasks: [{
+				id: "6C0D139706DE63DB"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -5.5d
+			y: 1.5d
+			subtitle: "{faruk.stagethree.main36.subtitle}"
+			description: ["{faruk.stagethree.main36.desc1}"]
+			dependencies: ["0BB41065EBB2E708"]
+			id: "20E6276864A45465"
+			tasks: [{
+				id: "0978200571D18F42"
+				type: "item"
+				item: "eidolon:goblet"
+			}]
+		}
+		{
+			title: "{faruk.stagethree.main37.subtitle}"
+			x: -3.0d
+			y: 1.5d
+			dependencies: ["20E6276864A45465"]
+			id: "0C265CDFD715F4EA"
+			tasks: [{
+				id: "3EDB888E8E3F769E"
+				type: "checkmark"
+			}]
+		}
+	]
+}

@@ -1,0 +1,1754 @@
+{
+	id: "6230909160CF7DCB"
+	group: "4B663A51538A1AE2"
+	order_index: 0
+	filename: "4"
+	title: "Stage Four - Main"
+	icon: "mekanism:robit"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "{faruk.stagefour.main73.title}"
+			icon: {
+				id: "world_of_faruk:faruk_land"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 20.0d
+			y: -3.5d
+			shape: "heart"
+			subtitle: "{faruk.stagefour.main73.subtitle}"
+			description: ["{faruk.stagefour.main73.desc1}"]
+			dependencies: ["6760D1F1ABE52B46"]
+			size: 1.5d
+			id: "6AF50F9D4BD60112"
+			tasks: [{
+				id: "651CD801820589C3"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "5A513925400BA22A"
+					type: "command"
+					icon: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					auto: "enabled"
+					command: "/gamestage add @p five"
+					player_command: false
+				}
+				{
+					id: "48BAF7930AD3402A"
+					type: "command"
+					auto: "invisible"
+					command: "/summon minecraft:firework_rocket ~ ~1 ~ {Glowing:1b,LifeTime:15,FireworksItem:{id:firework_rocket,Count:5,tag:{Fireworks:{Explosions:[{Type:1,Flicker:50b,Trail:20b,Colors:[I;15435844, 2437522, 14602026]}]}}}}"
+					player_command: true
+				}
+				{
+					id: "1AB59BA9EED3748D"
+					type: "item"
+					item: {
+						id: "lootr:trophy"
+						Count: 1b
+						tag: {
+							display: {
+								Name: "{\"text\":\"Azelza\"}"
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main1.subtitle}"
+			description: [
+				"{faruk.stagefour.main1.desc1}"
+				"{faruk.stagefour.main1.desc2}"
+			]
+			dependencies: ["5F528206B5D98E65"]
+			hide: true
+			id: "1AF31F645FAE9D10"
+			tasks: [{
+				id: "073B6B2EA1C2AC42"
+				type: "item"
+				item: "mekanism:metallurgic_infuser"
+			}]
+			rewards: [{
+				id: "72D37872EF3E07D6"
+				type: "item"
+				item: {
+					id: "mekanism:configurator"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "100000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "{faruk.stagefour.main16.subtitle}"
+			description: ["{faruk.stagefour.main16.desc1}"]
+			dependencies: ["6789D2234B718137"]
+			optional: true
+			id: "761E83498CE6FA5C"
+			tasks: [{
+				id: "303177C1A2896234"
+				type: "item"
+				item: "mekanismgenerators:advanced_solar_generator"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main17.subtitle}"
+			description: ["{faruk.stagefour.main17.desc1}"]
+			dependencies: ["5A26BC56FC35D17A"]
+			id: "68B1311380EB06BD"
+			tasks: [{
+				id: "4C739D75662AC7E4"
+				type: "item"
+				item: "mekanism:combiner"
+			}]
+			rewards: [{
+				id: "655F06A36BFC242C"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main13.subtitle}"
+			description: ["{faruk.stagefour.main13.desc1}"]
+			dependencies: ["2FAEB8BF178EBFE0"]
+			id: "5A26BC56FC35D17A"
+			tasks: [{
+				id: "279F4EC0D95FB237"
+				type: "item"
+				item: "mekanism:osmium_compressor"
+			}]
+			rewards: [{
+				id: "7FCCD9A572C971D3"
+				type: "item"
+				item: "emendatusenigmatica:osmium_ingot"
+				count: 8
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -4.5d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main5.subtitle}"
+			description: ["{faruk.stagefour.main5.desc1}"]
+			dependencies: [
+				"084A28B6888AA5A3"
+				"70B6B1A00841E43B"
+			]
+			id: "2FAEB8BF178EBFE0"
+			tasks: [{
+				id: "2D231DD417BC4C4C"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+			rewards: [{
+				id: "0C47824571F82775"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			subtitle: "{faruk.stagefour.main4.subtitle}"
+			description: ["{faruk.stagefour.main4.desc1}"]
+			dependencies: ["084A28B6888AA5A3"]
+			optional: true
+			id: "3A45C1F7BA0773CD"
+			tasks: [{
+				id: "0F31E472BDD77DF4"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+			rewards: [{
+				id: "36C3E72C2D9BAB1A"
+				type: "item"
+				item: "mekanism:basic_tier_installer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			subtitle: "{faruk.stagefour.main18.subtitle}"
+			description: ["{faruk.stagefour.main18.desc1}"]
+			dependencies: ["25720801E03EA0B5"]
+			optional: true
+			id: "40B956D39E29CCEF"
+			tasks: [{
+				id: "7AE039E227FA3950"
+				type: "item"
+				item: "mekanism:advanced_tier_installer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			subtitle: "{faruk.stagefour.main19.subtitle}"
+			description: ["{faruk.stagefour.main19.desc1}"]
+			dependencies: ["23DB59188D96357C"]
+			optional: true
+			id: "61EC9FF6F8E0AF4A"
+			tasks: [{
+				id: "0B7BFF63B5CCC038"
+				type: "item"
+				item: "mekanism:elite_tier_installer"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main20.subtitle}"
+			description: ["{faruk.stagefour.main20.desc1}"]
+			dependencies: ["6B0A2512B9EDF4F5"]
+			optional: true
+			id: "3BB2B17EBE5A97FC"
+			tasks: [{
+				id: "7D9E2C589539B6E2"
+				type: "item"
+				item: "mekanism:ultimate_tier_installer"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -5.0d
+			subtitle: "{faruk.stagefour.main24.subtitle}"
+			description: ["{faruk.stagefour.main24.desc1}"]
+			dependencies: ["33ECF358215BF1BE"]
+			optional: true
+			id: "004C0432733378B6"
+			tasks: [{
+				id: "339B6E591B3FA941"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+			rewards: [{
+				id: "7DA34FEB8A9A21F3"
+				type: "item"
+				item: "mekanism:quantum_entangloporter"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -5.0d
+			subtitle: "{faruk.stagefour.main23.subtitle}"
+			description: ["{faruk.stagefour.main23.desc1}"]
+			dependencies: ["33ECF358215BF1BE"]
+			optional: true
+			id: "280711C594D97600"
+			tasks: [{
+				id: "175C84D5A882BD56"
+				type: "item"
+				item: "mekanism:digital_miner"
+			}]
+			rewards: [{
+				id: "55C457D6D0886B3A"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -5.5d
+			subtitle: "{faruk.stagefour.main15.subtitle}"
+			description: [
+				"{faruk.stagefour.main15.desc1}"
+				"{faruk.stagefour.main15.desc2}"
+			]
+			dependencies: ["2BBBC4593F3E7772"]
+			optional: true
+			id: "46BBE1BA02B4A09D"
+			tasks: [{
+				id: "23DD62BA86564F14"
+				type: "item"
+				item: "mekanism:robit"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: -3.0d
+			y: -8.0d
+			description: ["{faruk.stagefour.main9.desc1}"]
+			dependencies: ["1653B9B693150252"]
+			id: "7D2F091742ABA14E"
+			tasks: [{
+				id: "38DFC49FAF55D594"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: -4.5d
+			y: -8.0d
+			description: ["{faruk.stagefour.main7.desc1}"]
+			dependencies: ["2FAEB8BF178EBFE0"]
+			id: "1653B9B693150252"
+			tasks: [{
+				id: "4AE05731246C21EE"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 2.0d
+			subtitle: "{faruk.stagefour.main60.subtitle}"
+			description: ["{faruk.stagefour.main61.desc1}"]
+			dependencies: ["1679D519FF29316B"]
+			optional: true
+			id: "4FC89847C027BAF1"
+			tasks: [{
+				id: "47D8D9E2B15C92AB"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: -6.5d
+			y: 3.0d
+			subtitle: "{faruk.stagefour.main60.subtitle}"
+			description: ["{faruk.stagefour.main62.desc1}"]
+			dependencies: ["4FC89847C027BAF1"]
+			optional: true
+			id: "28B1539270BDA93C"
+			tasks: [{
+				id: "798BA2A25487B173"
+				type: "item"
+				item: "mekanism:crusher"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.0d
+			subtitle: "{faruk.stagefour.main64.subtitle}"
+			description: ["{faruk.stagefour.main64.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["1AF31F645FAE9D10"]
+			hide: true
+			optional: true
+			id: "7BE1EC0973C7DF7E"
+			tasks: [
+				{
+					id: "4A3D6B509C0DC0F9"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "5AA194A4C11456E0"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+				}
+				{
+					id: "73D67C3AE4E1A1AA"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+				}
+			]
+			rewards: [{
+				id: "1F2E435BD68D2401"
+				type: "item"
+				item: "mekanism:thermal_evaporation_block"
+				count: 4
+				random_bonus: 8
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.0d
+			subtitle: "{faruk.stagefour.main64.subtitle}"
+			description: ["{faruk.stagefour.main65.desc1}"]
+			dependencies: ["7BE1EC0973C7DF7E"]
+			optional: true
+			id: "7AA95E27E994C4B1"
+			tasks: [{
+				id: "6F7A61015B709512"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			subtitle: "{faruk.stagefour.main64.subtitle}"
+			description: ["{faruk.stagefour.main67.desc1}"]
+			dependencies: ["6CB0B99D78E5A058"]
+			optional: true
+			id: "46360F1564047B38"
+			tasks: [{
+				id: "47B04638876DBD0A"
+				type: "item"
+				item: "mekanism:purification_chamber"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: ["{faruk.stagefour.main68.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["1AF31F645FAE9D10"]
+			hide: true
+			optional: true
+			id: "1DAA666A5BD60BCF"
+			tasks: [{
+				id: "24A0CDC7F679A1EE"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: ["{faruk.stagefour.main69.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["1AF31F645FAE9D10"]
+			hide: true
+			optional: true
+			id: "1666602A44E1A817"
+			tasks: [{
+				id: "509379841FCCF4B1"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 3.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: ["{faruk.stagefour.main70.desc1}"]
+			dependencies: ["7A0C397AEDC90427"]
+			optional: true
+			id: "575175668BBE0192"
+			tasks: [{
+				id: "7AAB1523542AD4D6"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: ["{faruk.stagefour.main71.desc1}"]
+			dependencies: ["575175668BBE0192"]
+			optional: true
+			id: "541A1A758772FDCD"
+			tasks: [{
+				id: "501B5AACB200CA4C"
+				type: "item"
+				item: "mekanism:chemical_washer"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: ["{faruk.stagefour.main72.desc1}"]
+			dependencies: ["541A1A758772FDCD"]
+			optional: true
+			id: "153499ADAA6C5EDF"
+			tasks: [{
+				id: "43F15BF7506FD605"
+				type: "item"
+				item: "mekanism:chemical_crystallizer"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -5.5d
+			subtitle: "{faruk.stagefour.main59.subtitle}"
+			description: ["{faruk.stagefour.main59.desc1}"]
+			dependencies: ["0E9D8C6711E32EC8"]
+			hide: true
+			optional: true
+			id: "6FAD4EDF0852BE2C"
+			tasks: [
+				{
+					id: "17D3AFBA7A0BEEF6"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_controller"
+				}
+				{
+					id: "0B81DE9486DBFB13"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_frame"
+					count: 75L
+				}
+				{
+					id: "59DF12D4CADF6BBC"
+					type: "item"
+					item: "mekanismgenerators:fusion_reactor_port"
+					count: 2L
+				}
+				{
+					id: "4A1D071CA35DDDE2"
+					type: "item"
+					item: "mekanismgenerators:reactor_glass"
+					count: 8L
+				}
+				{
+					id: "41A8D9D48A481E52"
+					type: "item"
+					item: "mekanismgenerators:laser_focus_matrix"
+				}
+				{
+					id: "1AE614458B28B7AC"
+					type: "item"
+					item: "mekanismgenerators:hohlraum"
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.0d
+			subtitle: "{faruk.stagefour.main37.subtitle}"
+			description: ["{faruk.stagefour.main37.desc1}"]
+			dependencies: ["22E1CFCABDE6643C"]
+			id: "7352EFD875DBE5BD"
+			tasks: [{
+				id: "4EA305F7C2535E25"
+				type: "item"
+				item: "mekanism:solar_neutron_activator"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -4.0d
+			dependencies: ["7352EFD875DBE5BD"]
+			id: "0E9D8C6711E32EC8"
+			tasks: [{
+				id: "1A5905F213065688"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+			rewards: [{
+				id: "201A46A717FBCE9A"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -5.0d
+			description: [
+				"{faruk.stagefour.main39.desc1}"
+				"{faruk.stagefour.main39.desc2}"
+			]
+			dependencies: ["22E1CFCABDE6643C"]
+			id: "7A0D9CA2E6D7AF23"
+			tasks: [{
+				id: "4FEA9952172E3777"
+				type: "item"
+				item: "mekanism:radioactive_waste_barrel"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main41.subtitle}"
+			description: ["{faruk.stagefour.main41.desc1}"]
+			dependencies: ["658AEDC01340EBF9"]
+			hide: true
+			id: "56F7B513E92CF69F"
+			tasks: [{
+				id: "62121F92B1996471"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+			rewards: [{
+				id: "3A7C2ADD6643C9A3"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			title: "&6Induction Matrix"
+			x: -0.5d
+			y: -1.5d
+			description: ["{faruk.stagefour.main21.desc1}"]
+			dependencies: ["23DB59188D96357C"]
+			optional: true
+			id: "52A067AA0D70AEF1"
+			tasks: [
+				{
+					id: "75315C175D9E6E0F"
+					type: "item"
+					item: "mekanism:induction_casing"
+				}
+				{
+					id: "66C6C090C77C961F"
+					type: "item"
+					item: "mekanism:induction_port"
+				}
+				{
+					id: "5BD3163E62F5C33D"
+					type: "item"
+					title: "Induction Cells"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:basic_induction_cell"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_induction_cell"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_induction_cell"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_induction_cell"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "7624489D78A47E8E"
+					type: "item"
+					title: "Induction Providers"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:basic_induction_provider"
+									Count: 1b
+								}
+								{
+									id: "mekanism:advanced_induction_provider"
+									Count: 1b
+								}
+								{
+									id: "mekanism:elite_induction_provider"
+									Count: 1b
+								}
+								{
+									id: "mekanism:ultimate_induction_provider"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "0AF141D804AF0D3A"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: 11.0d
+			y: -1.5d
+			subtitle: "{faruk.stagefour.main42.subtitle}"
+			description: ["{faruk.stagefour.main42.desc1}"]
+			dependencies: ["56F7B513E92CF69F"]
+			id: "5B3E1FAC92237EB3"
+			tasks: [{
+				id: "7B4951905920CB9C"
+				type: "item"
+				item: "mekanismmatter:mass_fabricator"
+			}]
+			rewards: [{
+				id: "457F5F0CECD2B072"
+				type: "item"
+				item: "mekanismmatter:universal_matter"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main45.subtitle}"
+			description: ["{faruk.stagefour.main45.desc1}"]
+			dependencies: ["5B3E1FAC92237EB3"]
+			id: "55F3755537F152EA"
+			tasks: [
+				{
+					id: "29362B56FB759D66"
+					type: "item"
+					item: "mekanismmatter:recycler"
+				}
+				{
+					id: "0D64F2B36CEAC095"
+					type: "item"
+					item: "mekanismmatter:scarp"
+				}
+				{
+					id: "23AAB1351BB5F9F9"
+					type: "item"
+					item: "mekanismmatter:scrapbox"
+				}
+			]
+			rewards: [{
+				id: "766E39D6455AAB96"
+				type: "item"
+				item: "mekanismmatter:scrapbox"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 11.0d
+			y: 0.5d
+			subtitle: "{faruk.stagefour.main48.subtitle}"
+			description: ["{faruk.stagefour.main48.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["5B3E1FAC92237EB3"]
+			hide: true
+			id: "598CFFC7BFF316BF"
+			tasks: [{
+				id: "2816FDC8910F86ED"
+				type: "item"
+				item: "mekanismmatter:arc_furnace"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main43.subtitle}"
+			description: ["{faruk.stagefour.main43.desc1}"]
+			dependencies: ["5B3E1FAC92237EB3"]
+			optional: true
+			id: "54A8DB461D2370A1"
+			tasks: [{
+				id: "40FE296C3B57260B"
+				type: "item"
+				item: "mekanismmatter:antimatter_synthesizer"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 1.5d
+			subtitle: "{faruk.stagefour.main50.subtitle}"
+			description: ["{faruk.stagefour.main50.desc1}"]
+			dependencies: ["2469442C2EC0A29E"]
+			id: "7BFFAD20C5E99326"
+			tasks: [{
+				id: "6D1EC5E1A19C0884"
+				type: "item"
+				item: {
+					id: "mekanismmatter:trinium_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 11.0d
+			y: 1.5d
+			subtitle: "{faruk.stagefour.main49.subtitle}"
+			description: ["{faruk.stagefour.main49.desc1}"]
+			dependencies: ["598CFFC7BFF316BF"]
+			id: "5A9959CD4F82B531"
+			tasks: [{
+				id: "073CB88FA9EB2C99"
+				type: "item"
+				item: {
+					id: "mekanismmatter:carbon_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			subtitle: "{faruk.stagefour.main51.subtitle}"
+			description: ["{faruk.stagefour.main51.desc1}"]
+			dependencies: ["598CFFC7BFF316BF"]
+			id: "2469442C2EC0A29E"
+			tasks: [{
+				id: "537F4946F5046128"
+				type: "item"
+				item: "mekanismmatter:trinium_dust"
+			}]
+		}
+		{
+			x: 17.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main58.subtitle}"
+			description: [
+				"{faruk.stagefour.main58.desc1}"
+				"{faruk.stagefour.main58.desc2}"
+				"{faruk.stagefour.main58.desc3}"
+				"{faruk.stagefour.main58.desc4}"
+			]
+			dependencies: [
+				"2C46CB6B39CA8AF3"
+				"39690286620B8C20"
+			]
+			id: "6760D1F1ABE52B46"
+			tasks: [
+				{
+					id: "0A8E07D13256EF5F"
+					type: "item"
+					item: "world_of_faruk:comp_obs_3"
+					count: 10L
+				}
+				{
+					id: "27FE5692AE89186F"
+					type: "item"
+					item: {
+						id: "world_of_faruk:faruk_land"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "44BAF3D8784AA351"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["1AF31F645FAE9D10"]
+			id: "70B6B1A00841E43B"
+			tasks: [{
+				id: "7EDE8DEE388A66CC"
+				type: "item"
+				item: "mekanism:alloy_infused"
+			}]
+			rewards: [{
+				id: "3141F37D49B62D35"
+				type: "item"
+				item: "mekanism:alloy_infused"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -6.5d
+			y: -2.0d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["70B6B1A00841E43B"]
+			id: "2663D9DFCD140462"
+			tasks: [{
+				id: "25BD1AFC7A4EA039"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+			}]
+			rewards: [{
+				id: "67504D0F13935FDB"
+				type: "item"
+				item: "mekanism:alloy_reinforced"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: [
+				"2663D9DFCD140462"
+				"78648B52624AEF47"
+			]
+			id: "0348C57B991F5648"
+			tasks: [{
+				id: "0D7D778C62A84631"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+			}]
+			rewards: [{
+				id: "4D34ED2F594C004F"
+				type: "item"
+				item: "mekanism:alloy_atomic"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -6.5d
+			y: -4.0d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["1AF31F645FAE9D10"]
+			id: "084A28B6888AA5A3"
+			tasks: [{
+				id: "3FC831C6DA357E64"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+			}]
+			rewards: [{
+				id: "2F536051AFAE5B32"
+				type: "item"
+				item: "mekanism:basic_control_circuit"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["68B1311380EB06BD"]
+			id: "25720801E03EA0B5"
+			tasks: [{
+				id: "54C723434DED9840"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+			rewards: [{
+				id: "7CF8A913AB8DDB7F"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+				count: 4
+			}]
+		}
+		{
+			x: 0.5d
+			y: -1.5d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["25720801E03EA0B5"]
+			id: "23DB59188D96357C"
+			tasks: [{
+				id: "772C105C8AD8F9C0"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+			rewards: [{
+				id: "66562FB6A20642AB"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			description: ["{faruk.stagefour.main2.desc1}"]
+			dependencies: ["23DB59188D96357C"]
+			id: "6B0A2512B9EDF4F5"
+			tasks: [{
+				id: "68B8E6A60701D219"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "5B0DC6F4C4756740"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+				random_bonus: 1
+			}]
+		}
+		{
+			title: "&cEnriched Redstone"
+			x: -5.0d
+			y: -2.0d
+			description: ["{faruk.stagefour.main6.desc1}"]
+			dependencies: ["2FAEB8BF178EBFE0"]
+			id: "4069A3B027016D24"
+			tasks: [{
+				id: "3D9C2A91D427CC18"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+			}]
+			rewards: [{
+				id: "58343EE160AC44B7"
+				type: "item"
+				item: "mekanism:enriched_redstone"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "&bEnriched Diamond"
+			x: -4.0d
+			y: -2.0d
+			description: ["{faruk.stagefour.main6.desc1}"]
+			dependencies: ["2FAEB8BF178EBFE0"]
+			id: "661084D0EA385318"
+			tasks: [{
+				id: "26C1376641733A14"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+			}]
+			rewards: [{
+				id: "5C0161ECBAC70BA2"
+				type: "item"
+				item: "mekanism:enriched_diamond"
+				count: 2
+				random_bonus: 2
+			}]
+		}
+		{
+			title: "&6Enriched Obsidian"
+			x: -4.5d
+			y: -1.0d
+			description: ["{faruk.stagefour.main6.desc1}"]
+			dependencies: ["2FAEB8BF178EBFE0"]
+			id: "474673A86E7A6089"
+			tasks: [{
+				id: "660AEB7085DF2528"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+			}]
+			rewards: [{
+				id: "6B86DB17D6662F9B"
+				type: "item"
+				item: "mekanism:enriched_refined_obsidian"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			subtitle: "{faruk.stagefour.main3.subtitle}"
+			description: ["{faruk.stagefour.main3.desc1}"]
+			dependencies: ["1AF31F645FAE9D10"]
+			id: "78648B52624AEF47"
+			tasks: [{
+				id: "369DFD7073E4EEFE"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+			}]
+			rewards: [{
+				id: "3930E83E8D3D8A58"
+				type: "item"
+				item: "mekanism:dust_refined_obsidian"
+				random_bonus: 3
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			description: ["{faruk.stagefour.main14.desc1}"]
+			dependencies: ["5A26BC56FC35D17A"]
+			id: "2BBBC4593F3E7772"
+			tasks: [{
+				id: "5441077EBA8B1E89"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+			}]
+			rewards: [{
+				id: "12D012C09EFC08F2"
+				type: "item"
+				item: "mekanism:ingot_refined_obsidian"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: -6.5d
+			y: 4.0d
+			subtitle: "{faruk.stagefour.main60.subtitle}"
+			description: ["{faruk.stagefour.main63.desc1}"]
+			dependencies: ["28B1539270BDA93C"]
+			optional: true
+			id: "39197512125B8C93"
+			tasks: [{
+				id: "34A1B4F6411B2E0A"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: 3.0d
+			y: -8.0d
+			description: ["{faruk.stagefour.main12.desc1}"]
+			dependencies: ["69970C0692DDC9F7"]
+			id: "2C75D80C9B1B9E97"
+			tasks: [{
+				id: "04DF9A8909D7712E"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+			}]
+			rewards: [{
+				id: "073DBA33282901A0"
+				type: "item"
+				item: "mekanism:hdpe_pellet"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.5d
+			description: ["{faruk.stagefour.main14.desc1}"]
+			dependencies: ["5A26BC56FC35D17A"]
+			id: "6789D2234B718137"
+			tasks: [{
+				id: "41EDE98945A2A318"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+			}]
+			rewards: [{
+				id: "3F48823495DD19A6"
+				type: "item"
+				item: "mekanism:ingot_refined_glowstone"
+				random_bonus: 1
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main22.subtitle}"
+			description: ["{faruk.stagefour.main22.desc1}"]
+			dependencies: ["68B1311380EB06BD"]
+			id: "33ECF358215BF1BE"
+			tasks: [{
+				id: "6F7B13AFF426733D"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+			rewards: [{
+				id: "2754BB3698781D0B"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefour.main60.subtitle}"
+			description: ["{faruk.stagefour.main60.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["1AF31F645FAE9D10"]
+			hide: true
+			optional: true
+			id: "1679D519FF29316B"
+			tasks: [{
+				id: "1DA8A1978A622B6A"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -7.0d
+			description: ["{faruk.stagefour.main8.desc1}"]
+			dependencies: ["7D2F091742ABA14E"]
+			id: "609383C63815B301"
+			tasks: [{
+				id: "189410F04BB39F83"
+				type: "item"
+				item: "mekanism:bio_fuel"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: 0.0d
+			y: -8.0d
+			description: ["{faruk.stagefour.main10.desc1}"]
+			dependencies: ["1CDC7D77956BE035"]
+			id: "07D65779EEE965B0"
+			tasks: [{
+				id: "580AB3EDA283BB5F"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: 1.5d
+			y: -8.0d
+			description: ["{faruk.stagefour.main11.desc1}"]
+			dependencies: ["07D65779EEE965B0"]
+			id: "69970C0692DDC9F7"
+			tasks: [{
+				id: "6CB396B523B498AC"
+				type: "item"
+				item: "mekanism:pressurized_reaction_chamber"
+			}]
+		}
+		{
+			title: "{faruk.stagefour.main7.subtitle}"
+			x: -1.5d
+			y: -8.0d
+			description: ["{faruk.stagefour.main12.desc1}"]
+			dependencies: ["7D2F091742ABA14E"]
+			id: "1CDC7D77956BE035"
+			tasks: [{
+				id: "53C32B8073819FD6"
+				type: "item"
+				item: "mekanism:substrate"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			description: [
+				"{faruk.stagefour.main35.desc1}"
+				"{faruk.stagefour.main35.desc2}"
+				"{faruk.stagefour.main35.desc3}"
+			]
+			dependencies: ["5F4EBBB35FA732E8"]
+			hide: true
+			id: "22E1CFCABDE6643C"
+			tasks: [
+				{
+					id: "7E80BB026B1DA631"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+				{
+					id: "03F00C428151AEBC"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_port"
+				}
+				{
+					id: "00D54B7F0AB0DFB2"
+					type: "item"
+					item: "mekanismgenerators:fission_reactor_logic_adapter"
+				}
+				{
+					id: "18EA162EBCC6B587"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+			]
+			rewards: [{
+				id: "417EF424C5E287E6"
+				type: "item"
+				item: "mekanismgenerators:fission_reactor_casing"
+				count: 16
+				random_bonus: 16
+			}]
+		}
+		{
+			x: 6.5d
+			y: -2.0d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main34.desc1}"]
+			dependencies: [
+				"6F1FF535ABCEB538"
+				"1B071D5BFD94099D"
+			]
+			hide: true
+			id: "5F4EBBB35FA732E8"
+			tasks: [{
+				id: "420B1ADEB41EA6E6"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+			rewards: [{
+				id: "31C5D1B94FAC10F0"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			description: [
+				"{faruk.stagefour.main38.desc1}"
+				"{faruk.stagefour.main38.desc2}"
+			]
+			dependencies: ["22E1CFCABDE6643C"]
+			hide: true
+			optional: true
+			id: "70A4B75F465C745B"
+			tasks: [
+				{
+					id: "5AB684DAF3EFB3FF"
+					type: "item"
+					item: "mekanismgenerators:turbine_casing"
+				}
+				{
+					id: "7B4CEA67629BDD81"
+					type: "item"
+					item: "mekanismgenerators:turbine_valve"
+				}
+				{
+					id: "36D12D6ED85CB438"
+					type: "item"
+					item: "mekanismgenerators:turbine_vent"
+				}
+				{
+					id: "63F52D409C29CE98"
+					type: "item"
+					item: "mekanismgenerators:turbine_blade"
+				}
+				{
+					id: "11936414F35DD600"
+					type: "item"
+					item: "mekanismgenerators:turbine_rotor"
+				}
+				{
+					id: "5CC6C8943DAB751F"
+					type: "item"
+					item: "mekanismgenerators:rotational_complex"
+				}
+				{
+					id: "667F03042F551894"
+					type: "item"
+					item: "mekanism:pressure_disperser"
+				}
+				{
+					id: "57F6936C7B602BA8"
+					type: "item"
+					item: "mekanismgenerators:electromagnetic_coil"
+				}
+			]
+			rewards: [{
+				id: "1E13B797B967FB63"
+				type: "item"
+				item: "mekanismgenerators:turbine_casing"
+				count: 8
+				random_bonus: 4
+			}]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main40.subtitle}"
+			description: [
+				"{faruk.stagefour.main40.desc1}"
+				"{faruk.stagefour.main40.desc2}"
+			]
+			dependencies: [
+				"0E9D8C6711E32EC8"
+				"6E88954CD6BBD0B6"
+			]
+			hide: true
+			id: "658AEDC01340EBF9"
+			tasks: [
+				{
+					id: "2B620C6FA7F1A50F"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "744874C900823F45"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "5A882406234263B9"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "mekanism:structural_glass"
+									Count: 1b
+								}
+								{
+									id: "mekanismgenerators:reactor_glass"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 123L
+				}
+				{
+					id: "3BD4D3873F9A6238"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			rewards: [{
+				id: "25C5133E9E2B3B02"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 8658928611204700459L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main46.subtitle}"
+			description: ["{faruk.stagefour.main46.desc1}"]
+			dependencies: ["55F3755537F152EA"]
+			id: "6D23751AFF5D3322"
+			tasks: [
+				{
+					id: "471FABD8C6B9FE42"
+					type: "item"
+					item: "mekanismmatter:scanner"
+				}
+				{
+					id: "173F2297E3317A6F"
+					type: "item"
+					item: {
+						id: "mekanismmatter:pattern_storage"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 33
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 17.0d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main47.subtitle}"
+			description: ["{faruk.stagefour.main47.desc1}"]
+			dependencies: ["6D23751AFF5D3322"]
+			id: "7BADC4F83E51917F"
+			tasks: [{
+				id: "3A29131A95B52C83"
+				type: "item"
+				item: "mekanismmatter:matter_synthesizer"
+			}]
+		}
+		{
+			disable_toast: true
+			x: 11.5d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main44.subtitle}"
+			description: ["{faruk.stagefour.main44.desc1}"]
+			dependencies: ["5B3E1FAC92237EB3"]
+			optional: true
+			id: "09FA90DB87D34E7A"
+			tasks: [{
+				id: "3BB8BDBA4701E7A2"
+				type: "item"
+				item: "mekanismmatter:matter_analyser"
+			}]
+		}
+		{
+			x: 15.0d
+			y: 0.5d
+			subtitle: "{faruk.stagefour.main52.subtitle}"
+			description: ["{faruk.stagefour.main52.desc1}"]
+			dependencies: ["2469442C2EC0A29E"]
+			id: "6B3BD1AD78E006CD"
+			tasks: [{
+				id: "08248C706B7CE8F8"
+				type: "item"
+				item: "mekanismmatter:trinium_ingot"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -5.0d
+			subtitle: "{faruk.stagefour.main56.subtitle}"
+			description: ["{faruk.stagefour.main56.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["56F7B513E92CF69F"]
+			id: "3671DC16774A2C5B"
+			tasks: [{
+				id: "2BB2C78EE735A75C"
+				type: "item"
+				item: "world_of_faruk:comp_obs"
+				count: 640L
+			}]
+		}
+		{
+			x: 15.0d
+			y: -5.0d
+			subtitle: "{faruk.stagefour.main57.subtitle}"
+			description: ["{faruk.stagefour.main57.desc1}"]
+			dependencies: ["3671DC16774A2C5B"]
+			hide: true
+			id: "2C46CB6B39CA8AF3"
+			tasks: [{
+				id: "562292B1DBF6CAE4"
+				type: "item"
+				item: "world_of_faruk:comp_obs_2"
+				count: 80L
+			}]
+		}
+		{
+			x: 15.0d
+			y: 1.5d
+			subtitle: "{faruk.stagefour.main53.subtitle}"
+			description: ["{faruk.stagefour.main53.desc1}"]
+			dependencies: ["6B3BD1AD78E006CD"]
+			id: "41A5964FFB86525B"
+			tasks: [{
+				id: "45EF636525258019"
+				type: "item"
+				item: "kubejs:trinium_plate"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main54.subtitle}"
+			description: ["{faruk.stagefour.main54.desc1}"]
+			dependencies: ["56F7B513E92CF69F"]
+			hide: true
+			id: "0DF86E553C60054D"
+			tasks: [{
+				id: "11652D9002DC46AD"
+				type: "item"
+				item: "kubejs:compress_component"
+			}]
+			rewards: [{
+				id: "58FD72439B7CAE05"
+				type: "item"
+				item: "kubejs:compress_component"
+				count: 2
+			}]
+		}
+		{
+			x: 15.0d
+			y: -3.5d
+			subtitle: "{faruk.stagefour.main55.subtitle}"
+			description: ["{faruk.stagefour.main55.desc1}"]
+			dependencies: ["0DF86E553C60054D"]
+			id: "39690286620B8C20"
+			tasks: [{
+				id: "0C2D5B605BB23335"
+				type: "item"
+				item: "kubejs:dimensional_core"
+			}]
+			rewards: [{
+				id: "1E78822359A36DA5"
+				type: "item"
+				item: "kubejs:dimensional_core"
+				count: 2
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main33.desc1}"]
+			dependencies: [
+				"0CD492FD9DC60325"
+				"572A26A0CAEA0180"
+			]
+			id: "6F1FF535ABCEB538"
+			tasks: [{
+				id: "2CE514D2F5BB42A3"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main32.desc1}"]
+			dependencies: ["7D7C90E5248F56B7"]
+			id: "0CD492FD9DC60325"
+			tasks: [{
+				id: "569B5F2848691F7F"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main31.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["23DB59188D96357C"]
+			id: "7D7C90E5248F56B7"
+			tasks: [{
+				id: "4D6AEA47CBEAE4BF"
+				type: "item"
+				item: "mekanism:enrichment_chamber"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main30.desc1}"]
+			dependencies: ["577F6FCE39C8FE3A"]
+			id: "572A26A0CAEA0180"
+			tasks: [{
+				id: "4E70493FA1C72729"
+				type: "item"
+				item: "mekanism:chemical_dissolution_chamber"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main29.desc1}"]
+			dependencies: [
+				"72E784F89948FC4A"
+				"6D2BBC2145E9BA68"
+			]
+			id: "577F6FCE39C8FE3A"
+			tasks: [{
+				id: "40C54B5F30C26EF6"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main28.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["23DB59188D96357C"]
+			id: "6D2BBC2145E9BA68"
+			tasks: [{
+				id: "134D617DA72641B5"
+				type: "item"
+				item: "mekanism:rotary_condensentrator"
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main27.desc1}"]
+			dependencies: [
+				"5DB2CC64692F59A1"
+				"3A5BAC2C0B9F15BB"
+			]
+			id: "72E784F89948FC4A"
+			tasks: [{
+				id: "32C87A98C9A5F627"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main25.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["23DB59188D96357C"]
+			id: "3A5BAC2C0B9F15BB"
+			tasks: [{
+				id: "26AC67ED931A5F71"
+				type: "item"
+				item: "mekanism:electrolytic_separator"
+			}]
+		}
+		{
+			x: 6.5d
+			y: 3.5d
+			subtitle: "{faruk.stagefour.main25.subtitle}"
+			description: ["{faruk.stagefour.main26.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["23DB59188D96357C"]
+			id: "5DB2CC64692F59A1"
+			tasks: [{
+				id: "043CEF7336992A95"
+				type: "item"
+				item: "mekanism:chemical_oxidizer"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -3.0d
+			subtitle: "{faruk.stagefour.main36.subtitle}"
+			description: ["{faruk.stagefour.main36.desc1}"]
+			dependencies: ["22E1CFCABDE6643C"]
+			id: "030FA78DF5184BA8"
+			tasks: [{
+				id: "6B35E3A99E608DE7"
+				type: "item"
+				item: "mekanism:isotopic_centrifuge"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -3.0d
+			dependencies: ["030FA78DF5184BA8"]
+			id: "6E88954CD6BBD0B6"
+			tasks: [{
+				id: "42E019FB679C38D5"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+			rewards: [{
+				id: "1C1A35932D52B23A"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+				random_bonus: 2
+			}]
+		}
+		{
+			x: -5.0d
+			y: 3.0d
+			subtitle: "{faruk.stagefour.main64.subtitle}"
+			description: ["{faruk.stagefour.main66.desc1}"]
+			dependencies: ["7AA95E27E994C4B1"]
+			optional: true
+			id: "6CB0B99D78E5A058"
+			tasks: [{
+				id: "32A7EC5FDBCA0D86"
+				type: "item"
+				item: "mekanism:chemical_injection_chamber"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 2.0d
+			subtitle: "{faruk.stagefour.main68.subtitle}"
+			description: [
+				"{faruk.stagefour.main68.desc2}"
+				"{faruk.stagefour.main68.desc3}"
+			]
+			dependencies: [
+				"1DAA666A5BD60BCF"
+				"1666602A44E1A817"
+			]
+			optional: true
+			id: "7A0C397AEDC90427"
+			tasks: [{
+				id: "1C3C9847E2A4D638"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+			rewards: [{
+				id: "04588BE97350669E"
+				type: "item"
+				item: "mekanism:chemical_infuser"
+			}]
+		}
+	]
+}

@@ -1,0 +1,4857 @@
+{
+	id: "2F51B9CBF2012361"
+	group: "396F2CFEC1EBB14D"
+	order_index: 2
+	filename: "tools"
+	title: "Tools"
+	icon: {
+		id: "silentgear:hammer"
+		Count: 1b
+		tag: {
+			SGear_UUID: [I;
+				-1200167668
+				-981122838
+				-1291767247
+				314753838
+			]
+			Damage: 0
+			SGear_Data: {
+				Construction: {
+					IsExample: 1b
+					Parts: [
+						{
+							Item: {
+								id: "silentgear:hammer_head"
+								Count: 1b
+								tag: {
+									Materials: [
+										{
+											Item: {
+												id: "silentgear:tyrian_steel_ingot"
+												Count: 1b
+											}
+											ID: "silentgear:tyrian_steel"
+										}
+										{
+											Item: {
+												id: "silentgear:azure_electrum_ingot"
+												Count: 1b
+											}
+											ID: "silentgear:azure_electrum"
+											Count: 2b
+										}
+									]
+								}
+							}
+							ID: "silentgear:hammer_head"
+						}
+						{
+							Item: {
+								id: "silentgear:rod"
+								Count: 1b
+								tag: {
+									Materials: [{
+										Item: {
+											id: "mekanism:ingot_refined_obsidian"
+											Count: 1b
+										}
+										ID: "silentgear:refined_obsidian"
+									}]
+								}
+							}
+							ID: "silentgear:rod"
+						}
+						{
+							Item: {
+								id: "silentgear:tip"
+								Count: 1b
+								tag: {
+									Materials: [{
+										Item: {
+											id: "silentgear:azure_electrum_ingot"
+											Count: 1b
+										}
+										ID: "silentgear:azure_electrum"
+									}]
+								}
+							}
+							ID: "silentgear:tip"
+						}
+					]
+				}
+				Properties: {
+					ModVersion: "2.6.33"
+					Stats: {
+						"silentgear:enchantability": 13.522418f
+						"silentgear:harvest_speed": 19.21959f
+						"silentgear:harvest_level": 5.0f
+						"silentgear:durability": 7555.005f
+						"silentgear:magic_damage": 11.570557f
+						"silentgear:melee_damage": 13.066454f
+						"silentgear:rarity": 131.2641f
+						"silentgear:attack_speed": -2.9f
+						"silentgear:repair_efficiency": 1.5f
+					}
+					LockStats: 0b
+					Traits: [
+						{
+							Level: 5b
+							Name: "silentgear:malleable"
+						}
+						{
+							Level: 3b
+							Name: "silentgear:accelerate"
+						}
+						{
+							Level: 3b
+							Name: "silentgear:hard"
+						}
+					]
+				}
+				Rendering: {
+					ModelKey: "hammer:hammer_head{tyrian_steel,azure_electrum,azure_electrum},rod{refined_obsidian},tip{azure_electrum},"
+				}
+			}
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "{faruk.stagezero.tools75.subtitle}"
+			description: ["{faruk.stagezero.tools75.desc1}"]
+			id: "360FDE9B9EEC7DB9"
+			tasks: [{
+				id: "2612DDAB765A6376"
+				type: "item"
+				item: {
+					id: "silentgear:blueprint_book"
+					Count: 1b
+					tag: {
+						Inventory: { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1096B12F5101D725"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									-1699290827
+									982665699
+									-1535756919
+									1443212106
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzNzc2OTc0OTgwNSwKICAicHJvZmlsZUlkIiA6ICI5YWI2ZTEzNTNhOTI0OWUzYTQ3NjM1ODk1NjA1YWI0YSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdGFuZW5kIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0NmRmMDhlY2JjMGNmZDA0ZDlhYTk4YTljZTBjNzlmOWI4ZTViZjNjNzkyZTQ0ZDk1ZWRkNDkxYTgzNzBhOTciCiAgICB9CiAgfQp9"
+										Signature: "vfDchX5ku7HBZY3lKALeYmOsfunZjye3eruHr0z2H1Ye8IKSg9zPgRcboglOqx5aREYrQXugSDCIboNS6Y41DJo39cV9aXu5FM1FS42OC1N7Z/wT8BsmVG+ETXHoDq1sr5VGu8zAJgqjTN4TyKtQh+G14ryrxzUWyGlNnzQOs5ceSDdvUhggySGkK+5DAOnqikS/ZI814CJHphdkIyriBLo0K2EUenQHW8EI5U8qGZmD5oKe1bwOA7TX5NlM0OJayVOaNHnLP8Ss12t6FXaCddgvhAbVIfP4z86VRJbdrTE1Dq0lHxXk5vDyvB/TnOoWEE93834FXNt/49Ty7/BBLRmT+HNTfx9Jcg/SoHfgxOuirbP4vOiuSlVGJsnex2SEpyEYpUqSR/qSeMmxwQS8KY7Ig1ssgnupLQP//q9iq0feacgqyuP/k+eUwFqI5p7VzMrqeVsWtFqYdze1DZmiw2fcjq1UKsaovJO/AFrF9o+iOn5UU3ijha/tMaZt3U1K4wtgS8K20HJfkULO4sJaWcZ46NDwZ5oMK3c4Pee+8ofj1DNNd5ibxiENp+4fkYp+M/TASjqyTefIEwrxEzSuAd8ncHSrz4j4hbMd6geJyz2r9mhWQc29s0ZWBC9EoXg8zZagM9Vh06fM1Yv6S+1bzYyf5QbxHFaHn2U3DAkP1fw="
+									}]
+								}
+								Name: "Atanend"
+							}
+						}
+					}
+				}
+				{
+					id: "02A8CEB23DF5CD57"
+					type: "item"
+					item: "silentgear:template_board"
+					count: 4
+					random_bonus: 4
+				}
+			]
+		}
+		{
+			icon: {
+				id: "silentgear:pickaxe"
+				Count: 1b
+				tag: {
+					SGear_UUID: [I;
+						-372349841
+						691093525
+						-1202016485
+						-1103253206
+					]
+					Damage: 0
+					SGear_Data: {
+						Construction: {
+							IsExample: 1b
+							Parts: [
+								{
+									Item: {
+										id: "silentgear:pickaxe_head"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "silentgear:azure_silver_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_silver"
+												}
+												{
+													Item: {
+														id: "silentgear:blaze_gold_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:blaze_gold"
+												}
+											]
+										}
+									}
+									ID: "silentgear:pickaxe_head"
+								}
+								{
+									Item: {
+										id: "silentgear:rod"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "silentgear:custom_gem"
+														Count: 1b
+														tag: {
+															Material: "dimerald"
+														}
+													}
+													ID: "silentgear:dimerald"
+												}
+												{
+													Item: {
+														id: "mekanism:ingot_uranium"
+														Count: 1b
+													}
+													ID: "silentgear:uranium"
+												}
+											]
+										}
+									}
+									ID: "silentgear:rod"
+								}
+								{
+									Item: {
+										id: "silentgear:tip"
+										Count: 1b
+										tag: {
+											Materials: [{
+												Item: {
+													id: "mekanism:ingot_refined_glowstone"
+													Count: 1b
+												}
+												ID: "silentgear:refined_glowstone"
+											}]
+										}
+									}
+									ID: "silentgear:tip"
+								}
+							]
+						}
+						Properties: {
+							ModVersion: "2.6.33"
+							Stats: {
+								"silentgear:enchantability": 26.817657f
+								"silentgear:harvest_speed": 24.584595f
+								"silentgear:harvest_level": 3.0f
+								"silentgear:durability": 180.51788f
+								"silentgear:magic_damage": 6.146071f
+								"silentgear:melee_damage": 4.7377014f
+								"silentgear:rarity": 63.247692f
+								"silentgear:attack_speed": -2.7585785f
+								"silentgear:repair_efficiency": 1.0f
+							}
+							LockStats: 0b
+							Traits: [
+								{
+									Level: 1b
+									Name: "silentgear:malleable"
+								}
+								{
+									Level: 2b
+									Name: "silentgear:soft"
+								}
+								{
+									Level: 3b
+									Name: "silentgear:ancient"
+								}
+								{
+									Level: 1b
+									Name: "silentgear:refractive"
+								}
+							]
+						}
+						Rendering: {
+							ModelKey: "pickaxe:pickaxe_head{azure_silver,blaze_gold},rod{dimerald,uranium},tip{refined_glowstone},"
+						}
+					}
+				}
+			}
+			x: -6.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.tools80.subtitle}"
+			description: [
+				"{faruk.stagezero.tools80.desc1}"
+				"{image:faruk:textures/ftbquests/pickaxerecipe.png width:200 height:100 align:1 fit:true}"
+			]
+			id: "44054ABEB3024D2C"
+			tasks: [{
+				id: "09C1CC3177468C68"
+				type: "item"
+				icon: {
+					id: "silentgear:pickaxe"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-330323707
+							1892237630
+							-2124961050
+							1586384146
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:pickaxe_head"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:azure_silver_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_silver"
+												}]
+											}
+										}
+										ID: "silentgear:pickaxe_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:air"
+														Count: 1b
+														tag: { }
+													}
+													ID: "silentgear:blaze_rod"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:diamond"
+															Count: 1b
+														}
+														ID: "silentgear:diamond"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_refined_glowstone"
+															Count: 1b
+														}
+														ID: "silentgear:refined_glowstone"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 29.0f
+									"silentgear:harvest_speed": 23.566048f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 524.2322f
+									"silentgear:magic_damage": 8.085868f
+									"silentgear:melee_damage": 9.171736f
+									"silentgear:rarity": 81.04668f
+									"silentgear:attack_speed": -2.8f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:soft"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:reach"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:refractive"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "pickaxe:pickaxe_head{azure_silver},rod{blaze_rod},tip{diamond,refined_glowstone},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.tools82.subtitle}"
+			description: [
+				"{faruk.stagezero.tools82.desc1}"
+				"{image:faruk:textures/ftbquests/hammer.png width:185 height:100 align:1}"
+			]
+			id: "3B2310DFF0534AF8"
+			tasks: [{
+				id: "4F2A2F47F476B90B"
+				type: "item"
+				icon: {
+					id: "silentgear:hammer"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1540092663
+							633160780
+							-2003253429
+							1316766833
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:hammer_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_iron_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_iron"
+													}
+												]
+											}
+										}
+										ID: "silentgear:hammer_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_uranium"
+															Count: 1b
+														}
+														ID: "silentgear:uranium"
+													}
+													{
+														Item: {
+															id: "minecraft:diamond"
+															Count: 1b
+														}
+														ID: "silentgear:diamond"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 9.766778f
+									"silentgear:harvest_speed": 10.426907f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 640.5739f
+									"silentgear:magic_damage": 6.780007f
+									"silentgear:melee_damage": 9.877533f
+									"silentgear:rarity": 82.47786f
+									"silentgear:attack_speed": -3.0414214f
+									"silentgear:repair_efficiency": 1.5f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:soft"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:imperial"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "hammer:hammer_head{azure_silver,crimson_iron},rod{uranium,diamond},tip{azure_silver,dimerald},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.tools81.subtitle}"
+			description: [
+				"{faruk.stagezero.tools81.desc1}"
+				"{image:faruk:textures/ftbquests/prospector.png width:185 height:100 align:1}"
+			]
+			id: "7804D094073AC6EE"
+			tasks: [{
+				id: "4D0643E0EAF97FDE"
+				type: "item"
+				icon: {
+					id: "silentgear:prospector_hammer"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-72719241
+							553010699
+							-1248567727
+							174496906
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:prospector_hammer_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:blaze_gold_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:blaze_gold"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_uranium"
+															Count: 1b
+														}
+														ID: "silentgear:uranium"
+													}
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_iron_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_iron"
+													}
+												]
+											}
+										}
+										ID: "silentgear:prospector_hammer_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_refined_glowstone"
+														Count: 1b
+													}
+													ID: "silentgear:refined_glowstone"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+													{
+														Item: {
+															id: "silentgear:blaze_gold_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:blaze_gold"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+								Tier: 3
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 15.043648f
+									"silentgear:harvest_speed": 13.198009f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 316.3656f
+									"silentgear:magic_damage": 4.877387f
+									"silentgear:melee_damage": 6.251153f
+									"silentgear:rarity": 66.44218f
+									"silentgear:attack_speed": -2.527614f
+									"silentgear:repair_efficiency": 1.5f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:brilliant"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:imperial"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:soft"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "prospector_hammer:prospector_hammer_head{blaze_gold,uranium,dimerald,crimson_iron},rod{refined_glowstone,refined_glowstone},tip{dimerald,blaze_gold},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:prospector_hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools84.subtitle}"
+			description: [
+				"{faruk.stagezero.tools84.desc1}"
+				"{image:faruk:textures/ftbquests/paxel.png width:185 height:100 align:1}"
+			]
+			id: "57308F00F0110FF8"
+			tasks: [{
+				id: "00481275D578774A"
+				type: "item"
+				icon: {
+					id: "silentgear:paxel"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1282445323
+							1434405930
+							-1759755336
+							1546185437
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:paxel_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+													{
+														Item: {
+															id: "minecraft:emerald"
+															Count: 1b
+														}
+														ID: "silentgear:emerald"
+													}
+												]
+											}
+										}
+										ID: "silentgear:paxel_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "thermal:lumium_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:lumium"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:diamond"
+														Count: 1b
+													}
+													ID: "silentgear:diamond"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 15.848706f
+									"silentgear:harvest_speed": 16.130417f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 572.2206f
+									"silentgear:magic_damage": 5.7853413f
+									"silentgear:melee_damage": 8.560503f
+									"silentgear:rarity": 88.76274f
+									"silentgear:attack_speed": -3.0f
+									"silentgear:repair_efficiency": 1.2f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:soft"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:synergistic"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:refractive"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:lustrous"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "paxel:paxel_head{azure_silver,emerald},rod{lumium},tip{diamond},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:paxel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools83.subtitle}"
+			description: [
+				"{faruk.stagezero.tools83.desc1}"
+				"{image:faruk:textures/ftbquests/axe.png width:185 height:100 align:1}"
+			]
+			id: "6C93D9EC2AF4267D"
+			tasks: [{
+				id: "6363C13A45977B26"
+				type: "item"
+				icon: {
+					id: "silentgear:axe"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-477194211
+							-1340324987
+							-1672417306
+							1515079360
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:axe_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:axe_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_refined_obsidian"
+														Count: 1b
+													}
+													ID: "silentgear:refined_obsidian"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:azure_electrum_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_electrum"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 26.96842f
+									"silentgear:harvest_speed": 26.268547f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 1639.2472f
+									"silentgear:magic_damage": 10.801649f
+									"silentgear:melee_damage": 9.548759f
+									"silentgear:rarity": 122.77298f
+									"silentgear:attack_speed": -2.7f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:accelerate"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:hard"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "axe:axe_head{azure_electrum,signalum,azure_electrum},rod{refined_obsidian},tip{azure_electrum},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools85.subtitle}"
+			description: [
+				"{faruk.stagezero.tools85.desc1}"
+				"{image:faruk:textures/ftbquests/saw.png width:185 height:100 align:1}"
+			]
+			id: "32AB309745B775AB"
+			tasks: [{
+				id: "51F589B4EC6C3511"
+				type: "item"
+				icon: {
+					id: "silentgear:saw"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1608105489
+							2049199048
+							-1219105660
+							1175926697
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:saw_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:saw_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 19.02636f
+									"silentgear:harvest_speed": 11.297974f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 4657.436f
+									"silentgear:magic_damage": 4.894573f
+									"silentgear:melee_damage": 10.6591215f
+									"silentgear:rarity": 95.5808f
+									"silentgear:attack_speed": -2.2242641f
+									"silentgear:repair_efficiency": 1.5f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:accelerate"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "saw:saw_blade{refined_obsidian,azure_electrum},rod{refined_obsidian,azure_electrum},tip{crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:saw"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools86.subtitle}"
+			description: [
+				"{faruk.stagezero.tools86.desc1}"
+				"{image:faruk:textures/ftbquests/shovel.png width:185 height:100 align:1}"
+			]
+			id: "7283F16703712AA0"
+			tasks: [{
+				id: "2BBE2E346CB7567F"
+				type: "item"
+				icon: {
+					id: "silentgear:shovel"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							727485105
+							-293450761
+							-1834528909
+							-1278896038
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:shovel_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "thermal:enderium_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:enderium"
+													}
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:shovel_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 15.227717f
+									"silentgear:harvest_speed": 23.454744f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 2871.9673f
+									"silentgear:magic_damage": 4.947054f
+									"silentgear:melee_damage": 8.82752f
+									"silentgear:rarity": 88.19605f
+									"silentgear:attack_speed": -3.0f
+									"silentgear:repair_efficiency": 2.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "shovel:shovel_head{enderium,tyrian_steel},rod{crimson_steel},tip{crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:shovel"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools87.subtitle}"
+			description: [
+				"{faruk.stagezero.tools87.desc1}"
+				"{image:faruk:textures/ftbquests/excavator.png width:185 height:100 align:1}"
+			]
+			id: "515AEABD94B3744A"
+			tasks: [{
+				id: "7D4920BBEE47C94C"
+				type: "item"
+				icon: {
+					id: "silentgear:excavator"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-405011224
+							-1259387821
+							-1460216446
+							-447026584
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:excavator_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:excavator_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_refined_obsidian"
+														Count: 1b
+													}
+													ID: "silentgear:refined_obsidian"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 19.662746f
+									"silentgear:harvest_speed": 16.6668f
+									"silentgear:harvest_level": 4.0f
+									"silentgear:durability": 7768.8916f
+									"silentgear:magic_damage": 8.349112f
+									"silentgear:melee_damage": 11.593299f
+									"silentgear:rarity": 96.7717f
+									"silentgear:attack_speed": -2.5656855f
+									"silentgear:repair_efficiency": 2.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "excavator:excavator_head{refined_obsidian,crimson_steel},rod{refined_obsidian,refined_obsidian},tip{crimson_steel,azure_electrum},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:excavator"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools88.subtitle}"
+			description: [
+				"{faruk.stagezero.tools88.desc1}"
+				"{image:faruk:textures/ftbquests/sickle.png width:185 height:100 align:1}"
+			]
+			id: "1C2FEE4A0146CE77"
+			tasks: [{
+				id: "1ACFADEE6EAC967E"
+				type: "item"
+				icon: {
+					id: "silentgear:sickle"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-319737451
+							-504937688
+							-1092892458
+							-1471748537
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:sickle_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+												]
+											}
+										}
+										ID: "silentgear:sickle_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "thermal:enderium_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:enderium"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 19.02632f
+									"silentgear:harvest_speed": 21.81573f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 4336.338f
+									"silentgear:magic_damage": 5.8024564f
+									"silentgear:melee_damage": 9.015092f
+									"silentgear:rarity": 96.25988f
+									"silentgear:attack_speed": -1.7640754f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:vulcan"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "sickle:sickle_blade{tyrian_steel,crimson_steel,refined_obsidian},rod{enderium},tip{refined_obsidian,crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:sickle"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools96.subtitle}"
+			description: [
+				"{faruk.stagezero.tools96.desc1}"
+				"{image:faruk:textures/ftbquests/sword.png width:185 height:100 align:1}"
+			]
+			id: "7B9DCBF25BD1EF4F"
+			tasks: [{
+				id: "30920EE92B165C31"
+				type: "item"
+				icon: {
+					id: "silentgear:sword"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-97992967
+							-82885032
+							-1885751095
+							1323576457
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:sword_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+													{
+														Item: {
+															id: "minecraft:obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:obsidian"
+													}
+													{
+														Item: {
+															id: "silentgear:blaze_gold_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:blaze_gold"
+													}
+												]
+											}
+										}
+										ID: "silentgear:sword_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:air"
+															Count: 1b
+															tag: { }
+														}
+														ID: "silentgear:end_rod"
+													}
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_refined_glowstone"
+															Count: 1b
+														}
+														ID: "silentgear:refined_glowstone"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 8.232803f
+									"silentgear:harvest_speed": 11.23351f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:durability": 1627.0553f
+									"silentgear:magic_damage": 4.190873f
+									"silentgear:melee_damage": 4.5928288f
+									"silentgear:rarity": 82.99793f
+									"silentgear:attack_speed": -2.2601886f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 2b
+										Name: "silentgear:jagged"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:crushing"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:soft"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:refractive"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:ancient"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "sword:sword_blade{dimerald,obsidian,blaze_gold},rod{end_rod,dimerald},tip{azure_silver,refined_glowstone},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools97.subtitle}"
+			description: [
+				"{faruk.stagezero.tools97.desc1}"
+				"{image:faruk:textures/ftbquests/katana.png width:185 height:100 align:1}"
+			]
+			id: "39BC762E1714CF35"
+			tasks: [{
+				id: "5E5EE2D622B6DD76"
+				type: "item"
+				icon: {
+					id: "silentgear:katana"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-877296040
+							-867024433
+							-1771506464
+							-4411922
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:katana_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:katana_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 31.194725f
+									"silentgear:harvest_speed": 29.601542f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 1702.7404f
+									"silentgear:magic_damage": 9.4277725f
+									"silentgear:melee_damage": 9.065456f
+									"silentgear:rarity": 113.30151f
+									"silentgear:attack_speed": -2.2414215f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:accelerate"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "katana:katana_blade{azure_electrum,crimson_steel},rod{tyrian_steel,azure_electrum},tip{crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:katana"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 0.5d
+			description: [
+				"&e   A multi-function blade. It's a &r&dsword, axe, &r&eand &r&dsickle, &r&ebut works best as a &r&5sword. &r&eSlightly slower attack speed, but higher damage than standard swords. Like sickles, it can clear an area of plants, but the range is smaller."
+				"{image:faruk:textures/ftbquests/machete.png width:185 height:100 align:1}"
+			]
+			id: "37B0D297E65ABF5F"
+			tasks: [{
+				id: "6E250E0D6500315F"
+				type: "item"
+				icon: {
+					id: "silentgear:machete"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1387347619
+							1983008040
+							-1228364518
+							-1144906856
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:machete_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:machete_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "thermal:enderium_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:enderium"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:azure_electrum_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_electrum"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 13.978426f
+									"silentgear:harvest_speed": 23.718466f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 3790.0574f
+									"silentgear:magic_damage": 8.070213f
+									"silentgear:melee_damage": 9.408682f
+									"silentgear:rarity": 111.07612f
+									"silentgear:attack_speed": -2.322654f
+									"silentgear:repair_efficiency": 0.9f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:hard"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "machete:machete_blade{tyrian_steel,signalum,crimson_steel},rod{enderium,signalum},tip{azure_electrum},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:machete"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.5d
+			subtitle: "{faruk.stagezero.tools98.subtitle}"
+			description: [
+				"{faruk.stagezero.tools98.desc1}"
+				"{image:faruk:textures/ftbquests/spear.png width:185 height:100 align:1}"
+			]
+			id: "49DA65805070AF33"
+			tasks: [{
+				id: "4D6222CDB1AF4B5F"
+				type: "item"
+				icon: {
+					id: "silentgear:spear"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1762315546
+							-1398587352
+							-2035975665
+							1899211156
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:spear_tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:spear_tip"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 25.212912f
+									"silentgear:harvest_speed": 23.91722f
+									"silentgear:attack_reach": 4.0f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 1649.6753f
+									"silentgear:magic_damage": 7.21648f
+									"silentgear:melee_damage": 7.4326406f
+									"silentgear:rarity": 86.93189f
+									"silentgear:attack_speed": -2.7f
+									"silentgear:repair_efficiency": 1.25f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:accelerate"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:vulcan"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "spear:spear_tip{azure_electrum,signalum},rod{crimson_steel},tip{crimson_steel,refined_obsidian},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:spear"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.tools94.subtitle}"
+			description: [
+				"{faruk.stagezero.tools94.desc1}"
+				"{image:faruk:textures/ftbquests/knife.png width:185 height:100 align:1}"
+			]
+			id: "46FE486CAE2F754F"
+			tasks: [{
+				id: "1E7B23005D28CBFE"
+				type: "item"
+				icon: {
+					id: "silentgear:knife"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-820605179
+							552813589
+							-1516666764
+							1587327989
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:knife_blade"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:knife_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 30.75169f
+									"silentgear:harvest_speed": 29.051626f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 4722.75f
+									"silentgear:magic_damage": 8.113977f
+									"silentgear:melee_damage": 5.3830237f
+									"silentgear:rarity": 93.31053f
+									"silentgear:attack_speed": -1.1867297f
+									"silentgear:repair_efficiency": 1.8f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "knife:knife_blade{refined_obsidian,signalum,crimson_steel},rod{crimson_steel,signalum},tip{azure_electrum,tyrian_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.tools95.subtitle}"
+			description: [
+				"{faruk.stagezero.tools95.desc1}"
+				"{image:faruk:textures/ftbquests/dagger.png width:185 height:100 align:1}"
+			]
+			id: "553BEC9ECDEBBDCF"
+			tasks: [{
+				id: "08FD2F9C7311DE74"
+				type: "item"
+				icon: {
+					id: "silentgear:dagger"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-2054644616
+							-2112861556
+							-1569607021
+							115861475
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:dagger_blade"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:tyrian_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:tyrian_steel"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:dagger_blade"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:azure_electrum_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_electrum"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:tyrian_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:tyrian_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 16.0f
+									"silentgear:harvest_speed": 22.999998f
+									"silentgear:attack_reach": 3.0f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 3172.6f
+									"silentgear:magic_damage": 5.9999995f
+									"silentgear:melee_damage": 6.0f
+									"silentgear:rarity": 116.330956f
+									"silentgear:attack_speed": -1.2f
+									"silentgear:repair_efficiency": 2.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 5b
+										Name: "silentgear:accelerate"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "dagger:dagger_blade{tyrian_steel,tyrian_steel},rod{azure_electrum},tip{tyrian_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:dagger"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.tools89.subtitle}"
+			description: [
+				"{faruk.stagezero.tools89.desc1}"
+				"{image:faruk:textures/ftbquests/mattock.png width:185 height:100 align:1}"
+			]
+			id: "0DE21C0739FC15E3"
+			tasks: [{
+				id: "2A8361B74E5B4626"
+				type: "item"
+				icon: {
+					id: "silentgear:mattock"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							287057585
+							-639875563
+							-1470586022
+							306877718
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:mattock_head"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:mattock_head"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_electrum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_electrum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 16.556997f
+									"silentgear:harvest_speed": 29.410364f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 3917.8777f
+									"silentgear:magic_damage": 7.7555933f
+									"silentgear:melee_damage": 9.902304f
+									"silentgear:rarity": 103.038414f
+									"silentgear:attack_speed": -2.6f
+									"silentgear:repair_efficiency": 1.125f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "mattock:mattock_head{tyrian_steel,azure_electrum,tyrian_steel},rod{signalum,azure_electrum},tip{crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:mattock"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.tools90.subtitle}"
+			description: [
+				"{faruk.stagezero.tools90.desc1}"
+				"{image:faruk:textures/ftbquests/shears.png width:185 height:100 align:1}"
+			]
+			id: "41CD2B0B0E6D1072"
+			tasks: [{
+				id: "0330D29A26621BF5"
+				type: "item"
+				icon: {
+					id: "silentgear:shears"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1132379552
+							-2031992096
+							-1340264726
+							-531819836
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:shears_blades"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:azure_electrum_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:azure_electrum"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:shears_blades"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "thermal:signalum_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:signalum"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 36.999996f
+									"silentgear:harvest_speed": 37.699997f
+									"silentgear:harvest_level": 5.0f
+									"silentgear:durability": 1646.568f
+									"silentgear:magic_damage": 11.0f
+									"silentgear:melee_damage": 6.9999995f
+									"silentgear:rarity": 104.5614f
+									"silentgear:attack_speed": 0.0f
+									"silentgear:repair_efficiency": 1.125f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:accelerate"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:lustrous"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magmatic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "shears:shears_blades{azure_electrum,azure_electrum},rod{signalum,signalum},tip{crimson_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.tools91.subtitle}"
+			description: [
+				"{faruk.stagezero.tools91.desc1}"
+				"{image:faruk:textures/ftbquests/rod.png width:185 height:100 align:1}"
+			]
+			id: "60C148DE3078C9FA"
+			tasks: [{
+				id: "70D334BF9CD5C259"
+				type: "item"
+				icon: {
+					id: "silentgear:fishing_rod"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-26944748
+							-1660203722
+							-1167807012
+							1780751257
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:fishing_reel_and_hook"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "thermal:signalum_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:signalum"
+													}
+												]
+											}
+										}
+										ID: "silentgear:fishing_reel_and_hook"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_steel"
+													}
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:bowstring"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:flax_string"
+															Count: 1b
+														}
+														ID: "silentgear:flax"
+													}
+													{
+														Item: {
+															id: "silentgear:sinew_fiber"
+															Count: 1b
+														}
+														ID: "silentgear:sinew"
+													}
+												]
+											}
+										}
+										ID: "silentgear:bowstring"
+									}
+									{
+										Item: {
+											id: "silentgear:tip"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_refined_obsidian"
+														Count: 1b
+													}
+													ID: "silentgear:refined_obsidian"
+												}]
+											}
+										}
+										ID: "silentgear:tip"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 4.8156996f
+									"silentgear:durability": 1944.8995f
+									"silentgear:magic_damage": 5.279493f
+									"silentgear:melee_damage": 4.856636f
+									"silentgear:rarity": 68.517166f
+									"silentgear:attack_speed": -0.058578644f
+									"silentgear:repair_efficiency": 1.25f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:hard"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:vulcan"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "fishing_rod:fishing_reel_and_hook{crimson_steel,signalum},rod{crimson_steel,tyrian_steel},bowstring{flax,sinew},tip{refined_obsidian},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools100.subtitle}"
+			description: [
+				"{faruk.stagezero.tools100.desc1}"
+				"{image:faruk:textures/ftbquests/bow.png width:185 height:100 align:1}"
+			]
+			id: "3A5A8DBA1D607C59"
+			tasks: [{
+				id: "659A31C31E140E51"
+				type: "item"
+				icon: {
+					id: "silentgear:bow"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1914016014
+							-904966367
+							-1339282470
+							1298960752
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:bow_limbs"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_refined_glowstone"
+														Count: 1b
+													}
+													ID: "silentgear:refined_glowstone"
+													Count: 2b
+												}]
+											}
+										}
+										ID: "silentgear:bow_limbs"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:obsidian"
+														Count: 1b
+													}
+													ID: "silentgear:obsidian"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:bowstring"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:fine_silk"
+															Count: 1b
+														}
+														ID: "silentgear:fine_silk"
+													}
+													{
+														Item: {
+															id: "minecraft:string"
+															Count: 1b
+														}
+														ID: "silentgear:string"
+													}
+												]
+											}
+										}
+										ID: "silentgear:bowstring"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:ranged_speed": 1.0f
+									"silentgear:enchantability": 9.9f
+									"silentgear:ranged_damage": 5.225932f
+									"silentgear:durability": 332.276f
+									"silentgear:magic_damage": 2.9999998f
+									"silentgear:rarity": 35.946175f
+									"silentgear:attack_speed": 0.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:chipping"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "bow:bow_limbs{refined_glowstone,refined_glowstone},rod{obsidian},bowstring{fine_silk,string},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:bow"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools101.subtitle}"
+			description: [
+				"{faruk.stagezero.tools101.desc1}"
+				"{image:faruk:textures/ftbquests/crossbow.png width:185 height:100 align:1}"
+			]
+			id: "2463921BF11A6BDB"
+			tasks: [{
+				id: "32C814C8C2818D05"
+				type: "item"
+				icon: {
+					id: "silentgear:crossbow"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							538977479
+							-1135916059
+							-2044211014
+							300367911
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:crossbow_limbs"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "mekanism:ingot_uranium"
+														Count: 1b
+													}
+													ID: "silentgear:uranium"
+												}]
+											}
+										}
+										ID: "silentgear:crossbow_limbs"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:air"
+														Count: 1b
+														tag: { }
+													}
+													ID: "silentgear:end_rod"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:bowstring"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:flax_string"
+														Count: 1b
+													}
+													ID: "silentgear:flax"
+												}]
+											}
+										}
+										ID: "silentgear:bowstring"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:ranged_speed": 1.12f
+									"silentgear:enchantability": 9.35f
+									"silentgear:ranged_damage": 2.495f
+									"silentgear:durability": 1134.0f
+									"silentgear:magic_damage": 2.0f
+									"silentgear:rarity": 56.0f
+									"silentgear:attack_speed": 0.1f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 2b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:refractive"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "crossbow:crossbow_limbs{uranium},rod{end_rod},bowstring{flax},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:crossbow"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools99.subtitle}"
+			description: [
+				"{faruk.stagezero.tools99.desc1}"
+				"{image:faruk:textures/ftbquests/sling.png width:185 height:100 align:1}"
+			]
+			id: "046B062FFC5DDCDF"
+			tasks: [{
+				id: "2B685DAAC96F9053"
+				type: "item"
+				icon: {
+					id: "silentgear:slingshot"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1670995011
+							2129282980
+							-1765561935
+							1002373607
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:slingshot_limbs"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:blaze_gold_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:blaze_gold"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_uranium"
+															Count: 1b
+														}
+														ID: "silentgear:uranium"
+													}
+												]
+											}
+										}
+										ID: "silentgear:slingshot_limbs"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:custom_gem"
+															Count: 1b
+															tag: {
+																Material: "dimerald"
+															}
+														}
+														ID: "silentgear:dimerald"
+													}
+													{
+														Item: {
+															id: "minecraft:obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:obsidian"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:bowstring"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:fine_silk"
+														Count: 1b
+													}
+													ID: "silentgear:fine_silk"
+												}]
+											}
+										}
+										ID: "silentgear:bowstring"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:ranged_speed": 1.6585786f
+									"silentgear:enchantability": 11.134502f
+									"silentgear:projectile_speed": 1.3930416f
+									"silentgear:ranged_damage": 0.40559468f
+									"silentgear:durability": 127.03262f
+									"silentgear:projectile_accuracy": 0.9f
+									"silentgear:magic_damage": 4.361798f
+									"silentgear:rarity": 55.30572f
+									"silentgear:attack_speed": 0.1f
+									"silentgear:repair_efficiency": 2.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:brilliant"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:soft"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:ancient"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:chipping"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "slingshot:slingshot_limbs{blaze_gold,uranium},rod{dimerald,obsidian},bowstring{fine_silk},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:slingshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			subtitle: "{faruk.stagezero.tools102.subtitle}"
+			description: [
+				"{faruk.stagezero.tools102.desc1}"
+				"{image:faruk:textures/ftbquests/shield.png width:185 height:100 align:1}"
+			]
+			id: "7AAE2CC9EE61BC68"
+			tasks: [{
+				id: "1C58B018F67DEE04"
+				type: "item"
+				icon: {
+					id: "silentgear:shield"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1904858669
+							1869564371
+							-1899670331
+							-409079841
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:shield_plate"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:tyrian_steel_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:tyrian_steel"
+													}
+													{
+														Item: {
+															id: "thermal:enderium_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:enderium"
+													}
+												]
+											}
+										}
+										ID: "silentgear:shield_plate"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:tyrian_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:tyrian_steel"
+												}]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 16.02454f
+									"silentgear:armor": 25.797356f
+									"silentgear:projectile_speed": 1.1944547f
+									"silentgear:armor_durability": 66.81558f
+									"silentgear:magic_armor": 3.032713f
+									"silentgear:armor_toughness": 2.8078222f
+									"silentgear:durability": 3148.9988f
+									"silentgear:repair_value": 0.15f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:rarity": 94.88967f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 4b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "shield:shield_plate{tyrian_steel,enderium},rod{tyrian_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Properties: { }
+							Construction: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.tools104.subtitle}"
+			description: [
+				"{faruk.stagezero.tools104.desc1}"
+				"{image:faruk:textures/ftbquests/arrows.png width:185 height:100 align:1}"
+			]
+			dependencies: [
+				"3A5A8DBA1D607C59"
+				"2463921BF11A6BDB"
+			]
+			id: "6F71B5CDA6A1CE4D"
+			tasks: [{
+				id: "5CA065692EF0F0E7"
+				type: "item"
+				icon: {
+					id: "silentgear:arrow"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							671212107
+							366690409
+							-1098719659
+							-1386039789
+						]
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:arrow_heads"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:diamond"
+															Count: 1b
+														}
+														ID: "silentgear:diamond"
+													}
+													{
+														Item: {
+															id: "minecraft:emerald"
+															Count: 1b
+														}
+														ID: "silentgear:emerald"
+													}
+													{
+														Item: {
+															id: "silentgear:blaze_gold_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:blaze_gold"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+												]
+											}
+										}
+										ID: "silentgear:arrow_heads"
+									}
+									{
+										Item: {
+											id: "silentgear:rod"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "silentgear:crimson_iron_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:crimson_iron"
+													}
+													{
+														Item: {
+															id: "minecraft:diamond"
+															Count: 1b
+														}
+														ID: "silentgear:diamond"
+													}
+												]
+											}
+										}
+										ID: "silentgear:rod"
+									}
+									{
+										Item: {
+											id: "silentgear:fletching"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:jungle_leaves"
+															Count: 1b
+														}
+														ID: "silentgear:leaves"
+													}
+													{
+														Item: {
+															id: "minecraft:paper"
+															Count: 1b
+														}
+														ID: "silentgear:paper"
+													}
+												]
+											}
+										}
+										ID: "silentgear:fletching"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 15.025817f
+									"silentgear:projectile_speed": 1.0896131f
+									"silentgear:harvest_speed": 11.49439f
+									"silentgear:harvest_level": 3.0f
+									"silentgear:ranged_damage": 1.5269685f
+									"silentgear:durability": 1183.4136f
+									"silentgear:projectile_accuracy": 0.9619288f
+									"silentgear:magic_damage": 1.2707882f
+									"silentgear:rarity": 48.101677f
+									"silentgear:repair_efficiency": 0.75f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:synergistic"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:brittle"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "arrow:arrow_heads{diamond,emerald,blaze_gold,azure_silver},rod{crimson_iron,diamond},fletching{leaves,paper},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:arrow"
+					Count: 1b
+					tag: {
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: 4.5d
+			subtitle: "&6Helmet"
+			description: [
+				"&e   Regular Helmet"
+				"{image:faruk:textures/ftbquests/helmet.png width:185 height:100 align:1}"
+				"{image:faruk:textures/ftbquests/helmet2.png width:185 height:100 align:1}"
+			]
+			id: "3448C1783E447545"
+			tasks: [{
+				id: "63138212C5A3AA1D"
+				type: "item"
+				icon: {
+					id: "silentgear:helmet"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-844137086
+							-1266400591
+							-1104273286
+							-834635828
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [{
+									Item: {
+										id: "silentgear:helmet_plates"
+										Count: 1b
+										tag: {
+											Materials: [{
+												Item: {
+													id: "mekanism:ingot_refined_obsidian"
+													Count: 1b
+												}
+												ID: "silentgear:refined_obsidian"
+											}]
+										}
+									}
+									ID: "silentgear:helmet_plates"
+								}]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 40.0f
+									"silentgear:armor": 5.0f
+									"silentgear:armor_durability": 50.0f
+									"silentgear:magic_armor": 1.5f
+									"silentgear:armor_toughness": 4.0f
+									"silentgear:durability": 2500.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:rarity": 70.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [{
+									Level: 3b
+									Name: "silentgear:malleable"
+								}]
+							}
+							Rendering: {
+								ModelKey: "helmet:helmet_plates{refined_obsidian},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			subtitle: "&6Chestplate"
+			description: [
+				"&e   Regular Chestplate"
+				"{image:faruk:textures/ftbquests/chestplate.png width:185 height:100 align:1}"
+				"{image:faruk:textures/ftbquests/chestplate2.png width:185 height:100 align:1}"
+			]
+			id: "287228F74E1AFA49"
+			tasks: [{
+				id: "4D29B93F13126333"
+				type: "item"
+				icon: {
+					id: "silentgear:chestplate"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1819704726
+							-1328659398
+							-1558986674
+							-1218389407
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [{
+									Item: {
+										id: "silentgear:chestplate_plates"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "silentgear:crimson_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:crimson_steel"
+												}
+												{
+													Item: {
+														id: "silentgear:tyrian_steel_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:tyrian_steel"
+												}
+											]
+										}
+									}
+									ID: "silentgear:chestplate_plates"
+								}]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 19.548506f
+									"silentgear:armor": 9.216568f
+									"silentgear:projectile_speed": 1.1427011f
+									"silentgear:armor_durability": 55.204098f
+									"silentgear:magic_armor": 2.9446943f
+									"silentgear:armor_toughness": 2.9446943f
+									"silentgear:durability": 3019.2234f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:projectile_accuracy": 1.2171572f
+									"silentgear:rarity": 88.922844f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:flame_ward"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:sturdy"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:void_ward"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "chestplate:chestplate_plates{crimson_steel,tyrian_steel},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			subtitle: "&6Leggings"
+			description: [
+				"&e   Regular Leggings"
+				"{image:faruk:textures/ftbquests/legs.png width:185 height:100 align:1}"
+				"{image:faruk:textures/ftbquests/legs2.png width:185 height:100 align:1}"
+			]
+			id: "000897D8C68CD18D"
+			tasks: [{
+				id: "4A88DAB7A0673483"
+				type: "item"
+				icon: {
+					id: "silentgear:leggings"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							777656793
+							1847281242
+							-1598014543
+							-496249811
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [{
+									Item: {
+										id: "silentgear:legging_plates"
+										Count: 1b
+										tag: {
+											Materials: [
+												{
+													Item: {
+														id: "minecraft:emerald"
+														Count: 1b
+													}
+													ID: "silentgear:emerald"
+												}
+												{
+													Item: {
+														id: "silentgear:custom_gem"
+														Count: 1b
+														tag: {
+															Material: "dimerald"
+														}
+													}
+													ID: "silentgear:dimerald"
+												}
+											]
+										}
+									}
+									ID: "silentgear:legging_plates"
+								}]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 14.140447f
+									"silentgear:armor": 4.491469f
+									"silentgear:projectile_speed": 1.0436187f
+									"silentgear:armor_durability": 26.948812f
+									"silentgear:magic_armor": 1.7226533f
+									"silentgear:armor_toughness": 1.210263f
+									"silentgear:durability": 1237.0431f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:projectile_accuracy": 0.99441904f
+									"silentgear:rarity": 48.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:brittle"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:synergistic"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "leggings:legging_plates{emerald,dimerald},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "&6Boots"
+			description: [
+				"&e   Regular Boots"
+				"{image:faruk:textures/ftbquests/boots.png width:185 height:100 align:1}"
+				"{image:faruk:textures/ftbquests/boots2.png width:185 height:100 align:1}"
+			]
+			id: "695B21FE44B4DE7D"
+			tasks: [{
+				id: "4AD3D9B6DD30EE9A"
+				type: "item"
+				icon: {
+					id: "silentgear:boots"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-590366558
+							-1966847297
+							-1453220169
+							-1013227884
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [{
+									Item: {
+										id: "silentgear:boot_plates"
+										Count: 1b
+										tag: {
+											Materials: [{
+												Item: {
+													id: "silentgear:azure_electrum_ingot"
+													Count: 1b
+												}
+												ID: "silentgear:azure_electrum"
+											}]
+										}
+									}
+									ID: "silentgear:boot_plates"
+								}]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 37.0f
+									"silentgear:armor": 3.0f
+									"silentgear:projectile_speed": 2.0f
+									"silentgear:armor_durability": 61.0f
+									"silentgear:magic_armor": 4.75f
+									"silentgear:armor_toughness": 2.0f
+									"silentgear:durability": 1259.0f
+									"silentgear:knockback_resistance": 0.0f
+									"silentgear:projectile_accuracy": 1.5f
+									"silentgear:rarity": 109.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 5b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 4b
+										Name: "silentgear:light"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "boots:boot_plates{azure_electrum},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			subtitle: "&6Elytra"
+			description: [
+				"&e   Regular Elytra"
+				"{image:faruk:textures/ftbquests/elytra.png width:185 height:100 align:1}"
+				"{image:faruk:textures/ftbquests/elytra2.png width:185 height:100 align:1}"
+			]
+			id: "52FD9DBC586E483C"
+			tasks: [{
+				id: "59E1A9DCB6C06FAD"
+				type: "item"
+				icon: {
+					id: "silentgear:elytra"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							-1246386158
+							517751436
+							-1515800261
+							-1680406062
+						]
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:elytra_wings"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_glowstone"
+															Count: 1b
+														}
+														ID: "silentgear:refined_glowstone"
+													}
+													{
+														Item: {
+															id: "mekanism:ingot_uranium"
+															Count: 1b
+														}
+														ID: "silentgear:uranium"
+													}
+													{
+														Item: {
+															id: "silentgear:azure_silver_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:azure_silver"
+													}
+												]
+											}
+										}
+										ID: "silentgear:elytra_wings"
+									}
+									{
+										Item: {
+											id: "silentgear:binding"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:string"
+														Count: 1b
+													}
+													ID: "silentgear:string"
+												}]
+											}
+										}
+										ID: "silentgear:binding"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:enchantability": 19.98149f
+									"silentgear:armor": 3.3158069f
+									"silentgear:projectile_speed": 1.2792823f
+									"silentgear:armor_durability": 20.525135f
+									"silentgear:magic_armor": 1.7683234f
+									"silentgear:armor_toughness": 0.26651713f
+									"silentgear:durability": 321.9174f
+									"silentgear:projectile_accuracy": 1.1f
+									"silentgear:rarity": 49.914394f
+									"silentgear:repair_efficiency": 1.05f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 2b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "elytra:elytra_wings{refined_glowstone,uranium,azure_silver},binding{string},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:elytra"
+					Count: 1b
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: 5.5d
+			subtitle: "{faruk.stagezero.tools92.subtitle}"
+			description: [
+				"{faruk.stagezero.tools92.desc1}"
+				"{image:faruk:textures/ftbquests/ring.png width:185 height:100 align:1}"
+			]
+			id: "02E6BF127A42F21F"
+			tasks: [{
+				id: "2D0690D7B1649876"
+				type: "item"
+				icon: {
+					id: "silentgear:ring"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							1302892455
+							1875397480
+							-1414418345
+							1986548112
+						]
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:ring_shank"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "silentgear:blaze_gold_ingot"
+														Count: 1b
+													}
+													ID: "silentgear:blaze_gold"
+												}]
+											}
+										}
+										ID: "silentgear:ring_shank"
+									}
+									{
+										Item: {
+											id: "silentgear:adornment"
+											Count: 1b
+											tag: {
+												Materials: [{
+													Item: {
+														id: "minecraft:diamond"
+														Count: 1b
+													}
+													ID: "silentgear:diamond"
+												}]
+											}
+										}
+										ID: "silentgear:adornment"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:durability": 69.0f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 1b
+										Name: "silentgear:brilliant"
+									}
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:bastion"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "ring:ring_shank{blaze_gold},adornment{diamond},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:ring"
+					Count: 1b
+					tag: {
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			subtitle: "{faruk.stagezero.tools93.subtitle}"
+			description: [
+				"{faruk.stagezero.tools93.desc1}"
+				"{image:faruk:textures/ftbquests/bracelet.png width:185 height:100 align:1}"
+			]
+			id: "3CD869F4A44BB59D"
+			tasks: [{
+				id: "4DF63BF2F2881DE8"
+				type: "item"
+				icon: {
+					id: "silentgear:bracelet"
+					Count: 1b
+					tag: {
+						SGear_UUID: [I;
+							918745437
+							1443644864
+							-1441887627
+							-213899274
+						]
+						SGear_Data: {
+							Construction: {
+								IsExample: 1b
+								Parts: [
+									{
+										Item: {
+											id: "silentgear:bracelet_band"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "mekanism:ingot_refined_obsidian"
+															Count: 1b
+														}
+														ID: "silentgear:refined_obsidian"
+													}
+													{
+														Item: {
+															id: "thermal:enderium_ingot"
+															Count: 1b
+														}
+														ID: "silentgear:enderium"
+													}
+												]
+											}
+										}
+										ID: "silentgear:bracelet_band"
+									}
+									{
+										Item: {
+											id: "silentgear:adornment"
+											Count: 1b
+											tag: {
+												Materials: [
+													{
+														Item: {
+															id: "minecraft:prismarine_crystals"
+															Count: 1b
+														}
+														ID: "silentgear:prismarine"
+													}
+													{
+														Item: {
+															id: "minecraft:emerald"
+															Count: 1b
+														}
+														ID: "silentgear:emerald"
+													}
+												]
+											}
+										}
+										ID: "silentgear:adornment"
+									}
+								]
+							}
+							Properties: {
+								ModVersion: "2.6.33"
+								Stats: {
+									"silentgear:durability": 2228.0303f
+								}
+								LockStats: 0b
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:reach"
+									}
+								]
+							}
+							Rendering: {
+								ModelKey: "bracelet:bracelet_band{refined_obsidian,enderium},adornment{prismarine,emerald},"
+							}
+						}
+					}
+				}
+				item: {
+					id: "silentgear:bracelet"
+					Count: 1b
+					tag: {
+						SGear_Data: {
+							Construction: { }
+							Properties: { }
+							Rendering: { }
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.tools110.subtitle}"
+			description: ["{faruk.stagezero.tools110.desc1}"]
+			id: "10479EA36E97664F"
+			tasks: [{
+				id: "2F5F574BD0B819F8"
+				type: "item"
+				item: "silentgear:raw_crimson_iron"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			subtitle: "{faruk.stagezero.tools111.subtitle}"
+			description: ["{faruk.stagezero.tools111.desc1}"]
+			id: "36321F88B122EA7B"
+			tasks: [{
+				id: "290E80B736EE4EB7"
+				type: "item"
+				item: "silentgear:raw_azure_silver"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "&4Bloody Iron"
+			id: "5B746F79220AFB80"
+			tasks: [{
+				id: "166CFB1E612BF95E"
+				type: "item"
+				item: "silentgear:crimson_steel_ingot"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			subtitle: "&6Fried Gold"
+			id: "64714F45D2B78C10"
+			tasks: [{
+				id: "628FCAB91AE22639"
+				type: "item"
+				item: "silentgear:blaze_gold_ingot"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "&dPurple Thing"
+			id: "18F431CD3F32C5DB"
+			tasks: [{
+				id: "72A5110BBA7842CD"
+				type: "item"
+				item: "silentgear:azure_silver_ingot"
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "&1Azure"
+			id: "63F86C37E205AE8D"
+			tasks: [{
+				id: "407A1D91C6B22D62"
+				type: "item"
+				item: "silentgear:azure_electrum_ingot"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "&5Harder than Steel!"
+			id: "627CA680AD05A7FB"
+			tasks: [{
+				id: "0E96635E363DCA25"
+				type: "item"
+				item: "silentgear:tyrian_steel_ingot"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -5.0d
+			subtitle: "{faruk.stagezero.tools112.subtitle}"
+			description: ["{faruk.stagezero.tools112.desc1}"]
+			id: "1EB11D7A51CE012D"
+			tasks: [{
+				id: "38124BEA8BA539D9"
+				type: "item"
+				item: "silentgear:material_grader"
+			}]
+		}
+		{
+			x: -2.5d
+			y: -5.0d
+			subtitle: "{faruk.stagezero.tools114.subtitle}"
+			description: ["{faruk.stagezero.tools114.desc1}"]
+			id: "5C42D053725040C9"
+			tasks: [{
+				id: "16068D2FD921FC3F"
+				type: "item"
+				item: "silentgear:salvager"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -5.0d
+			subtitle: "{faruk.stagezero.tools115.subtitle}"
+			description: [
+				"{faruk.stagezero.tools115.desc1}"
+				"{faruk.stagezero.tools115.desc2}"
+				"{faruk.stagezero.tools115.desc3}"
+				"{faruk.stagezero.tools115.desc4}"
+				"{image:faruk:textures/ftbquests/starlight.png width:100 height:100 align:1}"
+			]
+			id: "523BD220AA110FF5"
+			tasks: [{
+				id: "60BB7C8E0562F4AA"
+				type: "item"
+				item: "silentgear:starlight_charger"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -5.0d
+			subtitle: "{faruk.stagezero.tools118.subtitle}"
+			description: ["{faruk.stagezero.tools118.desc1}"]
+			id: "32EE9E944CA22DD4"
+			tasks: [{
+				id: "331214E56426453F"
+				type: "item"
+				item: "silentgear:metal_press"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.0d
+			subtitle: "{faruk.stagezero.tools76.subtitle}"
+			description: ["{faruk.stagezero.tools76.desc1}"]
+			id: "330657E2AF102489"
+			tasks: [{
+				id: "18FB77CA2F3E5E53"
+				type: "item"
+				item: "silentgear:advanced_upgrade_base"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 1.0d
+			subtitle: "{faruk.stagezero.tools77.subtitle}"
+			description: ["{faruk.stagezero.tools77.desc1}"]
+			id: "71BC335EDE7BF33E"
+			tasks: [{
+				id: "60AF2D70CC93BDB6"
+				type: "item"
+				item: "silentgear:spoon_upgrade"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			subtitle: "{faruk.stagezero.tools78.subtitle}"
+			description: ["{faruk.stagezero.tools78.desc1}"]
+			id: "239CE94F67B25CAC"
+			tasks: [{
+				id: "1D8A4D0E912FA2E1"
+				type: "item"
+				item: "silentgear:road_maker_upgrade"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "{faruk.stagezero.tools79.subtitle}"
+			description: ["{faruk.stagezero.tools79.desc1}"]
+			id: "5836F3D38262ACFF"
+			tasks: [{
+				id: "77E1D999636CDF33"
+				type: "item"
+				item: "silentgear:wide_plate_upgrade"
+			}]
+		}
+		{
+			x: -3.0d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.tools105.subtitle}"
+			description: [
+				"{faruk.stagezero.tools105.desc1}"
+				"{image:faruk:textures/ftbquests/reparing.png width:165 height:100 align:1}"
+			]
+			id: "34C6287EB940288B"
+			tasks: [{
+				id: "437ED234A3F70D23"
+				type: "item"
+				item: {
+					id: "silentgear:very_crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.tools106.subtitle}"
+			description: ["{faruk.stagezero.tools106.desc1}"]
+			id: "55E3A62C31D88D4D"
+			tasks: [{
+				id: "6429921FC4EF359E"
+				type: "item"
+				item: {
+					id: "silentgear:crude_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.tools107.subtitle}"
+			description: ["{faruk.stagezero.tools107.desc1}"]
+			id: "598960CA939B953D"
+			tasks: [{
+				id: "1C4A0B47D55A6FB1"
+				type: "item"
+				item: {
+					id: "silentgear:sturdy_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.tools108.subtitle}"
+			description: ["{faruk.stagezero.tools108.desc1}"]
+			id: "28727B6B023A0F78"
+			tasks: [{
+				id: "073F19F5BA5389FF"
+				type: "item"
+				item: {
+					id: "silentgear:crimson_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			subtitle: "{faruk.stagezero.tools109.subtitle}"
+			description: ["{faruk.stagezero.tools109.desc1}"]
+			id: "48D0230C4FE0ACB5"
+			tasks: [{
+				id: "787D51FA3CCD6893"
+				type: "item"
+				item: {
+					id: "silentgear:azure_repair_kit"
+					Count: 1b
+					tag: {
+						Storage: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{faruk.stagezero.tools103.subtitle}"
+			description: ["{faruk.stagezero.tools103.desc1}"]
+			dependencies: ["046B062FFC5DDCDF"]
+			id: "3188323D38A3968A"
+			tasks: [{
+				id: "1DA050BBE514238C"
+				type: "item"
+				item: "silentgear:pebble"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -6.0d
+			description: ["{faruk.stagezero.tools113.desc1}"]
+			dependencies: ["1EB11D7A51CE012D"]
+			id: "18D564E06381FE92"
+			tasks: [{
+				id: "48D83E2DB50C617D"
+				type: "item"
+				title: "&6Catalyst for Grader"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "minecraft:glowstone_dust"
+								Count: 1b
+							}
+							{
+								id: "silentgear:blazing_dust"
+								Count: 1b
+							}
+							{
+								id: "silentgear:glittery_dust"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -6.0d
+			subtitle: "{faruk.stagezero.tools116.subtitle}"
+			dependencies: ["523BD220AA110FF5"]
+			id: "5C7B3A452C9049AA"
+			tasks: [{
+				id: "602F67AD3D0280CF"
+				type: "item"
+				title: "Examples"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "silentgear:blaze_gold_dust"
+								Count: 1b
+							}
+							{
+								id: "silentgear:azure_silver_dust"
+								Count: 1b
+							}
+							{
+								id: "silentgear:starmetal_dust"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			icon: "silentgear:tip_blueprint"
+			x: -5.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.tools120.subtitle}"
+			description: ["{faruk.stagezero.tools120.desc1}"]
+			id: "32CBB3ACC93637D4"
+			tasks: [{
+				id: "7F12DA413008B3B6"
+				type: "item"
+				item: {
+					id: "silentgear:tip"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "{faruk.stagezero.tools119.subtitle}"
+			description: ["{faruk.stagezero.tools119.desc1}"]
+			id: "7DE4EA71F4C10337"
+			tasks: [{
+				id: "6A120E20A5278DE0"
+				type: "item"
+				item: {
+					id: "mining_helmet:mining_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0BB6DC2F124A8D17"
+				type: "item"
+				item: "minecraft:torch"
+			}]
+		}
+	]
+}

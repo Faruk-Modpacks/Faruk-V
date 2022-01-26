@@ -1,0 +1,1652 @@
+{
+	id: "69623FA37D722B07"
+	group: "48BF0AA7D3FE4DD0"
+	order_index: 0
+	filename: "5"
+	title: "The Final "
+	icon: "draconicevolution:reactor_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -7.5d
+			y: 0.0d
+			subtitle: "{faruk.stagefive.main1.subtitle}"
+			description: ["{faruk.stagefive.main1.desc1}"]
+			dependencies: ["6AF50F9D4BD60112"]
+			hide: true
+			id: "5B4D79447A9AE426"
+			tasks: [{
+				id: "06284A90D26031F1"
+				type: "advancement"
+				advancement: "world_of_faruk:visit_faruk"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main4.subtitle}"
+			description: ["{faruk.stagefive.main4.desc1}"]
+			dependencies: ["5B4D79447A9AE426"]
+			id: "2A6D2BE158CB72E6"
+			tasks: [{
+				id: "72EB6AA6D0D3D13E"
+				type: "item"
+				item: "iceandfire:dragonbone"
+			}]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main5.subtitle}"
+			description: [
+				"{faruk.stagefive.main5.desc1}"
+				"{faruk.stagefive.main5.desc2}"
+			]
+			dependencies: ["2A6D2BE158CB72E6"]
+			id: "46666B985C8EF3EF"
+			tasks: [{
+				id: "5F96EE7BFDE81845"
+				type: "item"
+				item: {
+					id: "dragonseeker:dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 3.5d
+			subtitle: "{faruk.stagefive.main6.subtitle}"
+			description: ["{faruk.stagefive.main6.desc1}"]
+			dependencies: ["46666B985C8EF3EF"]
+			id: "3D0EDDDEAB7E2DB0"
+			tasks: [{
+				id: "5C3B992243E08FC1"
+				type: "item"
+				item: {
+					id: "dragonseeker:epic_dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 4.5d
+			subtitle: "{faruk.stagefive.main7.subtitle}"
+			description: ["{faruk.stagefive.main7.desc1}"]
+			dependencies: ["3D0EDDDEAB7E2DB0"]
+			id: "1750D2A44A51A68B"
+			tasks: [{
+				id: "456510661D38D0C8"
+				type: "item"
+				item: {
+					id: "dragonseeker:legendary_dragonseeker"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			subtitle: "{faruk.stagefive.main8.subtitle}"
+			description: ["{faruk.stagefive.main8.desc1}"]
+			dependencies: ["1750D2A44A51A68B"]
+			id: "0ED1B6AEBA58A99A"
+			tasks: [{
+				id: "0EE9E62F47B05BD2"
+				type: "item"
+				item: "dragonseeker:godly_dragonseeker"
+			}]
+		}
+		{
+			x: -7.5d
+			y: -2.5d
+			subtitle: "{faruk.stagefive.main3.subtitle}"
+			description: ["{faruk.stagefive.main3.desc1}"]
+			dependencies: ["254D470F25319E6F"]
+			id: "55EA62BE627D5104"
+			tasks: [{
+				id: "0098D06F8C5FD4C4"
+				type: "item"
+				item: {
+					id: "iceandfire:bestiary"
+					Count: 1b
+					tag: {
+						Pages: [I;0]
+					}
+				}
+			}]
+		}
+		{
+			x: -7.5d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main2.subtitle}"
+			description: ["{faruk.stagefive.main2.desc1}"]
+			dependencies: ["5B4D79447A9AE426"]
+			id: "254D470F25319E6F"
+			tasks: [{
+				id: "5AC83D87304D47AD"
+				type: "item"
+				item: "iceandfire:manuscript"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main9.subtitle}"
+			description: ["{faruk.stagefive.main9.desc1}"]
+			dependencies: ["5B4D79447A9AE426"]
+			id: "135F3467A292CB7F"
+			tasks: [{
+				id: "455B74413D33282F"
+				type: "item"
+				title: "Dragon Scales"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonscales_white"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_blue"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_sapphire"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_electric"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_silver"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_gray"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_green"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_black"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_bronze"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_copper"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_red"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonscales_amythest"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main10.subtitle}"
+			description: ["{faruk.stagefive.main10.desc1}"]
+			dependencies: ["135F3467A292CB7F"]
+			id: "34F54F2A24D3E495"
+			tasks: [{
+				id: "2EC4B9A864091445"
+				type: "item"
+				title: "Dragon Hearts"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:ice_dragon_heart"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:lightning_dragon_heart"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:fire_dragon_heart"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main12.subtitle}"
+			description: ["{faruk.stagefive.main12.desc1}"]
+			dependencies: ["71951BBEBEA23BC2"]
+			id: "4645E2479888AF79"
+			tasks: [{
+				id: "19B718C4794D6D02"
+				type: "item"
+				title: "Dragon Bloods"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:fire_dragon_blood"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:ice_dragon_blood"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:lightning_dragon_blood"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main11.subtitle}"
+			description: ["{faruk.stagefive.main11.desc1}"]
+			dependencies: ["34F54F2A24D3E495"]
+			id: "71951BBEBEA23BC2"
+			tasks: [{
+				id: "33E0EB163148D69A"
+				type: "item"
+				title: "Dragon Eggs"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonegg_green"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_bronze"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_gray"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_blue"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_white"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_copper"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_amythest"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_electric"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_silver"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_sapphire"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonegg_black"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "4D9A00BEBE2251EF"
+				type: "item"
+				item: "iceandfire:dragon_meal"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main13.subtitle}"
+			description: [
+				"{faruk.stagefive.main13.desc1}"
+				"{faruk.stagefive.main13.desc2}"
+				"{faruk.stagefive.main13.desc3}"
+			]
+			dependencies: ["4645E2479888AF79"]
+			id: "3607D6584E4551BF"
+			tasks: [
+				{
+					id: "76E0B20952C2EB19"
+					type: "item"
+					title: "Dragon Bricks"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_brick"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_brick"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_brick"
+									Count: 1b
+								}
+							]
+						}
+					}
+					count: 17L
+				}
+				{
+					id: "2E80C3BA2A32101E"
+					type: "item"
+					title: "Dragonforge Apertures"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_input"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_input"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_input"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "428520EDB141A124"
+					type: "item"
+					title: "Dragonforge Cores"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "iceandfire:dragonforge_fire_core_disabled"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_ice_core_disabled"
+									Count: 1b
+								}
+								{
+									id: "iceandfire:dragonforge_lightning_core_disabled"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "086BC45EF6204C4A"
+					type: "item"
+					item: "iceandfire:dragon_bone_block"
+					count: 8L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -1.0d
+			subtitle: "{faruk.stagefive.main14.subtitle}"
+			description: ["{faruk.stagefive.main14.desc1}"]
+			dependencies: ["3607D6584E4551BF"]
+			id: "70E53DBD98D07434"
+			tasks: [{
+				id: "34C4DA44A00F6F9E"
+				type: "item"
+				title: "Dragonsteel"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "iceandfire:dragonsteel_fire_ingot"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonsteel_ice_ingot"
+								Count: 1b
+							}
+							{
+								id: "iceandfire:dragonsteel_lightning_ingot"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main15.subtitle}"
+			description: ["{faruk.stagefive.main15.desc1}"]
+			dependencies: ["5B4D79447A9AE426"]
+			id: "0B6EEF2F43726B5F"
+			tasks: [{
+				id: "59BDEFCA95E57677"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+			rewards: [{
+				id: "29B28C65D1099A8C"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -4.5d
+			y: 1.0d
+			description: ["{faruk.stagefive.main16.desc1}"]
+			dependencies: ["0B6EEF2F43726B5F"]
+			id: "7C38DD5B4F3D7C15"
+			tasks: [{
+				id: "412E311FE93F0735"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [{
+				id: "7F6C09AADB188CC5"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+				count: 4
+				random_bonus: 4
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main17.subtitle}"
+			description: ["{faruk.stagefive.main17.desc1}"]
+			dependencies: ["7C38DD5B4F3D7C15"]
+			id: "50496333B2B4341D"
+			tasks: [{
+				id: "515122640AA3E96A"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [{
+				id: "29DC64686089DF87"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main18.subtitle}"
+			description: ["{faruk.stagefive.main18.desc1}"]
+			dependencies: ["50496333B2B4341D"]
+			id: "795810ACF999DFDB"
+			tasks: [{
+				id: "3D2E97E90BEE408D"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [{
+				id: "369F66A46CE80EE0"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main27.subtitle}"
+			description: [
+				"{faruk.stagefive.main27.desc1}"
+				"{faruk.stagefive.main27.desc2}"
+			]
+			dependencies: [
+				"70E53DBD98D07434"
+				"50496333B2B4341D"
+			]
+			hide: true
+			id: "268C3D1C1CD4B72B"
+			tasks: [
+				{
+					id: "286D88E88B2A4C3E"
+					type: "item"
+					item: "draconicevolution:basic_crafting_injector"
+				}
+				{
+					id: "73CC67ECA8339D1C"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+			rewards: [{
+				id: "53FA4E60E95203EE"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 2.0d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main30.subtitle}"
+			description: ["{faruk.stagefive.main30.desc1}"]
+			dependencies: ["268C3D1C1CD4B72B"]
+			id: "023D52CD51AEB601"
+			tasks: [{
+				id: "7C93FE8D323990A5"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [{
+				id: "6344D8E0D6AE774A"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 9.5d
+			y: 0.5d
+			subtitle: "{faruk.stagefive.main39.subtitle}"
+			description: ["{faruk.stagefive.main39.desc1}"]
+			dependencies: ["20AECBB71420EF01"]
+			id: "68566AB31F73AF65"
+			tasks: [{
+				id: "17A2E8CC4E1DCA65"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 1.5d
+			subtitle: "{faruk.stagefive.main40.subtitle}"
+			description: ["{faruk.stagefive.main40.desc1}"]
+			dependencies: ["61A6CC60380F6D04"]
+			hide: true
+			id: "21A8226F238BB906"
+			tasks: [{
+				id: "20A342A63BCDDEEC"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [{
+				id: "67FDBB5B36F27A70"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 0.0d
+			subtitle: "{faruk.stagefive.main50.subtitle}"
+			description: ["{faruk.stagefive.main50.desc1}"]
+			dependencies: ["2FFBA7692A1CD392"]
+			id: "1D7F0B786FBAA198"
+			tasks: [{
+				id: "0DE1D72779FD9F23"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [{
+				id: "04DE19D85BF02856"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			subtitle: "{faruk.stagefive.main47.subtitle}"
+			description: ["{faruk.stagefive.main47.desc1}"]
+			dependencies: ["2FFBA7692A1CD392"]
+			id: "633433DE6C592E69"
+			tasks: [{
+				id: "07582C881BF9DD4E"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [{
+				id: "5B80D09B6F964A03"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main33.subtitle}"
+			description: ["{faruk.stagefive.main33.desc1}"]
+			dependencies: ["023D52CD51AEB601"]
+			optional: true
+			id: "2B46D85221D60A01"
+			tasks: [{
+				id: "1C5A018FEC7E3A17"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1054735605
+									175983622
+									-1562897027
+									1737930829
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "7D22DA1EA887E7DE"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_module"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main41.subtitle}"
+			description: ["{faruk.stagefive.main41.desc1}"]
+			dependencies: ["21A8226F238BB906"]
+			optional: true
+			id: "59CC01FFBF2A9152"
+			tasks: [{
+				id: "33654F0D98C15099"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									238039212
+									1472874578
+									-1096479337
+									1535553596
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "39DEBF2664F7E86D"
+				type: "item"
+				item: "draconicevolution:draconic_energy_module"
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main49.subtitle}"
+			description: ["{faruk.stagefive.main49.desc1}"]
+			dependencies: ["633433DE6C592E69"]
+			id: "75C86A14E3394AE8"
+			tasks: [{
+				id: "28E8EDF81E6A53D4"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1466872646
+									-851884214
+									-1278825563
+									-1579426506
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "17788FDF45A44DB1"
+				type: "item"
+				item: "draconicevolution:chaotic_energy_module"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main19.subtitle}"
+			description: ["{faruk.stagefive.main19.desc1}"]
+			dependencies: ["50496333B2B4341D"]
+			optional: true
+			id: "17B96E7ECCBFE2A2"
+			tasks: [{
+				id: "21BF10C72B3BA74F"
+				type: "item"
+				item: "draconicevolution:wyvern_energy_core"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			subtitle: "{faruk.stagefive.main37.subtitle}"
+			description: ["{faruk.stagefive.main37.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["61A6CC60380F6D04"]
+			hide: true
+			optional: true
+			id: "6EAFEF02FD6D06ED"
+			tasks: [{
+				id: "0230A691EFAF7ED6"
+				type: "item"
+				item: "draconicevolution:draconic_energy_core"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 2.0d
+			subtitle: "{faruk.stagefive.main46.subtitle}"
+			description: ["{faruk.stagefive.main46.desc1}"]
+			dependencies: ["2FFBA7692A1CD392"]
+			id: "32229AB16E1516E2"
+			tasks: [{
+				id: "177A99A210770623"
+				type: "item"
+				item: "draconicevolution:chaotic_energy_core"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main32.subtitle}"
+			description: ["{faruk.stagefive.main32.desc1}"]
+			dependencies: ["023D52CD51AEB601"]
+			optional: true
+			id: "6EC044340F1F4082"
+			tasks: [{
+				id: "48EEC85C51FF62E2"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									567750313
+									-1378991391
+									-1665814486
+									-876058850
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 7.5d
+			y: -1.5d
+			subtitle: "{faruk.stagefive.main38.subtitle}"
+			description: ["{faruk.stagefive.main38.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["61A6CC60380F6D04"]
+			hide: true
+			optional: true
+			id: "25437CE1BE162F6A"
+			tasks: [{
+				id: "57C4FA1C8A8CDC20"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									788423442
+									-828749154
+									-1677474934
+									-578515980
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 13.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main48.subtitle}"
+			description: ["{faruk.stagefive.main48.desc1}"]
+			dependencies: ["633433DE6C592E69"]
+			id: "3D4AC4472BA071D7"
+			tasks: [{
+				id: "24364A59A965ABE5"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_capacitor"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1133581477
+									-50181723
+									-1422634521
+									-1123387709
+								]
+								modules: [ ]
+								properties: {
+									charge_main: {
+										hud: 1b
+									}
+									charge_curios: {
+										hud: 1b
+									}
+									charge_hot_bar: {
+										hud: 1b
+									}
+									charge_armor: {
+										hud: 1b
+									}
+									charge_held_item: {
+										hud: 1b
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main34.subtitle}"
+			description: ["{faruk.stagefive.main34.desc1}"]
+			dependencies: ["023D52CD51AEB601"]
+			id: "4FDE87E5B8892FBE"
+			tasks: [{
+				id: "5F65C36596A1DEDC"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+			rewards: [{
+				id: "44BA3B3D7222F0CB"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+		}
+		{
+			x: 7.5d
+			y: 0.5d
+			subtitle: "{faruk.stagefive.main36.subtitle}"
+			description: ["{faruk.stagefive.main36.desc1}"]
+			dependencies: ["61A6CC60380F6D04"]
+			hide: true
+			id: "20AECBB71420EF01"
+			tasks: [{
+				id: "4BE01F1032970FA1"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_ingot"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 1.0d
+			subtitle: "{faruk.stagefive.main35.subtitle}"
+			description: ["{faruk.stagefive.main35.desc1}"]
+			dependencies: ["4FDE87E5B8892FBE"]
+			id: "61A6CC60380F6D04"
+			tasks: [{
+				id: "377AF1C5A4543EBB"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+			rewards: [{
+				id: "4504651A4EE2E39E"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			subtitle: "{faruk.stagefive.main45.subtitle}"
+			description: [
+				"{faruk.stagefive.main45.desc1}"
+				"{faruk.stagefive.main45.desc2}"
+				"{faruk.stagefive.main45.desc3}"
+			]
+			dependencies: ["68566AB31F73AF65"]
+			id: "2FFBA7692A1CD392"
+			tasks: [{
+				id: "747284B69751796D"
+				type: "item"
+				title: "Chaos Shard"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "draconicevolution:small_chaos_frag"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:medium_chaos_frag"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:large_chaos_frag"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:chaos_shard"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "074A551BFE95487F"
+				type: "item"
+				item: "draconicevolution:medium_chaos_frag"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main23.subtitle}"
+			description: ["{faruk.stagefive.main23.desc1}"]
+			hide_dependency_lines: true
+			dependencies: ["5B4D79447A9AE426"]
+			hide: true
+			optional: true
+			id: "023C5D2DFB08FC54"
+			tasks: [{
+				id: "452AA76B5540E7DC"
+				type: "item"
+				item: "draconicevolution:mob_soul"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 2.0d
+			subtitle: "{faruk.stagefive.main28.subtitle}"
+			description: ["{faruk.stagefive.main28.desc1}"]
+			dependencies: ["268C3D1C1CD4B72B"]
+			optional: true
+			id: "6D9D92D34AFEC121"
+			tasks: [
+				{
+					id: "437B3C8D4BCF0300"
+					type: "item"
+					item: "draconicmachinery:crafting_injector_item_router"
+				}
+				{
+					id: "54FB1DA4DCCBCDC8"
+					type: "item"
+					item: {
+						id: "draconicmachinery:crafting_injector_location_card"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 4.0d
+			subtitle: "{faruk.stagefive.main24.subtitle}"
+			description: ["{faruk.stagefive.main24.desc1}"]
+			dependencies: ["023C5D2DFB08FC54"]
+			optional: true
+			id: "161E23581E2CE73E"
+			tasks: [{
+				id: "420B9161AA64CC3A"
+				type: "item"
+				item: "draconicevolution:grinder"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 5.5d
+			subtitle: "{faruk.stagefive.main22.subtitle}"
+			description: ["{faruk.stagefive.main22.desc1}"]
+			dependencies: ["603A27D6BB2A5FF9"]
+			optional: true
+			id: "41016E6C76474AAE"
+			tasks: [{
+				id: "2EBF331FB838DAD3"
+				type: "item"
+				title: "I/O Crystals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "draconicevolution:basic_io_crystal"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:wyvern_io_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "422E049A4A43A3D6"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 7.5d
+			y: 3.5d
+			subtitle: "{faruk.stagefive.main43.subtitle}"
+			description: ["{faruk.stagefive.main43.desc1}"]
+			dependencies: ["69C0181685FD44E6"]
+			optional: true
+			id: "32704251A3C457EE"
+			tasks: [{
+				id: "21DD365032EE6F07"
+				type: "item"
+				item: "draconicevolution:draconic_io_crystal"
+			}]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			subtitle: "{faruk.stagefive.main20.subtitle}"
+			description: ["{faruk.stagefive.main20.desc1}"]
+			dependencies: ["17B96E7ECCBFE2A2"]
+			optional: true
+			id: "603A27D6BB2A5FF9"
+			tasks: [{
+				id: "2A559A62E2958451"
+				type: "item"
+				title: "Relay Crystals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "draconicevolution:basic_relay_crystal"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:wyvern_relay_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "54B41DCCD90A323F"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 2.5d
+			subtitle: "{faruk.stagefive.main42.subtitle}"
+			description: ["{faruk.stagefive.main42.desc1}"]
+			dependencies: ["21A8226F238BB906"]
+			optional: true
+			id: "69C0181685FD44E6"
+			tasks: [{
+				id: "6A9ACAC70AFD19BD"
+				type: "item"
+				item: "draconicevolution:draconic_relay_crystal"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 5.5d
+			subtitle: "{faruk.stagefive.main21.subtitle}"
+			description: ["{faruk.stagefive.main21.desc1}"]
+			dependencies: ["603A27D6BB2A5FF9"]
+			optional: true
+			id: "2ED1B3BABE88CBCB"
+			tasks: [{
+				id: "4A2D5DB8DBC6BC65"
+				type: "item"
+				title: "Wireless Energy Crystals"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "draconicevolution:basic_wireless_crystal"
+								Count: 1b
+							}
+							{
+								id: "draconicevolution:wyvern_wireless_crystal"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [{
+				id: "0F54C2466E3BDB29"
+				type: "loot"
+				icon: "kubejs:chest_gold"
+				table_id: 4223671760242249580L
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.5d
+			subtitle: "{faruk.stagefive.main44.subtitle}"
+			description: ["{faruk.stagefive.main44.desc1}"]
+			dependencies: ["69C0181685FD44E6"]
+			optional: true
+			id: "790128C817B2EC8A"
+			tasks: [{
+				id: "384370E7E6418EF9"
+				type: "item"
+				item: "draconicevolution:draconic_wireless_crystal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "{faruk.stagefive.main31.subtitle}"
+			description: ["{faruk.stagefive.main31.desc1}"]
+			dependencies: ["023D52CD51AEB601"]
+			optional: true
+			id: "794616D391B46E69"
+			tasks: [{
+				id: "1E483A20DC5A56B3"
+				type: "item"
+				item: {
+					id: "draconicevolution:advanced_dislocator"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: -4.5d
+			y: 4.0d
+			subtitle: "{faruk.stagefive.main29.subtitle}"
+			description: ["{faruk.stagefive.main29.desc1}"]
+			dependencies: ["603A27D6BB2A5FF9"]
+			optional: true
+			id: "497842FDED00236B"
+			tasks: [{
+				id: "146E5A0857C55138"
+				type: "item"
+				item: "draconicevolution:crystal_binder"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 5.5d
+			subtitle: "{faruk.stagefive.main25.subtitle}"
+			description: ["{faruk.stagefive.main25.desc1}"]
+			dependencies: ["161E23581E2CE73E"]
+			optional: true
+			id: "5CDFDA4A121634F4"
+			tasks: [{
+				id: "2DD51C996D4392BF"
+				type: "item"
+				item: "draconicmachinery:player_grinder"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 6.0d
+			subtitle: "{faruk.stagefive.main26.subtitle}"
+			description: ["{faruk.stagefive.main26.desc1}"]
+			dependencies: ["5CDFDA4A121634F4"]
+			optional: true
+			id: "6042BD9B36AD98FD"
+			tasks: [{
+				id: "2A3B68398750D047"
+				type: "item"
+				item: "draconicmachinery:biometric_card"
+			}]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			subtitle: "{faruk.stagefive.main51.subtitle}"
+			description: ["{faruk.stagefive.main51.desc1}"]
+			dependencies: ["1D7F0B786FBAA198"]
+			id: "04440422D87DD7C3"
+			tasks: [{
+				id: "1C0FC276AECD9A50"
+				type: "item"
+				item: "draconicmachinery:chaos_collector"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 7.5d
+			description: ["1x1x1 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "51117EADD568427B"
+			tasks: [
+				{
+					id: "2E9CA242BEDCA044"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 4L
+				}
+				{
+					id: "7CEEB978EB5733B8"
+					type: "item"
+					item: "draconicevolution:energy_core"
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 7.5d
+			description: ["3x3x3 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "5B78D3779EB79265"
+			tasks: [
+				{
+					id: "0C566CA25BAED200"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 4L
+				}
+				{
+					id: "24395690A5B70C29"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 6L
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: 7.5d
+			description: ["3x3x3 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "5A822551E5F11D31"
+			tasks: [
+				{
+					id: "09510DB6AD22E8A1"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 4L
+				}
+				{
+					id: "29018A3C39CFD025"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 26L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 7.5d
+			description: ["5x5x5 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "2AF1FD6921B0C720"
+			tasks: [
+				{
+					id: "52321B37863CA134"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 4L
+				}
+				{
+					id: "43EC2E4B1D56C49B"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 54L
+				}
+				{
+					id: "57F2BDF91BD36EE5"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 26L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 7.5d
+			description: ["7x7x7 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "6822181590737BEB"
+			tasks: [
+				{
+					id: "188D21E0F42CB674"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 36L
+				}
+				{
+					id: "5B50E79790A053E5"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 90L
+				}
+				{
+					id: "725500089A310EDF"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 80L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: 7.5d
+			description: ["9x9x9 not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "7EDBD2768291FE45"
+			tasks: [
+				{
+					id: "09CE6B7EB3573573"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 36L
+				}
+				{
+					id: "2D2B9B42AF3D9519"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 150L
+				}
+				{
+					id: "3F6D3B08559BECEC"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 178L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 7.5d
+			description: ["11x11x11 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "62F25DF5EBF12AD1"
+			tasks: [
+				{
+					id: "12B8F12564882BC4"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 36L
+				}
+				{
+					id: "5F021D476B3FECC1"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 210L
+				}
+				{
+					id: "71EA5837AD279CC5"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 328L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.5d
+			description: ["13x13x13 (not counting the Stabilizers)"]
+			hide_dependency_lines: true
+			dependencies: ["50496333B2B4341D"]
+			hide: true
+			optional: true
+			id: "4C44FD39063CD7D8"
+			tasks: [
+				{
+					id: "66E67BD2DC05AB2B"
+					type: "item"
+					item: "draconicevolution:energy_core_stabilizer"
+					count: 36L
+				}
+				{
+					id: "77C92344801ACE0C"
+					type: "item"
+					item: "draconicevolution:draconium_block"
+					count: 786L
+				}
+				{
+					id: "7CF64BAB674DA177"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_block"
+					count: 378L
+				}
+			]
+		}
+		{
+			title: "&0&l&oDRACONIC REACTOR"
+			icon: "draconicevolution:reactor_core"
+			x: 16.0d
+			y: 0.0d
+			subtitle: "&4&l&oThe Final Detonation!"
+			description: [
+				"{faruk.stagefive.main52.desc1}"
+				"{faruk.stagefive.main52.desc2}"
+				"{faruk.stagefive.main52.desc3}"
+			]
+			dependencies: ["1D7F0B786FBAA198"]
+			size: 2.0d
+			id: "098E527387DC5C9F"
+			tasks: [
+				{
+					id: "2AC8EF784730A39B"
+					type: "item"
+					item: "draconicevolution:reactor_stabilizer"
+					count: 4L
+				}
+				{
+					id: "32406230E3AB558C"
+					type: "item"
+					item: "draconicevolution:reactor_core"
+				}
+				{
+					id: "176FDBC0B9813812"
+					type: "item"
+					item: "draconicevolution:reactor_injector"
+				}
+			]
+			rewards: [{
+				id: "6D451F240F357132"
+				type: "item"
+				item: {
+					id: "industrialforegoing:supreme_black_hole_unit"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							hasNBT: 0b
+							blStack: {
+								id: "minecraft:cobblestone"
+								Count: 64b
+							}
+							stored: 2147483647
+							voidItems: 1b
+						}
+						display: {
+							Name: "{\"text\":\"Remains from your base\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			description: ["{image:faruk:textures/mainmenu/dragonforge.png width:115 height:160 align:1}"]
+			dependencies: ["3607D6584E4551BF"]
+			id: "7CE700E6FEAB4CB3"
+			tasks: [{
+				id: "131FA47C1FA33DEE"
+				type: "checkmark"
+				title: "Building Instructions for Dragonforge!"
+			}]
+		}
+	]
+}

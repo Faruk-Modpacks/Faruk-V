@@ -1,0 +1,14 @@
+{
+  "dragon_type": "fire",
+  "input_left": {
+    "item": "emendatusenigmatica:steel_block"
+   
+  },
+  "input_right": {
+    "item": "iceandfire:fire_dragon_blood"
+  },
+  "result": {
+    "item": "iceandfire:dragonsteel_fire_block"
+    
+  }
+}

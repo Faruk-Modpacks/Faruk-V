@@ -1,0 +1,439 @@
+{
+	id: "56159C05FD9EA387"
+	group: "396F2CFEC1EBB14D"
+	order_index: 3
+	filename: "utility"
+	title: "Utilities"
+	icon: {
+		id: "naturescompass:naturescompass"
+		Count: 1b
+		tag: { }
+	}
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 1.0d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.utilities119.subtitle}"
+			description: ["{faruk.stagezero.utilities119.desc1}"]
+			id: "46AEC3B651A44EBB"
+			tasks: [{
+				id: "1FF1C011F35832EC"
+				type: "item"
+				item: {
+					id: "naturescompass:naturescompass"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			x: 5.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities129.subtitle}"
+			description: ["{faruk.stagezero.utilities129.desc1}"]
+			id: "03E9F9F21CBE4C4A"
+			tasks: [{
+				id: "259773E723D50012"
+				type: "item"
+				title: "Building Wands"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "wands:stone_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "wands:iron_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "wands:diamond_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "wands:netherite_wand"
+								Count: 1b
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								id: "wands:creative_wand"
+								Count: 1b
+								tag: { }
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Crafting Stick"
+			x: 3.0d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.utilities121.subtitle}"
+			description: ["{faruk.stagezero.utilities121.desc1}"]
+			id: "587D444493B0564D"
+			tasks: [{
+				id: "7085515D75BC99DD"
+				type: "item"
+				title: "Any Crafting Stick"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "cyclic:crafting_stick"
+								Count: 1b
+							}
+							{
+								ForgeCaps: {
+									Parent: {
+										Size: 9
+										Items: [ ]
+									}
+								}
+								id: "cyclic:crafting_bag"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.utilities133.subtitle}"
+			description: ["{faruk.stagezero.utilities133.desc1}"]
+			id: "372575913CA69F15"
+			tasks: [{
+				id: "707D1CFDE68771E1"
+				type: "item"
+				item: "cyclic:sprinkler"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.utilities132.subtitle}"
+			description: ["{faruk.stagezero.utilities132.desc1}"]
+			id: "67A52624DD0F4930"
+			tasks: [{
+				id: "26DCB6F7B79DDCCC"
+				type: "item"
+				item: {
+					id: "pickletweaks:watering_can"
+					Count: 1b
+					tag: {
+						Water: 0b
+					}
+				}
+			}]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities123.subtitle}"
+			description: ["{faruk.stagezero.utilities123.desc1}"]
+			id: "7BC541DDBA254E01"
+			tasks: [{
+				id: "01410E969A70110E"
+				type: "item"
+				item: "pickletweaks:magnet"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.utilities131.subtitle}"
+			description: ["{faruk.stagezero.utilities131.desc1}"]
+			id: "56C76E89F65023E5"
+			tasks: [{
+				id: "56239C3BC6A0C956"
+				type: "item"
+				item: "pickletweaks:coal_piece"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities124.subtitle}"
+			description: ["{faruk.stagezero.utilities124.desc1}"]
+			id: "02398183D6B28EE8"
+			tasks: [{
+				id: "793AFAAD426ED8EE"
+				type: "item"
+				item: "quark:abacus"
+			}]
+		}
+		{
+			x: 1.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities125.subtitle}"
+			description: ["{faruk.stagezero.utilities125.desc1}"]
+			id: "35C06675FD716E0C"
+			tasks: [{
+				id: "3F89E3623FD52869"
+				type: "item"
+				item: {
+					id: "quark:trowel"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Spicies of life"
+			icon: "solcarrot:food_book"
+			x: 4.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities128.subtitle}"
+			description: ["{faruk.stagezero.utilities128.desc1}"]
+			id: "3B918D8C50B480C4"
+			tasks: [{
+				id: "21770EC480FD1CFC"
+				type: "checkmark"
+				title: "Spice of Life"
+			}]
+			rewards: [
+				{
+					id: "33B095EFD5EF7E7A"
+					type: "item"
+					item: {
+						id: "minecraft:player_head"
+						Count: 1b
+						tag: {
+							SkullOwner: {
+								Id: [I;
+									30492080
+									-279558525
+									-1309772695
+									-706290249
+								]
+								Properties: {
+									textures: [{
+										Value: "ewogICJ0aW1lc3RhbXAiIDogMTYzODM3MTk3MDI2NiwKICAicHJvZmlsZUlkIiA6ICIwMWQxNDViMGVmNTY0NjgzYjFlZTc0NjlkNWU2ZGRiNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIb25leVp1Y2NoaW5pIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2QwYjE5MzVhMzIwM2Q5NzBiZDFlOTBhNzc3OGY2MTFlN2M1ZjdiZTJmYmRhZjI3NjA4MzY3NTQwYTIwM2EyNmUiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+										Signature: "dGtCvfCV1zpjkLtBbNB/b0YM+swiUWsHcHUsMUfbWImCB1gC40+NE3PK/HWXb2O1cNasizCPNtrsb6fpHM8GP+XZTPjc0CfxOGt768LMSPEXAA8Bq7soS9LC/Y99LdTLvdc5c2IfCnjP0LiZIDz8fNdsebAThZWZQNI2AhOAIEqGte3yntu6Ehr3jhrwEpodHqmTFQoPwMSZjbYbWCtUSl8wT/dcnlNOoXuHii8losmAu3TBkbCgLh9zlXnPA1w3iYtACh4dOawSZUI34uAr3o6TithQnAFv0UoPtuqN8Iz3rxzPMzvC+XJ4y/nWoY3nqv15AE5W25bS2JBjaiKuY3gUki3lZUH+7LH2WG6sUin4LC0JVoweZmYvX3TAWqpjZk9XYlzWMGQTg/ke6aZCyWu0Nz2ylYiJjXNo1r8i+9VhAk8SNKfc4lfg3LQE8d/C8zxbYrZsRb19adIPsLie+f08E29gvgRxntsOjPCByu4J7eSK1krYRVuLT+PE1q3vx/BBMOC8K2gf7G3DSZ4Y5NeRadVkimE3ATgCys6pAWO21Z8gfsEYjf2Wsx3qeLT6oCMG4EO+tAOi1beGc3QRRHuOlQmI9ZemgpcHWpfKOXsqp2yL5mMnD3ScFZsIWwDaQMwJ04/9AaJR3QG2EOuR7Jt+BA1bk+1raJY9x2BSm9I="
+									}]
+								}
+								Name: "HoneyZucchini"
+							}
+						}
+					}
+				}
+				{
+					id: "65C7EDD21DFCC166"
+					type: "item"
+					item: "sushigocrafting:shrimp_nigiri"
+					random_bonus: 1
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities127.subtitle}"
+			description: ["{faruk.stagezero.utilities127.desc1}"]
+			id: "316FFBC30D185331"
+			tasks: [{
+				id: "5532AEA89254364E"
+				type: "item"
+				item: {
+					id: "tiab:timeinabottle"
+					Count: 1b
+					tag: {
+						timeData: { }
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -2.5d
+			subtitle: "{faruk.stagezero.utilities126.subtitle}"
+			description: ["{faruk.stagezero.utilities126.desc1}"]
+			id: "43C4BB54BAE0148E"
+			tasks: [{
+				id: "411276CEDFB9951A"
+				type: "item"
+				item: "torchmaster:megatorch"
+			}]
+		}
+		{
+			title: "Wall Jump"
+			icon: "draconicevolution:chaotic_jump_module"
+			x: 2.5d
+			y: -4.5d
+			subtitle: "{faruk.stagezero.utilities118.subtitle}"
+			description: ["{faruk.stagezero.utilities118.desc1}"]
+			id: "4BCCAC29CCF3F9DD"
+			tasks: [{
+				id: "61BB81348FC18B3E"
+				type: "checkmark"
+				title: "Wall Jump"
+			}]
+			rewards: [{
+				id: "7A5053045A9C2E4C"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								1358428336
+								427378990
+								-1126784799
+								599600196
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0MzA1MzkwNDgyMywKICAicHJvZmlsZUlkIiA6ICI1MGY3ZjhiMDE5Nzk0OTJlYmNkNmEwZTEyM2JkMmM0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJISVpJUl9CQUJBIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I4MDU3MDQ0ZjQyZTBlNDA3NTI2ODk4ZmJlOGExMTRhNzM1NDJjMTJhMTE1NjhiOTdjZjY3MzI4YmQ4NzhiOWUiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+									Signature: "Ihpym+G0b92FH9JLBNsG8/EuWt8koqe554nGbPDSn0L23FPuIL4M1N18HM7ZY6jB4oFq6Vum+3DARQpJUiAFUK6i7KYNm1PyE88BRXJIr/3d3AcGrbVJ6qurniAOdSHdYQCJmN6FLPWf7UPy9oyq32r6hGidDAJ8d1bLqXmN09XeYcwTtsZb8dbYRrz0gdASR3Gui1XQ3B5Blm8/jR4Ng+RtzMhQ0ELYxRo9u0P1kk4kS/cq7utMGKulI91jhT9zdMeQD4qBUb4BQlLGoSmhznvFkDDvShEiXKXd1IWuLHbcf8/yHeO8wbAlRaG9XWAEFqwWwlpQo3zn/BSBrmR6MV8sFLZoxg9U7hllesH/mhbvebjuNavsl6C4KRq9yKm/rr9s36adX0vONx/hUcJa7JSIhdXkoE09P871zgJxxX+zTRuW3CZPJY2+3tY7hj627XakQl0KEifElbkIOE9tcisyGz5ggn0XsyWpn9QV0nBkaJ0ewlAunOUCXC3GSAVpJ3mlltkPKPUn3gOwJZ4+3f4XF32j8TY7VZn0ePS5xASJgy4fYcOGr41wmLP9nyYWUxsAyNiBKSOMjFpexyS7JzpMHJM9zlt/Fx77y3FUBU0OaDo66m7Lwp2u63f4rIL6s2eKs9a4oegy8g0WbmFlRxGQlFkh/n8ZvV7lok95iN4="
+								}]
+							}
+							Name: "HIZIR_BABA"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Trash Slot"
+			x: 1.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.utilities130.subtitle}"
+			description: ["{faruk.stagezero.utilities130.desc1}"]
+			id: "4CB8985E75229211"
+			tasks: [{
+				id: "001AFDE4BAC1045C"
+				type: "item"
+				title: "&6Take the trash out!"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "trashcans:liquid_trash_can"
+								Count: 1b
+							}
+							{
+								id: "trashcans:energy_trash_can"
+								Count: 1b
+							}
+							{
+								id: "trashcans:item_trash_can"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.utilities122.subtitle}"
+			description: ["{faruk.stagezero.utilities122.desc1}"]
+			id: "5EDB0F3E8EBF41F3"
+			tasks: [{
+				id: "5AE64852481A1BF3"
+				type: "item"
+				title: "Waystones"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "waystones:mossy_waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:sandy_waystone"
+								Count: 1b
+							}
+							{
+								id: "waystones:waystone"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.utilities120.subtitle}"
+			description: ["{faruk.stagezero.utilities120.desc1}"]
+			id: "75B371529644BC22"
+			tasks: [{
+				id: "59C3004066F3C0EA"
+				type: "item"
+				item: {
+					id: "cyclic:sleeping_mat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.utilities134.subtitle}"
+			id: "0D9268C748CA6CAA"
+			tasks: [{
+				id: "5D5927169F50226A"
+				type: "item"
+				item: "glassential:glass_ethereal"
+			}]
+			rewards: [{
+				id: "0F3556F7708892B2"
+				type: "item"
+				item: {
+					id: "minecraft:player_head"
+					Count: 1b
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								-150955389
+								-2001188764
+								-1789821405
+								1558084224
+							]
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY0MzA1MzkzMzI0NCwKICAicHJvZmlsZUlkIiA6ICJmNzAwOWE4Mzg4Yjg0ODY0OTU1MTdlMjM1Y2RlN2E4MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJGbGVuenkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2I1ZGY3NmMxY2EwMGVjMTgyMjc0NDMyYjU5NzJkZDQ5Mjc4Nzg2NTQ3NDM3ZTlmNmIzNWM3NzJjODFmMzI5YiIKICAgIH0KICB9Cn0="
+									Signature: "JWHyrcmOdrlLTwrNv85eD1T1X35elbZJiHyeUTWbL990Egq1pBSLIpCoYUM/vZCkNNV+M3ldKPVpPqNizHMVlM8nxyeguOXn49eTGxkRa5+mbGMVMPBnT/kgobuBIapc8eOfh/r8IhCv8ZAC+3+E7u0FhJYKVUPQ8URsRFuevcGcxjcwPiAyqQEwyZ+KzCCPeTekoR1avO+tk68N4qx9Lijk4LtkWuD7kEeVEuc0y83yUDOf7+eSyXyF+3+1CPwOh4cOX6JH9z7dpLJ1HbKJpbvXwAdvBy5dY78QcKAOihqRoOR4Z9y6rLgMirVCfHfQ6dtMQqO6mqtcb2hlZ0cTigsOZgSpIWRfpeg/yLK4mUK5UeMRaY3kYU81Rsc+mveL96Z3wW+qLWvvEVCcD2S96ly4Oy1M1l+C44Z3iGHTxEGR4P0buiRBPyRPgXU2MkfztBPcNWwH3Mvmw6VLISsi8fs3sOO96YWq1VvxHYK2Q93iLV5RioofVb7fdUjH/7e6bv6JpRPl2AzvAIqUwpyb61W3rMoYEHdS9zizofGH3mkJ17SYcr/DKZYSI0wGDhWzLGByNh1lYittTFuyzgmp3XNh+fJsLS+2HHeZBYMcq+LRJ9zEKLvY4s7FHklZhDHEF8KIM6bd28gQDa/lMAtun+CSIgIrSPgAZY8a4Sg0ax8="
+								}]
+							}
+							Name: "Flenzy"
+						}
+					}
+				}
+			}]
+		}
+	]
+}

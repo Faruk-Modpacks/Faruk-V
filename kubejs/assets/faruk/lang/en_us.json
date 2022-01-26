@@ -1,0 +1,1704 @@
+
+{
+"faruk.welcome":"Welcome To Faruk!",
+
+
+"faruk.stagezero.main1.title":"Is this a flower ?¿",
+"faruk.stagezero.main1.subtitle":"&6Welcome to Faruk V!",
+"faruk.stagezero.main1.desc1":"&e   Welcome to Faruk V! Faruk is a balanced magic, tech and exploration pack. Faruk contains Gamestage progress with quests.",
+"faruk.stagezero.main1.desc2":"&e   You have to progress in quest book for accessing new mods and dimensions. When you complete a quest, new quests will be visible to you and when you complete a whole chapter, you will promote to other stage!",
+"faruk.stagezero.main1.desc3":"&c   First Tip: You can't use normal pickaxes, axes, armors etc. You have to use Silent Gear tools. Take your quest rewards and combine them in crafting grid.",
+
+"faruk.stagezero.main0.subtitle":"&6Too Much Noise!",
+"faruk.stagezero.main0.desc1":"&e   In this modpack, we have mod called Dynamic Surroundings. This mod adds toolbar sounds, waterfall effects etc. To adjust this effect volumes press CTRL + V.",
+
+"faruk.stagezero.main2.title":"Start with baby steps",
+"faruk.stagezero.main2.subtitle":"&6Begin to your journey!",
+"faruk.stagezero.main2.desc1":"&e   Basic steps of Create and Faruk V!",
+
+
+"faruk.stagezero.main3.subtitle":"&6First Steps for SU",
+"faruk.stagezero.main3.desc1":"&e   Windmill is a basic source of power in Create. You can use max. 128 sails for 8192su.",
+
+"faruk.stagezero.main4.subtitle":"&6The Less Effective Way",
+"faruk.stagezero.main4.desc1":"&e   Water wheel is an alternative for generating SU. You can place water wheels side by side to generate more SU.",
+
+"faruk.stagezero.main5.subtitle":"&6Grind it!",
+"faruk.stagezero.main5.desc1":"&e   You can grind ores, flowers and other items using by Millstone. If you don't know how to use it, just hover over your mouse to millstone and press W. You can visualize any Create machine by using this way.",
+
+"faruk.stagezero.main6.subtitle":"&6More ingots from ores!",
+"faruk.stagezero.main6.desc1":"&e   When you crush ores with millstone(or Wheels), you will get crushed ores. If you smelt crushed ores in furnace, 1 crushed ore gives you 1 ingot.",
+"faruk.stagezero.main6.desc2":"&e   But, if you wash your crushed ores with water you will get 10 nuggets in addition to +5 nuggets with half chance.",
+
+"faruk.stagezero.main7.subtitle":"&6GEARS!",
+"faruk.stagezero.main7.desc1":"&e   You can turn corners while using shafts or cogs.",
+
+"faruk.stagezero.main8.subtitle":"&6PRESS IT!",
+"faruk.stagezero.main8.desc1":"&e   Place a depot 2 blocks down below from Press and right click with your item.",
+
+"faruk.stagezero.main9.subtitle":"&6OMG! You look so cool!",
+"faruk.stagezero.main9.desc1":"&e   You can see the machines current stress units by looking at them.",
+
+"faruk.stagezero.main10.subtitle":"&62+1 85m²",
+"faruk.stagezero.main10.desc1":"&e   Take your blaze burner and go find a blaze! When you find them just right click with your burner to a blaze.",
+
+"faruk.stagezero.main11.subtitle":"&6We need to go deeper!",
+"faruk.stagezero.main11.desc1":"&e   Go to nether and catch a blaze!",
+
+"faruk.stagezero.main12.subtitle":"&6Feed him with rods!",
+"faruk.stagezero.main12.desc1":"&e   You have to feed the blaze with blaze rods while using heated recipes. Just right click with blaze rod to blaze burner.",
+
+"faruk.stagezero.main13.subtitle":"&6First Alloy!",
+"faruk.stagezero.main13.desc1":"&e   You remember the mixer? Just throw the ingredients to basin and don't forget to heat the blaze burner. Then just power up your mixer and it will mix ingredients to brass!",
+
+"faruk.stagezero.main14.subtitle":"&6It's spitting!",
+"faruk.stagezero.main14.desc1":"&e   Spout can fill items beneath it that holds fluids. (You can place depot beneath the spout)Don't forget! You can't use buckets with this things. You have to use fluid pipes to operate them.",
+
+"faruk.stagezero.main15.subtitle":"&68 Buckets",
+"faruk.stagezero.main15.desc1":"&e   You can store fluids with tanks and you can stack tanks by placing on top of it.",
+
+"faruk.stagezero.main16.subtitle":"&6Pipezzz",
+"faruk.stagezero.main16.desc1":"&e   You can transfer fluids but you need pumps for extracting fluids from tanks.",
+
+"faruk.stagezero.main17.subtitle":"&6Pump, but just for tanks...",
+"faruk.stagezero.main17.desc1":"&e   Attach this pipe to a tank and just attach a cog, tadaaa you are extracting fluids!",
+
+"faruk.stagezero.main18.subtitle":"&6Pipe, but filtered",
+"faruk.stagezero.main18.desc1":"&e   You can choose which fluid should be transfered. Just right click with that fluid.",
+
+"faruk.stagezero.main19.subtitle":"&6Flaming hot meal!",
+"faruk.stagezero.main19.desc1":"&e   Place the blaze cake base to depot and fill with lava via Spout. When you feed your blaze with blaze meal it will be supercharged for short duration. Use this cake wisely!",
+
+"faruk.stagezero.main20.subtitle":"&6I hate tags!",
+"faruk.stagezero.main20.desc1":"&e   You can use crushing wheel to get powdered obsidian. All obisidian dusts will work for this crafting.",
+
+"faruk.stagezero.main21.subtitle":"&b&lRADIANCE!",
+"faruk.stagezero.main21.desc1":"&e   To craft this item you have to place some glowstones and throw the chromatic compound over them. Compound absorbs ~10 glowstones and turns into refined radiance. (Or just throw a compound to beacon beam it will turn instantly)",
+
+"faruk.stagezero.main22.subtitle":"&6MIX MIX MIX",
+"faruk.stagezero.main22.desc1":"&e   Place the Mixer and place a basin 2 blocks down below and then just drop your crafting items to basin.",
+
+"faruk.stagezero.main22v2.subtitle":"&6Blood Magic",
+"faruk.stagezero.main22v2.desc1":"&e   You can use Blood Magic to craft Rose Quartz and other cool things from Blood Magic! ",
+
+"faruk.stagezero.main23.subtitle":"&4Bloody Quartz",
+"faruk.stagezero.main23.desc1":"&e   When you get your Rose Quartz, take the rose quartz or sand paper to your offhand and take the other one to main hand. Then just right click. Tadaa! You got your first polished material!",
+
+"faruk.stagezero.main24.subtitle":"&6Vacuum Tube",
+"faruk.stagezero.main24.desc1":"&e   Just craft it.",
+
+"faruk.stagezero.main25.subtitle":"&6It's a real challenge",
+"faruk.stagezero.main25.desc1":"&e   You need this mechanic for progressing in mod. If you don't know how to use this i can't tell you... But you can watch some videos about this mechanic it's not that really hard.",
+
+"faruk.stagezero.main26.subtitle":"&6Advanced SU Generator",
+"faruk.stagezero.main26.desc1":"&e   It's the best way to generate SU in Create. Place furnace engine over a furnace, crude burner or furnace burner and place the flywheel one block further it will connect and generate SU.",
+
+"faruk.stagezero.main27.subtitle":"&6Need mo' fuel!",
+"faruk.stagezero.main27.desc1":"&e   Furnace, but not smelting anything. Just right click with fuel it will operate a furnace engine.",
+
+"faruk.stagezero.main28.subtitle":"&6Need Virgin Oil",
+"faruk.stagezero.main28.desc1":"&e Feed this machine with seed oil and operate your furnace engine!",
+
+"faruk.stagezero.main29.subtitle":"&6Too expensive in stores...",
+"faruk.stagezero.main29.desc1":"&e Press some seeds. You can use this oil to operate a furnace engine.",
+
+"faruk.stagezero.main30.subtitle":"&6A real macerator!",
+"faruk.stagezero.main30.desc1":"&e   To operate crushing wheels you have to use shifter for changing rotation of one wheel. When you drop a item from above to middle of two wheel, it will crush it and spit from below.",
+
+"faruk.stagezero.main31.subtitle":"&6 Where's my finger?!",
+"faruk.stagezero.main31.desc1":"&e   You can use this item for automated farms or just for crafting a precision mechanism.",
+
+"faruk.stagezero.main32.subtitle":"&6Just why?",
+"faruk.stagezero.main32.desc1":"&e   This item crafting with Sequenced Assembly. Just build a conveyor belt and place 3 deployers over them. Give ingredients in required order to deployers by right clicking their hands. And throw the main ingredient to belt's starting location.",
+"faruk.stagezero.main32.desc2":"&e   When you complete the first lap you will get incomplete precision mechanism. Drop it to belt again and do it for 5 times.",
+
+"faruk.stagezero.main33.subtitle":"&8&l&oBizde maden bir gelenektir.",
+"faruk.stagezero.main33.desc1":"&e   Finally you got ultimine! Just right click to item and press R(Lost trinkets key) and then equip ultimine trinket. You can use GRAVE key by default for vein mining.",
+"faruk.stagezero.main33.desc2":"&9 This quest's title is Turkish because it's a meme in our development team. You can watch this clip in Redowar's youtube channel. &b https://bit.ly/RedowarMaden",
+
+"faruk.stagezero.main34.subtitle":"&6 It's Time To Make Wire And Rods Cheaply",
+"faruk.stagezero.main34.desc1":"&e The Rolling Mill is used to craft Wires and Rods.",
+
+"faruk.stagezero.main35.desc1":"&e         Used to tie wires somewhere",
+
+"faruk.stagezero.main36.subtitle":"&6BatBox!",
+"faruk.stagezero.main36.desc1":"&e   Stores electric charge. Just attach some spools.",
+
+"faruk.stagezero.main37.subtitle":"&6Batteries",
+"faruk.stagezero.main37.desc1":"&e   Crafting component.",
+
+"faruk.stagezero.main38.subtitle":"&6SU to FE",
+"faruk.stagezero.main38.desc1":"&e   Give some FE to this motor and generate some Kinetic power.",
+
+"faruk.stagezero.main39.subtitle":"&6Is it Energy Production With Kinetic Energy?",
+"faruk.stagezero.main39.desc1":"&e The Alternator generates Forge Energy from Kinetic Energy.",
+
+"faruk.stagezero.main40.subtitle":"&6Let's Charge Things",
+"faruk.stagezero.main40.desc1":"&e   You can use tesla coils to charge items. Just put this coil above a depot and place your item into depot.",
+
+"faruk.stagezero.main41.subtitle":"&6Convert your furnace to Electric Furnace!",
+"faruk.stagezero.main41.desc1":"&e   Place this machine to your furnace and you can light up your furnace with FE.",
+
+"faruk.stagezero.main42.subtitle":"&3&lOvercharge!",
+"faruk.stagezero.main42.desc1":"&e You can use Tesla coil and depots to charge a compund. To generate FE you have to craft an alternator and if you want to store your FE, you have to craft an accumulator. To speed up this process make more than one. It's taking about 2 mins with 1024fe/t.",
+
+"faruk.stagezero.main43.desc1":"&e   This is an early prototype of jetpack. Take the jetpack to your off-hand and drop some fuel material(Coal,Blaze Rod etc.) and wear your jetpack.",
+
+"faruk.stagezero.main44.subtitle":"&6&lFLY HIGHER and FASTER!",
+"faruk.stagezero.main44.desc1":"&e   It's better way for flying.",
+
+"faruk.stagezero.main45.title":"&8&l&oPromote to Stage One!",
+"faruk.stagezero.main45.subtitle":"&1&l&oYOU DESERVE IT!",
+"faruk.stagezero.main45.desc1":"&e   Last quest for stage Zero! Click this checkmark.",
+
+
+
+
+
+
+"faruk.stagezero.storage46.subtitle":"&6Improved Hopper",
+"faruk.stagezero.storage46.desc1":"&e   Allows items to be pushed/pulled from a storage block. Just like a hopper.",
+
+"faruk.stagezero.storage47.subtitle":"&6Vacuum Upgrade",
+"faruk.stagezero.storage47.desc1":"&e   Krate start collecting items in a configurable block radius.",
+
+"faruk.stagezero.storage48.subtitle":"&6Hardened Krate",
+"faruk.stagezero.storage48.desc1":"&e   Krate  keep its inventory items when broken.",
+
+"faruk.stagezero.storage49.subtitle":"&6Compacting Krate",
+"faruk.stagezero.storage49.desc1":"&e   Krate will automatically craft items into blocks, you can choose 2X2 or 3X3 crafting.",
+
+"faruk.stagezero.storage50.subtitle":"&6Small to Basic",
+"faruk.stagezero.storage50.desc1":"&e   Used to upgrade from small to basic krate, right-click a small krate with it to apply.",
+
+"faruk.stagezero.storage51.subtitle":"&6Basic to Big",
+"faruk.stagezero.storage51.desc1":"&e   Used to upgrade from basic to big krate, right-click a small krate with it to apply.",
+
+"faruk.stagezero.storage52.subtitle":"&6Big to Large",
+"faruk.stagezero.storage52.desc1":"&e   Used to upgrade from big to large krate, right-click a small krate with it to apply.",
+
+"faruk.stagezero.storage53.subtitle":"&6Better than Chests!",
+"faruk.stagezero.storage53.desc1":"&e   It's a storage block like chest, has 9 slots in small tier but it can be upgradeable.",
+
+"faruk.stagezero.storage54.subtitle":"&6Much Better than Chests!",
+"faruk.stagezero.storage54.desc1":"&e   Has 36 slots in basic tier and it can be upgradeable too.",
+
+"faruk.stagezero.storage55.subtitle":"&6Much Much Better than Chests!",
+"faruk.stagezero.storage55.desc1":"&e   Has 72 slots in big tier and it can be upgradeable too.",
+
+"faruk.stagezero.storage56.subtitle":"&6Storage Heaven!",
+"faruk.stagezero.storage56.desc1":"&e   Has 144 slots in large tier and it can be upgradeable too.",
+
+"faruk.stagezero.storage57.subtitle":"&6Brain of Drawers!",
+"faruk.stagezero.storage57.desc1":"&e   The Drawer Controller must be in contact with drawers in order to 'see' them. Of course, drawers may also be chained together into a wall or line, with a single Drawer Controller able to connect to many drawers.",
+"faruk.stagezero.storage57.desc2":"&e   Trim blocks may also be used to bridge gaps, allowing the controller to see around corners.",
+
+"faruk.stagezero.storage58.subtitle":"&6Drawers",
+"faruk.stagezero.storage58.desc1":"&e   Customizable drawers for all your deep storage needs.",
+"faruk.stagezero.storage58.desc2":"&e   Drawers may be used standalone or placed next to a Controller to link them all together. Each Drawer can accept multiple upgrades to expand their capacity and features.",
+
+"faruk.stagezero.storage59.subtitle":"&6An ingot can quickly reach all kinds of self, isn't it so cool?",
+"faruk.stagezero.storage59.desc1":"&e   This drawer can turns materials to other forms like compacting and decompacting. Example: If you place Iron ingot into this drawer, you can access Iron Block and Iron Nuggets too. It can turn other forms in realtime. ",
+"faruk.stagezero.storage59.desc2":"&e   Sometimes, compacting drawers can be bugged and other forms cant be visible. In this situations empty the drawer and try placing other forms. Ex. If you bugged with steel ingot, try to placing Steel nuggets or blocks.",
+
+
+"faruk.stagezero.storage60.subtitle":"&6First Step To İmprove The Drawer",
+"faruk.stagezero.storage60.desc1":"&e If you want to improve your drawers, you must craft this item first.",
+
+"faruk.stagezero.storage61.subtitle":"&6Size Upgrade Is So Exciting",
+"faruk.stagezero.storage61.desc1":"&e If you want to increase the space of your drawers, you need to craft the size increase upgrade.",
+
+"faruk.stagezero.storage62.subtitle":"&6Utility Upgrades",
+"faruk.stagezero.storage62.desc1":"&e You can craft utility upgrades according to your needs.",
+
+"faruk.stagezero.storage63.subtitle":"&6Drawer Key",
+"faruk.stagezero.storage63.desc1":"&e   Locks and unlocks drawers Hold in off-hand to lock newly-placed drawers.",
+
+"faruk.stagezero.storage64.subtitle":"&6Quantify key",
+"faruk.stagezero.storage64.desc1":"&e Show or hide stored quantity labels.",
+
+"faruk.stagezero.storage65.subtitle":"&6Thousands Of Blocks in One Item",
+"faruk.stagezero.storage65.desc1":"&e The dank 7 can store up to near infinite item and have 81 slots.",
+
+"faruk.stagezero.storage66.subtitle":"&6Dock :)",
+"faruk.stagezero.storage66.desc1":"&e You can place the dock in world to interact with it, for example, with an external storage.",
+
+"faruk.stagezero.storage67.subtitle":"&6   Sophisticated Backpacks",
+"faruk.stagezero.storage67.desc1":"&e   The backpacks themselves may be wearable in a curio slot and accessed via keybind, as well as be placed in world and interacted with via pipes or hoppers.",
+"faruk.stagezero.storage67.desc2":"&e   Beyond these already excellent features, they can also host a number of very useful upgrades.",
+
+"faruk.stagezero.storage68.subtitle":"&6The First Step to an Advanced Bag",
+"faruk.stagezero.storage68.desc1":"&e Want an advanced bag? Then, as a first step you need to craft this",
+
+"faruk.stagezero.storage69.subtitle":"&6This magnet is awesome dude",
+"faruk.stagezero.storage69.desc1":"&e   A filterable upgrade that pulls items from a far, straight into your backpack.",
+
+"faruk.stagezero.storage70.subtitle":"&6You're Not You When You're Hungry",
+"faruk.stagezero.storage70.desc1":"&e Need a snack? Let your backpack provide",
+
+"faruk.stagezero.storage71.subtitle":"&6Single Slot for 128 items",
+"faruk.stagezero.storage71.desc1":"&e Multiplies the number of stacks that can fit in a slot by 2.",
+
+"faruk.stagezero.storage72.subtitle":"&6Single Slot for 265 items",
+"faruk.stagezero.storage72.desc1":"&e Multiplies the number of stacks that can fit in a slot by 4.",
+
+"faruk.stagezero.storage73.subtitle":"&6Single Slot for 512 items",
+"faruk.stagezero.storage73.desc1":"&e Multiplies the number of stacks that can fit in a slot by 8.",
+
+"faruk.stagezero.storage74.subtitle":"&6Single Slot for 1024 items",
+"faruk.stagezero.storage74.desc1":"&e Multiplies the number of stacks that can fit in a slot by 16.",
+
+
+
+
+"faruk.stagezero.tools75.subtitle":"&6Book of Patrons",
+"faruk.stagezero.tools75.desc1":"&e   In this book, you can store your silent gear blueprints in one place. You can press Z to cycle patterns in crafting. Don't forget, you can use templates instead of blueprints but templates are single use.",
+
+"faruk.stagezero.tools76.subtitle":"&6Base",
+"faruk.stagezero.tools76.desc1":"&e   Upgrade base.",
+
+"faruk.stagezero.tools77.subtitle":"&6Paxel, but nerfed.",
+"faruk.stagezero.tools77.desc1":"&e   Your pickaxe will work as shovel too.",
+
+"faruk.stagezero.tools78.subtitle":"&6Excavator Addon",
+"faruk.stagezero.tools78.desc1":"&e   Excavator can create 3x3 grass paths.",
+
+"faruk.stagezero.tools79.subtitle":"&6Range Addon",
+"faruk.stagezero.tools79.desc1":"&e   Excavators and hammer can mine 5x5(not stackable).",
+
+"faruk.stagezero.tools80.subtitle":"&6Pickaxe, usual one.",
+"faruk.stagezero.tools80.desc1":"&e   A standart pickaxe for your mining things.",
+
+"faruk.stagezero.tools81.subtitle":"&6Pickaxe but cooler",
+"faruk.stagezero.tools81.desc1":"&e   Right-clicking a block will search a small area in that direction for blocks of interest (mostly ores). Also works like a pickaxe for mining, and can be used in some recipes like a hammer.",
+
+"faruk.stagezero.tools82.subtitle":"&6You like mining?",
+"faruk.stagezero.tools82.desc1":"&e   Mines stone and ores in a &r&d3x3 &r&earea. Ores are only broken &nwhen aiming&r &eat ores.",
+
+"faruk.stagezero.tools83.subtitle":"&6Usual Axe",
+"faruk.stagezero.tools83.desc1":"&e   A standard axe.",
+
+"faruk.stagezero.tools84.subtitle":"&5(P)&r&6ickaxe&r&5(AXE)&r&6shove&r&5(L)",
+"faruk.stagezero.tools84.desc1":"&e   An all-in-one tool that functions as a &dpickaxe, axe, &r&eand &r&dshovel. &eIt has a small durability bonus, but a small penalty to harvest speed and enchantability.",
+
+"faruk.stagezero.tools85.subtitle":"&6The way to fall down whole tree",
+"faruk.stagezero.tools85.desc1":"&e   In Faruk V, FTB Ultimine can't chop whole trees. If you want to chop entire tree by breaking a single block, use this little tool for chopping.",
+
+"faruk.stagezero.tools86.subtitle":"&6Trusty Shovel",
+"faruk.stagezero.tools86.desc1":"&e   A standart shovel.",
+
+"faruk.stagezero.tools87.subtitle":"&6Like a hammer",
+"faruk.stagezero.tools87.desc1":"&e   Mines 3x3 dirt/sand type blocks.",
+
+"faruk.stagezero.tools88.subtitle":"&6Trash Cleaner 2000",
+"faruk.stagezero.tools88.desc1":"&e   In Faruk V, you can't ultimine grasses. If you want to ultimine whole grass field, just use this little tool.",
+
+"faruk.stagezero.tools89.subtitle":"&6Axe + Shovel + Hoe = ¿",
+"faruk.stagezero.tools89.desc1":"&e   The ultimate farming tool, capable of tilling and digging soil and chopping wood. A bit slower than a shovel or axe, but more durable. Should work in anything that requires a hoe.",
+
+"faruk.stagezero.tools90.subtitle":"&6Rock, Paper and ...",
+"faruk.stagezero.tools90.desc1":"&e   A standard shears",
+
+"faruk.stagezero.tools91.subtitle":"&6You need some hamsi?",
+"faruk.stagezero.tools91.desc1":"&e   It's a fishing rod.",
+
+"faruk.stagezero.tools92.subtitle":"&6You have 10 fingers but you can't wear  10 rings.",
+"faruk.stagezero.tools92.desc1":"&e   If you use right materials for crafting, rings gives you nice bonusses(Example; Diamond adornment gives you +1 armor, emerald +1 reach etc.).",
+
+"faruk.stagezero.tools93.subtitle":"&6Handcuffs",
+"faruk.stagezero.tools93.desc1":"&e   If you use right materials for crafting, bracelets gives you nice bonusses(Example. Diamond adornment gives you +1 armor, emerald +1 reach etc.).",
+
+"faruk.stagezero.tools94.subtitle":"&6Butter Knife",
+"faruk.stagezero.tools94.desc1":"&e   You can use this knife to craft temporary patterns and it's a little combat tool too.",
+
+"faruk.stagezero.tools95.subtitle":"&6Go assassin go!",
+"faruk.stagezero.tools95.desc1":"&e   Basically a very light sword. Low damage and shorter reach, but very high attack speed. It also reduces the target's invulnerability time when hit.",
+
+"faruk.stagezero.tools96.subtitle":"&6Classic is the best!",
+"faruk.stagezero.tools96.desc1":"&e    Classic sword with balanced damage and speed. The guard takes the appearance of the second material used in crafting.",
+
+"faruk.stagezero.tools97.subtitle":"&6Shadows die twice!",
+"faruk.stagezero.tools97.desc1":"&e   A sword that is slightly faster, but a little weaker than classic swords. Katana can also reach a little further than standard swords.",
+
+"faruk.stagezero.tools98.subtitle":"&6Edge, is that you?",
+"faruk.stagezero.tools98.desc1":"&e   Slightly slower attack speed and slightly high damage than a regular sword. The reach distance is longer than every weapon.",
+
+"faruk.stagezero.tools99.subtitle":"&6Primitive Gun",
+"faruk.stagezero.tools99.desc1":"&e   You can fire pebbles.",
+
+"faruk.stagezero.tools100.subtitle":"&6Good old bow",
+"faruk.stagezero.tools100.desc1":"&e   Classic bow.",
+
+"faruk.stagezero.tools101.subtitle":"&6Pillager Technology",
+"faruk.stagezero.tools101.desc1":"&e   Slower fire speed than a bow but higher damage.",
+
+"faruk.stagezero.tools102.subtitle":"&6Portable Wall",
+"faruk.stagezero.tools102.desc1":"&e   Stronger shield.",
+
+"faruk.stagezero.tools103.subtitle":"&6Bullets for slingshot!",
+"faruk.stagezero.tools103.desc1":"&e   Bullets!",
+
+"faruk.stagezero.tools104.subtitle":"&6Ammunition!",
+"faruk.stagezero.tools104.desc1":"&e   Ammo for bows and crossbows.",
+
+"faruk.stagezero.tools105.subtitle":"&6Fill up your materials!",
+"faruk.stagezero.tools105.desc1":"&e   Fill this box with your repair materials and take this box to mine with you, when your tools on low durability, just craft it with this box and tadaa! It will be repaired.",
+
+"faruk.stagezero.tools106.subtitle":"&6Tier 2",
+"faruk.stagezero.tools106.desc1":"&e   x2 (total 16) more material",
+
+"faruk.stagezero.tools107.subtitle":"&6Tier 3",
+"faruk.stagezero.tools107.desc1":"&e   x4 (Total 32) materials.",
+
+"faruk.stagezero.tools108.subtitle":"&6Tier 4",
+"faruk.stagezero.tools108.desc1":"&e   x6 (Total 48) materials.",
+
+"faruk.stagezero.tools109.subtitle":"&6Tier 5",
+"faruk.stagezero.tools109.desc1":"&e   x8 (Total 64) materials.",
+
+"faruk.stagezero.tools110.subtitle":"&6New Ore in Nether!",
+"faruk.stagezero.tools110.desc1":"&e   You can find them in Nether.",
+
+"faruk.stagezero.tools111.subtitle":"&6New Ore in The End!",
+"faruk.stagezero.tools111.desc1":"&e   You can find them in The End.",
+
+"faruk.stagezero.tools112.subtitle":"&6Upgrading Tiers",
+"faruk.stagezero.tools112.desc1":"&e   Grades apply an additional multiplier on material stats Possible grades are E, D, C, B, A, S, SS, SSS. Not all stats are affected by grades, but many are. The material grader requires catalyst to function.(You have to use materials in grader, like iron, crimson iron, diamond etc.)",
+
+"faruk.stagezero.tools113.subtitle":"&6Catalyst for Grader",
+"faruk.stagezero.tools113.desc1":"&e   The second input slot of grader is for Catalysts, the fuel for the grader. Catalysts are consumed when grading and they increase the average grade based on the tier of catalyst. In other words, you have a higher chance of getting better grades. There are five tiers, but only three have items.",
+
+"faruk.stagezero.tools114.subtitle":"&6Recycle Bin",
+"faruk.stagezero.tools114.desc1":"&e   You can uncraft your items in this machine. If your item is full durability, you can take 50 percent refund, but for lower durabilities it can be lowered to 10 percent.",
+
+"faruk.stagezero.tools115.subtitle":"&f&l&oPower of Stars",
+"faruk.stagezero.tools115.desc1":"&e    The starlight charger can enhance materials substantially by applying the Star Charged enchantment to them. It also requires a multi-block structure with four pillars.Only the topmost block matters, the other blocks (Black and White ones) can be any block you wish.",
+"faruk.stagezero.tools115.desc2":"&4 Tier 1: Crimson Steel Block",
+"faruk.stagezero.tools115.desc3":"&1 Tier 2: Azure Electrum Block ",
+"faruk.stagezero.tools115.desc4":"&5 Tier 3: Tyrian Steel Block",
+
+"faruk.stagezero.tools116.subtitle":"&6Catalyst for Starlight Charger",
+
+"faruk.stagezero.tools117.subtitle":"&6Metals but flattened.",
+"faruk.stagezero.tools117.desc1":"&e   You have to press your metals to use making armors and shields.",
+
+"faruk.stagezero.tools118.subtitle":"&6Press Machine",
+"faruk.stagezero.tools118.desc1":"&e   Guess what this machine does?",
+
+"faruk.stagezero.tools119.subtitle":"&6Dynamic Lightning!",
+"faruk.stagezero.tools119.desc1":"&e   With this helmet, you don't need to put torches at mining!",
+
+"faruk.stagezero.tools120.subtitle": "&6Mining Level Enhancement",
+"faruk.stagezero.tools120.desc1": "&e Combine a Tip Upgrade Template or Blueprint with a strong material (eg Diamond). Combine the Tip Upgrade with the tool you want (Spike, Ax etc.) in the crafting window and your tool's mining level will be increased. It can mine up to Upgrade's level. For example, the Stone Pickaxe can only mine up to Iron, with the Diamond Tip Upgrade can mine Obsidian with Stone Pickaxe. And it gives a sweet color to the tip of your tool.",
+
+
+
+
+"faruk.stagezero.utilities118.subtitle":"&6Spider-Man!",
+"faruk.stagezero.utilities118.desc1":"&e When you jump to a wall, simply press shift and u will hang to wall and when you press space you can jump again for once.",
+
+"faruk.stagezero.utilities119.subtitle":"&6Can't find cactus?",
+"faruk.stagezero.utilities119.desc1":"&e   You can find the biomes you want with nature's compass.",
+
+"faruk.stagezero.utilities120.subtitle":"&6Sleepy zzz zz z",
+"faruk.stagezero.utilities120.desc1":"&e   Now you can sleep everywhere. Sleeping mat won't change your spawnpoint.",
+
+"faruk.stagezero.utilities121.subtitle":"&6Crafting everywhere",
+"faruk.stagezero.utilities121.desc1":"&ePortable crafting table. The advanced one can store ingridents when closed.",
+
+"faruk.stagezero.utilities122.subtitle":"&6Teleporters",
+"faruk.stagezero.utilities122.desc1":"&e   If it is too expensive you can &msteal&r&e them from villages.",
+
+"faruk.stagezero.utilities123.subtitle":"&6Too lazy to pick up items?",
+"faruk.stagezero.utilities123.desc1":"&e   Magnet will pull items in 5 block range.",
+
+"faruk.stagezero.utilities124.subtitle":"&6Too lazy to check your coordinates?",
+"faruk.stagezero.utilities124.desc1":"&e   Right click to first block and hold your cursor over second block, abacus will say how many blocks between this 2 blocks.",
+
+"faruk.stagezero.utilities125.subtitle":"&6Too lazy to build realistic pathways?",
+"faruk.stagezero.utilities125.desc1":"&e   Trowel will place blocks from your hotbar with random order.",
+
+"faruk.stagezero.utilities126.subtitle":"&6Too lazy to place torches?",
+"faruk.stagezero.utilities126.desc1":"&e Mega torch will prevent mobs from spawning in 32 block range(We reduced the range of this item from 64 to 32 for more accurate spawn blocking)",
+
+"faruk.stagezero.utilities127.subtitle":"&6Save your time!",
+"faruk.stagezero.utilities127.desc1":"&e   Shift right click on the machine you want to speed up with your time.(We reduced max. speed up limit from 256x to 32x)",
+
+"faruk.stagezero.utilities128.subtitle":"&6Food book",
+"faruk.stagezero.utilities128.desc1":"&e   Just a food book. You can check which foods you didn't eat yet.",
+
+"faruk.stagezero.utilities129.subtitle":"&6Too lazy to place blocks?",
+"faruk.stagezero.utilities129.desc1":"&e   Default keybinding for wand menu is <. All you need is improvise.",
+
+"faruk.stagezero.utilities130.subtitle":"&6Too many items, fluid, energy(how)?",
+"faruk.stagezero.utilities130.desc1":"&e   A quick way to clean your inventory.",
+
+"faruk.stagezero.utilities131.subtitle":"&6 Don't waste your coals",
+"faruk.stagezero.utilities131.desc1":"&e   1 coal piece will smelt 1 item, efficient!",
+
+"faruk.stagezero.utilities132.subtitle":"&6No more waiting",
+"faruk.stagezero.utilities132.desc1":"&e   Watering can will accelerate the growth of crops in 3x3 blocks.",
+
+"faruk.stagezero.utilities133.subtitle":"&6Automatic watering can",
+"faruk.stagezero.utilities133.desc1":"&e   Needs infinite water source underneath to accelerate growing of plants.",
+
+"faruk.stagezero.utilities134.subtitle":"&5Dude trust me. This item is so cool!",
+
+
+"faruk.stagezero.extras1.desc1":"&b   Faruk V has ultimine(veinminer) but you have to craft Ultiminer trinket to use ultimine ability. But you can't use this ability for trees and grasses. You can use Saw and Sickle for this blocks.",
+
+
+"faruk.stagezero.extras2.subtitle1":"&6Control Mob Spawning",
+"faruk.stagezero.extras2.desc1":"&e   This modpack, don't have light overlay for light levels for checking mob spawns. You can use this bell to check where the mobs can be spawn. Firstly craft Peculiar Bell and place it right above open Soul Fire.",
+
+"faruk.stagezero.extras3.subtitle1":"&6Dimension Stages",
+"faruk.stagezero.extras3.desc1":"&e   In Faruk V, you can't go to all other dimensions in Stage Zero. If you try going to The End, you can't teleport and you will fall into lava under the portal. We have a list of dimension stages in below.",
+"faruk.stagezero.extras3.desc2":"   &cThe Nether&r&e : Stage Zero",
+"faruk.stagezero.extras3.desc3":"   &dThe End&r&e : Stage Two",
+"faruk.stagezero.extras3.desc4":"   &2Twilight Forest&r&e : Stage Three",
+"faruk.stagezero.extras3.desc5":"   &8Faruk Land&r&e : Stage Five",
+
+"faruk.stagezero.extras4.subtitle1":"&6Why the Tools Breaking Immediately?",
+"faruk.stagezero.extras4.desc1":"&e   The durability and speed of tools such as pickaxes, axes, and armors have been reduced by 90 percent. Instead of them, you have to use the tools of the Silent Gear mod. An example of crafting a tool is given as a screenshot below(You can use any material you want). Detailed information is available in the 'Tools' section of the task book. ",
+
+
+
+
+
+
+"faruk.stageone.main1.subtitle":"&6Need answers!",
+"faruk.stageone.main1.desc1":"&e   When you are stuck, you can always look for Engineer's Manual!",
+"faruk.stageone.main1.desc2":"&e   Tip#1: Don't break your create systems. You need them in this stage too.",
+
+"faruk.stageone.main2.subtitle":"&6Better than Coals",
+"faruk.stageone.main2.desc1":"&e   Place the bricks by 3x3 and right click with a hammer. Then open the GUI and place some coals. You will get coal coke and creosote oil.",
+ 
+"faruk.stageone.main3.subtitle":"&6Treat Your Planks!",
+"faruk.stageone.main3.desc1":"&e   Tip: You can use jerrycans for crafting.",
+
+"faruk.stageone.main4.subtitle":"&6Better than Regular",
+"faruk.stageone.main4.desc1":"&e   You can use this table for holding your items when you close the GUI and it has a little storage for your items.",
+ 
+"faruk.stageone.main5.subtitle":"&6I'm gonna be an Engineer!",
+"faruk.stageone.main5.desc1":"&e   You can craft some crafting ingredients in this table.",
+ 
+"faruk.stageone.main6.subtitle":"&6Need Schematics?",
+"faruk.stageone.main6.desc1":"&e   Use this blueprints for craft ingredients.",
+ 
+"faruk.stageone.main7.subtitle":"&6Schematics but metal ones.",
+"faruk.stageone.main7.desc1":"&e   Use this molds in metal press.",
+ 
+"faruk.stageone.main8.subtitle":"&6Mechanic Art",
+"faruk.stageone.main8.desc1":"&e   Use this components for crafting.",
+ 
+"faruk.stageone.main9.subtitle":"&6Greenhouse?",
+"faruk.stageone.main9.desc1":"&e     To grow any plant, provide an infinite water source and RF to this machine, then place a soil, fertilizer and your seed or anything that grows.",
+ 
+"faruk.stageone.main10.subtitle":"&6#SaveThePlanet!",
+"faruk.stageone.main10.desc1":"&e   Classic solar panel.",
+ 
+"faruk.stageone.main11.subtitle":"&6Batbox!",
+"faruk.stageone.main11.desc1":"&e   It's an energy storage block. Use an Engineer's Hammer configurate a face for input and output. Holding sneak at the same time configures the opposite face.",
+ 
+"faruk.stageone.main12.subtitle":"&6Improved Tesla Coil!",
+"faruk.stageone.main12.desc1":"&e   It will charge your inventory items.",
+ 
+"faruk.stageone.main13.subtitle":"&6You wanna automate your Coke Oven?",
+"faruk.stageone.main13.desc1":"&e   Place a pump above your coke oven and connect with a tank. It will drain your creosote oil from coke oven.",
+ 
+"faruk.stageone.main14.subtitle":"&6Steel",
+"faruk.stageone.main14.desc1":"&e   To form a Blast Furnace, place 27 of these blocks in a 3x3x3 cube, and right click one of the sides with an Engineer's Hammer.",
+"faruk.stageone.main14.desc2":"&e   Use this furnace to turn Iron into Steel. Don't forget to use Coke.",
+
+"faruk.stageone.main15.subtitle":"&6Need mo' Steel!",
+"faruk.stageone.main15.desc1":"&e   Use reinforced bricks instead of normal ones then place an hopper on top.  Steel comes out from the front and the slag comes out from the back. The top of the machine is used as input for Iron and Coke. Furnace will automatically outputs to connected inventories or conveyor belts.",
+"faruk.stageone.main15.desc2":"&e   Heat up air then blow it into the furnace to speed up the steel production. Each furnace can have up to two preheaters connected to the ports on the each side, and each preheater requires 32 FE/t to operate.",
+
+"faruk.stageone.main16.subtitle":"&6Alloy Furnace",
+"faruk.stageone.main16.desc1":"&e   To form the Kiln, arrange 8 of the Kiln Bricks in a 2x2x2 cube, and right click one of the sides blocks with an Engineer's Hammer.",
+ 
+"faruk.stageone.main17.subtitle":"&6Better than Copper",
+"faruk.stageone.main17.desc1":"&e   Use alloy kiln to produce this alloy.",
+ 
+"faruk.stageone.main18.subtitle":"&6Better than Gold",
+"faruk.stageone.main18.desc1":"&e   Use alloy kiln to produce this alloy.",
+ 
+"faruk.stageone.main19.subtitle":"&6More Improved Tesla Coil!",
+"faruk.stageone.main19.desc1":"&e   It will charge your inventory items faster.",
+ 
+"faruk.stageone.main20.subtitle":"&6Better Batbox!",
+"faruk.stageone.main20.desc1":"&e   Same as LV capacitor but have more energy capacity and transfer rates.",
+ 
+"faruk.stageone.main21.subtitle":"&6Best(for now) Batbox!",
+"faruk.stageone.main21.desc1":"&e   Same as LV and MV capacitor but have more energy capacity and transfer rates.",
+ 
+"faruk.stageone.main22.subtitle":"&6Harder than Iron",
+"faruk.stageone.main22.desc1":"&e   If you used blast furnace correct, you will get this ingots.",
+ 
+"faruk.stageone.main23.subtitle":"&6Component",
+"faruk.stageone.main23.desc1":"&e   We disabled normal crafting for this part. You have to use engineer's workbench to make this.",
+ 
+"faruk.stageone.main24.subtitle":"&6Heart of Machinery",
+"faruk.stageone.main24.desc1":"&e   Use this block for creating multiblock machines.",
+ 
+"faruk.stageone.main25.subtitle":"&6Dependant with Storage questline",
+ 
+"faruk.stageone.main26.subtitle":"&6Finally some automation!",
+"faruk.stageone.main26v2.subtitle":"&6Crusher",
+"faruk.stageone.main26v3.subtitle":"&6Fermenter",
+"faruk.stageone.main26v4.subtitle":"&6Squeezer",
+"faruk.stageone.main26v5.subtitle":"&6Refinery",
+"faruk.stageone.main26v6.subtitle":"&6Pumpjack",
+"faruk.stageone.main26v7.subtitle":"&6Distillation Tower",
+"faruk.stageone.main26v8.subtitle":"&6Coker",
+"faruk.stageone.main26v9.subtitle":"&6Sulfur Recovery Unit",
+"faruk.stageone.main26v10.subtitle":"&6Diesel Generator",
+"faruk.stageone.main26v11.subtitle":"&6Arc Furnace",
+"faruk.stageone.main26v12.subtitle":"&6Excavator",
+"faruk.stageone.main26v13.subtitle":"&6Excavator Head",
+"faruk.stageone.main26v14.subtitle":"&6Finally some automation!",
+"faruk.stageone.main26.desc1":"&e   You can check the Engineer's Manual for building instructions and more info.",
+ 
+"faruk.stageone.main27.subtitle":"&6Augmented Reality?",
+"faruk.stageone.main27.desc1":"&e   Simply right click with projector to air and select which multiblock you want then confirm.Decide where you want to build your multiblock then place with right click. To reset sneak + right click.",
+ 
+"faruk.stageone.main28.subtitle":"&6Better Automation",
+"faruk.stageone.main28.desc1":"&e   You can set a route for each side and fluid.",
+ 
+"faruk.stageone.main29.subtitle":"&6Tank",
+"faruk.stageone.main29.desc1":"&e   512 buckets storage. Check manual for building instructions or use a projector.",
+ 
+"faruk.stageone.main30.subtitle":"&6Full Throtle!",
+"faruk.stageone.main30.desc1":"&e   Lubricant will increase your machine speed for 1.25x. Pumpjack, Excavator and Crusher can be lubricated. Lubricant can be used manually or automaticly.",
+ 
+"faruk.stageone.main31.subtitle":"&6Cheap Sample Drill",
+"faruk.stageone.main31.desc1":"&e   Gives you info about mineral deposits.",
+ 
+"faruk.stageone.main32.title":"&8&l&oPromote to Stage Two!",
+"faruk.stageone.main32.subtitle":"&1&l&oYOU DESERVE IT!",
+"faruk.stageone.main32.desc1":"&e   Last quest for stage One! Click this checkmark.",
+
+"faruk.stageone.main33.subtitle":"&6Petcoke",
+
+
+
+"faruk.stageone.storage1.subtitle":"&6Complete this quest in Main questline first!",
+"faruk.stageone.storage1.desc1":"&e   Main component for your storage system. Placing more than one, will cause issues. Use only one per network.",
+
+"faruk.stageone.storage2.subtitle":"&6Grid",
+"faruk.stageone.storage2.desc1":"&e   Inventory access without crafting grid.",
+
+"faruk.stageone.storage3.subtitle":"&6Crafting Grid",
+"faruk.stageone.storage3.desc1":"&e   Inventory access with crafting grid.",
+
+"faruk.stageone.storage4.subtitle":"&6Faster",
+"faruk.stageone.storage4.desc1":"&e   Increases the speed of Import and Export cables.",
+
+"faruk.stageone.storage5.subtitle":"&6Larger",
+"faruk.stageone.storage5.desc1":"&e   Increases the stack size of operations.",
+
+"faruk.stageone.storage6.subtitle":"&6Storage Link Cable",
+"faruk.stageone.storage6.desc1":"&e   Connects storage inventories to the network. Like chests, krates, drawers etc.",
+
+"faruk.stageone.storage7.subtitle":"&6Storage Link but Filtered",
+"faruk.stageone.storage7.desc1":"&e   You can filter items and give priority to storage blocks.",
+
+"faruk.stageone.storage8.subtitle":"&6Importer",
+"faruk.stageone.storage8.desc1":"&e   Imports items from outside of network into the network.",
+
+"faruk.stageone.storage9.subtitle":"&6Better Importer",
+"faruk.stageone.storage9.desc1":"&e   It has priority and filter options.",
+
+"faruk.stageone.storage10.subtitle":"&6Exporter",
+"faruk.stageone.storage10.desc1":"&e   Exports items from network to outside of network.",
+
+"faruk.stageone.storage11.subtitle":"&6Wireless Storage",
+"faruk.stageone.storage11.desc1":"&e   Right click to the network root and tadaa! You have wireless remote for 64 blocks.",
+
+"faruk.stageone.storage12.subtitle":"&6Wireless Crafting Storage",
+"faruk.stageone.storage12.desc1":"&e   Same as normal remote but has crafting grid.",
+
+
+
+
+"faruk.stagetwo.main1.subtitle":"&6Tempered Glass",
+"faruk.stagetwo.main1.desc1":"&e   Crafting item. You can make this item easier in Induction Smelter. ",
+
+"faruk.stagetwo.main2.subtitle":"&6Booster",
+"faruk.stagetwo.main2.desc1":"&e   Improves machine's performance.",
+
+"faruk.stagetwo.main3.subtitle":"&6Frame",
+"faruk.stagetwo.main3.desc1":"&e   Crafting item.",
+
+"faruk.stagetwo.main4.subtitle":"&6Sawmill",
+"faruk.stagetwo.main4.desc1":"&e   You will get more output from logs and a chance for sawdust.",
+
+"faruk.stagetwo.main5.subtitle":"&6Better Macerator!",
+"faruk.stagetwo.main5.desc1":"&e   It will pulverize things.",
+
+"faruk.stagetwo.main6.subtitle":"&6Uncrafter",
+"faruk.stagetwo.main6.desc1":"&e   You can check JEI to learn how this machine works.",
+
+"faruk.stagetwo.main7.subtitle":"&6Powered Furnace",
+"faruk.stagetwo.main7.desc1":"&e   Furnace but uses RF.",
+
+"faruk.stagetwo.main8.subtitle":"&6Latex Extractor",
+"faruk.stagetwo.main8.desc1":"&e   This machine extracts fluids from trees. This should be a real tree, logs will not work. Each tree has diffirent fluid output check JEI for more info.",
+
+"faruk.stagetwo.main9.subtitle":"&6Chiller",
+"faruk.stagetwo.main9.desc1":"&e   You can use this machine to make rubber from latex.",
+
+"faruk.stagetwo.main10.subtitle":"&6Crystallize",
+"faruk.stagetwo.main10.desc1":"&e   You can use this item for crafting useful things.",
+
+"faruk.stagetwo.main11.subtitle":"&6Melter",
+"faruk.stagetwo.main11.desc1":"&e   Turns solid items to fluids.",
+
+"faruk.stagetwo.main12.subtitle":"&6Solidify",
+"faruk.stagetwo.main12.desc1":"&e   Uses fluids and solid items to create new items.",
+
+"faruk.stagetwo.main13.subtitle":"&6Rubber",
+"faruk.stagetwo.main13.desc1":"&e   Crafting component.",
+
+"faruk.stagetwo.main14.subtitle":"&6Cured Rubber",
+"faruk.stagetwo.main14.desc1":"&e   Crafting component.",
+
+"faruk.stagetwo.main15.subtitle":"&6Tough as Rocks",
+"faruk.stagetwo.main15.desc1":"&e   A crafting block.",
+
+"faruk.stagetwo.main16.subtitle":"&6Better Melter",
+"faruk.stagetwo.main16.desc1":"&e   Melts items.",
+
+"faruk.stagetwo.main17.subtitle":"&6Distillation",
+"faruk.stagetwo.main17.desc1":"&e   Turns fluids to another fluids.",
+
+"faruk.stagetwo.main18.subtitle":"&6Coke Oven?",
+"faruk.stagetwo.main18.desc1":"&e   Faster coal coke production.",
+
+"faruk.stagetwo.main19.subtitle":"&6Faster, Easier",
+"faruk.stagetwo.main19.desc1":"&e   Fast and easy way to press things.",
+
+"faruk.stagetwo.main20.subtitle":"&6Main Machine for this Stage",
+"faruk.stagetwo.main20.desc1":"&e   Creates new alloys and items.",
+
+"faruk.stagetwo.main21.subtitle":"&6Signalum",
+"faruk.stagetwo.main21.desc1":"&e   New alloy for crafting.",
+
+"faruk.stagetwo.main22.subtitle":"&eLumium",
+"faruk.stagetwo.main22.desc1":"&e   New alloy for crafting.",
+
+"faruk.stagetwo.main23.subtitle":"&3Enderium",
+"faruk.stagetwo.main23.desc1":"&e   New alloy for crafting.",
+
+"faruk.stagetwo.main24.subtitle":"&6Mega Booster",
+
+"faruk.stagetwo.main25.subtitle":"&6Ultra Mega Booster",
+
+"faruk.stagetwo.main26.subtitle":"&6Spirits?",
+"faruk.stagetwo.main26.desc1":"&e   You need spiritual resources to improve yourself. Check Occultism quest tab for more info.",
+
+"faruk.stagetwo.main27.subtitle":"&6Better then Cloche",
+"faruk.stagetwo.main27.desc1":"&e   It's fast and easy way for farming things.",
+
+"faruk.stagetwo.main28.subtitle":"&6New Batbox",
+"faruk.stagetwo.main28.desc1":"&e   Energy storage block. You can use Integral Components to upgrade this machine and enchant this block with holding for more storage space.",
+
+"faruk.stagetwo.main29.subtitle":"&6New Tank",
+"faruk.stagetwo.main29.desc1":"&e   Fluid storage block. You can use Integral Components to upgrade this machine and enchant this block with holding for more storage space.",
+
+"faruk.stagetwo.main30.subtitle":"&6Saw Dust",
+"faruk.stagetwo.main30.desc1":"&e   You can craft following items.",
+
+"faruk.stagetwo.main31.subtitle":"&8Furnace Generator",
+"faruk.stagetwo.main31.desc1":"&e   Uses coal, blaze etc. to produce RF.",
+
+"faruk.stagetwo.main32.subtitle":"&bOven Generator",
+"faruk.stagetwo.main32.desc1":"&e   Uses foods to produce RF.",
+
+"faruk.stagetwo.main33.subtitle":"&6Fuel Generator",
+"faruk.stagetwo.main33.desc1":"&e   Uses fuels to produce RF.",
+
+"faruk.stagetwo.main34.subtitle":"&7Lava Generator",
+"faruk.stagetwo.main34.desc1":"&e   Uses lava to produce RF.",
+
+"faruk.stagetwo.main35.subtitle":"&1Gem Generator",
+"faruk.stagetwo.main35.desc1":"&e   Uses gems to produce RF.",
+
+"faruk.stagetwo.main36.subtitle":"&5Magic Generator",
+"faruk.stagetwo.main36.desc1":"&e   Uses enchanted books to produce RF.",
+
+"faruk.stagetwo.main37.subtitle":"&eMoney Generator",
+"faruk.stagetwo.main37.desc1":"&e   Uses coins to produce RF.",
+
+"faruk.stagetwo.main38.subtitle":"&8&l&oPromote to Stage Three!",
+"faruk.stagetwo.main38.desc1":"&e   Last quest for stage Two! Click this checkmark!",
+
+
+
+
+"faruk.stagetwo.magic1.subtitle":"&6Cursed Seeds",
+"faruk.stagetwo.magic1.desc1":"&e   Brake grass and get some seeds.",
+    
+"faruk.stagetwo.magic2.subtitle":"&6Book of Spirits",
+"faruk.stagetwo.magic2.desc1":"&e   It's your guide for Occultism.",
+    
+"faruk.stagetwo.magic3.subtitle":"&6Cursed Fruits",
+"faruk.stagetwo.magic3.desc1":"&e   Grow your demon seeds in farmland and eat it. You will get temporary Third Eye effect.",
+    
+"faruk.stagetwo.magic4.subtitle":"&6Third Eye Effect",
+"faruk.stagetwo.magic4.desc1":"&e   Eating a Demon's Dream Fruit can give you Third Eye effect. When you get that effect it lets you to see and interact with otherworld materials.",
+    
+"faruk.stagetwo.magic5.subtitle":"&6Spirit Fire",
+"faruk.stagetwo.magic5.desc1":"&e   Throw &6Demon's Dream Fruit&r &eto the ground and light it on fire.",
+    
+"faruk.stagetwo.magic6.subtitle":"&6Gem of Spirits",
+"faruk.stagetwo.magic6.desc1":"&e   Throw some diamonds in spirit fire.",
+    
+"faruk.stagetwo.magic7.subtitle":"&6Finding Spies",
+"faruk.stagetwo.magic7.desc1":"&e   To use the rod, sneak-right click to a Oak Log for Otherwood, Andesite for Otherstone. Then just hold right click for a while and the rod will highlight nearby disguised blocks.",
+"faruk.stagetwo.magic7.desc2":"&e   Note: You have to get Third Eye effect for mining Otherworld materials.",
+
+"faruk.stagetwo.magic8.subtitle":"&6Underground Groves",
+"faruk.stagetwo.magic8.desc1":"&e   In underground, you can find lush caves from occultism. In this caves you can find a lot of otherworld blocks.",
+    
+"faruk.stagetwo.magic9.subtitle":"&6Goggles",
+"faruk.stagetwo.magic9.desc1":"&e   Component for Otherworld goggles.",
+    
+"faruk.stagetwo.magic10.subtitle":"&6Disguised Logs",
+"faruk.stagetwo.magic10.desc1":"&e   Use divination rod for finding them.",
+    
+"faruk.stagetwo.magic11.subtitle":"&6Disguised Stones",
+"faruk.stagetwo.magic11.desc1":"&e   Use divination rod for finding them or throw some andesites into spirit fire.",
+    
+"faruk.stagetwo.magic12.subtitle":"&6Rituals",
+"faruk.stagetwo.magic12.desc1":"&e   You need bowls for start making rituals.",
+    
+"faruk.stagetwo.magic13.subtitle":"&6Otherstone Ashes",
+"faruk.stagetwo.magic13.desc1":"&e   Did you forgot something in oven?",
+    
+"faruk.stagetwo.magic14.subtitle":"&6Otherwood Ashes",
+"faruk.stagetwo.magic14.desc1":"&e   Did you forgot something in oven?",
+    
+"faruk.stagetwo.magic15.subtitle":"&6Need more purity",
+"faruk.stagetwo.magic15.desc1":"&e   Throw it into spirit fire.",
+    
+"faruk.stagetwo.magic16.subtitle":"&6We Call it Art!",
+"faruk.stagetwo.magic16.desc1":"&e   You can draw symbols with this chalk.",
+    
+"faruk.stagetwo.magic17.subtitle":"&6Same Art but Golden!",
+"faruk.stagetwo.magic17.desc1":"&e   You need golden chalk for performing more rituals.",
+    
+"faruk.stagetwo.magic18.subtitle":"&6Infuse your lenses!",
+"faruk.stagetwo.magic18.desc1":"&e   To prepare your ritual open your Dictionary of Spirits, click Pentacles then select which ritual you make(You can see which ritual you need in JEI). Then click visualize(bottom left corner eye icon). Right click wherever you want to make ritual.",
+"faruk.stagetwo.magic18.desc2":"&f   Take your chalks and draw your symbols to the ground. Place your bowls on empty blocks in field and items on it.",
+
+"faruk.stagetwo.magic19.subtitle":"&6Endstone in Overworld!",
+"faruk.stagetwo.magic19.desc1":"&e   To prepare your ritual open your Dictionary of Spirits, click Pentacles then select which ritual you make(You can see which ritual you need in JEI). Then click visualize(bottom left corner eye icon). Right click wherever you want to make ritual.",
+"faruk.stagetwo.magic19.desc2":"&f   Take your chalks and draw your symbols to the ground. Place your bowls on empty blocks in field and items on it.",
+"faruk.stagetwo.magic19.desc3":"&e   This ritual spawns a endermite and if you kill it you can get end stone in overworld.",
+
+"faruk.stagetwo.magic20.subtitle":"&6Macerator but Alive",
+"faruk.stagetwo.magic20.desc1":"&e   To prepare your ritual open your Dictionary of Spirits, click Pentacles then select which ritual you make(You can see which ritual you need in JEI). Then click visualize(bottom left corner eye icon). Right click wherever you want to make ritual.",
+"faruk.stagetwo.magic20.desc2":"&f   Take your chalks and draw your symbols to the ground. Place your bowls on empty blocks in field and items on it.",
+"faruk.stagetwo.magic20.desc3":"&e   This ritual spawns a foliot. It can crush dropped things. This foliot has tiers, you can see details in JEI.   WARNING: Be careful about foliot. It can pick up every item in range. You can use lead to tie it.",
+
+"faruk.stagetwo.magic21.subtitle":"&6Pudge's Souvenir",
+"faruk.stagetwo.magic21.desc1":"&e   Kill animals with this knife and you can get tallow for making candle.",
+    
+"faruk.stagetwo.magic22.subtitle":"&6You can light your house with these!",
+"faruk.stagetwo.magic22.desc1":"&e   It's a light source and a ritual material.",
+    
+"faruk.stagetwo.magic23.subtitle":"&6Need Otherstone?",
+"faruk.stagetwo.magic23.desc1":"&e   You can check JEI for more info.",
+    
+"faruk.stagetwo.magic24.subtitle":"&6Need Otherwood?",
+    
+"faruk.stagetwo.magic25.subtitle":"&6Pet a Parrot!",
+"faruk.stagetwo.magic25.desc1":"&e   You can pet a perrot, and then you can sacrifice a parrot for greater purpose.",
+    
+"faruk.stagetwo.magic26.subtitle":"&6Coolest Familiar!",
+"faruk.stagetwo.magic26.desc1":"&e   This familiar gives you a lot of buffs. Like Multijump V, Slow Falling, etc. You should try this!",
+    
+"faruk.stagetwo.magic27.subtitle":"&6Dust of Eternity!",
+"faruk.stagetwo.magic27.desc1":"&e   You have to use foliots to make this dust.",
+    
+"faruk.stagetwo.magic28.subtitle":"&6Same Art but Purple!",
+"faruk.stagetwo.magic28.desc1":"&e   Some rituals uses purple symbols.",
+    
+"faruk.stagetwo.magic29.subtitle":"&6You Look Cooler!",
+"faruk.stagetwo.magic29.desc1":"&e   This goggles gives you ability to see all otherworld items all time.",
+
+"faruk.stagetwo.magic30.subtitle":"&6Brand New Pickaxe ",
+"faruk.stagetwo.magic30.desc1":"&e   You need infused pickaxe to mine Iesnium. If you mine iesnium ore without this pickaxe will only get normal netherrack.",
+
+"faruk.stagetwo.magic31.subtitle":"&6To The Nether!",
+"faruk.stagetwo.magic31.desc1":"&e   Eat some Demon fruits or wear your goggles to see disguised Iesnium Ores. You have to mine this ores with Infused Pickaxe.",
+
+"faruk.stagetwo.magic32.subtitle":"&6Mining dimension",
+"faruk.stagetwo.magic32.desc1":"&e   Craft this item and combine with a Spirit Lamp. Tadaa! Your quarry is ready.",
+
+"faruk.stagetwo.magic33.subtitle":"&6Where Are You Aladdin?",
+"faruk.stagetwo.magic33.desc1":"&e   Make this lamp and find Aladdin's best friend.",
+
+"faruk.stagetwo.magic34.subtitle":"&6Cheap Worker",
+"faruk.stagetwo.magic34.desc1":"&e   Cheap version of Ore Miner.",
+
+"faruk.stagetwo.magic35.subtitle":"&6Better Worker",
+"faruk.stagetwo.magic35.desc1":"&e   Best worker Djinni in Balkans and Middle East!",
+
+
+
+
+
+"faruk.stagethree.main1.subtitle":"&6New Alloys!",
+"faruk.stagethree.main1.desc1":"&e   Pewter is a new milestone for your journey! In this stage you have to use Blood Magic to craft this blend but in the future you will get new ways to craft it.",
+
+"faruk.stagethree.main2.subtitle":"&6Good at Conductivity!",
+"faruk.stagethree.main2.desc1":"&e   This magical ingot is good at rituals and machines at same time!",
+
+"faruk.stagethree.main3.subtitle":"&6Industry Reloaded!",
+"faruk.stagethree.main3.desc1":"&e   Main component for IF.",
+
+"faruk.stagethree.main4.subtitle":"&6Latex but Other One.",
+"faruk.stagethree.main4.desc1":"&e   Place a log in front of this machine(Acacia Logs is the best one). When you power this machine with FE, it will increase Latex production. Processing upgrade will work too.",
+
+"faruk.stagethree.main5.subtitle":"&6Rubber but Other One",
+"faruk.stagethree.main5.desc1":"&e   Supply this machine with latex and water and you will get Tiny Dry Rubber.",
+
+"faruk.stagethree.main6.subtitle":"&6Industrial Revolution!",
+"faruk.stagethree.main6.desc1":"&e   Another main crafting component for IF.",
+
+"faruk.stagethree.main7.subtitle":"&6Electronic Crafting",
+"faruk.stagethree.main7.desc1":"&e   Crafting machine for IF craftings.",
+
+"faruk.stagethree.main8.subtitle":"&6Simple Solutions",
+"faruk.stagethree.main8.desc1":"&e   Simple block for simple machines.",
+
+"faruk.stagethree.main9.subtitle":"&6Useless at This Moment...",
+"faruk.stagethree.main9.desc1":"&e   You can craft this block with Simple Machine Frame but you need Laser Base to operate this machine.",
+
+"faruk.stagethree.main10.subtitle":"&6Zombie Meat!",
+"faruk.stagethree.main10.desc1":"&e   This machine is another milestone for IF. Kill mobs with this machine and you will get Pink Slime and Liquid Meat. &6Liquid meat can be consumed for filling hunger bar. &dPink slime is crafting fluid for IF.",
+
+"faruk.stagethree.main11.subtitle":"&6Automated Feeder",
+"faruk.stagethree.main11.desc1":"&e   Supply this item with Liquid Meat it will feed you automatically.",
+
+"faruk.stagethree.main12.subtitle":"&6Advanced Solutions",
+"faruk.stagethree.main12.desc1":"&e   Advanced block for advanced machines.",
+
+"faruk.stagethree.main13.subtitle":"&6Ether Gas!",
+"faruk.stagethree.main13.desc1":"&e   Ether gas needs a tricky process. First, place your Fluid Laser Base and place laser drills on 4 sides with one gap. Then place the stasis chamber at least 5 blocks below of Laser drill. And supply all machines with power and spawn a Wither above of Stasis chamber. Your fluid drill will collect Ether Gas from wither.",
+
+"faruk.stagethree.main14.subtitle":"&5Supreme Solutions",
+"faruk.stagethree.main14.desc1":"&d   Supreme block for supreme machines.",
+
+"faruk.stagethree.main15.subtitle":"&6Dolly Spawner",
+"faruk.stagethree.main15.desc1":"&e   Catch a mob with Imprisonment Tool and get some Essence from Mob Crusher. If everything is correct you will spawn mobs using some RF and Essence.",
+
+"faruk.stagethree.main16.subtitle":"&6Spawner Automation Machine",
+"faruk.stagethree.main16.desc1":"&e   Kills mobs in area and collects mob drops but can't get experience from this machine because this machine converts EXP to Essence.",
+
+"faruk.stagethree.main17.subtitle":"&6Kind a Quarry",
+"faruk.stagethree.main17.desc1":"&e   Place this base then place laser drills on 4 sides with one gap.",
+
+"faruk.stagethree.main18.subtitle":"&6Automated Wither Farm",
+"faruk.stagethree.main18.desc1":"&e   Supply this machine with Wither Skeleton Skulls and Soul Sand then you can spawn wither automatically.",
+
+"faruk.stagethree.main19.subtitle":"&6Upgraded Range",
+"faruk.stagethree.main19.desc1":"&e   This upgrade increases machine's work range.",
+
+"faruk.stagethree.main20.subtitle":"&6Productivity Upgrade",
+"faruk.stagethree.main20.desc1":"&e   This upgrade increases production amount of materials.",
+
+"faruk.stagethree.main21.subtitle":"&6Faster than Light!",
+"faruk.stagethree.main21.desc1":"&e   This upgrade increases machine's working speed.",
+
+"faruk.stagethree.main22.subtitle":"&6Efficiency Upgrade",
+"faruk.stagethree.main22.desc1":"&e   This upgrade decreases machine's energy usage.",
+
+"faruk.stagethree.main23.subtitle":"&6Crafting Cauldron",
+"faruk.stagethree.main23.desc1":"&e   Just throw crafting items in correct order into crucible. Check JEI for more info.",
+
+"faruk.stagethree.main24.subtitle":"&6Witch's Gold!",
+"faruk.stagethree.main24.desc1":"&e   You can craft this ingot in Crucible also in Blood Magic's Alchemy Table.",
+
+"faruk.stagethree.main25.subtitle":"&6Shaped Gold",
+"faruk.stagethree.main25.desc1":"&e   Crafting component.",
+
+"faruk.stagethree.main26.subtitle":"&6Best Block in the Mod",
+"faruk.stagethree.main26.desc1":"&e   Soul enchanter uses EXP and Soul Shards to enchant items. And yes, you can enchant items more than once!",
+
+"faruk.stagethree.main27.subtitle":"&6New Mechanics!",
+"faruk.stagethree.main27.desc1":"&e   New crafting mechanic includes sacrificing.",
+
+"faruk.stagethree.main28.subtitle":"&6Offering Hand",
+"faruk.stagethree.main28.desc1":"&e   Required for Brazier Crafting.",
+
+"faruk.stagethree.main29.subtitle":"&5Shard of Souls!",
+"faruk.stagethree.main29.desc1":"&e   Place Braizer and 2 Stone hands. Capture an undead mob(Wraith, Skeleton or Wither Skeleton).",
+"faruk.stagethree.main29.desc2":"&e   Place redstone on each stone hand and bone meal to braizer. Then just lit braizer with a flint and steel!",
+"faruk.stagethree.main29.desc3":"&e   NOTE: You can use enchanted ash to draw a rectangle or square, undead mobs can't walk over this line.",
+
+"faruk.stagethree.main30.subtitle":"&0Gem of Shadows",
+"faruk.stagethree.main30.desc1":"&e   Crafting component.",
+
+"faruk.stagethree.main31.subtitle":"&6Magical Silk",
+"faruk.stagethree.main31.desc1":"&e   Crafting Component.",
+
+"faruk.stagethree.main32.subtitle":"&6Finger of Death",
+"faruk.stagethree.main32.desc1":"&e   Very powerful item, it's a recommandation from Faruk!",
+
+"faruk.stagethree.main33.subtitle":"&6First Altar",
+"faruk.stagethree.main33.desc1":"&e   Place 6 Wooden Altar blocks on 3x2. And Place your Straw Effigy, Lightning sources, Skulls, Herbs and Goblet. Each item gives you capacity and power.",
+"faruk.stagethree.main33.desc2":"&e   To pray for Dark Lord you have to drop your Ars ecclesica to a Witch. She will take this book and read then you can learn your first sign.",
+
+"faruk.stagethree.main34.subtitle":"&6Capacity and Power",
+"faruk.stagethree.main34.desc1":"&e   You can pick some decorations for your altar. Each item grants more Capacity and Power.",
+
+"faruk.stagethree.main35.subtitle":"&6Dark Prayer",
+"faruk.stagethree.main35.desc1":"&e   To perform your first pray, go to your altar and make Dark Prayer sign if you successed you will get a new sign. If you didn't, you have to wait until another day because you can pray just once a day.(In Creative there's no limit about pray.)",
+
+"faruk.stagethree.main36.subtitle":"&6Sacrifice an Animal",
+"faruk.stagethree.main36.desc1":"&e   To perform your second pray, you have to craft a goblet and place in your altar. Then capture a pig and slay it front of altar your goblet will be filled with blood, then you can make the sign.",
+
+"faruk.stagethree.main37.subtitle":"&6Soul Sign",
+"faruk.stagethree.main37.desc1":"&e   Drop a pewter inlay then perform Touch of Darkness pray then you'll get a Unholy Symbol",
+
+"faruk.stagethree.main38.subtitle":"&6Soul Harvester",
+"faruk.stagethree.main38.desc1":"&e   With this powerful tool, you can harvest undead souls. When you kill an Undead with this tool, you will get Soul Shards. Looting tier of weapon is affected drop amount of Soul Shards.",
+
+"faruk.stagethree.main39.subtitle":"&6Bit of Art and Nostalgia",
+"faruk.stagethree.main39.desc1":"&e   Craft this Miniature Twilight Trophy and be proud of yourself.",
+
+
+"faruk.stagethree.storage1.subtitle":"&6Most Important Thing",
+"faruk.stagethree.storage1.desc1":"&e   You have to use Material Stonework Factory to produce Silicon, but don't worry, you will produce much easier in future.",
+
+"faruk.stagethree.storage2.subtitle":"&6Raw Blue Thing",
+"faruk.stagethree.storage2.desc1":"&e   Crafting component.",
+
+"faruk.stagethree.storage3.subtitle":"&6Raw Gray Thing",
+
+"faruk.stagethree.storage4.subtitle":"&6Raw Yellow Thing",
+
+"faruk.stagethree.storage5.subtitle":"&6Gray Thing",
+
+"faruk.stagethree.storage6.subtitle":"&6Blue Thing",
+
+"faruk.stagethree.storage7.subtitle":"&6Sky Blue Thing",
+
+"faruk.stagethree.storage8.subtitle":"&6Red Thing",
+
+"faruk.stagethree.storage9.subtitle":"&6Yellow Thing",
+
+"faruk.stagethree.storage10.subtitle":"&6Heart of ME System",
+"faruk.stagethree.storage10.desc1":"&e   Controller is main part of ME system. You need only one Controller in system and you have to supply controller with FE.",
+
+"faruk.stagethree.storage11.subtitle":"&6Storage Rack",
+"faruk.stagethree.storage11.desc1":"&e   Digital storage space for your system.",
+
+"faruk.stagethree.storage12.subtitle":"&6Long-Distance Relationship",
+"faruk.stagethree.storage12.desc1":"&e   Place a Network Receiver at the far off area, then Sneak Right-Click it with a Network Card. Place a Network Transmitter in your main system and place the Network Card. Don't forget to chunkload newtork reciever!",
+
+"faruk.stagethree.storage13.subtitle":"&6Importer",
+"faruk.stagethree.storage13.desc1":"&e   Importers pulls items from the connected storage.",
+
+"faruk.stagethree.storage14.subtitle":"&6Good Importer",
+"faruk.stagethree.storage14.desc1":"&e   Same speed with normal importer, 2x more filter slots.",
+
+"faruk.stagethree.storage15.subtitle":"&6Better Importer",
+"faruk.stagethree.storage15.desc1":"&e   Same filter slots with Advanced, 2x faster than normal and advanced.",
+
+"faruk.stagethree.storage16.subtitle":"Best Importer",
+"faruk.stagethree.storage16.desc1":"&e   4x more filter slots than Normal, 6x faster than normal and Stack Upgrade Integrated.",
+
+"faruk.stagethree.storage17.subtitle":"&6Exporter",
+"faruk.stagethree.storage17.desc1":"&e   Exporters pushes items to the connected storage.",
+
+"faruk.stagethree.storage18.subtitle":"&6Good Exporter",
+"faruk.stagethree.storage18.desc1":"&e   Same speed with normal exporter, 2x more filter slots.",
+
+"faruk.stagethree.storage19.subtitle":"&6Better Exporter",
+"faruk.stagethree.storage19.desc1":"&e   Same filter slots with Advanced, 2x faster than normal and advanced.",
+
+"faruk.stagethree.storage20.subtitle":"&6Best Importer",
+"faruk.stagethree.storage20.desc1":"&e   4x more filter slots than Normal, 6x faster than normal and Stack Upgrade Integrated.",
+
+"faruk.stagethree.storage21.subtitle":"&6Chests to the System!",
+"faruk.stagethree.storage21.desc1":"&e   If you connect External Storage to a storage block(chests,drawers etc.), you can use this storage block in system and its contents can be accessed via grids.",
+
+"faruk.stagethree.storage22.subtitle":"&6Constructor",
+"faruk.stagethree.storage22.desc1":"&e   It will construct blocks from system to the world. You can use this for automations.",
+
+"faruk.stagethree.storage23.subtitle":"&6Better Constructor",
+"faruk.stagethree.storage23.desc1":"&e   2 Slots, 2x Faster.",
+
+"faruk.stagethree.storage24.subtitle":"&6Best Constructor",
+"faruk.stagethree.storage24.desc1":"&e   4 Slots, 6x Faster.",
+
+"faruk.stagethree.storage25.subtitle":"&6Destructor",
+"faruk.stagethree.storage25.desc1":"&e   Destructor will destruct blocks in front of it.",
+
+"faruk.stagethree.storage26.subtitle":"&6Better Destructor",
+"faruk.stagethree.storage26.desc1":"&e   2 Slots, 2x Faster.",
+
+"faruk.stagethree.storage27.subtitle":"&6Best Destructor",
+"faruk.stagethree.storage27.desc1":"&e   4 Slots, 6x Faster.",
+
+"faruk.stagethree.storage28.subtitle":"&6Interface",
+"faruk.stagethree.storage28.desc1":"&e   In comparison with the Importer the Interface has an internal inventory to receive items and import them (through piping, hoppers, etc).The Interface does NOT extract items from adjacent inventories automatically, you have to actually insert them in the Interface through piping, hoppers, etc.",
+"faruk.stagethree.storage28.desc2":"&7   There is also an option for exporting items from the system. These items can be piped out through a piping system from another mod, hoppers, etc.",
+
+"faruk.stagethree.storage29.subtitle":"&6Requester",
+"faruk.stagethree.storage29.desc1":"&e   Like interface with a crafting card but better! Requester can keep a stock for items. If you want 300 stone ready in your system everytime,  Requester can do that.",
+
+"faruk.stagethree.storage30.subtitle":"&6Better Requester",
+"faruk.stagethree.storage30.desc1":"&e   18 slots, 2x faster.",
+
+"faruk.stagethree.storage31.subtitle":"&6Best Requester",
+"faruk.stagethree.storage31.desc1":"&e   36 slots, 6x faster.",
+
+"faruk.stagethree.storage32.subtitle":"&6Monitor",
+"faruk.stagethree.storage32.desc1":"&e   You can use Grid for accessing items in your disk drive and connected external storages.",
+
+"faruk.stagethree.storage33.subtitle":"&6Fluid Monitor",
+"faruk.stagethree.storage33.desc1":"&e   Same as normal grid, but for fluids.",
+
+"faruk.stagethree.storage34.subtitle":"&6Forget tanks!",
+"faruk.stagethree.storage34.desc1":"&e   Storage solution for fluids. Same as normal storage disks.",
+
+"faruk.stagethree.storage35.subtitle":"&6Time for Autocrafting!",
+"faruk.stagethree.storage35.desc1":"&e   In pattern grid, you can create crafting or processing patterns for autocrafting.",
+
+"faruk.stagethree.storage36.subtitle":"&6Store Crafting Formulas",
+"faruk.stagethree.storage36.desc1":"&e   Use it in Pattern Grid for store patterns.",
+
+"faruk.stagethree.storage37.subtitle":"&6Finally Autocrafter!",
+"faruk.stagethree.storage37.desc1":"&e   Connect the crafter to your system. If you want to make crafting table recipes, place it anywhere. But if you want specific machine recipe or smelting you have to place beside of this machine.",
+
+"faruk.stagethree.storage38.subtitle":"&6Good Crafter",
+"faruk.stagethree.storage38.desc1":"&e   Same speed, 27 Slots.",
+
+"faruk.stagethree.storage39.subtitle":"&6Better Crafter",
+"faruk.stagethree.storage39.desc1":"&e   5x Speed, 45 Slots.",
+
+"faruk.stagethree.storage40.subtitle":"&6Best Crafter",
+"faruk.stagethree.storage40.desc1":"&e   25x Speed, 63 Slots.",
+
+"faruk.stagethree.storage41.subtitle":"&6We Don't Recommend This.",
+"faruk.stagethree.storage41.desc1":"&e   125x Speed, 81 Slots. But in servers, it will cause lag sometimes.",
+
+"faruk.stagethree.storage42.subtitle":"&6Watch Your Status",
+"faruk.stagethree.storage42.desc1":"&e   With this machine you can check the status of in-progress craftings.",
+
+"faruk.stagethree.storage43.subtitle":"&6All the network, in one machine...",
+"faruk.stagethree.storage43.desc1":"&e   With this machine you can access all crafters in system. If you change your crafter's name in anvil, crafter manager will call this crafter with it's name!",
+
+"faruk.stagethree.storage44.subtitle":"&6Most Wonderful Thing...",
+"faruk.stagethree.storage44.desc1":"&e   Same as grid, but you have crafting grid!",
+
+"faruk.stagethree.storage45.subtitle":"&6Remote Access",
+"faruk.stagethree.storage45.desc1":"&e   Place this transmitter anywhere in your system and then craft a wireless grid, you can access your storage system wireless!",
+
+"faruk.stagethree.storage46.subtitle":"&16Blocks Not Enough!",
+"faruk.stagethree.storage46.desc1":"&e   Place this into Wireless Transmitter. You can increase effective range of remote system but it costs of energy.",
+
+"faruk.stagethree.storage47.subtitle":"&6Wireless Access Without Crafting",
+"faruk.stagethree.storage47.desc1":"&e   Charge your wireless grid and sneak + right click to your controller!",
+
+"faruk.stagethree.storage48.subtitle":"&6Wireless Access With Crafting",
+"faruk.stagethree.storage48.desc1":"&e   Charge your wireless crafting grid and sneak + right click to your controller!",
+
+"faruk.stagethree.storage49.subtitle":"&6Wireless Access to Fluids",
+"faruk.stagethree.storage49.desc1":"&e   Charge your wireless crafting grid and sneak + right click to your controller!",
+
+"faruk.stagethree.storage50.subtitle":"&6All of Grids",
+"faruk.stagethree.storage50.desc1":"&e   You can cycle through diffirent grid types in top left corner. Sometimes it will buggy if you are using only crafting grid, you don't need to craft this.",
+
+"faruk.stagethree.storage51.subtitle":"&6Unlimited Range",
+"faruk.stagethree.storage51.desc1":"&e   You can access your system in whole world. But it uses too much energy(4.000 per tick).",
+
+"faruk.stagethree.storage52.subtitle":"&6Whole Universe!",
+"faruk.stagethree.storage52.desc1":"&e   You can acces your system in all dimensions. But it uses insane energy.(8.000 per tick)",
+
+"faruk.stagethree.twilight1.subtitle":"&6Where are penguins?",
+"faruk.stagethree.twilight1.desc1":"&e   The Twilight Forest realm is an endless world with densely forested.",
+"faruk.stagethree.twilight1.desc2":"&e   You will occasionally encounter Hills, sometimes rising far above the canopy level. These hills are hollow too, containing Caves filled with valuable ores, treasure and dangerous monsters.",
+"faruk.stagethree.twilight1.desc3":"&e   You may also run across many different dungeons, bosses, structures, trees, and a numerous amount of unique items throughout your travels through the Twilight Forest realm. There is much to explore.",
+"faruk.stagethree.twilight1.desc4":"&c   Also has penguins!",
+
+"faruk.stagethree.twilight2.subtitle":"&2Giant Snake!",
+"faruk.stagethree.twilight2.desc1":"&e   Twilight Forest mod has a system in place designed to set your adventures in the dimension along a path. The various boss-centered towers and dungeons are set in an order, and finishing one step will unlock the next step.",
+"faruk.stagethree.twilight2.desc2":"&e   &2The Naga&r&e can be found in a courtyard adorned with a snake motif. There are very few obstacles in the Courtyard, and &2The Naga&r&e can just as easily break them down. Killing &2The Naga&r&e and taking one of  &aNaga Scales&r&e in your inventory will allow you to enter the next area.",
+
+"faruk.stagethree.twilight3.subtitle":"&6Ruined King",
+"faruk.stagethree.twilight3.desc1":"&e   &6The Twilight Lich&r&e can be found inside his Lich Tower, the only way in is to defeat the &2Naga&r&e.",
+"faruk.stagethree.twilight3.desc2":"&e   Killing the &6Lich&r&e and obtaining one of his magical scepters will open up next area to explore, THE SWAMP!",
+
+"faruk.stagethree.twilight4.subtitle":"&6Harder Than Bedrock!",
+"faruk.stagethree.twilight4.desc1":"&e   The Mazebreaker is a special kind of Pickaxe only found in Labyrinth treasure vaults, viewable with a Maze Map. Mazebreaker can mine through all types of Mazestone while only losing one durability point, whereas breaking Mazestone with any other pickaxe will lower that pickaxe's durability 16x faster. By default, the Mazebreaker is enchanted with Efficiency IV, Unbreaking III and Fortune II.",
+
+"faruk.stagethree.twilight5.subtitle":"&6Viking Axe!",
+"faruk.stagethree.twilight5.desc1":"&e   The Diamond Minotaur Axe is a unique axe that is dropped when the Minoshroom boss is killed. The Diamond Minotaur Axe is unique in that it has extra charge damage, meaning that when it is used while the player is sprinting, extra damage will be dealt to whatever monster it attacks.",
+
+"faruk.stagethree.twilight6.subtitle":"&cThe Labyrinth",
+"faruk.stagethree.twilight6.desc1":"&e   There are several Labyrinths buried under the swamp. You may locate a natural entrance through a chasm or cave, or you may find the entrance in a small mound.   Your goal is to find and kill the &cMinoshroom&r&e.",
+"faruk.stagethree.twilight6.desc2":"&e   Killing the &cMinoshroom&r&e, and eating some Meef Stroganoff will allow you to enter the Fire Swamp without being burnt.",
+
+"faruk.stagethree.twilight7.subtitle":"&4The Hydra",
+"faruk.stagethree.twilight7.desc1":"&e   The fearsome &4Hydra&r&e is found in a converted Hollow Hill in the middle of the Fire Swamp. When you killed the &4Hydra&r&e, take the &4Hydra's&r&e &cFiery Blood&r&e to inventory and the Swamp phase of the adventure will be completed.",
+
+"faruk.stagethree.twilight8.subtitle":"&6A Big Yoyo",
+"faruk.stagethree.twilight8.desc1":"&e   The Block and Chain is a weapon that can be thrown. When used, a block will be thrown. However, the block is held by a chain, and after a certain distance, the block will retract back to the player. The block deals a significant amount of damage to creatures and can break blocks that it touches.",
+
+"faruk.stagethree.twilight9.subtitle":"&aTwilight Knight Stronghold",
+"faruk.stagethree.twilight9.desc1":"&e   Beneath the Dark Forest lay the fallen Strongholds of the &aTwilight Knights&r&e. The lower levels of the strongholds are completely sealed. You will have to find a specific room in the upper ruins of the stronghold. This room contains a Trophy Pedestal and a shallow pit blocked by Stronghold Shields. Placing a trophy from one of the previous bosses on the pedestal will remove the shield and allow access to the lower levels.",
+"faruk.stagethree.twilight9.desc2":"&e   Kill the &aKnight Phantom&r&e to proceed. Then you can go for Dark Forest Tower!",
+
+"faruk.stagethree.twilight10.subtitle":"&cDark Forest Tower",
+"faruk.stagethree.twilight10.desc1":"&e   The Dark Tower is found in a small clearing in the center of the dark forest. Kill the &cUr-Ghast&r&e on top of the tower and complete the Dark Forest phase of the adventure.",
+"faruk.stagethree.twilight10.desc2":"&e   Some doors are locked, to unlock them you have to find four tower keys in chests.",
+"faruk.stagethree.twilight10.desc3":"&e   On top of the tower, you can see ghast traps. Complete the redstone system of ghast traps and wait until &cUr-Ghast&r&e moves above to you. When it comes just press the trap and it will pull the &cUr-Ghast&r&e into you and you can damage it.",
+
+"faruk.stagethree.twilight11.subtitle":"&6The Cake is a Lie!",
+"faruk.stagethree.twilight11.desc1":"&e   Experiment 115 is a food item, found within the chests of a Dark Tower. ",
+"faruk.stagethree.twilight11.desc2":"&e   Experiment 115 can also be placed on the ground while holding the Shift key. By placing eight of these in a single block and sprinkling Redstone on top, the Block of Experiment 115 will slowly regenerate if a slice is eaten. However, once Experiment 115 is placed on the ground, it cannot be picked up, so be careful where you place it. If there are Redstone sprinkles, a block of Experiment 115 can emit a Redstone signal, with a full block emitting maximum signal, while smaller blocks emit smaller signals.",
+
+"faruk.stagethree.twilight12.subtitle":"&9Yeti Lair",
+"faruk.stagethree.twilight12.desc1":"&e   There are hills are placed in the Snow Forest regions. Inside, you may find a pack of yetis, lorded over by the massive &9Alpha Yeti&r&e. Defeating the &9Alpha Yeti&r&e in combat, and claiming some of his downy fur will make the Glacier available to you.",
+
+"faruk.stagethree.twilight13.subtitle":"&bAurora Palace",
+"faruk.stagethree.twilight13.desc1":"&e   This rainbow tower sits roughly in the center of the &3Glacier&r&e. The &bSnow Queen&r&e awaits in a frost-covered room near the top. She is protected by a shield of ice and will attack with a barrage of icy attacks or charge into the adventurer. Defeating the &bSnow Queen&r&e in combat will complete the Snow Forest phase of the adventure.",
+
+"faruk.stagethree.twilight14.subtitle":"&8Troll Caves",
+"faruk.stagethree.twilight14.desc1":"&e   &8The Troll Caves&r&e lie beneath the highlands. They consist of both tunnel-style caves and vast underground chambers. In the caves, inside a small obsidian vault, you'll find a chest holding the troll's treasure, namely &dthe Magic Beans&r&e. When &dMagic Beans&r&e are planted in Uberous Soil, they will grow a giant beanstalk, reaching to cloud level. This serves as a convenient way to access the &7Cloud Cottage&r&e over the Highlands.",
+
+"faruk.stagethree.twilight15.subtitle":"&7Cloud Cottages",
+"faruk.stagethree.twilight15.desc1":"&e   Planting the &dMagic Beans&r&e in a patch of Uberous Soil will send a beanstalk up into the bottom of the clouds above. Up on the cloud, you will find a cottage with several &0Giants&r&e patrolling nearby. Take what treasure you can, but you will need the &0Giant's Pickaxe&r&e to continue.",
+
+"faruk.stagethree.twilight16.subtitle":"&6Lamp of Aladdin v2",
+"faruk.stagethree.twilight16.desc1":"&e   With the Giant's Pickaxe you can open the huge obsidian vault in the center of the Troll Caves. Inside the vault, you will find the Lamp of Cinders. The power of the lamp can burn the thorns in the nearby Thornlands.",
+
+"faruk.stagethree.twilight17.subtitle":"&8THE FINAL BOSS¿",
+"faruk.stagethree.twilight17.desc1":"&e   There is a big, white, majestic castle at the top of the plateau: &8The Final Castle&r&e. There is almost nothing in it ツ. ",
+"faruk.stagethree.twilight17.desc2":"&e   But you have to gather some materials for your progress.",
+"faruk.stagethree.twilight17.desc4":"&c :¨·.·¨:",
+"faruk.stagethree.twilight17.desc5":"&c  `·. C O N G R A T Z ★°*ﾟ",
+
+"faruk.stagethree.twilight18.subtitle":"&6Small Hills",
+"faruk.stagethree.twilight18.desc1":"&e   Small hills measure approximately 30 metres across and usually contain the basic minerals such as Coal, Iron, with Redstone and Glowstone occasionally being found. You can find a couple of treasure chests containing common tools and items and rarely, a valuable Ore Magnet may be found along with a Diamond and Steeleaf. ",
+"faruk.stagethree.twilight18.desc2":"&e   Don't forget, you have to fight with a lot of mobs including Swarm Spiders, Redcap Goblins and Kobolds.",
+
+"faruk.stagethree.twilight19.subtitle":"&6Medium Hills",
+"faruk.stagethree.twilight19.desc1":"&e   Medium hills are about 60 metres in diameter. The interior becomes more spacious, Gold and Lapis can be found here as well as Diamond and Emerald being seen. Chests will contain Ironwood Ingots and Transformation Powder along with unique artifacts such as a Moonworm Queen, the Peacock Feather Fan.",
+"faruk.stagethree.twilight19.desc2":"&e   Be careful! Fire Beetles and Redcap Sappers live in medium hills.",
+
+"faruk.stagethree.twilight20.subtitle":"&6Large Hills",
+"faruk.stagethree.twilight20.desc1":"&e   The largest hollow hills has 112 metres in diameter. Every type of ore can be found in these cathedral-like caverns. There are up to 12 treasure chests, containing the most valuable treasures such as Naga Scales and Steeleaf.",
+"faruk.stagethree.twilight20.desc2":"&e   Naturally, you will find the most dangerous monsters here, including Wraiths, Witches, Slime Beetles, and Pinch Beetles.",
+
+"faruk.stagethree.twilight21.subtitle":"&6Hedge Maze",
+"faruk.stagethree.twilight21.desc1":"&e   Nestled in small clearings throughout the Twilight Forest, Hedge Mazes are a curious sight for new explorers in the dimension.",
+
+"faruk.stagethree.twilight22.subtitle":"&dQuest Grove",
+"faruk.stagethree.twilight22.desc1":"&e   Situated amongst the ferns and rainbow trees in the rare Enchanted Forest biomes, the Quest Grove is an ancient stone structure with weathered and aged arches that serves as the home of the Questing Ram.",
+"faruk.stagethree.twilight22.desc2":"&e   The friendly Ram seems to respond well if these blocks are given to it - those adventurers who have given all 16 colours of wools report that they were rewarded with several resource blocks - one each of Gold, Iron, Lapis and Diamond, as well as the unique Crumble Horn artifact.",
+
+"faruk.stagethree.twilight23.subtitle":"&6Maze Map",
+"faruk.stagethree.twilight23.desc1":"&e   The Maze Map is useful mostly for finding your way around the various mazes in the Twilight Forest. Like the normal map, it can see through walls, but unlike the normal map, the Maze Map will show you a slice of the world at your current depth or altitude. It is also zoomed in enough to show even the thinnest walls.",
+
+"faruk.stagethree.twilight24.subtitle":"&6Magic Map",
+"faruk.stagethree.twilight24.desc1":"&e   Magic Maps are an essential tool to any serious explorer in the Twilight Forest. You can see surrounding biomes within you.",
+
+"faruk.stagethree.twilight25.desc1":"&3My friends: You okay?",
+"faruk.stagethree.twilight25.desc2":"&3Me: Yeah, Im fine.  ",
+"faruk.stagethree.twilight25.desc3":"&3My headphones:      ",
+"faruk.stagethree.twilight25.desc4":"&eVahit Guetta-Donence Mix",
+"faruk.stagethree.twilight25.desc5":"&e0:31 ━❍──────── -5:12",
+"faruk.stagethree.twilight25.desc6":"&e↻     ⊲  Ⅱ  ⊳     ↺",
+"faruk.stagethree.twilight25.desc7":"&eVOLUME: ▁▂▃▄▅▆▇ 500%",
+
+"faruk.stagethree.main40.subtitle":"&8&l&oPromote to Stage Four!",
+"faruk.stagethree.main40.desc1":"&e   Last quest for stage Three! Click this checkmark!",
+
+
+
+
+
+"faruk.stagefour.main1.subtitle":"&6Technology of Future",
+"faruk.stagefour.main1.desc1":"&e   Metallurgic Infuser is the first step in the Mekanism. You can produce Steel and Bronze easier and faster in this machine.",
+"faruk.stagefour.main1.desc2":"&e   Also you can produce mekanism alloys in this machine.",
+
+"faruk.stagefour.main2.desc1":"&e   Mekanism Crafting Component.",
+
+"faruk.stagefour.main3.subtitle":"&6Rich Obsidian Dust",
+"faruk.stagefour.main3.desc1":"&e   Will be used for crafting Refined Obsidian Ingot and other mekanism related items.",
+
+"faruk.stagefour.main4.subtitle":"&6None to Basic",
+"faruk.stagefour.main4.desc1":"&e   Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the &2Basic Tier Installer&r&e and it will upgrade that machine to a &2Basic Factory&r&e.",
+
+"faruk.stagefour.main5.subtitle":"&6Chamber of Secrets",
+"faruk.stagefour.main5.desc1":"&e   This machine extract dusts out of blocks and ores, making it essential to producing different kinds of tools. This machine is the pulverizer equivalent in other mods. Also can be used for creating Compressed variants of Redstone, Diamond and Refined Obsidian Dust.",
+
+"faruk.stagefour.main6.desc1":"&e   Compressed items yields 80 units in the Metallurgic Infuser, 8 time more efficent than normal variants.",
+
+"faruk.stagefour.main7.subtitle":"&7Production of HDPE",
+"faruk.stagefour.main7.desc1":"&e   It will be used for seperate oxygen and hydrogen from water in this state. We need two gases for producing HDPE, so store them in chemical tanks.",
+
+"faruk.stagefour.main8.desc1":"&e   Craft a Crusher and automate it for producing Bio Fuel(Garden Cloche and Phytogenic Insulator will produce a lot of material for crusher.)",
+
+"faruk.stagefour.main9.desc1":"&e   After automated Bio Fuel, supply this machine(We called as PRC) with Bio Fuel, water and Hydrogen Gas. Then you will turn BioFuel to Substrate and Ethylene gas.",
+
+"faruk.stagefour.main10.desc1":"&e   After produced Substrate, craft a Rotary Condensentrator for producing Liquid Ethylene from Ethylene.",
+
+"faruk.stagefour.main11.desc1":"&e   Now you have Liquid Ethylene and Oxygen from first quest of this branch(Electric Separator). Craft a new PRC and supply with Liquid Ethylene, Oxygen and Substrate. Tadaa! You got your first HDPE pellet!",
+
+"faruk.stagefour.main12.desc1":"&e   Output item of last quest.",
+
+"faruk.stagefour.main13.subtitle":"&6New Alloys!",
+"faruk.stagefour.main13.desc1":"&e   Supply this machine with Osmium ingots/blocks then you can produce two new alloys.",
+
+"faruk.stagefour.main14.desc1":"&e   New alloy for your journey! ",
+
+"faruk.stagefour.main15.subtitle":"&6Cutest Robot in the World!",
+"faruk.stagefour.main15.desc1":"&e   Robit is a companion for you! He can follow you, will collect dropped items, has 3x3 crafting grid, 27 slots for storage, electrical furnace, and anvil for repairs. ",
+"faruk.stagefour.main15.desc2":"&e   To place your Robit to world, you have to place charge pad first.",
+
+"faruk.stagefour.main16.subtitle":"&6We Can Prevent Greenhouse Effect!",
+"faruk.stagefour.main16.desc1":"&e   Can produce FE from Sun, also can be used for crafting advanced machines.",
+
+"faruk.stagefour.main17.subtitle":"&6Like a Press",
+"faruk.stagefour.main17.desc1":"&e   We added some functions for this machines, like making control circuits.",
+
+"faruk.stagefour.main18.subtitle":"&cBasic to Advanced",
+"faruk.stagefour.main18.desc1":"&e   Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the &cAdvanced Tier Installer&r&e and it will upgrade that machine to a &cAdvanced Factory&r&e.",
+
+"faruk.stagefour.main19.subtitle":"&9Advanced to Elite",
+"faruk.stagefour.main19.desc1":"&e   Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the &9Elite Tier Installer&r&e and it will upgrade that machine to a &9Elite Factory&r&e.",
+
+"faruk.stagefour.main20.subtitle":"&dElite to Ultimate",
+"faruk.stagefour.main20.desc1":"&e   Installers are used to upgrade various machines into their Factory equivalent. Right-click on the machine with the &9Ultimate Tier Installer&r&e and it will upgrade that machine to a &9Ultimate Factory&r&e.",
+
+"faruk.stagefour.main21.desc1":"&e   The Induction Matrix is a multi-block energy storage structure. It is built using Induction Casing and Induction Port for the casing, and any combination of Induction Providers and Induction Cells.",
+
+"faruk.stagefour.main22.subtitle":"&6Core of Hypothetical Transfer",
+"faruk.stagefour.main22.desc1":"&e  Crafting component for advanced machines.",
+
+"faruk.stagefour.main23.subtitle":"&6Better Quarry",
+"faruk.stagefour.main23.desc1":"&e   Quarry from Mekanism. When you placed it, apply your preferred settings. For max. efficiency, click Config tab, change Radi to 32,  Min to 1, Max to ground level (64 etc). Then Click New Filter,  click Tag and write forge:ores. You can mine all ores with this way.",
+
+"faruk.stagefour.main24.subtitle":"&6Hypothetical Transfer for Items and Gases",
+"faruk.stagefour.main24.desc1":"&e   Quantum Entangloporter is a machine transfers fluids/items/energy/gas from one Quantum Entangloporter to another. ",
+
+"faruk.stagefour.main25.subtitle":"&6Fissile Fuel Production",
+"faruk.stagefour.main25.desc1":"&e   You have to produce Oxygen for Sulfur Trioxide.",
+
+
+"faruk.stagefour.main26.desc1":"&e   Supply this machine with some Sulfur and you will get Sulfur Dioxide.",
+
+
+"faruk.stagefour.main27.desc1":"&e   This machine infuses two gases into another one. Supply this machine with Oxygen and Sulfur Dioxide, it will produce Sulfur Trioxide.",
+
+
+"faruk.stagefour.main28.desc1":"&e   Switch machine mode to Decondensentrating and supply with Water, it will produce Water Vapor.",
+
+
+"faruk.stagefour.main29.desc1":"&e   Supply this machine with Water Vapor and Sulfur Trioxide and you will get H²SO⁴.",
+
+
+"faruk.stagefour.main30.desc1":"&e   Supply this machine with Sulfuric Acid and Fluriote, it will produce Hydrofluoric Acid.",
+
+
+"faruk.stagefour.main31.desc1":"&e   This machine produces Yellow Cake Uranium from Uranium.",
+
+
+"faruk.stagefour.main32.desc1":"&e   Yellow Cake Uranium to Uranium Oxide!",
+
+
+"faruk.stagefour.main33.desc1":"&e   Hydrofluoric Acid + Uranium Oxide = Uranium Hexafluorid",
+
+
+"faruk.stagefour.main34.desc1":"&e   You ready for produce Fissile Fuel?",
+
+"faruk.stagefour.main35.desc1":"&e   Fission Reactor is a multiblock structure that generates massive amounts of heat but does not produce power on its own. How much heat is generated depends on the rate at which it burns Fissile Fuel.",
+"faruk.stagefour.main35.desc2":"&e   To produce power, you have to pipe steam comes from coolant of reactor into Industrial Turbine. ",
+"faruk.stagefour.main35.desc3":"&e   But we need this reactor for produce Nuclear Waste. You can skip Industrial Turbine Process if you want, you don't need it for your questbook progress.",
+
+"faruk.stagefour.main36.subtitle":"&6Processing Nuclear Waste to Plutonium",
+"faruk.stagefour.main36.desc1":"&e   Process Nuclear waste in Isotopic Centrifuge and produce some Plutoinum.",
+
+"faruk.stagefour.main37.subtitle":"&6Processing Nuclear Waste to Polonium",
+"faruk.stagefour.main37.desc1":"&e   Process Nuclear waste in Solar Neutron Activator and produce some Polonium.",
+
+"faruk.stagefour.main38.subtitle":"&6Industrial Turbine",
+"faruk.stagefour.main38.desc1":"&e   This turbine can produce RF from used reactor coolant(Steam).",
+"faruk.stagefour.main38.desc2":"&e   You can check mod's WIKI for detailed construction information.",
+
+"faruk.stagefour.main39.subtitle":"&6Just Spicy Air",
+"faruk.stagefour.main39.desc1":"&e   You can store Nuclear Waste in this barrels. But if you break this barrels, just don't. All radioactive waste will spread out and you can't do anything about that.",
+"faruk.stagefour.main39.desc2":"&e   Depends on how much radioactive waste spread, you will die without protection in this area.",
+
+"faruk.stagefour.main40.subtitle":"&dSupercritical Phase Shifter",
+"faruk.stagefour.main40.desc1":"&e   Supercritical Phase Shifter is a multiblock structure that consumes large amount of energy and polonium gas to create Antimatter gas, which can be crystallized into antimatter pellets. Antimatter pellets are used in a number of endgame recipes.",
+"faruk.stagefour.main40.desc2":"&e   Each SPS Casing block requires 50,000 mB of processed nuclear waste (4 polonium pellets, 1 plutonium pellet) to craft. The optimal minimal build of SPS material list is in quests tasks.",
+
+"faruk.stagefour.main41.subtitle":"&6Congratz!",
+"faruk.stagefour.main41.desc1":"&e   Antimatter is a supercool item, you will use it in diffirent recipes.",
+
+"faruk.stagefour.main42.subtitle":"&6It Looks So Familiar",
+"faruk.stagefour.main42.desc1":"&e   Mass fabricator uses so much RF to produce Universal Mass. To reduce RF consumption, supply this machine with Scraps or Scrapbox.",
+
+"faruk.stagefour.main43.subtitle":"&6Antimatter to Universal Mass",
+"faruk.stagefour.main43.desc1":"&e   This machine can change Antimatter Pellet to 1000 Universal Mass.",
+
+"faruk.stagefour.main44.subtitle":"&6Recycling Universal Mass",
+"faruk.stagefour.main44.desc1":"&e   Turns universal mass to energy with some energy loss.",
+
+"faruk.stagefour.main45.subtitle":"&6Scraps!",
+"faruk.stagefour.main45.desc1":"&e   Recycler will produce Scraps from anything!",
+
+"faruk.stagefour.main46.subtitle":"&6Creating Patterns",
+"faruk.stagefour.main46.desc1":"&e   Scan items for duplication. Just place an item and write it to Pattern Storage.",
+
+"faruk.stagefour.main47.subtitle":"&6Universal Mass to Items!",
+"faruk.stagefour.main47.desc1":"&e   This machine turns Universal Mass to another items which you prefer.",
+
+"faruk.stagefour.main48.subtitle":"&6Another Arc Furnace",
+"faruk.stagefour.main48.desc1":"&e   Acts like a normal smelting machine but also fuses items together. Required for produce Trinium.",
+
+"faruk.stagefour.main49.subtitle":"&6Low Quality Rod",
+"faruk.stagefour.main49.desc1":"&e   Arc furnace requires Carbon or Trinium rods for smelting.",
+
+"faruk.stagefour.main50.subtitle":"&6Better Quality Rod",
+"faruk.stagefour.main50.desc1":"&e   Better rod for Arc Furnace.",
+
+"faruk.stagefour.main51.subtitle":"&6New Material!",
+"faruk.stagefour.main51.desc1":"&e   To obtain this item, smelt gravel in Arc Furnace.",
+
+"faruk.stagefour.main52.subtitle":"&6Extremly Conductive Metal",
+"faruk.stagefour.main52.desc1":"&e   Smelt Trinium Dust in Arc Furnace to obtain this metal.",
+
+"faruk.stagefour.main53.subtitle":"&6An Item From Author",
+"faruk.stagefour.main53.desc1":"&e   A plate for crafting recipes.",
+
+"faruk.stagefour.main54.subtitle":"&6Compress Some Obsidian",
+"faruk.stagefour.main54.desc1":"&e  A component for crafting recipes. ",
+
+"faruk.stagefour.main55.subtitle":"&6To Other Dimensions!",
+"faruk.stagefour.main55.desc1":"&e   Dimensional Core is another crafting item added by Author.",
+
+"faruk.stagefour.main56.subtitle":"&61x Compressed",
+"faruk.stagefour.main56.desc1":"&e   This compressed block diffirent from others. You have to use Enriched Obsidian to create this block. You need 5120 normal obsidian and 640 Enriched Obsidian to craft this.",
+
+"faruk.stagefour.main57.subtitle":"&62x Compressed",
+"faruk.stagefour.main57.desc1":"&e   Another compressed block.",
+
+"faruk.stagefour.main58.subtitle":"&63x Compressed",
+"faruk.stagefour.main58.desc1":"&e   Congratz! Just place this 10 blocks like nether portal without corners(You can place corners too but it's very expensive).",
+"faruk.stagefour.main58.desc2":"&f   This dimension and mod created by me for this modpack. In Stage Five, you need Ice and Fire Dragons for your progression and Dragons are only spawning in FarukLand dimension.",
+"faruk.stagefour.main58.desc3":"&f   In this dimension, you can't see clearly so we recommend a nightvision potion or item. There's no day and night cycle in this dimension. ",
+"faruk.stagefour.main58.desc4":"&e   Before you go, don't forget to get Stage Five.",
+
+"faruk.stagefour.main59.subtitle":"&6a lot of RF",
+"faruk.stagefour.main59.desc1":"&e   Fusion Reactor is a powerful reactor for creating insane amount of RF. But operation of this reactor is too complicated, you can check mod's wiki for detailed information.",
+
+"faruk.stagefour.main60.subtitle":"&63x Ore Duplication",
+"faruk.stagefour.main60.desc1":"&e   Separate Oxygen from water, and store it into chemical tank.",
+
+
+"faruk.stagefour.main61.desc1":"&e   Supply this machine with oxygen to purificate your ores into clumps.",
+
+
+"faruk.stagefour.main62.desc1":"&e   Crush your clumps to dirty dusts.",
+
+
+"faruk.stagefour.main63.desc1":"&e   This machine turns dirty dusts to normal dusts.",
+
+"faruk.stagefour.main64.subtitle":"&94x Ore Duplication",
+"faruk.stagefour.main64.desc1":"&e   This is a multiblock structure to creating Brine from Water. To detailed info about multiblock, you can visit mekanism Wiki",
+
+
+"faruk.stagefour.main65.desc1":"&e   In this quest, you need Hydrogen and Chlorine. Hydrogen comes from water in separator, Chlorine comes from Brine in separator too. When you get this gases just supply chemical infuster with this two gasses. You will get Hydrogen Chloride.",
+
+
+"faruk.stagefour.main66.desc1":"&e   Supply this machine with Hydrogen Chloride to convert your ores into shards.",
+
+
+"faruk.stagefour.main67.desc1":"&e   This machine converts shards to clumps. When you get clumps other processes is same as 3x duplication.",
+
+"faruk.stagefour.main68.subtitle":"&d5x Ore Duplication",
+"faruk.stagefour.main68.desc1":"&e   You need Sulfur Dioxide to process ores to x5. Just supply oxidizer with some Sulfur to produce Sulfur Dioxide.",
+
+
+"faruk.stagefour.main68.desc2":"&e   Craft a Chemical Infuser and supply with Oxygen and Sulfur Dioxide to produce Sulfur Trioxide.",
+"faruk.stagefour.main68.desc3":"&e   Than craft another Infuser and use Water Vapor and Sulfur Trioxide to produce Sulfuric Acid.",
+
+"faruk.stagefour.main69.desc1":"&e   Switch machine mode to Decondensentrating and supply with Water, it will produce Water Vapor.",
+
+
+"faruk.stagefour.main70.desc1":"&e   This machines turns ores to Ore Slurry.",
+
+
+"faruk.stagefour.main71.desc1":"&e   Wash your our slurry with water.",
+
+
+"faruk.stagefour.main72.desc1":"&e   This machine turns your Clean Ore Slurry to Crystals. After you get crystals the processes are same with 4x.",
+
+"faruk.stagefour.main73.title":"&8&l&oPromote to Stage FIVE!",
+"faruk.stagefour.main73.subtitle":"&1&l&oYOU DESERVE IT!",
+"faruk.stagefour.main73.desc1":"&e   Last quest for stage Five! Click this checkmark.",
+
+
+
+
+
+
+
+
+
+
+
+"faruk.stagefive.main1.subtitle":"&6Welcome to FarukLand!",
+"faruk.stagefive.main1.desc1":"&e   Finally you arrived to &6Faruk Land&r&e. The dimension of &4Dragons&r&e and &cMythical Creatures&r&e!",
+
+"faruk.stagefive.main2.subtitle":"&6To The Ancient Knowledge",
+"faruk.stagefive.main2.desc1":"&e   Manuscripts can be found in chests of Dragon Roosts, in the Ice and Fire Graveyards and in Villages.",
+
+"faruk.stagefive.main3.subtitle":"&6Guide for Ancient Creatures",
+"faruk.stagefive.main3.desc1":"&e   Bestiary is the in-game guide for Ice and Fire.",
+"faruk.stagefive.main3.desc2":"&e   The Bestiary starts with only one chapter: Introduction. The rest of the chapters can be unlocked by placing the Bestiary and Manuscripts into Bestiary Lectern. Each chapter costs 3 Manuscripts. In total, you need 78 Manuscripts to be able to unlock every chapter of Bestiary.",
+
+"faruk.stagefive.main4.subtitle":"&6Dragon Bones",
+"faruk.stagefive.main4.desc1":"&e   This item can be obtained from the skeletons of dragons. You need a lot of them.",
+
+"faruk.stagefive.main5.subtitle":"&6Dragon Compass",
+"faruk.stagefive.main5.desc1":"&e   Dragonseekers, can help with tracking down dragons. First level of dragonseeker can be right-clicked to produce a tone, which is slightly higher when it detects a dragon within 150 blocks.",
+"faruk.stagefive.main5.desc2":"&e    Be careful, though- it's not infallible, and might make a mistake! It'll also pick up on dead and tamed dragons, so be sure to clear out the area you're searching in beforehand.",
+
+"faruk.stagefive.main6.subtitle":"&6Better Dragon Compass",
+"faruk.stagefive.main6.desc1":"&e   These have more durability, greater range, and a lessened error chance. They also make slightly more noise the closer you get to a dragon, letting you narrow down its position a little better, and don't pick up on dead dragons.",
+
+"faruk.stagefive.main7.subtitle":"&6Best Dragon Compass",
+"faruk.stagefive.main7.desc1":"&e    Once again, these have more durability and range than an Epic Dragonseeker, with a lessened error chance. They make more noise when close to a dragon, and do so more clearly than an Epic Dragonseeker, making your search even easier.",
+
+"faruk.stagefive.main8.subtitle":"&6Godly Dragon Compass",
+"faruk.stagefive.main8.desc1":"&e   300-block range and a 0 error chance. It'll print the exact distance to, and coordinates of, the nearest dragon in the chat.",
+
+"faruk.stagefive.main9.subtitle":"&6Scales of Ancient Creatures",
+"faruk.stagefive.main9.desc1":"&e   Dragon Scales are an item obtained from dragon corpses. Dragons of Stage 2 and above will have the potential to drop Dragon Scales. You have to right-click to Dragon Corpse with empty hand.",
+
+"faruk.stagefive.main10.subtitle":"&6Hearts of Ice and Fire",
+"faruk.stagefive.main10.desc1":"&e   Same as Dragon Scales. You have to right-click to Dragon Corpse with empty hand.",
+
+"faruk.stagefive.main11.subtitle":"&6Baby Dragons",
+"faruk.stagefive.main11.desc1":"&e   Dragon Eggs are placeable entities that turn into baby dragons; they are a drop from stage 4+ female dragons, used to hatch tamed baby dragons. Tier 4+ dragons can only be found at Underground Caves.",
+"faruk.stagefive.main11.desc2":"&cFire dragon eggs (Red, Gray, Emerald & Bronze) must be placed within a fire to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch.",
+"faruk.stagefive.main11.desc3":"&bIce dragon eggs (Blue, Sapphire, White & Silver) must be placed in water that could be surrounded by ice. If the water around the egg freezes, then it will hatch in a few minutes.",
+"faruk.stagefive.main11.desc4":"&dLightning dragon eggs (Copper, Electric Blue, Amethyst & Black) must be exposed to rain to start the hatching process. Once the egg starts moving, it will take a few minutes to hatch. (If the rain stops the process of hatching will stop as well.). When the Lightning Dragon egg hatches there will be a strike of lighting. You have to put out the fire , if you don'tdragon could be killed by the fire.",
+"faruk.stagefive.main11.desc5":"&eDragon Eggs will hatch into baby dragons that are tamed as soon as they hatch (the player is near the egg), but cannot be ridden, but you can put it on your shoulder.",
+
+"faruk.stagefive.main12.subtitle":"&6Blood of Ancient Creature",
+"faruk.stagefive.main12.desc1":"&e   Dragon Blood is an item obtained by &abottling&r&e a Dead Dragon's Carcass(Must have the Skin on).",
+
+"faruk.stagefive.main13.subtitle":"&4Dragonforge",
+"faruk.stagefive.main13.desc1":"&e   Dragonforge is used to produce Dragonsteels. Stage 3+ dragons, when near a Dragonforge will automatically breathe its corresponding breath on it and begin the process of making Dragonsteels. Type of Dragon Blood, Dragonforge, and Dragon must be the same. ",
+"faruk.stagefive.main13.desc2":"&e   To building instructions, check the other quest. ",
+"faruk.stagefive.main13.desc3":"&e   Note: It is recommended that you build your Dragonforge away from your base, as everything around it will be set on fire or frozen, depending on the type of forge.",
+
+"faruk.stagefive.main14.subtitle":"&6Bloody Steel",
+"faruk.stagefive.main14.desc1":"&e   Dragonsteel ingots are a powerful metal crafted in a Dragonforge using Dragon breath.",
+
+"faruk.stagefive.main15.subtitle":"&6Draconium",
+"faruk.stagefive.main15.desc1":"&e   Can be found in The End as ores.",
+
+"faruk.stagefive.main16.subtitle":"",
+"faruk.stagefive.main16.desc1":"&e   Just smelt dusts or ores.",
+
+"faruk.stagefive.main17.subtitle":"&6First Tier Core",
+"faruk.stagefive.main17.desc1":"&e   Main crafting component for Draconic Evolution.",
+
+"faruk.stagefive.main18.subtitle":"&6Second Tier Core",
+"faruk.stagefive.main18.desc1":"&e   Main crafting component for Draconic Evolution.",
+
+"faruk.stagefive.main19.subtitle":"&6First Tier Energy Controller",
+"faruk.stagefive.main19.desc1":"&e   Crafting component for Draconic Evolution.",
+
+"faruk.stagefive.main20.subtitle":"&6Relays",
+"faruk.stagefive.main20.desc1":"&e   The Energy Relay is not able to transfer Redstone Flux energy, it is a hub can link up to other Energy Crystals. Crystal Binder can be used to display links and bind it to other Energy Crystals.",
+
+"faruk.stagefive.main21.subtitle":"&6Wireless Energy Transfer",
+"faruk.stagefive.main21.desc1":"&e   It is used to import and export energy between I/O crystals.",
+
+"faruk.stagefive.main22.subtitle":"&6Input and Output for Machines",
+"faruk.stagefive.main22.desc1":"&e   Can be toggled sneak right-click for input and output modes. Place this crystal on a RF using machine and select for input or output. To link them use Crystal binder.",
+
+"faruk.stagefive.main23.subtitle":"&6Soul Harvester",
+"faruk.stagefive.main23.desc1":"&e   To harvest mob souls, you need Reaper achievement in your sword. Higher enchant level grants higher chance for gathering souls. When you killed a mob you can his soul.",
+
+"faruk.stagefive.main24.subtitle":"&6Coolest Grinder",
+"faruk.stagefive.main24.desc1":"&e   Cool way to grind mobs.",
+
+"faruk.stagefive.main25.subtitle":"&6Improved Grinder",
+"faruk.stagefive.main25.desc1":"&e   Improved grinder with extra features.",
+
+"faruk.stagefive.main26.subtitle":"&6Biometric Filter",
+"faruk.stagefive.main26.desc1":"&e   You can filter mobs and players in grinder.",
+
+"faruk.stagefive.main27.subtitle":"&6Fusion Crafting",
+"faruk.stagefive.main27.desc1":"&e   Fusion Crafting is a new method for crafting. Place a &cFusion Crafting Core&r&e and place &cFusion Crafting Injectors&r&e. To craft items, place crafting ingredients into injectors with right click.",
+"faruk.stagefive.main27.desc2":"&e   Then place main item into Fusion Core. Supply all injectors with RF. When its done, take your output item from Core.",
+
+"faruk.stagefive.main28.subtitle":"&6Item Router for Fusion Crafting",
+"faruk.stagefive.main28.desc1":"&e   Place Crafting Injector Item Router anywhere you want then Right Click with Crafting Injector Location Card to Fusion Crafting Injector. Then Place this card into router. When you place item into router, it will be teleport into linked Fusion Crafting Injector.",
+
+"faruk.stagefive.main29.subtitle":"&6Linking Tool",
+"faruk.stagefive.main29.desc1":"&e   Used for linking crystals.",
+
+"faruk.stagefive.main30.subtitle":"&6Advanced Fusion Crafting",
+"faruk.stagefive.main30.desc1":"&e   Same as basic, but can craft higher tier recipes.",
+
+"faruk.stagefive.main31.subtitle":"&6Telerport and Blink!",
+"faruk.stagefive.main31.desc1":"&e   Uses Ender Pearl as fuel and has teleport and blink functions. Needed for Chaos Guardian Boss Fight.",
+
+"faruk.stagefive.main32.subtitle":"&6Mega Batbox",
+"faruk.stagefive.main32.desc1":"&e   Portable RF storage. Can charge held, inventory items and equipments. Can be upgradeable.",
+
+"faruk.stagefive.main33.subtitle":"&6New Tech Armor",
+"faruk.stagefive.main33.desc1":"&e   Very powerful armor. Can be upgraded with Draconic Evolution Upgrades. Don't Forget to remove all upgrades from MekaSuit because it can be deleted when upgraded to Draconic Armor.",
+
+"faruk.stagefive.main34.subtitle":"&6Real Dragon Heart",
+"faruk.stagefive.main34.desc1":"&e   Obtained from death of Ender Dragon.",
+
+"faruk.stagefive.main35.subtitle":"&6Most Expensive Block",
+"faruk.stagefive.main35.desc1":"&e   New block for Draconic Recipes.",
+
+"faruk.stagefive.main36.subtitle":"&6Coolest Ingot",
+"faruk.stagefive.main36.desc1":"&e   New ingot for Draconic Recipes.",
+
+"faruk.stagefive.main37.subtitle":"&6Draconic Energy",
+"faruk.stagefive.main37.desc1":"&e   Crafting component for Draconic Evolution recipes.",
+
+"faruk.stagefive.main38.subtitle":"&6Ultra Batbox",
+"faruk.stagefive.main38.desc1":"&e   Portable RF storage. Can charge held, inventory items and equipments. Can be upgradeable.",
+
+"faruk.stagefive.main39.subtitle":"&6Third Tier Core",
+"faruk.stagefive.main39.desc1":"&e   Third part of Draconic Evolution.",
+
+"faruk.stagefive.main40.subtitle":"&6Elite Fusion Crafting",
+"faruk.stagefive.main40.desc1":"&e   Same as basic and advanced, but can craft higher tier recipes.",
+
+"faruk.stagefive.main41.subtitle":"&6Elite Armor",
+"faruk.stagefive.main41.desc1":"&e   Very powerful armor. Can be upgraded with Draconic Evolution Upgrades. Don't Forget to remove all upgrades from Wyvern chestplate because it can be deleted when upgraded to Draconic tier.",
+
+"faruk.stagefive.main42.subtitle":"&6Draconic Relay",
+"faruk.stagefive.main42.desc1":"&e   Same as other ones but better quality.",
+
+"faruk.stagefive.main43.subtitle":"&6Draconic I/O",
+"faruk.stagefive.main43.desc1":"&e   Same as other ones but better quality.",
+
+"faruk.stagefive.main44.subtitle":"&6Draconic Wireless Energy Transfer",
+"faruk.stagefive.main44.desc1":"&e   Same as other ones but better quality.",
+
+"faruk.stagefive.main45.subtitle":"&6BOSS OF ALL BOSSES!",
+"faruk.stagefive.main45.desc1":"&e   Congratz! Finally, you arrived end of the game. One last rival wouldn't be easy. This boss can be spawned in The End every 10.000 blocks(X:10.000 Y:~ Z:0 etc).",
+"faruk.stagefive.main45.desc2":"&eChaos Guardian about 1000 times much powerful than Ender Dragon. You have to equip full upgraded and enchanted armors to survive.",
+"faruk.stagefive.main45.desc3":"&eYou can't just kill Chaos Guardian firing arrows or swords. You have to play smart and should use tricks. We can't write in this quest. To more info just check Draconic Evolution or our discord.",
+
+"faruk.stagefive.main46.subtitle":"&6Chaotic Energy Tier",
+"faruk.stagefive.main46.desc1":"&e   Last tier of Energy Controllers.",
+
+"faruk.stagefive.main47.subtitle":"&6Chaotic Fusion Crafting",
+"faruk.stagefive.main47.desc1":"&e   Same as all Fusion Craftings, but it's endgame.",
+
+"faruk.stagefive.main48.subtitle":"&6Most Powerful Batbox",
+"faruk.stagefive.main48.desc1":"&e   Insane portable RF storage. Can charge held, inventory items and equipments very fast. Can be upgradeable to achieve Tier 3 Civilization Mark in Kardashev Scale.",
+
+"faruk.stagefive.main49.subtitle":"&6Godly Chestplate of Chaos",
+"faruk.stagefive.main49.desc1":"&e   Final tier of chestplate. Don't Forget to remove all upgrades from Draconic chestplate because it can be deleted when upgraded to Chaotic tier.",
+
+"faruk.stagefive.main50.subtitle":"&6Final Tier Core",
+"faruk.stagefive.main50.desc1":"&e   Final tier of Cores.",
+
+"faruk.stagefive.main51.subtitle":"&6Chaos Shard Farming",
+"faruk.stagefive.main51.desc1":"&e   When you killed Chaos Dragon, we recommend making this machine to produce free shards.",
+
+"faruk.stagefive.main52.subtitle":"&4&l&oThe BIG BANG!",
+"faruk.stagefive.main52.desc1":"&e   The last quest for your epic journey in Faruk V. We appriciate your interest to our modpack. This is your final task. Create a backup for your save before starting this quest.",
+"faruk.stagefive.main52.desc2":"&c   When you got your backup, craft this items above and build your Draconic Reactor. This reactor can produce insane amount of RF, with insane risk. If you make a mistake, the meltdown will have unforseen consequences.",
+"faruk.stagefive.main52.desc3":"&e   But you have backup right? Maybe we can have fun a little bit ;)",
+
+"faruk.stagefive.main53.subtitle":"",
+"faruk.stagefive.main53.desc1":"",
+
+"faruk.stagefive.main54.subtitle":"",
+"faruk.stagefive.main54.desc1":"",
+
+"faruk.stagefive.main55.subtitle":"",
+"faruk.stagefive.main55.desc1":"",
+
+"faruk.stagefive.main56.subtitle":"",
+"faruk.stagefive.main56.desc1":"",
+
+"faruk.stagefive.main57.subtitle":"",
+"faruk.stagefive.main57.desc1":"",
+
+"faruk.stagefive.main58.subtitle":"",
+"faruk.stagefive.main58.desc1":"",
+
+"faruk.stagefive.main59.subtitle":"",
+"faruk.stagefive.main59.desc1":"",
+
+"faruk.stagefive.main60.subtitle":"",
+"faruk.stagefive.main60.desc1":"",
+
+"misc.silentgear.poorlyMade": "This item is poorly made and will not last long. Use silent gear variants.",
+
+
+
+
+
+"faruk.faq.main":"FAQ",
+
+"faruk.faqtr.title":"&6Görevleri nasıl Türkçe yapacağım?",
+"faruk.faqtr.subtitle":"&cThis quest concerns Turkish players only.",
+"faruk.faqtr.desc1":"&e   Görevleri Türkçe yapmak için oyunu dilini Türkçe yapmanız yeterlidir. Eğer oyun dili İngilizce iken sadece görevleri TÜrkçe yapmak isterseniz Faruk V mod paketinin kurulu olduğu dizine girin. Sırasıyla Kubejs/assets/faruk/lang klasörüne girin ve en_us.json dosyasının adını en_us.json1 yapın daha sonra tr_tr.json dosyasının adını en_us.json olarak değiştirin bu sayede oyun İngilizce iken sadece görevler Türkçe olacaktır.",
+
+"faruk.faq1.title":"&6When I install Optifine in the modpack, the game does not open.",
+"faruk.faq1.desc1":"&e   Optifine cannot be installed in our pack because our contains Magnesium (forge version of Sodium mod) in the pack, which in most cases Magnesium givesmuch better performance than Optifine. If you have problems in the game, you can play the pack by removing Magnesium, Magnesium Extras and Magnesium Dynamic Lightning mods. If you want, you can install Optifine and Shaders after removing those mods.",
+
+"faruk.faq2.title":"&6Why can't I use FTB Ultiminer(Veinmine)?",
+"faruk.faq2.desc1":"&e   To use Ultimine in our modpack, you must first proceed through the main quest and craft the Trinket item called FTB Ultiminer. Until then, you can't use ultimine.",
+
+"faruk.faq3.title":"&6My game is in caves and it is very dark at night.",
+"faruk.faq3.desc1":"&e   Pause the game with ESC and enter Video Settings. Turn off the True Darkness option in the Extras section above.",
+
+"faruk.faq4.title":"&6There is a giant centipede in the caves and I am very afraid of centipedes",
+"faruk.faq4.desc1":"&e   We have a config file in our Discord server's FAQ channel. Put the attached file into the config folder where the pack is installed.",
+
+"faruk.faq5.title":"&6Tools such as pickaxes and axes break immediately.",
+"faruk.faq5.desc1":"&e   The durability and speed of tools such as pickaxes, axes, and armors have been reduced by 90 percent. Instead of them, you have to use the tools of the Silent Gear mod. Detailed information is available in the 'Tools' section of the task book.",
+
+"faruk.faq6.title":"&6Why can't I use Ultimine(Veinmine) on trees and grass?",
+"faruk.faq6.desc1":"&e   Ultimine is closed for trees and grass. If you want to mine them in bulk, you can use Saw and Sickle from the Silent Gear mod.",
+
+"faruk.faq7.title":"&6",
+"faruk.faq7.desc1":"&e   ",
+
+"faruk.faq8.title":"&6",
+"faruk.faq8.desc1":"&e   ",
+
+"faruk.faq9.title":"&6",
+"faruk.faq9.desc1":"&e   ",
+
+"faruk.faq10.title":"&6",
+"faruk.faq10.desc1":"&e   ",
+
+"faruk.faq11.title":"&6",
+"faruk.faq11.desc1":"&e   ",
+
+"faruk.faq12.title":"&6",
+"faruk.faq12.desc1":"&e   ",
+
+"faruk.faq13.title":"&6",
+"faruk.faq13.desc1":"&e   "
+}

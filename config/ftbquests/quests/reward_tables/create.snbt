@@ -1,0 +1,57 @@
+{
+	id: "38FA42D60238C552"
+	order_index: 0
+	title: "Create"
+	icon: "kubejs:chest_silver"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "create:cogwheel", count: 8 }
+		{ item: "create:large_cogwheel", count: 4 }
+		{ item: "create:gearbox" }
+		{ item: "create:shaft", count: 8 }
+		{ item: "create:cuckoo_clock" }
+		{ item: "create:pink_seat" }
+		{ item: "create:belt_connector", count: 2 }
+		{ item: "create:honeyed_apple", count: 2 }
+		{ item: "minecraft:andesite", count: 8 }
+		{ item: "create:andesite_alloy", count: 4 }
+		{
+			item: {
+				id: "create:sand_paper"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:builders_tea" }
+		{
+			item: {
+				id: "create:filter"
+				Count: 1b
+				tag: {
+					Items: { }
+				}
+			}
+			count: 2
+		}
+		{
+			item: {
+				id: "create:super_glue"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "create:white_sail", count: 8 }
+		{ item: "emendatusenigmatica:iron_chunk", count: 4 }
+		{ item: "emendatusenigmatica:copper_chunk", count: 4 }
+		{ item: "emendatusenigmatica:zinc_chunk", count: 4 }
+		{
+			xp: 100
+			type: "xp"
+		}
+	]
+}

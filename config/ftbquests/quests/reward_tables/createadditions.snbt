@@ -1,0 +1,14 @@
+{
+	id: "5246902F332CED13"
+	order_index: 4
+	title: "CreateAdditions"
+	loot_size: 1
+	hide_tooltip: true
+	rewards: [
+		{ item: "createaddition:spool" }
+		{ item: "createaddition:copper_wire", count: 4 }
+		{ item: "createaddition:iron_wire", count: 4 }
+		{ item: "createaddition:gold_wire", count: 4 }
+		{ item: "createaddition:capacitor" }
+	]
+}
