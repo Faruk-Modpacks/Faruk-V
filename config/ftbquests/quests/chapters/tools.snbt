@@ -1988,8 +1988,9 @@
 		{
 			x: 3.5d
 			y: 0.5d
+			subtitle: "{faruk.stagezero.tools121.subtitle}"
 			description: [
-				"&e   A multi-function blade. It's a &r&dsword, axe, &r&eand &r&dsickle, &r&ebut works best as a &r&5sword. &r&eSlightly slower attack speed, but higher damage than standard swords. Like sickles, it can clear an area of plants, but the range is smaller."
+				"{faruk.stagezero.tools121.desc1}"
 				"{image:faruk:textures/ftbquests/machete.png width:185 height:100 align:1}"
 			]
 			id: "37B0D297E65ABF5F"
@@ -3585,6 +3586,7 @@
 				"3A5A8DBA1D607C59"
 				"2463921BF11A6BDB"
 			]
+			dependency_requirement: "one_completed"
 			id: "6F71B5CDA6A1CE4D"
 			tasks: [{
 				id: "5CA065692EF0F0E7"

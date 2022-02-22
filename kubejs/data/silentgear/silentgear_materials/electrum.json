@@ -1,0 +1,89 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/electrum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/electrum"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.electrum"
+  },
+  "stats": {
+    "main": {
+      "durability": 96.0,
+      "armor_durability": 10.0,
+      "enchantability": 25.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 14.0,
+      "melee_damage": 2.0,
+      "magic_damage": 5.0,
+      "attack_speed": 0.3,
+      "armor": 15.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.0,
+      "magic_armor": 11.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 0.4,
+      "rarity": 40.0,
+      "silentgems:chargeability": 1.5
+    },
+    "rod": {
+      "attack_speed": {
+        "add": 0.1
+      },
+      "ranged_speed": {
+        "mul2": 0.1
+      },
+      "rarity": 40.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:soft",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:lustrous",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ]
+  }
+}

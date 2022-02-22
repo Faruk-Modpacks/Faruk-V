@@ -55,7 +55,7 @@
 "faruk.stagezero.main14.desc1":"&e   Spout can fill items beneath it that holds fluids. (You can place depot beneath the spout)Don't forget! You can't use buckets with this things. You have to use fluid pipes to operate them.",
 
 "faruk.stagezero.main15.subtitle":"&68 Buckets",
-"faruk.stagezero.main15.desc1":"&e   You can store fluids with tanks and you can stack tanks by placing on top of it.",
+"faruk.stagezero.main15.desc1":"&e   You can store fluids with tanks and you can stack tanks by placing on top or next of it. When broken, all fluid in it will be LOST. You cannot pour liquid into the tanks by right clicking with the bucket, you can simply put a Fluid Hopper on it and right click on the Fluid Hopper with a bucket with liquid to transfer it to the tank, or you can use the pipes.",
 
 "faruk.stagezero.main16.subtitle":"&6Pipezzz",
 "faruk.stagezero.main16.desc1":"&e   You can transfer fluids but you need pumps for extracting fluids from tanks.",
@@ -391,6 +391,8 @@
 "faruk.stagezero.tools120.subtitle": "&6Mining Level Enhancement",
 "faruk.stagezero.tools120.desc1": "&e Combine a Tip Upgrade Template or Blueprint with a strong material (eg Diamond). Combine the Tip Upgrade with the tool you want (Spike, Ax etc.) in the crafting window and your tool's mining level will be increased. It can mine up to Upgrade's level. For example, the Stone Pickaxe can only mine up to Iron, with the Diamond Tip Upgrade can mine Obsidian with Stone Pickaxe. And it gives a sweet color to the tip of your tool.",
 
+"faruk.stagezero.tools121.subtitle": "&6Multi Purpose Sword",
+"faruk.stagezero.tools121.desc1": "&e   A multi-function blade. It's a &r&dsword, axe, &r&eand &r&dsickle, &r&ebut works best as a &r&5sword. &r&eSlightly slower attack speed, but higher damage than standard swords. Like sickles, it can clear an area of plants, but the range is smaller.",
 
 
 
@@ -444,9 +446,16 @@
 
 "faruk.stagezero.utilities134.subtitle":"&5Dude trust me. This item is so cool!",
 
+"faruk.stagezero.utilities135.subtitle": "&6Great for Spawners",
+"faruk.stagezero.utilities135.desc1": "&e   When you place this item, it pushes the mobs(including you) in front of it. It can come in handy in Mob Spawners.",
+
+"faruk.stagezero.utilities136.subtitle": "&6Good old friend",
+"faruk.stagezero.utilities136.desc1": "&e   Crafting Table, but it has access to the storage blocks alongside and the items you put remain there even if you close the GUI. If you put this table and put 4 chests around it, your crafting will be much easier and faster.",
+
+"faruk.stagezero.utilities137.subtitle": "&6Timer",
+"faruk.stagezero.utilities137.desc1": "&e While playing vanilla Minecraft, the Timer(Clock) system you make with lots of blocks and redstones is in only one block! And every feature can be adjusted!",
 
 "faruk.stagezero.extras1.desc1":"&b   Faruk V has ultimine(veinminer) but you have to craft Ultiminer trinket to use ultimine ability. But you can't use this ability for trees and grasses. You can use Saw and Sickle for this blocks.",
-
 
 "faruk.stagezero.extras2.subtitle1":"&6Control Mob Spawning",
 "faruk.stagezero.extras2.desc1":"&e   This modpack, don't have light overlay for light levels for checking mob spawns. You can use this bell to check where the mobs can be spawn. Firstly craft Peculiar Bell and place it right above open Soul Fire.",
@@ -504,7 +513,7 @@
 "faruk.stageone.main12.desc1":"&e   It will charge your inventory items.",
  
 "faruk.stageone.main13.subtitle":"&6You wanna automate your Coke Oven?",
-"faruk.stageone.main13.desc1":"&e   Place a pump above your coke oven and connect with a tank. It will drain your creosote oil from coke oven.",
+"faruk.stageone.main13.desc1":"&e   Place a pump above your coke oven and connect with a tank. It will drain your creosote oil from coke oven. Pumps accepts energy from top.",
  
 "faruk.stageone.main14.subtitle":"&6Steel",
 "faruk.stageone.main14.desc1":"&e   To form a Blast Furnace, place 27 of these blocks in a 3x3x3 cube, and right click one of the sides with an Engineer's Hammer.",
@@ -598,13 +607,13 @@
 "faruk.stageone.storage5.desc1":"&e   Increases the stack size of operations.",
 
 "faruk.stageone.storage6.subtitle":"&6Storage Link Cable",
-"faruk.stageone.storage6.desc1":"&e   Connects storage inventories to the network. Like chests, krates, drawers etc.",
+"faruk.stageone.storage6.desc1":"&e   Connects storage inventories to the network. Use this cable to link storage blocks(chests, krates, drawers etc.) to your system. ",
 
 "faruk.stageone.storage7.subtitle":"&6Storage Link but Filtered",
 "faruk.stageone.storage7.desc1":"&e   You can filter items and give priority to storage blocks.",
 
 "faruk.stageone.storage8.subtitle":"&6Importer",
-"faruk.stageone.storage8.desc1":"&e   Imports items from outside of network into the network.",
+"faruk.stageone.storage8.desc1":"&e   Imports items from outside of network into the network. Does not links chests with system only importing.",
 
 "faruk.stageone.storage9.subtitle":"&6Better Importer",
 "faruk.stageone.storage9.desc1":"&e   It has priority and filter options.",
@@ -733,6 +742,8 @@
 "faruk.stagetwo.main38.subtitle":"&8&l&oPromote to Stage Three!",
 "faruk.stagetwo.main38.desc1":"&e   Last quest for stage Two! Click this checkmark!",
 
+"faruk.stagetwo.extra1.subtitle": "&6Xnet",
+"faruk.stagetwo.extra1.desc1": "&e In Xnet, you can make multiple inputs(energy, liquid, item and gas) to multiple machines with a single cable. You can also camouflage these cables with the facades.",
 
 
 
@@ -968,7 +979,7 @@
 "faruk.stagethree.main38.desc1":"&e   With this powerful tool, you can harvest undead souls. When you kill an Undead with this tool, you will get Soul Shards. Looting tier of weapon is affected drop amount of Soul Shards.",
 
 "faruk.stagethree.main39.subtitle":"&6Bit of Art and Nostalgia",
-"faruk.stagethree.main39.desc1":"&e   Craft this Miniature Twilight Trophy and be proud of yourself.",
+"faruk.stagethree.main39.desc1":"&e   Craft this Miniature Twilight Trophy and be proud of yourself. You can find Talisman of the Cube in Twilight Forest quest tab.",
 
 
 "faruk.stagethree.storage1.subtitle":"&6Most Important Thing",
@@ -1676,7 +1687,7 @@
 "faruk.faq4.desc1":"&e   We have a config file in our Discord server's FAQ channel. Put the attached file into the config folder where the pack is installed.",
 
 "faruk.faq5.title":"&6Tools such as pickaxes and axes break immediately.",
-"faruk.faq5.desc1":"&e   The durability and speed of tools such as pickaxes, axes, and armors have been reduced by 90 percent. Instead of them, you have to use the tools of the Silent Gear mod. Detailed information is available in the 'Tools' section of the task book.",
+"faruk.faq5.desc1":"&e   The durability and speed of tools such as pickaxes, axes, and armors have been reduced by 90 percent. Instead of them, you have to use the tools of the Silent Gear mod. Detailed information is available in the Tools section of the task book.",
 
 "faruk.faq6.title":"&6Why can't I use Ultimine(Veinmine) on trees and grass?",
 "faruk.faq6.desc1":"&e   Ultimine is closed for trees and grass. If you want to mine them in bulk, you can use Saw and Sickle from the Silent Gear mod.",

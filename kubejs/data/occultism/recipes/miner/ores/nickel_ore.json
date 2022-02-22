@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/nickel"
   },
-  "weight": 232,
+  "weight": 300,
   "conditions": [
     {
       "type": "forge:not",

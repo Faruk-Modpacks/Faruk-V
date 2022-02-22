@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/zinc"
   },
-  "weight": 186,
+  "weight": 350,
   "conditions": [
     {
       "type": "forge:not",

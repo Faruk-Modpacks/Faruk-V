@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/sulfur"
   },
-  "weight": 222,
+  "weight": 250,
   "conditions": [
     {
       "type": "forge:not",

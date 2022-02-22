@@ -4,13 +4,13 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "item": "emendatusenigmatica:dimensional_chunk"
+    "item": "rftoolsbase:dimensionalshard"
   },
-  "weight": 127,
+  "weight": 100,
   "conditions": [
     {
       "type": "forge:item_exists",
-      "item": "rftools:dimensional_shard_ore"
+      "item": "rftoolsbase:dimensionalshard"
     }
   ]
 }

@@ -1,0 +1,37 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "emendatusenigmatica:redstone_chunk"
+            }
+        },
+        {
+            "chance": 0.5,
+            "output": {
+                "item": "emendatusenigmatica:sulfur_dust"
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "value": {
+                        "tag": "forge:ores/mercury",
+                        "type": "forge:tag_empty"
+                    },
+                    "type": "forge:not"
+                }
+            ],
+            "chance": 0.3,
+            "output": {
+                "tag": "forge:ores/mercury"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ],
+    "weight": 15,
+    "fail_chance": 0.35
+}

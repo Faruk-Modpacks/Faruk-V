@@ -176,7 +176,7 @@
 		#Sack of Holding settings
 		[cyclic.items.tile_transporter]
 			#Block these from being picked up
-			disable_pickup = ["minecraft:spawner", "parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller"]
+			disable_pickup = ["minecraft:spawner", "parabox:parabox", "extracells:fluidcrafter", "extracells:ecbaseblock", "extracells:fluidfiller", "refinedstorage:disk_drive"]
 
 		#Peat blocks
 		[cyclic.items.peat]

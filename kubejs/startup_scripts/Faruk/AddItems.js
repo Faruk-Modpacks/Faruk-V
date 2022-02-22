@@ -13,6 +13,7 @@ onEvent('item.registry', event => {
     event.create('items').displayName('Loot Pouch')
     event.create('trinium_plate').displayName('Trinium Plate')
     event.create('compress_component').displayName('Compress Component')
+    event.create('inactive_dimensional_core').displayName('Inactive Dimensional Core')
     event.create('dimensional_core').displayName('Dimensional Core')
     event.create('blood_stained_pane').displayName('Blood Stained Glass Pane')
     event.create('coin').displayName('Quest Coin')

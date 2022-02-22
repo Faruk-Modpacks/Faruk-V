@@ -2,14 +2,9 @@
   "biomes": [
     [
       {
-        "type": "BIOME_DICT",
+        "type": "REGISTRY_NAME",
         "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "hot"
+        "value": "world_of_faruk:hellishfarukland"
       }
     ]
   ]

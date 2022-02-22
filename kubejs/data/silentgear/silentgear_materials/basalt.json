@@ -1,0 +1,73 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:basalt"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.basalt"
+  },
+  "stats": {
+    "main": {
+      "durability": 137.0,
+      "armor_durability": 4.0,
+      "enchantability": 6.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 4.0,
+      "melee_damage": 1.0,
+      "magic_damage": 0.0,
+      "attack_speed": 0.0,
+      "armor": 6.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 3.0,
+      "armor/leggings": 1.0,
+      "armor/boots": 1.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 7.0,
+      "silentgems:chargeability": 0.7
+    },
+    "rod": {
+      "harvest_speed": {
+        "mul2": 0.1
+      },
+      "melee_damage": {
+        "mul2": -0.1
+      },
+      "rarity": 7.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:brittle",
+        "level": 2
+      },
+      {
+        "name": "silentgear:chipping",
+        "level": 3
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 3
+      },
+      {
+        "name": "silentgear:chipping",
+        "level": 2
+      }
+    ]
+  }
+}

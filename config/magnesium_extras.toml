@@ -31,7 +31,7 @@
 	[Settings."True Darkness"]
 		"Use True Darkness" = true
 		#Allowed Values: PITCH_BLACK, REALLY_DARK, DARK, DIM
-		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "REALLY_DARK"
+		"Darkness Setting (PITCH_BLACK, REALLY_DARK, DARK, DIM)" = "DIM"
 
 		[Settings."True Darkness".Advanced]
 			"Only Effect Block Lighting" = false

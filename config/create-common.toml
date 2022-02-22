@@ -29,7 +29,7 @@
 		[worldgen.v2.weathered_limestone]
 			# 
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 64
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -65,7 +65,7 @@
 		[worldgen.v2.limestone]
 			# 
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 64
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -83,7 +83,7 @@
 		[worldgen.v2.dolomite]
 			# 
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 8
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -101,7 +101,7 @@
 		[worldgen.v2.gabbro]
 			# 
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 64
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.
@@ -119,7 +119,7 @@
 		[worldgen.v2.scoria]
 			# 
 			#Range: > 0
-			clusterSize = 128
+			clusterSize = 64
 			# 
 			#Amount of clusters generated per Chunk.
 			#  >1 to spawn multiple.

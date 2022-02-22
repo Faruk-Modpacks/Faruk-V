@@ -1,0 +1,85 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/brass",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.brass"
+  },
+  "stats": {
+    "main": {
+      "durability": 240.0,
+      "armor_durability": 8.0,
+      "repair_value": 0.15,
+      "enchantability": 13.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 7.0,
+      "melee_damage": 1.5,
+      "magic_damage": 1.5,
+      "attack_speed": 0.1,
+      "armor": 14.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "armor_toughness": 1.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.2,
+      "rarity": 25.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.05
+      },
+      "harvest_speed": {
+        "mul2": 0.05
+      },
+      "rarity": 25.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      },
+      {
+        "name": "silentgear:silky",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.66
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

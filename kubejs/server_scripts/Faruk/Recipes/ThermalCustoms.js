@@ -18,7 +18,7 @@ event.custom({
                  energy: 4000
       })
       
-      event.custom({
+event.custom({
         type: "thermal:press",
         input: { tag: "forge:ingots/aluminum",
                 count: 1},
@@ -27,7 +27,29 @@ event.custom({
                  energy: 4000
       })
 
-      event.custom({
+event.custom({
+        type: "thermal:press",
+        ingredients: [{
+            tag: "forge:ingots/cobalt",
+            count: 4},
+        { item: "thermal:press_gear_die" }],
+        result: 
+        { item: "emendatusenigmatica:cobalt_gear" },
+        energy: 16000
+      })
+
+event.custom({
+        type: "thermal:press",
+        ingredients: [{
+            tag: "forge:gems/diamond",
+            count: 4},
+        { item: "thermal:press_gear_die" }],
+        result: 
+        { item: "emendatusenigmatica:diamond_gear" },
+        energy: 16000
+      })
+
+event.custom({
         type: "thermal:press",
         input: { tag: "forge:ingots/steel",
                 count: 1},
@@ -131,4 +153,17 @@ event.custom({
                  count: 1}],
                  energy: 16000
       })
+
+      event.custom({
+        type: "thermal:smelter",
+        ingredient: {
+          item: "minecraft:ancient_debris" },
+        result: [
+          {
+            item: "minecraft:netherite_scrap",
+            count: 2 },
+          {
+            item: "minecraft:netherite_scrap",
+            chance: 0.25, }],
+        })
 })

@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/aluminum"
   },
-  "weight": 422,
+  "weight": 500,
   "conditions": [
     {
       "type": "forge:not",

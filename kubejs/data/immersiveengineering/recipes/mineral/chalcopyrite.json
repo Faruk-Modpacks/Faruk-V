@@ -1,0 +1,28 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "emendatusenigmatica:iron_chunk"
+            }
+        },
+        {
+            "chance": 0.25,
+            "output": {
+                "item": "emendatusenigmatica:copper_chunk"
+            }
+        },
+        {
+            "chance": 0.3,
+            "output": {
+                "item": "emendatusenigmatica:sulfur_dust"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ],
+    "weight": 20,
+    "fail_chance": 0.35
+}

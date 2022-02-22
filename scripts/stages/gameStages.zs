@@ -21,16 +21,16 @@ mods.recipestages.Recipes.setRecipeStageByMod("three", "cabletiers");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "rsrequestify");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "rsinfinitybooster");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "refinedstorageaddons");
-mods.recipestages.Recipes.setRecipeStageByMod("three", "universalgrid");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "twilightforest");
 mods.recipestages.Recipes.setRecipeStageByMod("three", "eidolon");
+mods.recipestages.Recipes.setRecipeStageByMod("three", "rftoolspower");
 
 
 
 mods.recipestages.Recipes.setRecipeStageByMod("four", "mekanism");
 mods.recipestages.Recipes.setRecipeStageByMod("four", "mekanismgenerators");
 mods.recipestages.Recipes.setRecipeStageByMod("four", "mekanismmatter");
-mods.recipestages.Recipes.setRecipeStageByMod("four", "rftoolbuilder");
+mods.recipestages.Recipes.setRecipeStageByMod("four", "rftoolsbuilder");
 mods.recipestages.Recipes.setRecipeStageByMod("four", "world_of_faruk");
 
 

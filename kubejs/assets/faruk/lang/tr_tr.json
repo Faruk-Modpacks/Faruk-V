@@ -51,15 +51,15 @@
   "faruk.stagezero.main14.desc1": "&e Spout, altındaki sıvıları tutan öğeleri doldurabilir. (Depoyu musluğun altına koyabilirsiniz) Unutmayın! Bu şeylerle kova kullanamazsın. Bunları çalıştırmak için akışkan boruları kullanmanız gerekir.",
   
   "faruk.stagezero.main15.subtitle": "&68 Kova",
-  "faruk.stagezero.main15.desc1": "&e Tanklarla sıvı depolayabilir ve istifleyebilirsiniz.",
+  "faruk.stagezero.main15.desc1": "&e Tanklara sıvı depolayabilirsiniz. Tankları yanyana veya üst üste koyarsanız birbirleriyle birleşirler. Ve tank kırıldığında içindeki sıvılar YOK OLUR. Kova ile sağ tıklayarak tanklara sıvı veremezsiniz, en basit olarak üzerine bir Fluid Hopper koyup sıvı dolu kovayla Fluid Hopper'a sağ tıklayarak tanka aktarım yapabilirsiniz, veya boruları kullanabilirsiniz.",
  
   "faruk.stagezero.main16.subtitle": "&6PIPEZZZ",
   "faruk.stagezero.main16.desc1": "&e Akışkanları aktarabilirsiniz ancak tanklardan sıvıları çekmek için pompaya ihtiyacın var.",
  
   "faruk.stagezero.main17.subtitle": "&6Pump, ama sadece tanklar için...",
-  "faruk.stagezero.main17.desc1": "&e Bu boruyu bir tanka tak ve sadece bir Cog iliştir, tadaaa sıvıları çekebiliyorsun!",
+  "faruk.stagezero.main17.desc1": "&e Bu boruyu bir tanka tak ve sadece bir Cog yerleştir, tadaaa sıvıları çekebiliyorsun!",
 
-  "faruk.stagezero.main18.subtitle": "&6Boru, ancak filtrelenmiş",
+  "faruk.stagezero.main18.subtitle": "&6Boru, ama filtrelenmiş",
   "faruk.stagezero.main18.desc1": "&e Hangi sıvının aktarılacağını seçebilirsin. Sadece filtrelemek istediğin sıvıyla sağ tıkla.",
 
   "faruk.stagezero.main19.subtitle": "&6Dumanı üstüne kek!",
@@ -72,7 +72,7 @@
   "faruk.stagezero.main21.desc1": "&e Bu eşyayı yapmak için yere Işık Taşı yerleştirmeli ve ışık taşlarının yanına chromatic compound atmalısın. Yere atmış olduğun Chromatic Compound etrafındaki yaklaşık 10 ışık taşını emip ve Refined Radiance'a dönüşür. (Ya da sadece Compound'u Fener(Beacon)'e fırlat, chromatic compound anında refined radiance'a dönecektir.)",
   
   "faruk.stagezero.main22.subtitle": "&6KARIŞTIR KARIŞTIR",
-  "faruk.stagezero.main22.desc1": "&e Mikseri yerleştir ve 2 blok aşağıya bir Basin koy ve ardından Basin'e malzemeleri fırlat",
+  "faruk.stagezero.main22.desc1": "&e Mikseri yerleştir ve 2 blok aşağıya bir Basin koy ve ardından Basin'e malzemeleri fırlat.",
   
   "faruk.stagezero.main22v2.subtitle": "&6Blood Magic",
   "faruk.stagezero.main22v2.desc1": "&e Blood Magic'i, Rose Quartz ve Blood Magic'ten başka harika şeyler yapmak için kullanabilirsin!",
@@ -380,6 +380,12 @@
   "faruk.stagezero.tools120.subtitle": "&6Kazma Seviyesi Geliştirme",
   "faruk.stagezero.tools120.desc1": "&e Tip Upgrade Template veya Blueprint ile güçlü bir materiali birleştirin(Örneğin Elmas). Elde ettiğiniz Tip Upgrade'i istediğiniz alet(Kazma,Balta vs) ile crafting penceresinde birleştirin bu sayede aletiniz eklediğiniz Tip Upgrade'in seviyesine kadar kazabilir. Örneğin taş kazma sadece Iron'a kadar olan madenleri kazabilirken Elmas Tip Upgrade basılmış Taş Kazma Obsidyeni kazabilir. Ve aletinizin ucunda tatlı bir renk verir.",
 
+  "faruk.stagezero.tools121.subtitle": "&6Çok Amaçlı Kılıc",
+  "faruk.stagezero.tools121.desc1": "&e   Çok işlevli bir kılıç. Bu bir &r&dkılıç, balta, &r&eve &r&dorak, &r&eama en iyi &r&5kılıç olarak çalışır. &r&eBiraz daha yavaş saldırı hızına sahip, ancak standart kılıçlardan daha yüksek hasarı vardır. Sickle gibi, bir alandaki bitkileri temizleyebilir, ancak menzili daha küçüktür.",
+
+
+
+
   
   "faruk.stagezero.utilities118.subtitle": "&6Örümcek Adam!",
   "faruk.stagezero.utilities118.desc1": "&e Bir duvara atladığında, shift tuşuna basılı tutup duvara asılırsın ve boşluk tuşuna bastığınızda tekrar kez zıplayabilirsin.",
@@ -430,6 +436,15 @@
   "faruk.stagezero.utilities133.desc1": "&e Bitkilerin büyümesini hızlandırmak için bu cihazı sınırsız su kaynağına bağlayıp sulama işlemini otomatik yapabilirsin.",
 
   "faruk.stagezero.utilities134.subtitle": "&5Dostum bana güven. Bu öğe çok havalı!",
+
+  "faruk.stagezero.utilities135.subtitle": "&6Vantilatör",
+  "faruk.stagezero.utilities135.desc1": "&e Bu eşya koyduğunuzda önüne gelen yaratıkları(siz dahil) ileriye doğru iktirir. Mob Spawner gibi yerlerde kullanışlı olabilir.",
+
+  "faruk.stagezero.utilities136.subtitle": "&6Tinker Hatırası",
+  "faruk.stagezero.utilities136.desc1": "&e Çalışma Masası ama bitişindeki depolama bloklarına erişimi var ve koyduğunuz itemlar arayüzü kapatsanız dahi orada kalırlar. Bu masayı koyup etrafına 4 sandık koyarsanız craft işlemleriniz çok daha kolay ve hızlı olur.",
+
+  "faruk.stagezero.utilities137.subtitle": "&6Timer",
+  "faruk.stagezero.utilities137.desc1": "&e Vanilla Minecraft oynarken bir sürü blok ve redstone ile yaptığınız Timer(Clock) sistemi tek blokta! Hem de her özelliği ayarlanabilir şekilde!",
 
   "faruk.stagezero.extras1.desc1":"&b   Faruk V'de ultimine(veinminer) mevcut fakat kullanmak için önce FTB Ultiminer eşyasını craft etmelisin. Unutma bu özelliği ağaçlar ve çimenler için kullanamazsın, o blokları hızlıca toplamak için Saw ve Sickle eşyalarını kullan. Detaylı bilgi 'Tools' görev sekmesinde mevcut.",
 
@@ -508,7 +523,7 @@
   "faruk.stageone.main12.desc1": "&e Envanterindeki itemların şarjını doldurur",
   
   "faruk.stageone.main13.subtitle": "&6Coke Fırınını otomatikleştirmek mi istiyorsunuz?",
-  "faruk.stageone.main13.desc1": "&e Coke fırının üzerine bir Pump yerleştir ve tanka bağla. Creosote Oil'ı Coke fırınından boşaltacaktır.",
+  "faruk.stageone.main13.desc1": "&e Coke fırının üzerine bir Pump yerleştir ve tanka bağla. Creosote Oil'ı Coke fırınından boşaltacaktır. Pump'lara enerji verirken enerjiyi üstünden bağlamalısınız.",
   
   "faruk.stageone.main14.subtitle": "&6Steel'",
   "faruk.stageone.main14.desc1": "&e Blast Furnace'ı oluşturmak için, bu 27 bloktan 3x3x3'lük bir küp oluştur ve Engineer's Hammer ile bir yüzeye sağ tıkla.",
@@ -516,7 +531,7 @@
   
   "faruk.stageone.main15.subtitle": "&6Daha çok Steel!",
   "faruk.stageone.main15.desc1": "&e Normal tuğlalar yerine Reinforced Brick kullan ve üstüne Hopper ekle. Steel, fırının önünden, Slag ise arkadan çıkar. Fırına, Demir ve Coke'u üst girişten sağlayabilirsin.Fırın, bağlı olduğu bütün envanter ve Conveyor Belt'lere otomatik çıktı verir.",
-  "faruk.stageone.main15.desc2": "&e Çelik üretimini hızlandırmak için havayı ısıt ardından fırına yönlendir. Her fırına, iki adede kadar Preheater bağlanabilir.Her bir Preheater'ın çalışması için 32 FE/t gerekir",
+  "faruk.stageone.main15.desc2": "&e Çelik üretimini hızlandırmak için havayı ısıt ardından fırına yönlendir. Her fırına, iki adede kadar Preheater bağlanabilir.Her bir Preheater'ın çalışması için 32 FE/t gerekir. Preheater'a enerji verirken enerjiyi üstünden bağlamalısınız.",
   
   "faruk.stageone.main16.subtitle": "&6Alloy (Alaşım) Fırını",
   "faruk.stageone.main16.desc1": "&e Kiln yapmak için, 8 Fırın Tuğlasından 2x2x2'lik bir küp yap ve Engineer's Hammer ile yüzeylerden birine sağ tıkla.",
@@ -586,7 +601,7 @@
   "faruk.stageone.main33.subtitle": "&6Petcoke",
   
   "faruk.stageone.storage1.subtitle": "&6Önce, Ana görev dizisinde bu görevi tamamla!",
-  "faruk.stageone.storage1.desc1": "&e Depolama sisteminin ana bileşeni. Birden fazla kullanmak sorunlara yol açar, hersistemde sadece bir adet kullan.",
+  "faruk.stageone.storage1.desc1": "&e Depolama sisteminin ana bileşeni. Birden fazla kullanmak sorunlara yol açar, her sistemde sadece bir adet kullan.",
   
   "faruk.stageone.storage2.subtitle": "&6Grid",
   "faruk.stageone.storage2.desc1": "&e Uzaktan envanter erişimi.",
@@ -601,13 +616,13 @@
   "faruk.stageone.storage5.desc1": "&e İşlemlerin yığın boyutunu artırır.",
   
   "faruk.stageone.storage6.subtitle": "&6Depolama Bağlantı Kablosu",
-  "faruk.stageone.storage6.desc1": "&e Sandık, Krate, Drawer gibi depolama envanterlerini ağa bağlar.",
+  "faruk.stageone.storage6.desc1": "&e Sandık, Krate, Drawer gibi depolama envanterlerini ağına bağlar. Bu sayede tek bloktan tüm sisteme erişebilirsin.",
   
   "faruk.stageone.storage7.subtitle": "&6Filtrelenmiş Depolama Bağlantısı",
   "faruk.stageone.storage7.desc1": "&e Öğeleri filtreleyebilir ve depolama bloklarına öncelik verebilirsiniz.",
   
   "faruk.stageone.storage8.subtitle": "&6Importer",
-  "faruk.stageone.storage8.desc1": "&e Ağın dışındaki öğeleri ağa aktarır.",
+  "faruk.stageone.storage8.desc1": "&e Ağın dışındaki öğeleri ağa aktarır. Sandıklara erişim sağlamaz sadece öğe aktarımı içindir. Eşyalarına sistemden erişmek için Link Cable kullanman gerek.",
   
   "faruk.stageone.storage9.subtitle": "&6Daha İyi Importer",
   "faruk.stageone.storage9.desc1": "&e Öncelik verme ve filtreleme seçenekleri vardır.",
@@ -858,6 +873,8 @@
   "faruk.stagetwo.magic35.desc1": "&e Balkanlar ve Ortadoğu'nun en iyi Cin'i!",
 
 
+  "faruk.stagetwo.extra1.subtitle": "&6Xnet",
+  "faruk.stagetwo.extra1.desc1": "&e Xnet sayesinde tek kablo ile birden çok makineye tek slottan birden çok giriş(enerji,sıvı,eşya ve gaz) yapabilirsin. Hem de bu kabloları facade ile kamufle edebilirsin.",
 
 
 
@@ -979,7 +996,7 @@
   "faruk.stagethree.main38.desc1": "&e Bu güçlü araçla undead ruhlarını hasat edebilirsiniz. Bu silahla bir Undead öldürdüğünüzde, Soul Shard düşecektir.. Silahtaki yağma büyüsünün seviyesi, düşen Soul Shard miktarını etkiler.",
   
   "faruk.stagethree.main39.subtitle": "&6Biraz Sanat ve Nostalji",
-  "faruk.stagethree.main39.desc1": "&e Bu Minyatür Twilight Trophy 'sini yapın ve kendinizle gurur duyun.",
+  "faruk.stagethree.main39.desc1": "&e Bu Minyatür Twilight Trophy 'sini yapın ve kendinizle gurur duyun. Talisman of the Cube elde etmek için Twilight Forest görevlerini yapmalısınız.",
 
 
 
@@ -1664,7 +1681,7 @@
 "faruk.faq4.desc1":"&e   Discord sunucumuzun Sıkça sorulan sorular kanalında bir config mevcut. Ekteki config dosyasını paketin kurulu olduğu yerdeki config klasörünün içine atın.",
 
 "faruk.faq5.title":"&6Kazma, Balta gibi aletler hemen kırılıyor.",
-"faruk.faq5.desc1":"&e   Kazma, balta gibi aletler ve zırhların dayanıklılığı ve hızı  yüzde 90 azaltılmıştır. Onlar yerine Silent Gear modunun aletlerini kullanmanız gerekmektedir. Detaylı bilgi görev kitabının 'Tools' kısmında mevcut.",
+"faruk.faq5.desc1":"&e   Kazma, balta gibi aletler ve zırhların dayanıklılığı ve hızı  yüzde 90 azaltılmıştır. Onlar yerine Silent Gear modunun aletlerini kullanmanız gerekmektedir. Detaylı bilgi görev kitabının Tools kısmında mevcut.",
 
 "faruk.faq6.title":"&6Neden ağaçlar ve çimenlerde Ultimine(Veinmine) kullanamıyorum?",
 "faruk.faq6.desc1":"&e   Ultimine ağaçlar ve çimenler için kapalıdır. Onları toplu şekilde kazmak isterseniz Silent Gear modundan Saw ve Sickle kullanabilirsiniz.",

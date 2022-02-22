@@ -9,7 +9,7 @@
 	holidays = true
 	#Adjust Mekanism sounds' base volume. < 1 is softer, higher is louder.
 	#Range: 0.0 ~ 3.4028234663852886E38
-	baseSoundVolume = 1.0
+	baseSoundVolume = 0.7
 	#If true, don't render Cables/Pipes/Tubes as transparent and don't render their contents.
 	opaqueTransmitters = false
 	#Allow sneak + scroll to change item modes.
@@ -18,7 +18,7 @@
 	alignHUDLeft = true
 	#Scale of the text displayed on the HUD.
 	#Range: 0.25 ~ 1.0
-	hudScale = 0.6
+	hudScale = 0.5
 	#Enable item information HUD during gameplay
 	enableHUD = true
 	#Color of energy in item durability display.
@@ -88,8 +88,8 @@
 				y = 2147483647
 
 			[client.gui.window.upgrade]
-				x = 2147483647
-				y = 2147483647
+				x = 10
+				y = 15
 
 	#QIO Config
 	[client.qio]

@@ -1,0 +1,79 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "gem",
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:gems/prismarine"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.prismarine"
+  },
+  "name_prefix": {
+    "translate": "material.silentgear.prismarine"
+  },
+  "stats": {
+    "coating": {
+      "durability": {
+        "mul2": 0.075
+      },
+      "armor_durability": {
+        "mul2": 0.125
+      },
+      "armor_toughness": {
+        "add": 1.0
+      },
+      "knockback_resistance": {
+        "add": 0.25
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "coating": [
+      {
+        "name": "silentgear:aquatic",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.67
+          }
+        ]
+      },
+      {
+        "name": "silentgear:aquatic",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:not",
+            "value": {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.67
+            }
+          }
+        ]
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:swift_swim",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.67
+          }
+        ]
+      }
+    ]
+  }
+}

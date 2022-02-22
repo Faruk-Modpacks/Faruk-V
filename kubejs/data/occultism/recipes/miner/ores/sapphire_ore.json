@@ -4,9 +4,9 @@
     "tag": "occultism:miners/ores"
   },
   "result": {
-    "tag": "forge:chunks/sulfur"
+    "item": "minecraft:cobblestone"
   },
-  "weight": 200,
+  "weight": 150,
   "conditions": [
     {
       "type": "forge:not",

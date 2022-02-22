@@ -10,6 +10,7 @@
 		}
 	}
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "minecraft:wheat_seeds" }
 		{ item: "minecraft:pumpkin_seeds" }

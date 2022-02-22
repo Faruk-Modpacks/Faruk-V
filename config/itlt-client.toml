@@ -330,7 +330,7 @@
 		[Java.Display.WindowTitle]
 			# 
 			# Enable this if you want to change the name of the Minecraft window.
-			enableCustomWindowTitle = false
+			enableCustomWindowTitle = true
 			# 
 			# The name you want your Minecraft window to be. Put "%mc" to include the original
 			# window title's contents to help identify the Minecraft version for example.
@@ -354,13 +354,13 @@
 			# - "ModpackName v2 based on %mc" = "ModpackName v2 based on Minecraft* 1.16.5"
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			customWindowTitleText = "%autoName - %mc"
+			customWindowTitleText = "Faruk V based on %mc"
 			# 
 			# Whether or not to automatically replace "%autoName" in customWindowTitleText with
 			# your modpack's display name when launching from a supported launcher.
 			# 
 			# Note: enableCustomWindowTitle must be enabled for this to take effect.
-			enableUsingAutodetectedDisplayName = false
+			enableUsingAutodetectedDisplayName = true
 			# 
 			# The text to use in place of %autoDetect if we're unable to automatically detect your
 			# modpack's display name.
@@ -376,12 +376,12 @@
 			# 
 			# Turning this on should give you a more crisp and detailed icon on higher resolution displays,
 			# rather than the comparatively blurry 32px PNG that is normally used.
-			enableEnhancedVanillaIcon = false
+			enableEnhancedVanillaIcon = true
 			# 
 			# Enable this if you want to change the window and taskbar icon of the Minecraft window.
 			# ICO, ICNS and PNG icons provided to this mod are supported on all operating systems.
 			# 
-			# Note: The icon needs to be placed in config\itlt\icon.(ico/icns/png).
+			# Note: The icon needs to be placed in config/itlt/icon.(ico/icns/png).
 			# 
 			# Note: See the itlt wiki for more info.
 			# 
@@ -399,7 +399,7 @@
 		# 
 		# Enable this to have itlt add default servers to the Multiplayer list from a JSON file.
 		# 
-		# Note: The JSON needs to be placed in config\itlt\servers.json
+		# Note: The JSON needs to be placed in config/itlt/servers.json
 		# 
 		# Warning: This feature is experimental and may change in future v2.x releases. Check the
 		# changelog before updating if you use this. The changelog will make any breaking changes

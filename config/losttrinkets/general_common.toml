@@ -5,10 +5,10 @@ unlockEnabled = true
 unlockCooldown = 2400
 #List of banned trinkets eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will also be removed from players that already unlocked them.
-blackList = ["losttrinkets:blaze_heart", "losttrinkets:golden_melon", "losttrinkets:tea_leaf", "losttrinkets:golden_skull", "losttrinkets:octopick", "losttrinkets:magical_feathers", "losttrinkets:magical_herbs", "losttrinkets:mad_aura", "losttrinkets:book_o_enchanting", "losttrinkets:rock_candy"]
+blackList = ["losttrinkets:blaze_heart", "losttrinkets:golden_melon", "losttrinkets:tea_leaf", "losttrinkets:golden_skull", "losttrinkets:octopick", "losttrinkets:magical_feathers", "losttrinkets:magical_herbs", "losttrinkets:mad_aura", "losttrinkets:book_o_enchanting", "losttrinkets:rock_candy", "losttrinkets:starfish"]
 #List of trinkets that can't be unlocked randomly eg: ["losttrinkets:piggy", "losttrinkets:magical_feathers"]
 #The trinkets listed in here will not be removed from players that already unlocked them.
-nonRandom = []
+nonRandom = ["ftbultimine:ultiminer", "losttrinkets:miners_pick"]
 
 [Trinket_Slots]
 	#Numbers of trinket slots the player will start with (Only effect newer players!!).

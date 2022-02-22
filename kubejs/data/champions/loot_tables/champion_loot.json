@@ -22,7 +22,7 @@
               "function": "minecraft:enchant_with_levels",
               "levels": {
                 "min": 1,
-                "max": 4
+                "max": 5
               }
             }
           ]
@@ -51,8 +51,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 1,
-                "max": 4
+                "min": 5,
+                "max": 10
               }
             }
           ]
@@ -81,8 +81,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 1,
-                "max": 4
+                "min": 10,
+                "max": 20
               }
             }
           ]
@@ -111,8 +111,8 @@
             {
               "function": "minecraft:enchant_with_levels",
               "levels": {
-                "min": 1,
-                "max": 4
+                "min": 20,
+                "max": 29
               }
             }
           ]

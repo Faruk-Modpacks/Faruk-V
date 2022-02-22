@@ -1,0 +1,25 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "organic"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:feathers"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.feather"
+  },
+  "stats": {
+    "fletching": {
+      "projectile_speed": 0.9,
+      "projectile_accuracy": 1.1
+    }
+  }
+}

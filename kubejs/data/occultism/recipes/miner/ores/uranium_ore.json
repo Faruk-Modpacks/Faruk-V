@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/uranium"
   },
-  "weight": 140,
+  "weight": 250,
   "conditions": [
     {
       "type": "forge:not",

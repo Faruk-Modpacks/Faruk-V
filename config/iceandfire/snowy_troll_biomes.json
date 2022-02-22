@@ -1,16 +1,11 @@
 {
   "biomes": [
     [
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "overworld"
-      },
-      {
-        "type": "BIOME_DICT",
-        "negate": false,
-        "value": "snowy"
-      }
+    {
+      "type": "REGISTRY_NAME",
+      "negate": false,
+      "value": "world_of_faruk:frozenfarukland"
+    }
     ]
   ]
 }

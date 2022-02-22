@@ -1,0 +1,52 @@
+{
+  "type": "forge:conditional",
+  "recipes": [
+    {
+      "conditions": [
+        {
+          "value": {
+            "item": "rftoolsbase:dimensionalshard",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "recipe": {
+        "output": {
+          "item": "rftoolsbase:dimensionalshard"
+        },
+        "rarity": [
+          {
+            "whitelist": {},
+            "blacklist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "minecraft:the_void"
+              ]
+            },
+            "depth_min": 5,
+            "depth_max": 16,
+            "weight": 3
+          },
+          {
+            "whitelist": {},
+            "blacklist": {
+              "type": "minecraft:worldgen/biome",
+              "values": [
+                "minecraft:the_void"
+              ]
+            },
+            "depth_min": 0,
+            "depth_max": 255,
+            "weight": 1
+          }
+        ],
+        "pointer": 0,
+        "catalyst": {
+          "item": "industrialforegoing:laser_lens2"
+        },
+        "type": "industrialforegoing:laser_drill_ore"
+      }
+    }
+  ]
+}

@@ -13,7 +13,7 @@
 	default_hide_dependency_lines: false
 	quests: [
 		{
-			x: 1.0d
+			x: 0.5d
 			y: -3.5d
 			subtitle: "{faruk.stagezero.utilities119.subtitle}"
 			description: ["{faruk.stagezero.utilities119.desc1}"]
@@ -83,7 +83,7 @@
 		}
 		{
 			title: "Crafting Stick"
-			x: 3.0d
+			x: 2.5d
 			y: -3.5d
 			subtitle: "{faruk.stagezero.utilities121.subtitle}"
 			description: ["{faruk.stagezero.utilities121.desc1}"]
@@ -114,18 +114,6 @@
 						]
 					}
 				}
-			}]
-		}
-		{
-			x: 4.0d
-			y: -1.5d
-			subtitle: "{faruk.stagezero.utilities133.subtitle}"
-			description: ["{faruk.stagezero.utilities133.desc1}"]
-			id: "372575913CA69F15"
-			tasks: [{
-				id: "707D1CFDE68771E1"
-				type: "item"
-				item: "cyclic:sprinkler"
 			}]
 		}
 		{
@@ -350,7 +338,7 @@
 			}]
 		}
 		{
-			x: 4.0d
+			x: 4.5d
 			y: -3.5d
 			subtitle: "{faruk.stagezero.utilities122.subtitle}"
 			description: ["{faruk.stagezero.utilities122.desc1}"]
@@ -382,7 +370,7 @@
 			}]
 		}
 		{
-			x: 2.0d
+			x: 1.5d
 			y: -3.5d
 			subtitle: "{faruk.stagezero.utilities120.subtitle}"
 			description: ["{faruk.stagezero.utilities120.desc1}"]
@@ -400,7 +388,7 @@
 			}]
 		}
 		{
-			x: 2.5d
+			x: 2.0d
 			y: -0.5d
 			subtitle: "{faruk.stagezero.utilities134.subtitle}"
 			id: "0D9268C748CA6CAA"
@@ -433,6 +421,42 @@
 						}
 					}
 				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "{faruk.stagezero.utilities135.subtitle}"
+			description: ["{faruk.stagezero.utilities135.subtitle}"]
+			id: "5E140E04CC2B48D9"
+			tasks: [{
+				id: "2362F874603698F1"
+				type: "item"
+				item: "cyclic:fan"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -3.5d
+			subtitle: "{faruk.stagezero.utilities136.subtitle}"
+			description: ["{faruk.stagezero.utilities136.desc1}"]
+			id: "409ACFD8A2925831"
+			tasks: [{
+				id: "6E3B66F32E578897"
+				type: "item"
+				item: "craftingstation:crafting_station"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			subtitle: "{faruk.stagezero.utilities137.subtitle}"
+			description: ["{faruk.stagezero.utilities137.desc1}"]
+			id: "08A87924AD048E78"
+			tasks: [{
+				id: "1C33358747A3A224"
+				type: "item"
+				item: "cyclic:clock"
 			}]
 		}
 	]

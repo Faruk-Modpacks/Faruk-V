@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/osmium"
   },
-  "weight": 253,
+  "weight": 450,
   "conditions": [
     {
       "type": "forge:not",

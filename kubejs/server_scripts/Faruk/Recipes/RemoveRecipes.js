@@ -86,6 +86,13 @@ events.listen('recipes', function (event) {
     event.remove({id: 'create:pressing/gold_ingot'})
     event.remove({id: 'emendatusenigmatica:alloy_dust/brass'})
     event.remove({output: 'create:mechanical_press'})
+    event.remove({id: 'create:crushing/obsidian'})
+
+        //Silent Gear
+        event.remove({output: 'silentgear:crimson_steel_ingot'})
+        event.remove({output: 'silentgear:blaze_gold_ingot'})
+        event.remove({output: 'silentgear:azure_electrum_ingot'})
+ 
 
         //Emendatus Enigmatica
     event.remove({output: '#forge:plates', type: 'minecraft:crafting_shapeless'})
@@ -104,38 +111,40 @@ events.listen('recipes', function (event) {
     event.remove({output: 'emendatusenigmatica:enderium_dust', type: 'minecraft:crafting_shapeless'})
     event.remove({output: 'emendatusenigmatica:lumium_dust', type: 'minecraft:crafting_shapeless'})
     event.remove({output: 'emendatusenigmatica:signalum_dust', type: 'minecraft:crafting_shapeless'})
+    event.remove({output: 'emendatusenigmatica:electrum_dust', type: 'minecraft:crafting_shapeless'})
+    
     event.remove({output: 'emendatusenigmatica:invar_dust', type: 'minecraft:crafting_shapeless'})
     event.remove({output: 'emendatusenigmatica:electrum_ingot', type: 'create:mixing'})
     event.remove({output: 'emendatusenigmatica:constantan_dust', type: 'minecraft:crafting_shapeless'})
     event.remove({output: 'emendatusenigmatica:constantan_ingot', type: 'create:mixing'})
-    event.remove({output: 'emendatusenigmatica:copper_ingot', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:copper_ingot', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:copper_nugget', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:copper_nugget', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:silver_ingot', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:silver_ingot', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:lead_ingot', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:lead_ingot', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:tin_ingot', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:tin_ingot', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:silver_block', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:silver_block', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:lead_block', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:lead_block', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:uranium_block', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:uranium_block', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:bronze_block', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:bronze_block', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:steel_block', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:steel_block', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:steel_ingot', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:steel_ingot', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:steel_nugget', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:steel_nugget', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:silver_nugget', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:silver_nugget', type: 'minecraft:crafting_shaped'})
-    event.remove({output: 'emendatusenigmatica:lead_nugget', type: 'minecraft:crafting_shapeless'})
-    event.remove({output: 'emendatusenigmatica:lead_nugget', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:copper_ingot', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:copper_ingot', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:copper_nugget', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:copper_nugget', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:silver_ingot', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:silver_ingot', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:lead_ingot', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:lead_ingot', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:tin_ingot', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:tin_ingot', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:silver_block', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:silver_block', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:lead_block', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:lead_block', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:uranium_block', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:uranium_block', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:bronze_block', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:bronze_block', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:steel_block', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:steel_block', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:steel_ingot', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:steel_ingot', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:steel_nugget', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:steel_nugget', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:silver_nugget', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:silver_nugget', type: 'minecraft:crafting_shaped'})
+    //event.remove({output: 'emendatusenigmatica:lead_nugget', type: 'minecraft:crafting_shapeless'})
+    //event.remove({output: 'emendatusenigmatica:lead_nugget', type: 'minecraft:crafting_shaped'})
     event.remove({id: 'thermal:fire_charge/bronze_ingot_4'})
     event.remove({id: 'thermal:fire_charge/constantan_ingot_2'})
     event.remove({id: 'thermal:fire_charge/electrum_ingot_2'})
@@ -145,7 +154,226 @@ events.listen('recipes', function (event) {
     event.remove({id: 'thermal:fire_charge/enderium_ingot_2'})
 
 
+    //Conflicts
+        var removeIDs = [
+            'immersiveengineering:crafting/storage_aluminum_to_ingot_aluminum',
+            'immersiveengineering:crafting/nugget_aluminum_to_ingot_aluminum',
+            'immersiveengineering:crafting/ingot_aluminum_to_nugget_aluminum',
+            'immersiveengineering:crafting/ingot_aluminum_to_storage_aluminum',
+            'immersiveengineering:crafting/storage_aluminum_from_slab',
 
+
+            'immersiveengineering:crafting/nugget_nickel_to_ingot_nickel',
+            'immersiveengineering:crafting/storage_nickel_to_ingot_nickel',
+            'thermal:storage/nickel_ingot_from_nuggets',
+            'thermal:storage/nickel_ingot_from_block',
+            
+            'mekanism:processing/uranium/ingot/from_block',
+            'mekanism:processing/uranium/ingot/from_nuggets',
+            'immersiveengineering:crafting/nugget_uranium_to_ingot_uranium',
+            'immersiveengineering:crafting/storage_uranium_to_ingot_uranium',
+            
+            'mekanism:processing/osmium/ingot/from_nuggets',
+            'mekanism:processing/osmium/ingot/from_block',
+            
+            'create:crafting/materials/zinc_ingot_from_decompacting',
+            'create:crafting/materials/zinc_ingot_from_compacting',
+            'create:crafting/materials/zinc_nugget_from_decompacting',
+            'create:crafting/materials/zinc_block_from_compacting',
+
+            'mekanism:processing/bronze/ingot/from_block',
+            'mekanism:processing/bronze/ingot/from_nuggets',
+            'thermal:storage/bronze_ingot_from_nuggets',
+            'thermal:storage/bronze_ingot_from_block',
+            'thermal:storage/bronze_nugget_from_ingot',
+            'mekanism:nuggets/bronze',
+            'thermal:smelting/bronze_ingot_from_dust_blasting',
+            'mekanism:processing/bronze/ingot/from_dust_blasting',
+            'mekanism:processing/bronze/ingot/from_dust_smelting',
+            'thermal:smelting/bronze_ingot_from_dust_smelting',
+            'emendatusenigmatica:alloy_dust/bronze',
+            'thermal:bronze_dust_4',
+            'mekanism:processing/bronze/ingot/from_dust_smelting',
+            'thermal:smelting/bronze_ingot_from_dust_smelting',
+            'mekanism:processing/bronze/ingot/from_dust_blasting',
+            'thermal:smelting/bronze_ingot_from_dust_blasting',
+            'thermal:storage/bronze_block',
+            'mekanism:storage_blocks/bronze',
+
+            
+            'create:crafting/materials/brass_ingot_from_compacting',
+            'create:crafting/materials/brass_ingot_from_decompacting',
+            'create:crafting/materials/brass_block_from_compacting',
+            'create:crafting/materials/brass_nugget_from_decompacting',
+
+            'thermal:storage/constantan_ingot_from_nuggets',
+            'immersiveengineering:crafting/nugget_constantan_to_ingot_constantan',
+            'immersiveengineering:crafting/storage_constantan_to_ingot_constantan',
+            'thermal:storage/constantan_ingot_from_block',
+            'immersiveengineering:crafting/ingot_constantan_to_nugget_constantan',
+            'thermal:storage/constantan_nugget_from_ingot',
+            'immersiveengineering:crafting/storage_constantan_from_slab',
+            'thermal:storage/constantan_block',
+            'immersiveengineering:crafting/ingot_constantan_to_storage_constantan',
+
+            'thermal:storage/electrum_ingot_from_block',
+            'thermal:storage/electrum_ingot_from_nuggets',
+            'immersiveengineering:crafting/electrum_mix',
+            'thermal:electrum_dust_2',
+            'immersiveengineering:crafting/ingot_electrum_to_nugget_electrum',
+            'thermal:storage/electrum_nugget_from_ingot',
+            'immersiveengineering:crafting/storage_electrum_to_ingot_electrum',
+            'immersiveengineering:crafting/nugget_electrum_to_ingot_electrum',
+            'immersiveengineering:crafting/storage_electrum_from_slab',
+            'immersiveengineering:crafting/ingot_electrum_to_storage_electrum',
+            'thermal:storage/electrum_block',
+
+            'immersiveengineering:crafting/ingot_steel_to_nugget_steel',
+            'mekanism:processing/steel/ingot/from_nuggets',
+            'mekanism:nuggets/steel',
+            'immersiveengineering:crafting/nugget_steel_to_ingot_steel',
+            'immersiveengineering:crafting/storage_steel_to_ingot_steel',
+            'mekanism:processing/steel/ingot/from_block',
+            'mekanism:storage_blocks/steel',
+            'immersiveengineering:crafting/ingot_steel_to_storage_steel',
+            'immersiveengineering:crafting/storage_steel_from_slab',
+
+            'thermal:storage/invar_ingot_from_block',
+            'thermal:storage/invar_ingot_from_nuggets',
+            'thermal:storage/invar_nugget_from_ingot',
+            'thermal:storage/invar_block',
+
+            'thermal:storage/signalum_ingot_from_block',
+            'thermal:storage/signalum_ingot_from_nuggets',
+            'thermal:storage/signalum_nugget_from_ingot',
+            'thermal:storage/signalum_block',
+
+            'thermal:storage/lumium_ingot_from_block',
+            'thermal:storage/lumium_ingot_from_nuggets',
+            'thermal:storage/lumium_nugget_from_ingot',
+            'thermal:storage/lumium_block',
+
+            'thermal:storage/enderium_ingot_from_block',
+            'thermal:storage/enderium_ingot_from_nuggets',
+            'thermal:storage/enderium_nugget_from_ingot',
+            'thermal:storage/enderium_block',
+
+            'eidolon:lead_ingot',
+            'eidolon:lead_block',
+            'eidolon:decompress_lead_block',
+            'eidolon:decompress_lead_ingot',
+            'immersiveengineering:crafting/ingot_lead_to_nugget_lead',
+            'immersiveengineering:crafting/ingot_lead_to_storage_lead',
+            'immersiveengineering:crafting/storage_lead_from_slab',
+            'mekanism:processing/lead/nugget/from_ingot',
+            'mekanism:processing/lead/storage_blocks/from_ingots',
+            'thermal:storage/lead_block',
+            'thermal:storage/lead_nugget_from_ingot',
+            'thermal:storage/lead_ingot_from_block',
+            'thermal:storage/lead_ingot_from_nuggets',
+            
+            'occultism:crafting/copper_ingot_from_nuggets',
+            'occultism:crafting/copper_ingot_from_block',
+            'occultism:crafting/copper_nugget',
+            'occultism:crafting/copper_block',
+            'thermal:storage/copper_ingot_from_nuggets',
+            'thermal:storage/copper_ingot_from_block',
+            'thermal:storage/copper_nugget_from_ingot',
+            'thermal:storage/copper_block',
+            'mekanism:processing/copper/ingot/from_block',
+            'mekanism:processing/copper/nugget/from_ingot',
+            'mekanism:processing/copper/ingot/from_nuggets',
+            'mekanism:processing/copper/storage_blocks/from_ingots',
+            'iceandfire:copper_ingot',
+            'iceandfire:copper_block',
+            'iceandfire:copper_ingot_to_nuggets',
+            'iceandfire:copper_block_to_ingots',
+            'immersiveengineering:crafting/storage_copper_to_ingot_copper',
+            'immersiveengineering:crafting/ingot_copper_to_nugget_copper',
+            'immersiveengineering:crafting/nugget_copper_to_ingot_copper',
+            'immersiveengineering:crafting/ingot_copper_to_storage_copper',
+            'immersiveengineering:crafting/storage_copper_from_slab',
+            'create:crafting/materials/copper_ingot_from_decompacting',
+            'create:crafting/materials/copper_ingot_from_compacting',
+            'create:crafting/materials/copper_nugget_from_decompacting',
+            'create:crafting/materials/copper_block_from_compacting',
+            
+            'iceandfire:silver_block_to_ingots',
+            'immersiveengineering:crafting/storage_silver_to_ingot_silver',
+            'immersiveengineering:crafting/nugget_silver_to_ingot_silver',
+            'thermal:storage/silver_ingot_from_nuggets',
+            'thermal:storage/silver_ingot_from_block',
+            'occultism:crafting/silver_ingot_from_block',
+            'iceandfire:silver_ingot',
+            'occultism:crafting/silver_ingot_from_nuggets',
+            'immersiveengineering:crafting/ingot_silver_to_nugget_silver',
+            'iceandfire:silver_ingot_to_nuggets',
+            'thermal:storage/silver_nugget_from_ingot',
+            'occultism:crafting/silver_nugget',
+            'immersiveengineering:crafting/storage_silver_from_slab',
+            'occultism:crafting/silver_block',
+            'iceandfire:silver_block',
+            'thermal:storage/silver_block',
+            'immersiveengineering:crafting/ingot_silver_to_storage_silver',
+            
+            'thermal:storage/nickel_nugget_from_ingot',
+            'immersiveengineering:crafting/ingot_nickel_to_nugget_nickel',
+            'thermal:storage/nickel_block',
+            'immersiveengineering:crafting/storage_nickel_from_slab',
+            'immersiveengineering:crafting/ingot_nickel_to_storage_nickel',
+            
+            'immersiveengineering:crafting/ingot_uranium_to_nugget_uranium',
+            'mekanism:processing/uranium/nugget/from_ingot',
+            'immersiveengineering:crafting/ingot_uranium_to_storage_uranium',
+            'mekanism:processing/uranium/storage_blocks/from_ingots',
+            'immersiveengineering:crafting/storage_uranium_from_slab',
+
+            'mekanism:processing/osmium/nugget/from_ingot',
+            'mekanism:processing/osmium/storage_blocks/from_ingots',
+
+            'mekanism:processing/tin/nugget/from_ingot',
+            'mekanism:processing/tin/ingot/from_block',
+            'mekanism:processing/tin/ingot/from_nuggets',
+            'thermal:storage/tin_ingot_from_nuggets',
+            'thermal:storage/tin_nugget_from_ingot',
+            'thermal:storage/tin_ingot_from_block',
+            'mekanism:processing/tin/storage_blocks/from_ingots',
+            'thermal:storage/tin_block',
+
+            'immersiveengineering:crafting/storage_lead_to_ingot_lead',
+            'immersiveengineering:crafting/nugget_lead_to_ingot_lead',
+            
+            'mekanism:processing/lead/ingot/from_block',
+            'mekanism:processing/lead/ingot/from_nuggets',
+
+            'mekanism:storage_blocks/fluorite',
+            'mekanism:processing/fluorite/from_block',
+
+            'thermal:storage/bitumen_block',
+            'thermal:storage/bitumen_from_block',
+            
+            'thermal:storage/cinnabar_block',
+            'thermal:storage/cinnabar_from_block',
+
+            'thermal:storage/apatite_block',
+            'thermal:storage/apatite_from_block',
+
+            'thermal:storage/sulfur_block',
+            'thermal:storage/sulfur_from_block',
+
+            'thermal:storage/niter_from_block',
+            'thermal:storage/niter_block',
+
+            'immersiveengineering:crafting/coal_coke_to_coke',
+            'immersiveengineering:crafting/coal_coke_from_block',
+            'thermal:storage/coal_coke_block',
+            'thermal:storage/coal_coke_from_block',
+            'immersiveengineering:crafting/coke_from_slab',
+            'immersiveengineering:crafting/coke_to_coal_coke']
+        
+        removeIDs.forEach((remove) => {
+            event.remove({ id: remove })
+        })
 
         //Krate
     event.remove({output: 'krate:krate_small'})
@@ -163,8 +391,10 @@ events.listen('recipes', function (event) {
     event.remove({output: 'immersiveengineering:light_engineering'})
     event.remove({output: 'immersiveengineering:heavy_engineering'})
     event.remove({output: 'immersiveengineering:dust_hop_graphite'})
+    event.remove({output: 'immersivepetroleum:projector'})
     event.remove({id: 'immersiveengineering:alloysmelter/invar'})
-     
+    event.remove({output: 'immersiveengineering:cloche'})
+
         //StorageNetworks
     event.remove({output: 'storagenetwork:master'})
     event.remove({output: 'storagenetwork:kabel'})
@@ -207,7 +437,14 @@ events.listen('recipes', function (event) {
     event.remove({output: 'thermal:dynamo_disenchantment'})
     event.remove({output: 'thermal:dynamo_gourmand'})
     event.remove({output: 'thermal:sugar_cane_block'})
-
+    event.remove({output: 'thermal:bamboo_block'})
+    event.remove({output: 'thermal:apple_block'})
+    event.remove({output: 'thermal:carrot_block'})
+    event.remove({output: 'thermal:potato_block'})
+    event.remove({output: 'thermal:beetroot_block'})
+    event.remove({id: 'thermal:machine/smelter/smelter_ancient_debris'})
+    event.remove({output: 'sophisticatedbackpacks:tank_upgrade'})
+    event.remove({output: 'sophisticatedbackpacks:feeding_upgrade'})
 
 
         //Mekanism
@@ -231,6 +468,28 @@ events.listen('recipes', function (event) {
     event.remove({output: 'mekanism:dust_obsidian'})
     event.remove({output: 'wands:stone_wand'})
     event.remove({output: 'tombstone:book_of_disenchantment'})
+    event.remove({output: 'torchmaster:feral_flare_lantern'})
+
+        //RFtools
+    event.remove({output: 'xnet:controller'})
+    event.remove({output: 'rftoolsbase:machine_frame'})
+    event.remove({output: 'rftoolsbase:machine_base'})
+    event.remove({output: 'rftoolsutility:matter_transmitter'})
+    event.remove({output: 'rftoolsutility:matter_receiver'})
+    event.remove({output: 'rftoolsutility:charged_porter'})
+    event.remove({output: 'rftoolsutility:advanced_charged_porter'})
+    event.remove({output: 'rftoolsbuilder:builder'})
+    event.remove({id: 'rftoolsbuilder:shape_card_pump'})
+    event.remove({id: 'rftoolsbuilder:shape_card_quarry'})
+    event.remove({output: 'rftoolsbuilder:shape_card_quarry_fortune'})
+    event.remove({output: 'rftoolspower:blazing_generator'})
+    event.remove({output: 'rftoolspower:blazing_agitator'})
+    event.remove({output: 'rftoolspower:blazing_infuser'})
+    event.remove({output: 'rftoolspower:coalgenerator'})
+    event.remove({output: 'rftoolspower:power_core3'})
+    event.remove({output: 'rftoolspower:power_core2'})
+    event.remove({output: 'rftoolspower:power_core1'})
+
     
 
         //Industrial Foregoing
@@ -336,6 +595,13 @@ events.listen('recipes', function (event) {
     event.remove({id: 'bloodmagic:arc/reversion/weak_blood_orb'})
     event.remove({id: 'bloodmagic:arc/reversion/apprentice_blood_orb'})
     event.remove({id: 'bloodmagic:arc/reversion/magician_blood_orb'})
+    event.remove({id: 'bloodmagic:array/living_helmet'})
+    event.remove({id: 'bloodmagic:array/living_plate'})
+    event.remove({id: 'bloodmagic:array/living_leggings'})
+    event.remove({id: 'bloodmagic:array/living_boots'})
+    event.remove({id: 'bloodmagic:alchemytable/reagent_binding'})
+
+
 
     //World's best #1 Mod
     event.remove({id: 'refinedstorage:silicon'})

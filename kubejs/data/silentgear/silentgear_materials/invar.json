@@ -1,0 +1,94 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/invar",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/invar"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.invar"
+  },
+  "stats": {
+    "main": {
+      "durability": 390.0,
+      "armor_durability": 20.0,
+      "repair_value": 0.15,
+      "enchantability": 13.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 7.0,
+      "melee_damage": 3.5,
+      "magic_damage": 3.0,
+      "attack_speed": 0.0,
+      "armor": 18.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 2.0,
+      "armor_toughness": 2.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": 0.0,
+      "rarity": 50.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.3
+      },
+      "melee_damage": {
+        "mul2": 0.1
+      },
+      "rarity": 50.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:adamant",
+        "level": 2,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.35
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ]
+  }
+}

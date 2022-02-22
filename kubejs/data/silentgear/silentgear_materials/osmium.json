@@ -1,0 +1,73 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/osmium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/osmium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.osmium"
+  },
+  "stats": {
+    "main": {
+      "durability": 300.0,
+      "armor_durability": 30.0,
+      "enchantability": 12.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 9.0,
+      "melee_damage": 4.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.1,
+      "armor": 17.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 5.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 2.0,
+      "magic_armor": 4.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": 0.0,
+      "rarity": 35.0,
+      "silentgems:chargeability": 1.1
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "repair_efficiency": {
+        "mul2": 0.1
+      },
+      "rarity": 35.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

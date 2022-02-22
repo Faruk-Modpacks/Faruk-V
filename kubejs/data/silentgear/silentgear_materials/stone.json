@@ -1,0 +1,75 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:cobblestone"
+    },
+    "subs": {
+      "rod": {
+        "tag": "forge:rods/stone"
+      }
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.stone"
+  },
+  "stats": {
+    "main": {
+      "durability": 131.0,
+      "armor_durability": 5.0,
+      "enchantability": 5.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 4.0,
+      "melee_damage": 1.0,
+      "magic_damage": 0.0,
+      "attack_speed": 0.0,
+      "attack_speed/axe": -0.2,
+      "armor": 5.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 1.5,
+      "armor/leggings": 1.0,
+      "armor/boots": 1.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.2,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 4.0,
+      "silentgems:chargeability": 0.5
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.1
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 2.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:ancient",
+        "level": 1
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:crushing",
+        "level": 2
+      }
+    ]
+  }
+}

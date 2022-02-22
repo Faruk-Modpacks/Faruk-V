@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/silver"
   },
-  "weight": 381,
+  "weight": 450,
   "conditions": [
     {
       "type": "forge:not",

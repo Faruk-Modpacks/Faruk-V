@@ -3,6 +3,7 @@
 	order_index: 6
 	title: "Stage1gold"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "immersiveengineering:sheetmetal_iron", count: 8 }
 		{ item: "immersiveengineering:insulating_glass", count: 2 }

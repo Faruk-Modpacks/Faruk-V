@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "main",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "sophisticatedbackpacks:magnet_upgrade"
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 95
+        }
+      ]
+    }
+  ]
+}

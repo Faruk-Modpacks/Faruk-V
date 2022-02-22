@@ -14,5 +14,5 @@
 
 ["Version History"]
 	#Editing these values will not affect any worlds that are already on that version.
-	history = ""
+	history = "1=champions,curios,engineersdecor,forge,ftbchunks,ftbessentials,immersivepetroleum,morpheus,occultism,rapid_leaf_decay,refinedstorageaddons,refinedstorage,rftoolsbuilder,rsinfinitybooster,solcarrot,thermal,xnet;2=immersiveengineering;3=rftoolspower,occultism,immersiveengineering;"
 

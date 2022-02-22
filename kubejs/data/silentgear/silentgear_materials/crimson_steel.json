@@ -1,0 +1,120 @@
+{
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/crimson_steel"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.crimson_steel"
+  },
+  "stats": {
+    "main": {
+      "durability": 900.0,
+      "armor_durability": 42.0,
+      "repair_value": 0.5,
+      "enchantability": 19.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 8.5,
+      "melee_damage": 4.0,
+      "magic_damage": 4.0,
+      "attack_speed": -0.1,
+      "armor": 18.0,
+      "armor/helmet": 4.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 4.0,
+      "armor_toughness": 10.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.3,
+      "rarity": 83.0,
+      "silentgems:chargeability": 0.9
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.5
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "ranged_damage": {
+        "add": 1.0
+      },
+      "rarity": 42.0
+    },
+    "tip": {
+      "durability": {
+        "add": 448.0
+      },
+      "armor_durability": {
+        "add": 16.0
+      },
+      "harvest_level": {
+        "max": 4.0
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 5
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 3
+      },
+      {
+        "name": "silentgear:flame_ward",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:or",
+            "values": [
+              {
+                "type": "silentgear:material_count",
+                "count": 3
+              },
+              {
+                "type": "silentgear:material_ratio",
+                "ratio": 0.33
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 5,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:magmatic",
+        "level": 1
+      }
+    ]
+  }
+}

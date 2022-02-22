@@ -502,7 +502,7 @@
 			x: 12.5d
 			y: -3.5d
 			subtitle: "{faruk.stagethree.storage47.subtitle}"
-			description: ["{faruk.stagethree.storage47.subtitle}"]
+			description: ["{faruk.stagethree.storage47.desc1}"]
 			dependencies: ["3527341703062C2C"]
 			id: "763BFE1986541280"
 			tasks: [{
@@ -858,15 +858,13 @@
 			}]
 		}
 		{
-			x: 14.5d
+			title: "disabled"
+			x: 18.5d
 			y: -2.5d
-			subtitle: "{faruk.stagethree.storage50.subtitle}"
-			description: ["{faruk.stagethree.storage50.desc1}"]
-			dependencies: [
-				"51E0D89ACA93E2D8"
-				"5E3FD0045B2E0DA7"
-				"763BFE1986541280"
-			]
+			subtitle: "disabled"
+			description: ["disabled"]
+			dependencies: ["7758D8D8B7F9CFB0"]
+			hide: true
 			id: "1CE86345AB6938FF"
 			tasks: [{
 				id: "338220163347F1ED"

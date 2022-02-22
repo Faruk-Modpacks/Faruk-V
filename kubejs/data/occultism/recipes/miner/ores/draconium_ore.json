@@ -6,7 +6,7 @@
   "result": {
     "item": "emendatusenigmatica:coal_chunk"
   },
-  "weight": 142,
+  "weight": 150,
   "conditions": [
     {
       "type": "forge:item_exists",

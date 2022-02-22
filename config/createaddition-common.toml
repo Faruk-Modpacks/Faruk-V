@@ -3,7 +3,7 @@
 [general]
 	#Forge Energy conversion rate (in FE/t at max RPM).
 	#Range: > 0
-	fe_conversion = 256
+	fe_conversion = 163
 	#Max stress for the Alternator and Electric Motor (in SU at max RPM).
 	#Range: > 0
 	baseline_stress = 16384
@@ -27,7 +27,7 @@
 [alternator]
 	#Alternator max input in FE (Energy transfer, not generation).
 	#Range: > 0
-	generator_max_output = 2048
+	generator_max_output = 1024
 	#Alternator internal capacity in FE.
 	#Range: > 0
 	generator_capacity = 2048
@@ -54,7 +54,7 @@
 	heater_capacity = 2048
 	#Induction Heater normal consumption rate in FE/t.
 	#Range: > 0
-	heater_normal_consumption = 256
+	heater_normal_consumption = 128
 	#Induction Heater when attached to a Furnace Engine consumption rate in FE/t.
 	#Range: > 0
 	heater_furnace_engine_consumption = 1024
@@ -65,10 +65,10 @@
 [wires]
 	#Connector max input in FE/t (Energy transfer).
 	#Range: > 0
-	connector_max_input = 2048
+	connector_max_input = 1024
 	#Connector max output in FE/t (Energy transfer).
 	#Range: > 0
-	connector_max_output = 2048
+	connector_max_output = 1024
 	#Connector internal input buffer in FE.
 	#Range: > 0
 	connector_input_capacity = 512
@@ -80,13 +80,13 @@
 [accumulator]
 	#Accumulator max input in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_input = 2048
+	accumulator_max_input = 1024
 	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_output = 2048
+	accumulator_max_output = 1024
 	#Accumulator internal capacity in FE.
 	#Range: > 0
-	accumulator_capacity = 2048000
+	accumulator_capacity = 1024000
 
 #Charger (Deprecated)
 [charger]
@@ -119,10 +119,10 @@
 [tesla_coil]
 	#Charger max input in FE/t (Energy transfer).
 	#Range: > 0
-	tesla_coil_max_input = 4096
+	tesla_coil_max_input = 1024
 	#Charger charge rate in FE/t.
 	#Range: > 0
-	tesla_coil_charge_rate = 4096
+	tesla_coil_charge_rate = 1024
 	#Charger internal capacity in FE.
 	#Range: > 0
 	tesla_coil_capacity = 32000

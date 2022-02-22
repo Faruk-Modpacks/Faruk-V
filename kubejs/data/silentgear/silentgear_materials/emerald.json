@@ -1,0 +1,131 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "gem"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:gems/emerald"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.emerald"
+  },
+  "stats": {
+    "main": {
+      "durability": 580.0,
+      "armor_durability": 24.0,
+      "repair_value": 0.25,
+      "enchantability": 16.0,
+      "harvest_level": 2.0,
+      "harvest_speed": 8.0,
+      "melee_damage": 2.0,
+      "magic_damage": 2.0,
+      "attack_speed": 0.0,
+      "armor": 16.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 6.0,
+      "armor/leggings": 4.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 4.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 1.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.1,
+      "projectile_accuracy": 0.9,
+      "rarity": 40.0,
+      "silentgems:chargeability": 1.0
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.2
+      },
+      "harvest_speed": {
+        "mul2": 0.3
+      },
+      "rarity": 30.0
+    },
+    "tip": {
+      "durability": {
+        "add": 512.0
+      },
+      "armor_durability": {
+        "add": 12.0
+      },
+      "harvest_level": {
+        "max": 2.0
+      },
+      "harvest_speed": {
+        "add": 2.0
+      },
+      "melee_damage": {
+        "add": 1.0
+      },
+      "magic_damage": {
+        "add": 2.0
+      },
+      "ranged_damage": {
+        "add": 1.0
+      },
+      "rarity": {
+        "add": 20.0
+      }
+    },
+    "adornment": {}
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 4,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:synergistic",
+        "level": 2
+      }
+    ],
+    "adornment": [
+      {
+        "name": "silentgear:reach",
+        "level": 2
+      }
+    ]
+  }
+}

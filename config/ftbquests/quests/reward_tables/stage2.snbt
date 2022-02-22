@@ -3,6 +3,7 @@
 	order_index: 5
 	title: "Stage1"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "engineersdecor:sign_factoryarea", weight: 2 }
 		{ item: "immersiveengineering:shader_bag_common", weight: 2 }

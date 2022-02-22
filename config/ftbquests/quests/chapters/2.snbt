@@ -783,7 +783,8 @@
 			y: -0.5d
 			subtitle: "{faruk.stagetwo.main26.subtitle}"
 			description: ["{faruk.stagetwo.main26.desc1}"]
-			dependencies: ["5AAAE8E1B7D07551"]
+			hide_dependency_lines: true
+			dependencies: ["2F1F8C4062D2B245"]
 			hide: true
 			id: "175DE493D585D6F8"
 			tasks: [{
@@ -865,6 +866,20 @@
 				id: "49F6E3BFFDEAFEE3"
 				type: "item"
 				item: "cyclic:melter"
+			}]
+		}
+		{
+			x: -8.5d
+			y: 3.0d
+			subtitle: "{faruk.stagetwo.extra1.subtitle}"
+			description: ["{faruk.stagetwo.extra1.desc1}"]
+			dependencies: ["63B00AC120099F14"]
+			optional: true
+			id: "165BFE365060094D"
+			tasks: [{
+				id: "0C4FCD88BF62F199"
+				type: "item"
+				item: "xnet:controller"
 			}]
 		}
 	]

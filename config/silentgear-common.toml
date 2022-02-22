@@ -59,12 +59,12 @@
 	enabled = true
 	#Multiplies max durability by this value. If the result would be zero, a value of 1 is assigned.
 	#Range: 0.0 ~ 1.0
-	durabilityMultiplier = 0.1
+	durabilityMultiplier = 0.05
 	#Multiplies harvest speed by this value.
 	#Range: 0.0 ~ 1.0
 	harvestSpeedMultiplier = 0.25
 	#These items will have reduced durability
-	items = ["diamond_axe", "iron_axe", "golden_axe", "stone_axe", "wooden_axe", "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "diamond_shovel", "iron_shovel", "golden_shovel", "stone_shovel", "wooden_shovel", "diamond_sword", "iron_sword", "golden_sword", "stone_sword", "wooden_sword", "netherite_pickaxe", "netherite_axe", "netherite_shovel", "netherite_sword", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "cyclic:crystal_pickaxe", "cyclic:crystal_axe", "cyclic:crystal_shovel", "cyclic:crystal_sword", "cyclic:crystal_helmet", "cyclic:crystal_chestplate", "cyclic:crystal_leggings", "cyclic:crystal_boots", "cyclic:emerald_pickaxe", "cyclic:emerald_axe", "cyclic:emerald_shovel", "cyclic:emerald_sword", "cyclic:emerald_helmet", "cyclic:emerald_chestplate", "cyclic:emerald_leggings", "cyclic:emerald_boots", "cyclic:sandstone_pickaxe", "cyclic:sandstone_axe", "cyclic:sandstone_shovel", "cyclic:sandstone_sword", "cyclic:netherbrick_pickaxe", "cyclic:netherbrick_axe", "cyclic:netherbrick_shovel", "cyclic:netherbrick_sword", "immersiveengineering:pickaxe_steel", "immersiveengineering:axe_steel", "immersiveengineering:shovel_steel", "immersiveengineering:hoe_steel", "immersiveengineering:sword_steel", "immersiveengineering:armor_steel_head", "immersiveengineering:armor_steel_chest", "immersiveengineering:armor_steel_legs", "immersiveengineering:armor_steel_feet", "twilightforest:ironwood_pickaxe", "twilightforest:ironwood_axe", "twilightforest:ironwood_shovel", "twilightforest:ironwood_sword", "twilightforest:ironwood_helmet", "twilightforest:ironwood_chestplate", "twilightforest:ironwood_leggings", "twilightforest:ironwood_boots", "twilightforest:fiery_pickaxe", "twilightforest:fiery_sword", "twilightforest:fiery_helmet", "twilightforest:fiery_chestplate", "twilightforest:fiery_leggings", "twilightforest:fiery_boots", "twilightforest:steeleaf_pickaxe", "twilightforest:steeleaf_axe", "twilightforest:steeleaf_shovel", "twilightforest:steeleaf_sword", "twilightforest:steeleaf_helmet", "twilightforest:steeleaf_chestplate", "twilightforest:steeleaf_leggings", "twilightforest:steeleaf_boots", "twilightforest:knightmetal_pickaxe", "twilightforest:knightmetal_axe", "twilightforest:knightmetal_sword", "twilightforest:knightmetal_helmet", "twilightforest:knightmetal_chestplate", "twilightforest:knightmetal_leggings", "twilightforest:knightmetal_boots", "iceandfire:silver_pickaxe", "iceandfire:silver_axe", "iceandfire:silver_shovel", "iceandfire:silver_sword", "iceandfire:armor_silver_metal_helmet", "iceandfire:armor_silver_metal_chestplate", "iceandfire:armor_silver_metal_leggings", "iceandfire:armor_silver_metal_boots", "iceandfire:copper_pickaxe", "iceandfire:copper_axe", "iceandfire:copper_shovel", "iceandfire:copper_sword", "iceandfire:copper_metal_helmet", "iceandfire:copper_metal_chestplate", "iceandfire:copper_metal_leggings", "iceandfire:copper_metal_boots", "iceandfire:dragonbone_pickaxe", "iceandfire:dragonbone_axe", "iceandfire:dragonbone_shovel", "iceandfire:dragonbone_sword", "chainmail_helmet", "chainmail_chestplate", "chainmail_leggings", "chainmail_boots", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots", "cyclic:mattock", "cyclic:mattock_nether", "betterendforge:aeternium_helmet", "betterendforge:aeternium_chestplate", "betterendforge:aeternium_leggings", "betterendforge:aeternium_boots", "betterendforge:crystalite_helmet", "betterendforge:crystalite_chestplate", "betterendforge:crystalite_leggings", "betterendforge:crystalite_boots", "betterendforge:aeternium_shovel", "betterendforge:aeternium_pickaxe", "betterendforge:aeternium_axe", "betterendforge:aeternium_hammer", "betterendforge:iron_hammer", "betterendforge:golden_hammer", "betterendforge:diamond_hammer", "betterendforge:netherite_hammer", "betterendforge:thallasium_shovel", "betterendforge:thallasium_sword", "betterendforge:thallasium_pickaxe", "betterendforge:thallasium_axe", "betterendforge:thallasium_hammer", "betterendforge:thallasium_helmet", "betterendforge:thallasium_chestplate", "betterendforge:thallasium_leggings", "betterendforge:thallasium_boots", "betterendforge:terminite_shovel", "betterendforge:terminite_sword", "betterendforge:terminite_pickaxe", "betterendforge:terminite_axe", "betterendforge:terminite_hammer", "betterendforge:terminite_helmet", "betterendforge:terminite_chestplate", "betterendforge:terminite_leggings", "betterendforge:terminite_boots", "betterendforge:aeternium_sword", "theoneprobe:diamond_helmet_probe", "theoneprobe:iron_helmet_probe", "theoneprobe:gold_helmet_probe", "createplus:goggle_diamond_helmet", "createplus:goggle_iron_helmet", "createplus:goggle_turtle_helmet", "createplus:goggle_netherite_helmet", "createplus:goggle_chainmail_helmet", "createplus:goggle_golden_helmet", "createplus:goggle_leather_helmet", "iceandfire:armor_copper_metal_helmet", "iceandfire:armor_copper_metal_boots", "iceandfire:armor_copper_metal_leggings", "iceandfire:armor_copper_metal_chestplate"]
+	items = ["diamond_axe", "iron_axe", "golden_axe", "stone_axe", "wooden_axe", "diamond_pickaxe", "iron_pickaxe", "golden_pickaxe", "stone_pickaxe", "wooden_pickaxe", "diamond_shovel", "iron_shovel", "golden_shovel", "stone_shovel", "wooden_shovel", "diamond_sword", "iron_sword", "golden_sword", "stone_sword", "wooden_sword", "netherite_pickaxe", "netherite_axe", "netherite_shovel", "netherite_sword", "netherite_helmet", "netherite_chestplate", "netherite_leggings", "netherite_boots", "cyclic:crystal_pickaxe", "cyclic:crystal_axe", "cyclic:crystal_shovel", "cyclic:crystal_sword", "cyclic:crystal_helmet", "cyclic:crystal_chestplate", "cyclic:crystal_leggings", "cyclic:crystal_boots", "cyclic:emerald_pickaxe", "cyclic:emerald_axe", "cyclic:emerald_shovel", "cyclic:emerald_sword", "cyclic:emerald_helmet", "cyclic:emerald_chestplate", "cyclic:emerald_leggings", "cyclic:emerald_boots", "cyclic:sandstone_pickaxe", "cyclic:sandstone_axe", "cyclic:sandstone_shovel", "cyclic:sandstone_sword", "cyclic:netherbrick_pickaxe", "cyclic:netherbrick_axe", "cyclic:netherbrick_shovel", "cyclic:netherbrick_sword", "immersiveengineering:pickaxe_steel", "immersiveengineering:axe_steel", "immersiveengineering:shovel_steel", "immersiveengineering:hoe_steel", "immersiveengineering:sword_steel", "immersiveengineering:armor_steel_head", "immersiveengineering:armor_steel_chest", "immersiveengineering:armor_steel_legs", "immersiveengineering:armor_steel_feet", "twilightforest:ironwood_pickaxe", "twilightforest:ironwood_axe", "twilightforest:ironwood_shovel", "twilightforest:ironwood_sword", "twilightforest:ironwood_helmet", "twilightforest:ironwood_chestplate", "twilightforest:ironwood_leggings", "twilightforest:ironwood_boots", "twilightforest:fiery_pickaxe", "twilightforest:fiery_sword", "twilightforest:fiery_helmet", "twilightforest:fiery_chestplate", "twilightforest:fiery_leggings", "twilightforest:fiery_boots", "twilightforest:steeleaf_pickaxe", "twilightforest:steeleaf_axe", "twilightforest:steeleaf_shovel", "twilightforest:steeleaf_sword", "twilightforest:steeleaf_helmet", "twilightforest:steeleaf_chestplate", "twilightforest:steeleaf_leggings", "twilightforest:steeleaf_boots", "twilightforest:knightmetal_pickaxe", "twilightforest:knightmetal_axe", "twilightforest:knightmetal_sword", "twilightforest:knightmetal_helmet", "twilightforest:knightmetal_chestplate", "twilightforest:knightmetal_leggings", "twilightforest:knightmetal_boots", "iceandfire:silver_pickaxe", "iceandfire:silver_axe", "iceandfire:silver_shovel", "iceandfire:silver_sword", "iceandfire:armor_silver_metal_helmet", "iceandfire:armor_silver_metal_chestplate", "iceandfire:armor_silver_metal_leggings", "iceandfire:armor_silver_metal_boots", "iceandfire:copper_pickaxe", "iceandfire:copper_axe", "iceandfire:copper_shovel", "iceandfire:copper_sword", "iceandfire:copper_metal_helmet", "iceandfire:copper_metal_chestplate", "iceandfire:copper_metal_leggings", "iceandfire:copper_metal_boots", "iceandfire:dragonbone_pickaxe", "iceandfire:dragonbone_axe", "iceandfire:dragonbone_shovel", "iceandfire:dragonbone_sword", "chainmail_helmet", "chainmail_chestplate", "chainmail_leggings", "chainmail_boots", "iron_helmet", "iron_chestplate", "iron_leggings", "iron_boots", "golden_helmet", "golden_chestplate", "golden_leggings", "golden_boots", "diamond_helmet", "diamond_chestplate", "diamond_leggings", "diamond_boots", "cyclic:mattock", "cyclic:mattock_nether", "betterendforge:aeternium_helmet", "betterendforge:aeternium_chestplate", "betterendforge:aeternium_leggings", "betterendforge:aeternium_boots", "betterendforge:crystalite_helmet", "betterendforge:crystalite_chestplate", "betterendforge:crystalite_leggings", "betterendforge:crystalite_boots", "betterendforge:aeternium_shovel", "betterendforge:aeternium_pickaxe", "betterendforge:aeternium_axe", "betterendforge:aeternium_hammer", "betterendforge:iron_hammer", "betterendforge:golden_hammer", "betterendforge:diamond_hammer", "betterendforge:netherite_hammer", "betterendforge:thallasium_shovel", "betterendforge:thallasium_sword", "betterendforge:thallasium_pickaxe", "betterendforge:thallasium_axe", "betterendforge:thallasium_hammer", "betterendforge:thallasium_helmet", "betterendforge:thallasium_chestplate", "betterendforge:thallasium_leggings", "betterendforge:thallasium_boots", "betterendforge:terminite_shovel", "betterendforge:terminite_sword", "betterendforge:terminite_pickaxe", "betterendforge:terminite_axe", "betterendforge:terminite_hammer", "betterendforge:terminite_helmet", "betterendforge:terminite_chestplate", "betterendforge:terminite_leggings", "betterendforge:terminite_boots", "betterendforge:aeternium_sword", "theoneprobe:diamond_helmet_probe", "theoneprobe:iron_helmet_probe", "theoneprobe:gold_helmet_probe", "createplus:goggle_diamond_helmet", "createplus:goggle_iron_helmet", "createplus:goggle_turtle_helmet", "createplus:goggle_netherite_helmet", "createplus:goggle_chainmail_helmet", "createplus:goggle_golden_helmet", "createplus:goggle_leather_helmet", "iceandfire:armor_copper_metal_helmet", "iceandfire:armor_copper_metal_boots", "iceandfire:armor_copper_metal_leggings", "iceandfire:armor_copper_metal_chestplate", "minecraft:bow", "minecraft:fishing_rod", "minecraft:crossbow", "betternether:cincinnasite_pickaxe", "betternether:cincinnasite_pickaxe_diamond", "betternether:cincinnasite_axe", "betternether:cincinnasite_axe_diamond", "betternether:cincinnasite_shovel", "betternether:cincinnasite_shovel_diamond", "betternether:cincinnasite_shears", "betternether:cincinnasite_sword", "betternether:cincinnasite_sword_diamond", "betternether:nether_ruby_pickaxe", "betternether:nether_ruby_axe", "betternether:nether_ruby_shovel", "betternether:nether_ruby_sword", "betternether:nether_ruby_helmet", "betternether:nether_ruby_chestplate", "betternether:nether_ruby_leggings", "betternether:nether_ruby_boots", "betternether:cincinnasite_helmet", "betternether:cincinnasite_chestplate", "betternether:cincinnasite_leggings", "betternether:cincinnasite_boots"]
 
 #Settings for sinew drops
 [sinew]
@@ -110,7 +110,7 @@
 		#Caps how far the saw can look for blocks when chopping down trees. Try decreasing this if you get stack overflow exceptions.
 		#Increasing this value is allowed, but not recommended unless you know what you are doing.
 		#Range: > 0
-		recursionDepth = 12
+		recursionDepth = 15
 
 	#Settings for AOE tools (hammer, excavator)
 	#Match modes determine what blocks are considered similar enough to be mined together.
@@ -159,11 +159,11 @@
 		#Minimum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		min = 0.1
+		min = 0.5
 		#Maximum rate of part loss when salvaging items. 0 = no loss, 1 = complete loss.
 		#Rate depends on remaining durability.
 		#Range: 0.0 ~ 1.0
-		max = 0.5
+		max = 0.9
 
 #World generation options (REQUIRES GAME RESTART)
 [world]
@@ -171,17 +171,17 @@
 	[world.azureSilver]
 		#Veins of azure silver ore per chunk
 		#Range: 0 ~ 1000
-		count = 2
+		count = 1
 
 	[world.bort]
 		#Attempts to place individual bort ore blocks per chunk.
 		#Range: 0 ~ 1000
-		count = 1
+		count = 2
 
 	[world.crimsonIron]
 		#Veins of crimson iron ore per chunk
 		#Range: 0 ~ 1000
-		count = 3
+		count = 2
 
 	[world.wildFlax]
 		#Number of patches of wild flax to attempt to place per chunk (some biomes only)
@@ -197,7 +197,7 @@
 		patchCount = 1
 		#Block place attempts per wild fluffy plants cluster
 		#Range: 0 ~ 1000
-		tryCount = 8
+		tryCount = 10
 
 [debug]
 

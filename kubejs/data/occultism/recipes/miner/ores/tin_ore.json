@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/tin"
   },
-  "weight": 602,
+  "weight": 550,
   "conditions": [
     {
       "type": "forge:not",

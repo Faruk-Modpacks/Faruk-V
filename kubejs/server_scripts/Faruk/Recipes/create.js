@@ -89,5 +89,43 @@ event.recipes.createMixing('2x create:rose_quartz', [
     'emendatusenigmatica:obsidian_dust',
     Item.of('emendatusenigmatica:obsidian_dust').withChance(0.25)
   ], 'minecraft:obsidian')
-  
+
+  event.recipes.createCrushing([
+    'minecraft:netherite_scrap',
+    Item.of('minecraft:netherite_scrap').withChance(0.25)
+  ], 'minecraft:ancient_debris')
+
+  event.recipes.createMechanicalCrafting('create_stuff_additions:brass_moped_item', [
+    'ADD',
+    'CBC',
+    'EFE',
+    'GGG'
+  ], {
+    A: '#forge:plates/brass',
+    B: 'create:precision_mechanism',
+    C: 'create:brass_casing',
+    D: '#create:seats',
+    E: 'create:shaft',
+    F: 'create:furnace_engine',
+    G: 'create:belt_connector'
+  })
+
+  event.shaped(item.of('create_stuff_additions:refined_radiance_neon'), [
+    ' A ',
+    ' A ',
+    ' A '
+  ], {
+    A: 'create:refined_radiance'
+  })
+
+  event.shaped(item.of('create_stuff_additions:tuned_brass_moped_item'), [
+    'DCD',
+    'ABA',
+    'DCD'
+  ], {
+    A: 'create:refined_radiance',
+    B: 'create_stuff_additions:brass_moped_item',
+    C: 'minecraft:netherite_ingot',
+    D: 'minecraft:blaze_powder'
+  })
 })

@@ -114,7 +114,7 @@ events.listen('ui.main_menu', event => {
       //Copyright
       ui.label((l) => {
         l.height = 10
-        l.name = "Copyright Mojang AB"
+        l.name = "Copyright Mojang AB. Do not distribute!"
         l.x = ui.width - l.width - 2
         l.y = ui.height - 10
       })

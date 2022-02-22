@@ -1013,12 +1013,19 @@
 				type: "item"
 				item: "create:fluid_tank"
 			}]
-			rewards: [{
-				id: "673163EEDE739A0F"
-				type: "item"
-				item: "create:fluid_tank"
-				count: 2
-			}]
+			rewards: [
+				{
+					id: "673163EEDE739A0F"
+					type: "item"
+					item: "create:fluid_tank"
+					count: 2
+				}
+				{
+					id: "71D163B5BAD79408"
+					type: "item"
+					item: "cyclic:hopper_fluid"
+				}
+			]
 		}
 		{
 			x: 1.0d

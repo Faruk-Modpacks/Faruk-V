@@ -4,15 +4,15 @@
 # The chance of a well generating at a chunk is 1/rarityPerChunk.
 # 1 for wells spawning in every chunk and 10000 for no wells.
 #Range: 1 ~ 10000
-badlandsWellRarityPerChunk = 250
+badlandsWellRarityPerChunk = 350
 #Range: 1 ~ 10000
-netherWellRarityPerChunk = 200
+netherWellRarityPerChunk = 300
 #Range: 1 ~ 10000
-snowWellRarityPerChunk = 350
+snowWellRarityPerChunk = 500
 #Range: 1 ~ 10000
-mossyStoneWellRarityPerChunk = 350
+mossyStoneWellRarityPerChunk = 500
 #Range: 1 ~ 10000
-forestWellRarityPerChunk = 350
+forestWellRarityPerChunk = 500
 #Range: 1 ~ 10000
-mushroomWellRarityPerChunk = 350
+mushroomWellRarityPerChunk = 500
 

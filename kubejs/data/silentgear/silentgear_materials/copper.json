@@ -1,0 +1,80 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/copper",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/copper"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.copper"
+  },
+  "stats": {
+    "main": {
+      "durability": 199.0,
+      "armor_durability": 12.0,
+      "enchantability": 15.0,
+      "rarity": 12.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 6.0,
+      "melee_damage": 2.0,
+      "magic_damage": 1.0,
+      "attack_speed": 0.1,
+      "attack_speed/axe": -0.1,
+      "ranged_damage": 0.1,
+      "ranged_speed": 0.0,
+      "armor": 10.0,
+      "armor/helmet": 2.0,
+      "armor/chestplate": 4.0,
+      "armor/leggings": 3.0,
+      "armor/boots": 1.0,
+      "magic_armor": 8.0,
+      "silentgems:chargeability": 1.3
+    },
+    "rod": {
+      "durability": {
+        "mul2": -0.1
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 15.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:soft",
+        "level": 1,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:soft",
+        "level": 3
+      }
+    ]
+  }
+}

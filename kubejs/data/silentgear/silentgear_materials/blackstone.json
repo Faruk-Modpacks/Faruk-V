@@ -1,0 +1,81 @@
+{
+  "availability": {
+    "tier": 1,
+    "categories": [
+      "rock"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "item": "minecraft:blackstone"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.blackstone"
+  },
+  "stats": {
+    "main": {
+      "durability": 151.0,
+      "armor_durability": 5.0,
+      "enchantability": 4.0,
+      "harvest_level": 1.0,
+      "harvest_speed": 4.0,
+      "melee_damage": 1.0,
+      "magic_damage": 0.0,
+      "attack_speed": 0.0,
+      "armor": 5.0,
+      "armor/helmet": 1.0,
+      "armor/chestplate": 2.0,
+      "armor/leggings": 1.0,
+      "armor/boots": 1.0,
+      "ranged_damage": 0.0,
+      "ranged_speed": -0.2,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 0.8,
+      "rarity": 9.0,
+      "silentgems:chargeability": 0.6
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.1
+      },
+      "harvest_speed": {
+        "mul2": -0.1
+      },
+      "rarity": 9.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:brittle",
+        "level": 1
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 2
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:brittle",
+        "level": 2
+      },
+      {
+        "name": "silentgear:jagged",
+        "level": 2
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 1
+      }
+    ]
+  }
+}

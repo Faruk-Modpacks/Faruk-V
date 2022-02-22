@@ -703,6 +703,12 @@
 					type: "item"
 					item: "immersivepetroleum:oil_bucket"
 				}
+				{
+					id: "223A94469424336A"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
 			]
 			rewards: [{
 				id: "7E744391D582953B"
@@ -759,12 +765,19 @@
 					count: 5L
 				}
 			]
-			rewards: [{
-				id: "3D98078172AE3E6C"
-				type: "loot"
-				icon: "kubejs:chest_gold"
-				table_id: 8793258906992979522L
-			}]
+			rewards: [
+				{
+					id: "3D98078172AE3E6C"
+					type: "loot"
+					icon: "kubejs:chest_gold"
+					table_id: 8793258906992979522L
+				}
+				{
+					id: "48C9B78891060EA0"
+					type: "item"
+					item: "immersiveengineering:earmuffs"
+				}
+			]
 		}
 		{
 			title: "&6Arc Furnace"
@@ -971,7 +984,7 @@
 				{
 					id: "0E7A7F7CDB0D3F85"
 					type: "item"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
 					count: 46L
 				}
 				{
@@ -1029,7 +1042,7 @@
 				{
 					id: "5F8A92F75FD0AC5B"
 					type: "item"
-					item: "immersiveengineering:slab_steel_scaffolding_standard"
+					item: "immersiveengineering:slab_steel_scaffolding_grate_top"
 					count: 30L
 				}
 				{
@@ -1098,10 +1111,10 @@
 			}]
 		}
 		{
+			title: "{faruk.stageone.main26v12.subtitle}"
 			icon: "immersiveengineering:excavator"
 			x: -5.5d
 			y: -2.0d
-			subtitle: "{faruk.stageone.main26v12.subtitle}"
 			description: ["{faruk.stageone.main26.desc1}"]
 			hide_dependency_lines: true
 			dependencies: ["0BAF96BC337D6EC8"]
@@ -1290,9 +1303,9 @@
 			}]
 		}
 		{
+			title: "{faruk.stageone.main29.subtitle}"
 			x: -3.0d
 			y: -0.5d
-			subtitle: "{faruk.stageone.main29.subtitle}"
 			description: ["{faruk.stageone.main29.desc1}"]
 			dependencies: ["0FF4B712B5782F66"]
 			optional: true

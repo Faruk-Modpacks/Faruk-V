@@ -18,7 +18,7 @@ install:
 
   # exact version of forge or fabric that is supposed to be used
   # if this value is a null value so ( ~, null, or "" ) then the version from the mod pack is going to be used
-  loaderVersion: 36.2.23
+  loaderVersion: 36.2.28
 
   # If a custom installer is supposed to used, specify the url here: (Otherwise put "", ~ or null here)
   # supports variables: {{@loaderversion@}} and {{@mcversion@}}
@@ -42,7 +42,7 @@ install:
 
   # Link to where the file where the modpack can be distributed
   # This supports loading from local files as well for most pack types if there is file://{PathToFile} in the beginning
-  modpackUrl: https://media.forgecdn.net/files/3623/640/Faruk+V-1.0.zip
+  modpackUrl: https://media.forgecdn.net/files/3647/698/Faruk+V-1.31.zip
 
   # This is used to specify in which format the modpack is distributed, the server launcher has to handle each individually if their format differs
   # current supported formats:
@@ -76,6 +76,7 @@ install:
       - 326950 # Screenshot to Clipboard (Forge)
       - 251407 # Client Tweaks
       - 391382 # More Overlays Updated
+      - 526921 # BetterNether Reforged
 
   # The base path where the server should be installed to, ~ for current path
   baseInstallPath: ~
@@ -98,8 +99,8 @@ install:
   # This is a list of files, each ' - ' is a new file:
   # url is the directlink to the file, destination is the path to where the file should be copied to
   additionalFiles: ~
-    #- url: https://media.forgecdn.net/files/2844/278/restrictedportals-1.15-1.0.jar
-    #  destination: mods/restrictedportals-1.15-1.0.jar
+    #- url: https://media.forgecdn.net/files/3513/533/betternether_reforged-1.2.jar
+    #  destination: mods/betternether_reforged-1.2.jar.disabled
     #- url: https://media.forgecdn.net/files/2874/966/Morpheus-1.15.2-4.2.46.jar
     #  destination: mods/Morpheus-1.15.2-4.2.46.jar
     #- url: https://media.forgecdn.net/files/2876/89/spark-forge.jar
@@ -220,3 +221,5 @@ launch:
     - '-Daikars.new.flags=true'
     - '-Dfml.readTimeout=180' # servertimeout
     - '-Dfml.queryResult=confirm' # auto /fmlconfirm
+    - '-Duser.language=en' 
+    - '-Duser.country=US' 

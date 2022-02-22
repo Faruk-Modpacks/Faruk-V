@@ -69,7 +69,7 @@
 		warpStoneCooldown = 600
 		#The time in ticks that it takes to use a warp stone. This is the charge-up time when holding right-click.
 		#Range: > 1
-		warpStoneUseTime = 100
+		warpStoneUseTime = 80
 
 	#These options apply to teleporting using the scroll items.
 	[server.scrolls]

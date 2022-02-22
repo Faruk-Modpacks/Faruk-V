@@ -11,18 +11,19 @@ ItemStages.createModRestriction("occultism", "two").preventPickup(false).prevent
 ItemStages.createModRestriction("xnet", "two").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("xnetgases", "two").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("rftoolsutility", "two").preventPickup(false).preventInventory(false);
+ItemStages.createModRestriction("rftoolsbase", "two").preventPickup(false).preventInventory(false);
+ItemStages.createModRestriction("betterendforge", "two").preventPickup(false).preventInventory(false);
 
 ItemStages.createModRestriction("industrialforegoing", "three").preventPickup(false).preventInventory(false);
-ItemStages.createModRestriction("rftoolsbase", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("refinedstorage", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("extrastorage", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("cabletiers", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("rsrequestify", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("rsinfinitybooster", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("refinedstorageaddons", "three").preventPickup(false).preventInventory(false);
-ItemStages.createModRestriction("universalgrid", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("twilightforest", "three").preventPickup(false).preventInventory(false);
 ItemStages.createModRestriction("eidolon", "three").preventPickup(false).preventInventory(false);
+ItemStages.createModRestriction("rftoolspower", "three").preventPickup(false).preventInventory(false);
 
 
 ItemStages.createModRestriction("world_of_faruk", "four").preventPickup(false).preventInventory(false);

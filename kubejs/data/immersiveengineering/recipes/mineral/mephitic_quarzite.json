@@ -1,0 +1,29 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.6,
+            "output": {
+                "item": "emendatusenigmatica:quartz_chunk"
+            }
+        },
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "emendatusenigmatica:gold_chunk"
+            }
+        },
+        {
+            "chance": 0.2,
+            "output": {
+                "item": "emendatusenigmatica:sulfur_dust"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:the_nether"
+    ],
+    "weight": 20,
+    "fail_chance": 0.40,
+    "sample_background": "minecraft:netherrack"
+}

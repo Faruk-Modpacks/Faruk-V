@@ -1,0 +1,28 @@
+{
+  "type": "sophisticatedbackpacks:backpack_upgrade",
+  "conditions": [
+    {
+      "itemRegistryName": "gold_backpack",
+      "type": "sophisticatedbackpacks:item_enabled"
+    }
+  ],
+  "pattern": [
+    "GAG",
+    "GBG",
+    "GAG"
+  ],
+  "key": {
+    "G": {
+      "tag": "forge:ingots/gold"
+    },
+    "A": {
+      "item": "minecraft:gold_block"
+    },
+    "B": {
+      "item": "sophisticatedbackpacks:iron_backpack"
+    }
+  },
+  "result": {
+    "item": "sophisticatedbackpacks:gold_backpack"
+  }
+}

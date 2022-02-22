@@ -1,0 +1,39 @@
+{
+  "availability": {
+    "tier": 2,
+    "categories": [
+      "gem",
+      "dust"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:dusts/redstone"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.redstone"
+  },
+  "stats": {
+    "tip": {
+      "harvest_speed": {
+        "mul2": 0.1
+      },
+      "melee_damage": {
+        "add": 1.0
+      },
+      "attack_speed": {
+        "add": 0.5
+      },
+      "ranged_damage": {
+        "add": 1.0
+      },
+      "rarity": {
+        "add": 10.0
+      }
+    }
+  }
+}

@@ -230,10 +230,10 @@
 [management]
 	"Chests In Boats" = true
 	"Easy Transfering" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Inventory Sorting" = true
 	"Item Sharing" = true
-	"Right Click Armor" = true
+	"Right Click Armor" = false
 	"Shulker Box Right Click" = true
 
 	[management.easy_transfering]
@@ -242,7 +242,7 @@
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
 		"Enable Player Inventory In Chests" = true
-		"Enable Chests" = true
+		"Enable Chests" = false
 		#Play a click when sorting inventories using keybindings
 		"Satisfying Click" = true
 
@@ -499,8 +499,8 @@
 
 [world]
 	"Big Dungeon" = true
-	"Big Stone Clusters" = true
-	Biotite = true
+	"Big Stone Clusters" = false
+	Biotite = false
 	"Blossom Trees" = true
 	"Cave Roots" = true
 	"Chorus Vegetation" = true
@@ -511,7 +511,7 @@
 	"Monster Box" = true
 	"Nether Obsidian Spikes" = true
 	"New Stone Types" = true
-	"Realistic World Gen" = true
+	"Realistic World Gen" = false
 	Speleothems = true
 	"Spiral Spires" = true
 	"Underground Clay" = true
@@ -1884,7 +1884,7 @@
 [client]
 	"Auto Walk Keybind" = true
 	"Back Button Keybind" = true
-	"Chest Searching" = true
+	"Chest Searching" = false
 	"Greener Grass" = true
 	"Improved Mount Hud" = true
 	"Improved Tooltips" = true
@@ -2036,11 +2036,11 @@
 [experimental]
 	"Adjustable Chat" = false
 	"Custom Underground Biome" = false
-	"Game Nerfs" = false
+	"Game Nerfs" = true
 	"Narrator Readout" = false
 	"Overlay Shader" = false
 	Pallet = false
-	Shiba = false
+	Shiba = true
 	"Microcrafting Helper" = false
 
 	[experimental.adjustable_chat]
@@ -2057,7 +2057,7 @@
 	[experimental.game_nerfs]
 		#Makes Mending act like the Unmending mod
 		#https://www.curseforge.com/minecraft/mc-mods/unmending
-		"Nerf Mending" = true
+		"Nerf Mending" = false
 		#Resets all villager discounts when zombified to prevent reducing prices to ridiculous levels
 		"Nerf Villager Discount" = true
 		#Makes Iron Golems not drop Iron Ingots

@@ -1,0 +1,37 @@
+{
+    "type": "immersiveengineering:mineral_mix",
+    "ores": [
+        {
+            "chance": 0.7,
+            "output": {
+                "item": "emendatusenigmatica:uranium_chunk"
+            }
+        },
+        {
+            "chance": 0.3,
+            "output": {
+                "item": "emendatusenigmatica:lead_chunk"
+            }
+        },
+        {
+            "conditions": [
+                {
+                    "value": {
+                        "tag": "forge:ores/thorium",
+                        "type": "forge:tag_empty"
+                    },
+                    "type": "forge:not"
+                }
+            ],
+            "chance": 0.1,
+            "output": {
+                "tag": "forge:ores/thorium"
+            }
+        }
+    ],
+    "dimensions": [
+        "minecraft:overworld"
+    ],
+    "weight": 10,
+    "fail_chance": 0.35
+}

@@ -1,0 +1,75 @@
+{
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/enderium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "availability": {
+    "tier": 4,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/enderium"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.enderium"
+  },
+  "stats": {
+    "main": {
+      "durability": 900.0,
+      "armor_durability": 34.0,
+      "repair_value": 0.15,
+      "enchantability": 13.0,
+      "harvest_level": 4.0,
+      "harvest_speed": 14.0,
+      "melee_damage": 4.0,
+      "magic_damage": 3.0,
+      "attack_speed": 0.0,
+      "armor": 22.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 8.0,
+      "armor/leggings": 6.0,
+      "armor/boots": 3.0,
+      "armor_toughness": 8.0,
+      "magic_armor": 10.0,
+      "ranged_damage": 3.0,
+      "ranged_speed": 0.0,
+      "rarity": 80.0,
+      "silentgems:chargeability": 1.2
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.2
+      },
+      "harvest_speed": {
+        "mul2": 0.2
+      },
+      "rarity": 60.0
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 2
+      }
+    ]
+  }
+}

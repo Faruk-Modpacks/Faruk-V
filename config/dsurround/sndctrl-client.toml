@@ -17,7 +17,7 @@
 	#Occlude RECORDS sounds
 	"Occlude RECORDS Sounds" = false
 	#Options to configure sounds on an individual basis
-	"Individual Sound Config" = ["minecraft:entity.sheep.ambient cull", "minecraft:entity.chicken.ambient cull", "minecraft:entity.cow.ambient cull", "minecraft:entity.pig.ambient cull", "minecraft:entity.llama.ambient cull", "minecraft:entity.wither.spawn cull 10", "minecraft:entity.wither.death cull 10", "minecraft:entity.ender_dragon.death cull 10"]
+	"Individual Sound Config" = ["mekanismgenerators:tile.machine.fission_reactor 0", "minecraft:entity.chicken.ambient cull", "minecraft:entity.cow.ambient cull", "minecraft:entity.ender_dragon.death cull 10", "minecraft:entity.llama.ambient cull", "minecraft:entity.pig.ambient cull", "minecraft:entity.sheep.ambient cull", "minecraft:entity.wither.death cull 10", "minecraft:entity.wither.spawn cull 10"]
 	#Possible sounds to play when client reaches main game menu
 	"Startup Sound List" = ["minecraft:entity.experience_orb.pickup", "minecraft:entity.chicken.egg", "minecraft:ambient.underwater.exit"]
 	#Ticks between culled sound events (0 to disable culling)

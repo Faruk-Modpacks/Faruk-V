@@ -6,7 +6,7 @@
   "result": {
     "tag": "forge:chunks/amber"
   },
-  "weight": 184,
+  "weight": 400,
   "conditions": [
     {
       "type": "forge:not",

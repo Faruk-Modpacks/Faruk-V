@@ -4,6 +4,7 @@
 	title: "Stage4"
 	icon: "kubejs:chest_gold"
 	loot_size: 1
+	hide_tooltip: true
 	rewards: [
 		{ item: "mekanism:basic_control_circuit", count: 4 }
 		{ item: "mekanism:alloy_infused", count: 8 }

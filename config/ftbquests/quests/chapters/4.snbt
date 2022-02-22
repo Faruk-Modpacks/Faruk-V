@@ -1539,11 +1539,18 @@
 			description: ["{faruk.stagefour.main55.desc1}"]
 			dependencies: ["0DF86E553C60054D"]
 			id: "39690286620B8C20"
-			tasks: [{
-				id: "0C2D5B605BB23335"
-				type: "item"
-				item: "kubejs:dimensional_core"
-			}]
+			tasks: [
+				{
+					id: "0C2D5B605BB23335"
+					type: "item"
+					item: "kubejs:dimensional_core"
+				}
+				{
+					id: "5D2A3DCD8A75083C"
+					type: "item"
+					item: "kubejs:inactive_dimensional_core"
+				}
+			]
 			rewards: [{
 				id: "1E78822359A36DA5"
 				type: "item"

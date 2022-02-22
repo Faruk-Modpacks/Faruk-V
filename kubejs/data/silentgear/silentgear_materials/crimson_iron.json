@@ -1,0 +1,112 @@
+{
+  "availability": {
+    "tier": 3,
+    "categories": [
+      "metal"
+    ],
+    "visible": true,
+    "gear_blacklist": [],
+    "can_salvage": true
+  },
+  "crafting_items": {
+    "main": {
+      "tag": "forge:ingots/crimson_iron"
+    }
+  },
+  "name": {
+    "translate": "material.silentgear.crimson_iron"
+  },
+  "stats": {
+    "main": {
+      "durability": 270.0,
+      "armor_durability": 27.0,
+      "repair_value": 0.5,
+      "enchantability": 14.0,
+      "harvest_level": 3.0,
+      "harvest_speed": 7.5,
+      "melee_damage": 2.5,
+      "magic_damage": 2.5,
+      "attack_speed": -0.1,
+      "armor": 16.0,
+      "armor/helmet": 3.0,
+      "armor/chestplate": 7.0,
+      "armor/leggings": 5.0,
+      "armor/boots": 2.5,
+      "armor_toughness": 2.0,
+      "magic_armor": 6.0,
+      "ranged_damage": 2.0,
+      "ranged_speed": -0.1,
+      "projectile_speed": 1.0,
+      "projectile_accuracy": 1.1,
+      "rarity": 31.0,
+      "silentgems:chargeability": 0.7
+    },
+    "rod": {
+      "durability": {
+        "mul2": 0.25
+      },
+      "enchantability": [
+        {
+          "add": 1.0
+        },
+        {
+          "mul2": 0.1
+        }
+      ],
+      "melee_damage": {
+        "mul2": 0.1
+      },
+      "rarity": 30.0
+    },
+    "tip": {
+      "durability": {
+        "add": 224.0
+      },
+      "armor_durability": {
+        "add": 8.0
+      },
+      "harvest_level": {
+        "max": 3.0
+      },
+      "harvest_speed": {
+        "add": 2.0
+      },
+      "melee_damage": {
+        "add": 2.0
+      },
+      "rarity": {
+        "add": 10.0
+      }
+    }
+  },
+  "traits": {
+    "main": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3
+      },
+      {
+        "name": "silentgear:hard",
+        "level": 2
+      }
+    ],
+    "rod": [
+      {
+        "name": "silentgear:malleable",
+        "level": 3,
+        "conditions": [
+          {
+            "type": "silentgear:material_ratio",
+            "ratio": 0.5
+          }
+        ]
+      }
+    ],
+    "tip": [
+      {
+        "name": "silentgear:fiery",
+        "level": 1
+      }
+    ]
+  }
+}
