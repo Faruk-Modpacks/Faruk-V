@@ -20,10 +20,11 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Specs:**
+**Version:**
  - Modpack Version: [e.g. iOS]
  - Server or Single Player: [e.g. chrome, safari]
+
+**Crash report**
  - if available crash report: [use pastebin or ubuntubin]
 
 **Additional note**
-Add any other context about the problem here.
