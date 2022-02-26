@@ -1,20 +1,29 @@
-<!--
-Thanks for wanting to report an issue you've found. Please delete
-this text and fill in the template below. If unsure about something, just do as
-best as you're able. Thank you!
-Note: any external modifications to this modpack will render all support useless,
-ie; adding mods like optifine to the modpack! So please remove all added content, 
-re-test bug/issue and resubmit!
--->
+---
+name: Bug report
+about: Create a report to help us improve
+title: ''
+labels: bug
+assignees: ''
 
-* **Modpack Version**: <!-- you must provide the version of the pack this issue happened -->
+---
 
-* **Issue**: <!-- detailed description of the issue -->
+**Describe the bug**
+A clear and concise description of what the bug is.
 
-* **Link to Log or Crash File Paste**: <!-- please use http://paste.feed-the-beast.com/ to paste the text of your log/crash file -->
+**To Reproduce**
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-* **Is it Repeatable?**: <!-- can you repeat the issue -->
+**Expected behavior**
+A clear and concise description of what you expected to happen.
 
-* **Mod/s Affected**: <!-- optional; if any mods are causing the direct issue please provide the name/version of the mod -->
+**Specs:**
+ - Modpack Version: [e.g. iOS]
+ - Server or Single Player: [e.g. chrome, safari]
+ - if available crash report: [use pastebin or ubuntubin]
 
-* **Known Fix**: <!-- optional; if you know of a fix please let me know! Thanks -->
+**Additional note**
+Add any other context about the problem here.
